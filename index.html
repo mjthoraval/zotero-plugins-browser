@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zotero Plugins</title>
+<style>
+  :root {
+    --fg: #1c1c1e;
+    --fg-muted: #6b7280;
+    --bg: #ffffff;
+    --bg-alt: #f7f7f8;
+    --border: #e5e7eb;
+    --link: #0a66c2;
+    --accent: #cc2936;
+    --chip-bg: #eef2f7;
+    --chip-bg-on: #cc2936;
+    --chip-fg-on: #ffffff;
+    --star: #d4a017;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e7e7ea;
+      --fg-muted: #9aa0a6;
+      --bg: #18181b;
+      --bg-alt: #1f1f23;
+      --border: #2e2e33;
+      --link: #6ab0ff;
+      --chip-bg: #2a2a30;
+      --star: #e0b840;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); line-height: 1.45; }
+  header { padding: 1.25rem 1.5rem 0.75rem; border-bottom: 1px solid var(--border); }
+  header h1 { margin: 0 0 0.25rem; font-size: 1.4rem; font-weight: 600; }
+  header .meta { color: var(--fg-muted); font-size: 0.85rem; }
+  header .meta a { color: var(--link); text-decoration: none; }
+  header .meta a:hover { text-decoration: underline; }
+  .controls { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; padding: 0.75rem 1.5rem; border-bottom: 1px solid var(--border); background: var(--bg-alt); }
+  .controls input[type="search"] {
+    flex: 1 1 18rem; min-width: 12rem;
+    padding: 0.45rem 0.7rem; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--bg); color: var(--fg); font: inherit;
+  }
+  .controls label { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--fg-muted); font-size: 0.85rem; }
+  .controls select { padding: 0.4rem 0.5rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--fg); font: inherit; }
+  .tag-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; padding: 0.5rem 1.5rem 0.75rem; }
+  .chip {
+    cursor: pointer; user-select: none;
+    background: var(--chip-bg); color: var(--fg);
+    padding: 0.2rem 0.6rem; border-radius: 999px;
+    font-size: 0.78rem;
+    border: 1px solid transparent;
+  }
+  .chip:hover { border-color: var(--border); }
+  .chip.on { background: var(--chip-bg-on); color: var(--chip-fg-on); border-color: var(--chip-bg-on); }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  thead th {
+    text-align: left; padding: 0.55rem 0.75rem;
+    background: var(--bg-alt); color: var(--fg-muted); font-weight: 600;
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0;
+    cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  thead th[data-sort]::after { content: ""; display: inline-block; width: 0.7em; opacity: 0.5; }
+  thead th.sort-asc::after  { content: " ▲"; opacity: 1; }
+  thead th.sort-desc::after { content: " ▼"; opacity: 1; }
+  tbody tr { border-bottom: 1px solid var(--border); }
+  tbody tr:nth-child(even) { background: var(--bg-alt); }
+  tbody td { padding: 0.5rem 0.75rem; vertical-align: top; }
+  td.name a { color: var(--link); text-decoration: none; font-weight: 600; }
+  td.name a:hover { text-decoration: underline; }
+  td.name .author { display: block; color: var(--fg-muted); font-size: 0.78rem; font-weight: 400; }
+  td.desc { max-width: 36rem; }
+  td.stars { white-space: nowrap; color: var(--star); font-variant-numeric: tabular-nums; }
+  td.date, td.version { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
+  td.tags { white-space: nowrap; }
+  td.tags .t {
+    display: inline-block; background: var(--chip-bg); color: var(--fg-muted);
+    padding: 0.05rem 0.4rem; border-radius: 4px; font-size: 0.72rem; margin-right: 0.2rem;
+  }
+  td.dl { white-space: nowrap; }
+  td.dl a {
+    color: var(--link); text-decoration: none; font-size: 0.78rem;
+    border: 1px solid var(--border); padding: 0.2rem 0.55rem; border-radius: 4px;
+  }
+  td.dl a:hover { background: var(--bg-alt); }
+  .empty { text-align: center; padding: 2rem; color: var(--fg-muted); }
+  .count { font-variant-numeric: tabular-nums; color: var(--fg-muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Zotero Plugins</h1>
+  <div class="meta">
+    Data from
+    <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
+    · <span id="count" class="count">loading…</span>
+  </div>
+</header>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Search by name, description, author, repo…" autofocus>
+  <label>Zotero
+    <select id="z-target">
+      <option value="">any</option>
+      <option value="7" selected>7</option>
+      <option value="6">6</option>
+    </select>
+  </label>
+  <label>Sort
+    <select id="sortSel">
+      <option value="stars-desc">Stars (high → low)</option>
+      <option value="stars-asc">Stars (low → high)</option>
+      <option value="date-desc">Release date (newest)</option>
+      <option value="date-asc">Release date (oldest)</option>
+      <option value="name-asc">Name (A → Z)</option>
+      <option value="name-desc">Name (Z → A)</option>
+    </select>
+  </label>
+</div>
+
+<div id="tagChips" class="tag-chips"></div>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th data-sort="name">Name</th>
+        <th>Description</th>
+        <th data-sort="stars" class="sort-desc">★</th>
+        <th data-sort="date">Release time</th>
+        <th>Latest version</th>
+        <th>Tags</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+
+<div id="empty" class="empty" hidden>No plugins match.</div>
+
+<script>
+const SOURCE = "https://cdn.jsdelivr.net/gh/syt2/zotero-addons-scraper@publish/addon_infos.json";
+
+const state = {
+  all: [],
+  filtered: [],
+  query: "",
+  zTarget: "7",
+  sort: "stars-desc",
+  activeTags: new Set(),
+};
+
+// Pick the release that targets the chosen Zotero version, else first.
+function pickRelease(plugin, zTarget) {
+  const rels = plugin.releases || [];
+  if (zTarget) {
+    const exact = rels.find(r => String(r.targetZoteroVersion) === String(zTarget));
+    if (exact) return exact;
+  }
+  return rels[0] || {};
+}
+
+function fmtDate(iso) {
+  if (!iso) return "—";
+  return iso.slice(0, 10);
+}
+
+function fmtStars(n) {
+  if (n == null) return "—";
+  if (n >= 1000) return (n / 1000).toFixed(1) + "k";
+  return String(n);
+}
+
+function escapeHtml(s) {
+  return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+}
+
+function render() {
+  const tbody = document.getElementById("rows");
+  const list = state.filtered;
+  document.getElementById("empty").hidden = list.length > 0;
+  document.getElementById("count").textContent =
+    `${list.length} of ${state.all.length} plugins`;
+
+  const html = list.map(p => {
+    const rel = pickRelease(p, state.zTarget);
+    const name = p.name || (p.repo || "").split("/")[1] || p.repo || "—";
+    const repoUrl = p.repo ? `https://github.com/${p.repo}` : "#";
+    const author = p.author?.name || (p.repo || "").split("/")[0] || "";
+    const desc = p.description || rel.description || "";
+    const stars = p.stars ?? p.star ?? null;
+    const xpi = rel.xpiDownloadUrl?.github;
+    const ver = rel.xpiVersion || rel.tagName || "";
+    const tags = p.tags || [];
+
+    return `
+      <tr>
+        <td class="name">
+          <a href="${escapeHtml(repoUrl)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
+          <span class="author">${escapeHtml(author)}</span>
+        </td>
+        <td class="desc">${escapeHtml(desc)}</td>
+        <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
+        <td class="date">${escapeHtml(fmtDate(rel.releaseDate))}</td>
+        <td class="version">${escapeHtml(ver)}</td>
+        <td class="tags">${tags.map(t => `<span class="t">${escapeHtml(t)}</span>`).join("")}</td>
+        <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
+      </tr>`;
+  }).join("");
+  tbody.innerHTML = html;
+}
+
+function applyFilters() {
+  const q = state.query.trim().toLowerCase();
+  let list = state.all;
+
+  if (state.activeTags.size > 0) {
+    list = list.filter(p => (p.tags || []).some(t => state.activeTags.has(t)));
+  }
+
+  if (state.zTarget) {
+    list = list.filter(p => (p.releases || []).some(r => String(r.targetZoteroVersion) === state.zTarget));
+  }
+
+  if (q) {
+    list = list.filter(p => {
+      const blob = [
+        p.name, p.repo, p.description,
+        p.author?.name, ...(p.tags || []),
+        ...(p.releases || []).map(r => r.name + " " + r.description)
+      ].join(" ").toLowerCase();
+      return blob.includes(q);
+    });
+  }
+
+  const [field, dir] = state.sort.split("-");
+  const sign = dir === "asc" ? 1 : -1;
+  list = list.slice().sort((a, b) => {
+    let av, bv;
+    if (field === "name") { av = (a.name || a.repo || "").toLowerCase(); bv = (b.name || b.repo || "").toLowerCase(); }
+    else if (field === "stars") { av = a.stars ?? 0; bv = b.stars ?? 0; }
+    else if (field === "date") {
+      av = pickRelease(a, state.zTarget).releaseDate || "";
+      bv = pickRelease(b, state.zTarget).releaseDate || "";
+    }
+    if (av < bv) return -1 * sign;
+    if (av > bv) return  1 * sign;
+    return 0;
+  });
+
+  state.filtered = list;
+  render();
+}
+
+function renderTagChips() {
+  const counts = {};
+  for (const p of state.all) for (const t of (p.tags || [])) counts[t] = (counts[t] || 0) + 1;
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  document.getElementById("tagChips").innerHTML = sorted.map(([t, n]) =>
+    `<span class="chip" data-tag="${escapeHtml(t)}">${escapeHtml(t)} <span style="opacity:0.6">${n}</span></span>`
+  ).join("");
+}
+
+function wire() {
+  document.getElementById("q").addEventListener("input", e => {
+    state.query = e.target.value;
+    applyFilters();
+  });
+  document.getElementById("z-target").addEventListener("change", e => {
+    state.zTarget = e.target.value;
+    applyFilters();
+  });
+  document.getElementById("sortSel").addEventListener("change", e => {
+    state.sort = e.target.value;
+    applyFilters();
+  });
+  document.querySelectorAll("th[data-sort]").forEach(th => {
+    th.addEventListener("click", () => {
+      const field = th.dataset.sort;
+      let dir = "desc";
+      if (state.sort.startsWith(field + "-")) {
+        dir = state.sort.endsWith("-asc") ? "desc" : "asc";
+      } else if (field === "name") {
+        dir = "asc";
+      }
+      state.sort = `${field}-${dir}`;
+      document.getElementById("sortSel").value = state.sort;
+      document.querySelectorAll("th[data-sort]").forEach(x => x.classList.remove("sort-asc", "sort-desc"));
+      th.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
+      applyFilters();
+    });
+  });
+  document.getElementById("tagChips").addEventListener("click", e => {
+    const chip = e.target.closest(".chip");
+    if (!chip) return;
+    const t = chip.dataset.tag;
+    if (state.activeTags.has(t)) { state.activeTags.delete(t); chip.classList.remove("on"); }
+    else { state.activeTags.add(t); chip.classList.add("on"); }
+    applyFilters();
+  });
+}
+
+async function load() {
+  try {
+    const res = await fetch(SOURCE);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    state.all = await res.json();
+    renderTagChips();
+    wire();
+    applyFilters();
+  } catch (e) {
+    document.getElementById("count").textContent = `failed to load: ${e.message}`;
+  }
+}
+load();
+</script>
+</body>
+</html>
