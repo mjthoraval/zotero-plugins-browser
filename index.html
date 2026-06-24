@@ -77,6 +77,14 @@
   td.desc { max-width: 36rem; }
   td.stars { white-space: nowrap; color: var(--star); font-variant-numeric: tabular-nums; }
   td.date, td.version { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
+  .dot { display: inline-block; width: 0.6em; height: 0.6em; border-radius: 50%; vertical-align: middle; }
+  .dot.fresh { background: #2da44e; }
+  .dot.aging { background: #d4a017; }
+  .dot.stale { background: #cf3b3b; }
+  td.date .dot { margin-right: 0.45em; }
+  td.date .age { display: block; font-size: 0.72rem; opacity: 0.7; margin-left: 1.05em; }
+  .legend { font-size: 0.8rem; white-space: nowrap; }
+  .legend .dot { margin: 0 0.15em 0 0.55em; }
   td.tags { white-space: nowrap; }
   td.tags .t {
     display: inline-block; background: var(--chip-bg); color: var(--fg-muted);
@@ -100,6 +108,7 @@
     Data from
     <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
     · <span id="count" class="count">loading…</span>
+    · <span class="legend" title="Recency of the latest release"><span class="dot fresh"></span>&lt; 6 mo<span class="dot aging"></span>&lt; 2 yr<span class="dot stale"></span>older</span>
   </div>
 </header>
 
@@ -116,8 +125,8 @@
     <select id="sortSel">
       <option value="stars-desc">Stars (high → low)</option>
       <option value="stars-asc">Stars (low → high)</option>
-      <option value="date-desc">Release date (newest)</option>
-      <option value="date-asc">Release date (oldest)</option>
+      <option value="date-desc">Last updated (newest)</option>
+      <option value="date-asc">Last updated (oldest)</option>
       <option value="name-asc">Name (A → Z)</option>
       <option value="name-desc">Name (Z → A)</option>
     </select>
@@ -133,7 +142,7 @@
         <th data-sort="name">Name</th>
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
-        <th data-sort="date">Release time</th>
+        <th data-sort="date" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
         <th>Latest version</th>
         <th>Tags</th>
         <th></th>
@@ -165,6 +174,37 @@ function pickRelease(plugin, zTarget) {
     if (exact) return exact;
   }
   return rels[0] || {};
+}
+
+// Latest release date across ALL releases, independent of the selected Zotero target.
+function lastUpdated(plugin) {
+  let max = "";
+  for (const r of plugin.releases || []) {
+    if (r.releaseDate && r.releaseDate > max) max = r.releaseDate;
+  }
+  return max;
+}
+
+const DAY = 86400000;
+
+// "today" / "3d ago" / "5w ago" / "7mo ago" / "2y ago"; "" if no date.
+function relAge(iso) {
+  if (!iso) return "";
+  const days = Math.floor((Date.now() - Date.parse(iso)) / DAY);
+  if (days <= 0) return "today";
+  if (days < 14) return `${days}d ago`;
+  if (days < 70) return `${Math.round(days / 7)}w ago`;
+  if (days < 548) return `${Math.round(days / 30)}mo ago`;
+  return `${Math.round(days / 365)}y ago`;
+}
+
+// Recency bucket for the dot: fresh < 6 mo, aging < 2 yr, else stale.
+function staleness(iso) {
+  if (!iso) return "stale";
+  const days = (Date.now() - Date.parse(iso)) / DAY;
+  if (days < 183) return "fresh";
+  if (days < 730) return "aging";
+  return "stale";
 }
 
 function fmtDate(iso) {
@@ -199,6 +239,7 @@ function render() {
     const xpi = rel.xpiDownloadUrl?.github;
     const ver = rel.xpiVersion || rel.tagName || "";
     const tags = p.tags || [];
+    const updated = lastUpdated(p);
 
     return `
       <tr>
@@ -208,7 +249,10 @@ function render() {
         </td>
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
-        <td class="date">${escapeHtml(fmtDate(rel.releaseDate))}</td>
+        <td class="date" title="Last updated ${escapeHtml(fmtDate(updated))}${updated ? " (" + escapeHtml(relAge(updated)) + ")" : ""}">
+          <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
+          <span class="age">${escapeHtml(relAge(updated))}</span>
+        </td>
         <td class="version">${escapeHtml(ver)}</td>
         <td class="tags">${tags.map(t => `<span class="t">${escapeHtml(t)}</span>`).join("")}</td>
         <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
@@ -247,8 +291,8 @@ function applyFilters() {
     if (field === "name") { av = (a.name || a.repo || "").toLowerCase(); bv = (b.name || b.repo || "").toLowerCase(); }
     else if (field === "stars") { av = a.stars ?? 0; bv = b.stars ?? 0; }
     else if (field === "date") {
-      av = pickRelease(a, state.zTarget).releaseDate || "";
-      bv = pickRelease(b, state.zTarget).releaseDate || "";
+      av = lastUpdated(a);
+      bv = lastUpdated(b);
     }
     if (av < bv) return -1 * sign;
     if (av > bv) return  1 * sign;
