@@ -121,6 +121,8 @@
     <select id="sortSel">
       <option value="stars-desc">Stars (high → low)</option>
       <option value="stars-asc">Stars (low → high)</option>
+      <option value="first-desc">First release (newest)</option>
+      <option value="first-asc">First release (oldest)</option>
       <option value="date-desc">Release date (newest)</option>
       <option value="date-asc">Release date (oldest)</option>
       <option value="updated-desc">Last updated (newest)</option>
@@ -140,6 +142,7 @@
         <th data-sort="name">Name</th>
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
+        <th data-sort="first" title="Date of the plugin's first GitHub release">First release</th>
         <th data-sort="date" title="Newest release compatible with the Zotero version selected above">Release time</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
         <th title="Newest version compatible with the Zotero version selected above">Latest version</th>
@@ -174,7 +177,18 @@ async function fetchFirst(urls) {
 }
 
 const SORT_DEFAULT = "stars-desc";
-const SORT_RE = /^(name|stars|date|updated)-(asc|desc)$/;
+const SORT_RE = /^(name|stars|date|updated|first)-(asc|desc)$/;
+
+// First-release dates (repo -> ISO date), rebuilt daily by a GitHub Action
+// (.github/workflows/first-releases.yml) from each plugin's own GitHub
+// releases; the scraper data doesn't carry this. Optional: the page works
+// without it, the column just shows dashes.
+async function fetchFirstReleases() {
+  try {
+    const res = await fetch("first_release.json");
+    return res.ok ? await res.json() : {};
+  } catch { return {}; }
+}
 
 // Read the sort order from the URL (?sort=field-dir), so a refresh or a
 // shared link keeps it; fall back to the default on anything invalid.
@@ -197,6 +211,7 @@ const state = {
   zTarget: zFromURL(),
   sort: sortFromURL(),
   activeTags: new Set(),
+  firstRelease: {},
 };
 
 // Reflect state.sort / state.zTarget into the URL without adding history entries.
@@ -321,6 +336,7 @@ function render() {
         </td>
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
+        <td class="date">${escapeHtml(fmtDate(state.firstRelease[p.repo]))}</td>
         <td class="date">${escapeHtml(fmtDate(rel.releaseDate))}</td>
         <td class="updated" title="Last updated ${escapeHtml(fmtDate(updated))}${updated ? " (" + escapeHtml(relAge(updated)) + ")" : ""}">
           <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
@@ -370,6 +386,10 @@ function applyFilters() {
     else if (field === "updated") {
       av = lastUpdated(a);
       bv = lastUpdated(b);
+    }
+    else if (field === "first") {
+      av = state.firstRelease[a.repo] || "";
+      bv = state.firstRelease[b.repo] || "";
     }
     if (av < bv) return -1 * sign;
     if (av > bv) return  1 * sign;
@@ -432,7 +452,10 @@ function wire() {
 
 async function load() {
   try {
-    state.all = await fetchFirst(SOURCES);
+    [state.all, state.firstRelease] = await Promise.all([
+      fetchFirst(SOURCES),
+      fetchFirstReleases(),
+    ]);
     renderTagChips();
     populateZTargets();
     wire();
