@@ -115,11 +115,7 @@
 <div class="controls">
   <input id="q" type="search" placeholder="Search by name, description, author, repo…" autofocus>
   <label>Zotero
-    <select id="z-target">
-      <option value="">any</option>
-      <option value="7" selected>7</option>
-      <option value="6">6</option>
-    </select>
+    <select id="z-target"><option value="">any</option></select>
   </label>
   <label>Sort
     <select id="sortSel">
@@ -144,9 +140,9 @@
         <th data-sort="name">Name</th>
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
-        <th data-sort="date">Release time</th>
+        <th data-sort="date" title="Newest release compatible with the Zotero version selected above">Release time</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
-        <th>Latest version</th>
+        <th title="Newest version compatible with the Zotero version selected above">Latest version</th>
         <th>Tags</th>
         <th></th>
       </tr>
@@ -170,21 +166,47 @@ function sortFromURL() {
   return s && SORT_RE.test(s) ? s : SORT_DEFAULT;
 }
 
+// Read the Zotero-version filter from the URL (?z=); validated against the
+// versions actually present in the data after load. Default: any.
+function zFromURL() {
+  const z = new URLSearchParams(location.search).get("z");
+  return z && /^\d+$/.test(z) ? z : "";
+}
+
 const state = {
   all: [],
   filtered: [],
   query: "",
-  zTarget: "7",
+  zTarget: zFromURL(),
   sort: sortFromURL(),
   activeTags: new Set(),
 };
 
-// Reflect state.sort into the URL without adding history entries.
-function updateSortURL() {
+// Reflect state.sort / state.zTarget into the URL without adding history entries.
+function updateURLState() {
   const url = new URL(location);
   if (state.sort === SORT_DEFAULT) url.searchParams.delete("sort");
   else url.searchParams.set("sort", state.sort);
+  if (!state.zTarget) url.searchParams.delete("z");
+  else url.searchParams.set("z", state.zTarget);
   history.replaceState(null, "", url);
+}
+
+// Build the Zotero-version dropdown from the versions present in the data,
+// newest first (the hardcoded 6/7 list predated Zotero 8/9/10 entries).
+function populateZTargets() {
+  const vers = new Set();
+  for (const p of state.all) {
+    for (const r of (p.releases || [])) {
+      if (r.targetZoteroVersion != null) vers.add(String(r.targetZoteroVersion));
+    }
+  }
+  const sel = document.getElementById("z-target");
+  sel.innerHTML = '<option value="">any</option>' +
+    [...vers].sort((a, b) => Number(b) - Number(a))
+      .map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join("");
+  if (state.zTarget && !vers.has(state.zTarget)) state.zTarget = "";
+  sel.value = state.zTarget;
 }
 
 // Reflect state.sort into the dropdown and the header arrows.
@@ -221,7 +243,9 @@ const DAY = 86400000;
 // "today" / "3d ago" / "5w ago" / "7mo ago" / "2y ago"; "" if no date.
 function relAge(iso) {
   if (!iso) return "";
-  const days = Math.floor((Date.now() - Date.parse(iso)) / DAY);
+  // Whole-calendar-day difference (UTC), so releases on the same date always
+  // show the same age regardless of their time of day.
+  const days = Math.floor(Date.now() / DAY) - Math.floor(Date.parse(iso) / DAY);
   if (days <= 0) return "today";
   if (days < 14) return `${days}d ago`;
   if (days < 70) return `${Math.round(days / 7)}w ago`;
@@ -355,12 +379,13 @@ function wire() {
   });
   document.getElementById("z-target").addEventListener("change", e => {
     state.zTarget = e.target.value;
+    updateURLState();
     applyFilters();
   });
   document.getElementById("sortSel").addEventListener("change", e => {
     state.sort = e.target.value;
     syncSortUI();
-    updateSortURL();
+    updateURLState();
     applyFilters();
   });
   document.querySelectorAll("th[data-sort]").forEach(th => {
@@ -374,7 +399,7 @@ function wire() {
       }
       state.sort = `${field}-${dir}`;
       syncSortUI();
-      updateSortURL();
+      updateURLState();
       applyFilters();
     });
   });
@@ -394,6 +419,7 @@ async function load() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     state.all = await res.json();
     renderTagChips();
+    populateZTargets();
     wire();
     syncSortUI();
     applyFilters();
