@@ -160,14 +160,42 @@
 <script>
 const SOURCE = "https://cdn.jsdelivr.net/gh/syt2/zotero-addons-scraper@publish/addon_infos.json";
 
+const SORT_DEFAULT = "stars-desc";
+const SORT_RE = /^(name|stars|date|updated)-(asc|desc)$/;
+
+// Read the sort order from the URL (?sort=field-dir), so a refresh or a
+// shared link keeps it; fall back to the default on anything invalid.
+function sortFromURL() {
+  const s = new URLSearchParams(location.search).get("sort");
+  return s && SORT_RE.test(s) ? s : SORT_DEFAULT;
+}
+
 const state = {
   all: [],
   filtered: [],
   query: "",
   zTarget: "7",
-  sort: "stars-desc",
+  sort: sortFromURL(),
   activeTags: new Set(),
 };
+
+// Reflect state.sort into the URL without adding history entries.
+function updateSortURL() {
+  const url = new URL(location);
+  if (state.sort === SORT_DEFAULT) url.searchParams.delete("sort");
+  else url.searchParams.set("sort", state.sort);
+  history.replaceState(null, "", url);
+}
+
+// Reflect state.sort into the dropdown and the header arrows.
+function syncSortUI() {
+  document.getElementById("sortSel").value = state.sort;
+  const [field, dir] = state.sort.split("-");
+  document.querySelectorAll("th[data-sort]").forEach(x => {
+    x.classList.remove("sort-asc", "sort-desc");
+    if (x.dataset.sort === field) x.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
+  });
+}
 
 // Pick the release that targets the chosen Zotero version, else first.
 function pickRelease(plugin, zTarget) {
@@ -331,6 +359,8 @@ function wire() {
   });
   document.getElementById("sortSel").addEventListener("change", e => {
     state.sort = e.target.value;
+    syncSortUI();
+    updateSortURL();
     applyFilters();
   });
   document.querySelectorAll("th[data-sort]").forEach(th => {
@@ -343,9 +373,8 @@ function wire() {
         dir = "asc";
       }
       state.sort = `${field}-${dir}`;
-      document.getElementById("sortSel").value = state.sort;
-      document.querySelectorAll("th[data-sort]").forEach(x => x.classList.remove("sort-asc", "sort-desc"));
-      th.classList.add(dir === "asc" ? "sort-asc" : "sort-desc");
+      syncSortUI();
+      updateSortURL();
       applyFilters();
     });
   });
@@ -366,6 +395,7 @@ async function load() {
     state.all = await res.json();
     renderTagChips();
     wire();
+    syncSortUI();
     applyFilters();
   } catch (e) {
     document.getElementById("count").textContent = `failed to load: ${e.message}`;
