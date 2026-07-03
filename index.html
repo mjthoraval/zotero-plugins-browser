@@ -154,7 +154,24 @@
 <div id="empty" class="empty" hidden>No plugins match.</div>
 
 <script>
-const SOURCE = "https://cdn.jsdelivr.net/gh/syt2/zotero-addons-scraper@publish/addon_infos.json";
+// Raw GitHub first — always current; jsDelivr as fallback (its branch cache
+// can lag ~12 h behind the scraper, making new releases appear late).
+const SOURCES = [
+  "https://raw.githubusercontent.com/syt2/zotero-addons-scraper/publish/addon_infos.json",
+  "https://cdn.jsdelivr.net/gh/syt2/zotero-addons-scraper@publish/addon_infos.json",
+];
+
+async function fetchFirst(urls) {
+  let lastErr;
+  for (const u of urls) {
+    try {
+      const res = await fetch(u);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr;
+}
 
 const SORT_DEFAULT = "stars-desc";
 const SORT_RE = /^(name|stars|date|updated)-(asc|desc)$/;
@@ -415,9 +432,7 @@ function wire() {
 
 async function load() {
   try {
-    const res = await fetch(SOURCE);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    state.all = await res.json();
+    state.all = await fetchFirst(SOURCES);
     renderTagChips();
     populateZTargets();
     wire();
