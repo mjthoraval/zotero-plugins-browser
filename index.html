@@ -123,8 +123,6 @@
       <option value="stars-asc">Stars (low → high)</option>
       <option value="first-desc">First release (newest)</option>
       <option value="first-asc">First release (oldest)</option>
-      <option value="date-desc">Release date (newest)</option>
-      <option value="date-asc">Release date (oldest)</option>
       <option value="updated-desc">Last updated (newest)</option>
       <option value="updated-asc">Last updated (oldest)</option>
       <option value="name-asc">Name (A → Z)</option>
@@ -143,7 +141,6 @@
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
         <th data-sort="first" title="Date of the plugin's first GitHub release">First release</th>
-        <th data-sort="date" title="Newest release compatible with the Zotero version selected above">Release time</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
         <th title="Newest version compatible with the Zotero version selected above">Latest version</th>
         <th>Tags</th>
@@ -177,7 +174,7 @@ async function fetchFirst(urls) {
 }
 
 const SORT_DEFAULT = "stars-desc";
-const SORT_RE = /^(name|stars|date|updated|first)-(asc|desc)$/;
+const SORT_RE = /^(name|stars|updated|first)-(asc|desc)$/;
 
 // First-release dates (repo -> ISO date), rebuilt daily by a GitHub Action
 // (.github/workflows/first-releases.yml) from each plugin's own GitHub
@@ -337,7 +334,6 @@ function render() {
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
         <td class="date">${escapeHtml(fmtDate(state.firstRelease[p.repo]))}</td>
-        <td class="date">${escapeHtml(fmtDate(rel.releaseDate))}</td>
         <td class="updated" title="Last updated ${escapeHtml(fmtDate(updated))}${updated ? " (" + escapeHtml(relAge(updated)) + ")" : ""}">
           <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
           <span class="age">${escapeHtml(relAge(updated))}</span>
@@ -379,10 +375,6 @@ function applyFilters() {
     let av, bv;
     if (field === "name") { av = (a.name || a.repo || "").toLowerCase(); bv = (b.name || b.repo || "").toLowerCase(); }
     else if (field === "stars") { av = a.stars ?? 0; bv = b.stars ?? 0; }
-    else if (field === "date") {
-      av = pickRelease(a, state.zTarget).releaseDate || "";
-      bv = pickRelease(b, state.zTarget).releaseDate || "";
-    }
     else if (field === "updated") {
       av = lastUpdated(a);
       bv = lastUpdated(b);
