@@ -145,8 +145,8 @@
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
         <th data-sort="date">Release time</th>
-        <th>Latest version</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
+        <th>Latest version</th>
         <th>Tags</th>
         <th></th>
       </tr>
@@ -253,11 +253,11 @@ function render() {
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
         <td class="date">${escapeHtml(fmtDate(rel.releaseDate))}</td>
-        <td class="version">${escapeHtml(ver)}</td>
         <td class="updated" title="Last updated ${escapeHtml(fmtDate(updated))}${updated ? " (" + escapeHtml(relAge(updated)) + ")" : ""}">
           <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
           <span class="age">${escapeHtml(relAge(updated))}</span>
         </td>
+        <td class="version">${escapeHtml(ver)}</td>
         <td class="tags">${tags.map(t => `<span class="t">${escapeHtml(t)}</span>`).join("")}</td>
         <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
       </tr>`;
