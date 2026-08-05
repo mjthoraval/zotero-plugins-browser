@@ -204,6 +204,17 @@ async function fetchIssues() {
   } catch { return {}; }
 }
 
+// Newest-release dates (repo -> ISO date), refreshed every 3 h by a GitHub
+// Action (.github/workflows/last-releases.yml). Keeps "Last updated" current
+// even when the upstream scraper hasn't re-indexed a just-published release.
+// Optional: without it the column falls back to the scraper's release dates.
+async function fetchLastReleases() {
+  try {
+    const res = await fetch("last_release.json");
+    return res.ok ? await res.json() : {};
+  } catch { return {}; }
+}
+
 // Read the sort order from the URL (?sort=field-dir), so a refresh or a
 // shared link keeps it; fall back to the default on anything invalid.
 function sortFromURL() {
@@ -227,6 +238,7 @@ const state = {
   activeTags: new Set(),
   firstRelease: {},
   issues: {},
+  lastRelease: {},
 };
 
 // Reflect state.sort / state.zTarget into the URL without adding history entries.
@@ -276,9 +288,12 @@ function pickRelease(plugin, zTarget) {
   return rels[0] || {};
 }
 
-// Latest release date across ALL releases, independent of the selected Zotero target.
+// Latest release date across ALL releases, independent of the selected Zotero
+// target. Takes the fresher of two sources: the scraper's release data, and our
+// own last_release.json sidecar (which updates every 3 h, so it catches a
+// release the scraper hasn't re-indexed yet).
 function lastUpdated(plugin) {
-  let max = "";
+  let max = state.lastRelease[plugin.repo] || "";
   for (const r of plugin.releases || []) {
     if (r.releaseDate && r.releaseDate > max) max = r.releaseDate;
   }
@@ -480,10 +495,11 @@ function wire() {
 
 async function load() {
   try {
-    [state.all, state.firstRelease, state.issues] = await Promise.all([
+    [state.all, state.firstRelease, state.issues, state.lastRelease] = await Promise.all([
       fetchFirst(SOURCES),
       fetchFirstReleases(),
       fetchIssues(),
+      fetchLastReleases(),
     ]);
     renderTagChips();
     populateZTargets();
