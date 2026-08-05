@@ -1,0 +1,3 @@
+# Normalize all text files to LF in the repo, so a Windows checkout doesn't
+# trigger "LF will be replaced by CRLF" churn on the next touch.
+* text=auto eol=lf
