@@ -77,6 +77,10 @@
   td.desc { max-width: 36rem; }
   td.stars { white-space: nowrap; color: var(--star); font-variant-numeric: tabular-nums; }
   td.date, td.version, td.updated { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
+  td.issues { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.82rem; }
+  td.issues .open { color: var(--accent); font-weight: 600; }
+  td.issues .sep { color: var(--fg-muted); margin: 0 0.15em; }
+  td.issues .closed { color: var(--fg-muted); }
   .dot { display: inline-block; width: 0.6em; height: 0.6em; border-radius: 50%; vertical-align: middle; }
   .dot.fresh { background: #2da44e; }
   .dot.aging { background: #d4a017; }
@@ -125,6 +129,8 @@
       <option value="first-asc">First release (oldest)</option>
       <option value="updated-desc">Last updated (newest)</option>
       <option value="updated-asc">Last updated (oldest)</option>
+      <option value="issues-desc">Open issues (high → low)</option>
+      <option value="issues-asc">Open issues (low → high)</option>
       <option value="name-asc">Name (A → Z)</option>
       <option value="name-desc">Name (Z → A)</option>
     </select>
@@ -142,6 +148,7 @@
         <th data-sort="stars" class="sort-desc">★</th>
         <th data-sort="first" title="Date of the plugin's first GitHub release">First release</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
+        <th data-sort="issues" title="Open / closed issues on GitHub (excludes pull requests)">Issues</th>
         <th title="Newest version compatible with the Zotero version selected above">Latest version</th>
         <th>Tags</th>
         <th></th>
@@ -174,7 +181,7 @@ async function fetchFirst(urls) {
 }
 
 const SORT_DEFAULT = "stars-desc";
-const SORT_RE = /^(name|stars|updated|first)-(asc|desc)$/;
+const SORT_RE = /^(name|stars|updated|first|issues)-(asc|desc)$/;
 
 // First-release dates (repo -> ISO date), rebuilt daily by a GitHub Action
 // (.github/workflows/first-releases.yml) from each plugin's own GitHub
@@ -183,6 +190,16 @@ const SORT_RE = /^(name|stars|updated|first)-(asc|desc)$/;
 async function fetchFirstReleases() {
   try {
     const res = await fetch("first_release.json");
+    return res.ok ? await res.json() : {};
+  } catch { return {}; }
+}
+
+// Open/closed issue counts (repo -> {open, closed}), rebuilt daily by a GitHub
+// Action (.github/workflows/issue-counts.yml) via the GraphQL API. Optional:
+// the page works without it, the Issues column just shows dashes.
+async function fetchIssues() {
+  try {
+    const res = await fetch("issues.json");
     return res.ok ? await res.json() : {};
   } catch { return {}; }
 }
@@ -209,6 +226,7 @@ const state = {
   sort: sortFromURL(),
   activeTags: new Set(),
   firstRelease: {},
+  issues: {},
 };
 
 // Reflect state.sort / state.zTarget into the URL without adding history entries.
@@ -302,6 +320,18 @@ function fmtStars(n) {
   return String(n);
 }
 
+// "<open> / <closed>" issue cell. "—" when we have no data for the repo, or
+// when the repo has its Issues tab disabled (which reports 0/0 and would
+// otherwise read misleadingly as "zero issues").
+function issuesCell(repo) {
+  const c = state.issues[repo];
+  if (!c) return "—";
+  if (c.disabled) return `<span class="closed" title="Issues disabled on this repo">—</span>`;
+  return `<span class="open" title="${c.open} open">${c.open}</span>`
+    + `<span class="sep">/</span>`
+    + `<span class="closed" title="${c.closed} closed">${c.closed}</span>`;
+}
+
 function escapeHtml(s) {
   return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
@@ -338,6 +368,7 @@ function render() {
           <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
           <span class="age">${escapeHtml(relAge(updated))}</span>
         </td>
+        <td class="issues">${issuesCell(p.repo)}</td>
         <td class="version">${escapeHtml(ver)}</td>
         <td class="tags">${tags.map(t => `<span class="t">${escapeHtml(t)}</span>`).join("")}</td>
         <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
@@ -382,6 +413,11 @@ function applyFilters() {
     else if (field === "first") {
       av = state.firstRelease[a.repo] || "";
       bv = state.firstRelease[b.repo] || "";
+    }
+    else if (field === "issues") {
+      // Sort by OPEN count; repos with no data sort last in either direction.
+      av = state.issues[a.repo]?.open ?? -1;
+      bv = state.issues[b.repo]?.open ?? -1;
     }
     if (av < bv) return -1 * sign;
     if (av > bv) return  1 * sign;
@@ -444,9 +480,10 @@ function wire() {
 
 async function load() {
   try {
-    [state.all, state.firstRelease] = await Promise.all([
+    [state.all, state.firstRelease, state.issues] = await Promise.all([
       fetchFirst(SOURCES),
       fetchFirstReleases(),
+      fetchIssues(),
     ]);
     renderTagChips();
     populateZTargets();
