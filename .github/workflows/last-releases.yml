@@ -1,11 +1,12 @@
 name: Update last-release dates
 
-# Every 3 hours so the "Last updated" column stays fresh independent of the
-# upstream scraper's 6x/day cadence (a release published just after a scraper
-# run would otherwise look stale for hours).
+# Hourly, so the "Last updated" column stays fresh independent of the upstream
+# scraper's 6x/day cadence (a release published just after a scraper run would
+# otherwise look stale for hours). Cost is negligible on a public repo: ~8
+# GraphQL requests/run, unmetered Actions minutes; only commits on change.
 on:
   schedule:
-    - cron: '35 */3 * * *'
+    - cron: '35 * * * *'
   workflow_dispatch:
 
 permissions:
