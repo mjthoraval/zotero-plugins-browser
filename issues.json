@@ -84,7 +84,7 @@
   "closed": 41
  },
  "Chikit-L/zotero-fulltext-translate": {
-  "open": 3,
+  "open": 4,
   "closed": 0
  },
  "Creling/Zotero-Metadata-Scraper": {
@@ -401,6 +401,10 @@
   "open": 1,
   "closed": 0
  },
+ "chen7447/word-translator-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "cislunarspace/bibtex-clean": {
   "open": 0,
   "closed": 19
@@ -702,8 +706,8 @@
   "closed": 8
  },
  "papersgpt/papersgpt-for-zotero": {
-  "open": 75,
-  "closed": 35
+  "open": 74,
+  "closed": 36
  },
  "paulusm/zotero-trilium": {
   "disabled": true
@@ -805,7 +809,7 @@
   "closed": 4
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 6,
+  "open": 7,
   "closed": 163
  },
  "stevepowell99/causalmap-zotero": {
@@ -941,7 +945,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 111,
+  "open": 112,
   "closed": 138
  },
  "ysqander/listen2papers-zotero": {
