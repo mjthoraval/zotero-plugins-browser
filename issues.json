@@ -40,8 +40,8 @@
   "closed": 41
  },
  "Ares960826/zotero-grouptag": {
-  "open": 2,
-  "closed": 0
+  "open": 0,
+  "closed": 2
  },
  "Asianfleet/mineru-for-zotero": {
   "open": 0,
@@ -65,7 +65,7 @@
  },
  "BaiRuic/BibGenie": {
   "open": 4,
-  "closed": 1
+  "closed": 2
  },
  "BlueBlueKitty/zotero-ainote": {
   "open": 0,
@@ -199,11 +199,11 @@
   "closed": 1
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 777,
+  "open": 778,
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
-  "open": 73,
+  "open": 74,
   "closed": 39
  },
  "MuiseDestiny/zotero-attanger": {
@@ -357,6 +357,10 @@
   "open": 3,
   "closed": 0
  },
+ "ZorroStardust/zotero-vim-plus": {
+  "open": 0,
+  "closed": 1
+ },
  "Zzq-02/zotero-vocab-builder": {
   "open": 0,
   "closed": 0
@@ -410,7 +414,7 @@
   "closed": 19
  },
  "cookjohn/zotero-mcp": {
-  "open": 17,
+  "open": 18,
   "closed": 52
  },
  "daeh/zotero-citation-tally": {
@@ -614,7 +618,7 @@
   "closed": 0
  },
  "l0o0/Garden-for-Zotero": {
-  "open": 1,
+  "open": 2,
   "closed": 9
  },
  "l0o0/MagicZotero": {
@@ -809,7 +813,7 @@
   "closed": 4
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 7,
+  "open": 8,
   "closed": 163
  },
  "stevepowell99/causalmap-zotero": {
@@ -945,7 +949,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 112,
+  "open": 111,
   "closed": 138
  },
  "ysqander/listen2papers-zotero": {
