@@ -194,12 +194,16 @@
   "open": 0,
   "closed": 0
  },
+ "MCXCC303/just-enough-color": {
+  "open": 0,
+  "closed": 0
+ },
  "ManuelaRunge/Zotitle": {
   "open": 1,
   "closed": 1
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 778,
+  "open": 780,
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
@@ -670,8 +674,8 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 1,
-  "closed": 19
+  "open": 0,
+  "closed": 20
  },
  "mobench/zotero-annotation-links": {
   "open": 0,
@@ -761,15 +765,15 @@
   "closed": 38
  },
  "redleafnew/zotero-updateifsE": {
-  "open": 11,
-  "closed": 151
+  "open": 10,
+  "closed": 152
  },
  "replynow20/gemini-zotero": {
   "open": 0,
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 38,
+  "open": 39,
   "closed": 2518
  },
  "retorquere/zotero-folder-import": {
@@ -873,7 +877,7 @@
   "closed": 0
  },
  "volatile-static/Chartero": {
-  "open": 30,
+  "open": 31,
   "closed": 115
  },
  "wbthomason/zotodo": {
