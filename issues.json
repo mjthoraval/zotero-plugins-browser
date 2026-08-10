@@ -108,7 +108,7 @@
   "closed": 62
  },
  "DrinkTea905/zotero-paper-outline": {
-  "open": 2,
+  "open": 3,
   "closed": 0
  },
  "ET06731/zotero-paper2slides": {
@@ -132,8 +132,8 @@
   "closed": 0
  },
  "GroundbreakerLhy/CCF-Rank": {
-  "open": 1,
-  "closed": 6
+  "open": 0,
+  "closed": 7
  },
  "Helloxiaolaodi/Zotero-StaticSync": {
   "disabled": true
@@ -203,7 +203,7 @@
   "closed": 1
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 780,
+  "open": 781,
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
@@ -409,6 +409,10 @@
   "open": 1,
   "closed": 0
  },
+ "chen7447/item-pane-organizer-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "chen7447/word-translator-zotero": {
   "open": 0,
   "closed": 0
@@ -418,7 +422,7 @@
   "closed": 19
  },
  "cookjohn/zotero-mcp": {
-  "open": 18,
+  "open": 19,
   "closed": 52
  },
  "daeh/zotero-citation-tally": {
@@ -438,8 +442,8 @@
   "closed": 0
  },
  "diegodlh/zotero-cita": {
-  "open": 88,
-  "closed": 129
+  "open": 87,
+  "closed": 130
  },
  "dvanoni/notero": {
   "open": 60,
@@ -623,7 +627,7 @@
  },
  "l0o0/Garden-for-Zotero": {
   "open": 2,
-  "closed": 9
+  "closed": 10
  },
  "l0o0/MagicZotero": {
   "open": 4,
@@ -670,11 +674,11 @@
   "closed": 3
  },
  "milekpl/zotero-search-replace": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 0,
+  "open": 1,
   "closed": 20
  },
  "mobench/zotero-annotation-links": {
@@ -947,6 +951,10 @@
  "xuhan-rgb/zotero-ai-sidebar": {
   "open": 0,
   "closed": 4
+ },
+ "yfengup/notion-item-opener-for-zotero": {
+  "open": 0,
+  "closed": 0
  },
  "yhmtsai/KeepZotero": {
   "open": 1,
