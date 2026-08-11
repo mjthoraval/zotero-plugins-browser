@@ -267,7 +267,7 @@
   "closed": 12
  },
  "Royshare/zotero-spotlight": {
-  "open": 4,
+  "open": 6,
   "closed": 5
  },
  "Rphone/zotero-tab-enhance": {
@@ -279,7 +279,7 @@
   "closed": 0
  },
  "SHANGKAIJIE/zotero-hover-translate-eudic": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "STRUGGLE1999/zotero-ai-notes": {
@@ -362,7 +362,7 @@
   "closed": 0
  },
  "ZorroStardust/zotero-vim-plus": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "Zzq-02/zotero-vocab-builder": {
@@ -718,7 +718,7 @@
   "closed": 8
  },
  "papersgpt/papersgpt-for-zotero": {
-  "open": 74,
+  "open": 73,
   "closed": 36
  },
  "paulusm/zotero-trilium": {
@@ -930,7 +930,7 @@
  },
  "windingwind/zotero-pdf-translate": {
   "open": 11,
-  "closed": 1057
+  "closed": 1058
  },
  "wshanks/Zutilo": {
   "open": 79,
@@ -961,8 +961,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 111,
-  "closed": 138
+  "open": 115,
+  "closed": 139
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
@@ -971,6 +971,10 @@
  "yueneiqi/zotero2eagle": {
   "open": 3,
   "closed": 4
+ },
+ "zhouyi654/zotero-title-translator": {
+  "open": 0,
+  "closed": 0
  },
  "zzlb0224/zotero-annotation-manage": {
   "open": 32,
