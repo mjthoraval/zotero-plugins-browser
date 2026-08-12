@@ -111,6 +111,10 @@
   "open": 3,
   "closed": 0
  },
+ "ECHOUniverse/zotero-translator-next": {
+  "open": 0,
+  "closed": 0
+ },
  "ET06731/zotero-paper2slides": {
   "open": 1,
   "closed": 1
@@ -151,8 +155,8 @@
   "closed": 0
  },
  "ImperialSquid/zotero-zotts": {
-  "open": 12,
-  "closed": 42
+  "open": 10,
+  "closed": 44
  },
  "Infinity4B/zotero-hjfy-split-reader": {
   "open": 0,
@@ -353,6 +357,10 @@
   "open": 1,
   "closed": 0
  },
+ "XoYaPeng/zotero-hide-fields": {
+  "open": 0,
+  "closed": 0
+ },
  "YanSH258/zotero-dailypaper": {
   "open": 0,
   "closed": 2
@@ -380,6 +388,10 @@
  "alima-webdev/zotero-review-assistant": {
   "open": 11,
   "closed": 4
+ },
+ "anfang886/zotero-doi-column": {
+  "open": 0,
+  "closed": 0
  },
  "argenos/zotero-mdnotes": {
   "open": 0,
@@ -442,8 +454,8 @@
   "closed": 0
  },
  "diegodlh/zotero-cita": {
-  "open": 87,
-  "closed": 130
+  "open": 85,
+  "closed": 132
  },
  "dvanoni/notero": {
   "open": 60,
@@ -588,6 +600,10 @@
  "jetxa/zotero-ai-assistant": {
   "open": 0,
   "closed": 2
+ },
+ "jhj223/zotero-ai-guided-reader": {
+  "open": 0,
+  "closed": 0
  },
  "jlegewie/beaver-zotero": {
   "open": 31,
@@ -777,8 +793,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 39,
-  "closed": 2518
+  "open": 38,
+  "closed": 2519
  },
  "retorquere/zotero-folder-import": {
   "open": 4,
@@ -821,7 +837,7 @@
   "closed": 4
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 8,
+  "open": 9,
   "closed": 163
  },
  "stevepowell99/causalmap-zotero": {
@@ -842,7 +858,7 @@
  },
  "syt2/zotero-addons": {
   "open": 6,
-  "closed": 44
+  "closed": 45
  },
  "syt2/zotero-scipdf": {
   "open": 16,
@@ -930,7 +946,7 @@
  },
  "windingwind/zotero-pdf-translate": {
   "open": 11,
-  "closed": 1058
+  "closed": 1059
  },
  "wshanks/Zutilo": {
   "open": 79,
@@ -961,7 +977,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 115,
+  "open": 117,
   "closed": 139
  },
  "ysqander/listen2papers-zotero": {
