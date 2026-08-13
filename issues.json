@@ -215,7 +215,7 @@
   "closed": 39
  },
  "MuiseDestiny/zotero-attanger": {
-  "open": 151,
+  "open": 152,
   "closed": 91
  },
  "MuiseDestiny/zotero-figure": {
@@ -283,8 +283,8 @@
   "closed": 0
  },
  "SHANGKAIJIE/zotero-hover-translate-eudic": {
-  "open": 1,
-  "closed": 0
+  "open": 0,
+  "closed": 1
  },
  "STRUGGLE1999/zotero-ai-notes": {
   "open": 0,
@@ -322,7 +322,7 @@
   "closed": 11
  },
  "UB-Mannheim/zotero-ocr": {
-  "open": 7,
+  "open": 9,
   "closed": 82
  },
  "Visterainer/zoteroAI": {
@@ -381,6 +381,10 @@
   "open": 0,
   "closed": 1
  },
+ "airalinknowledge/zotero-book-splitter": {
+  "open": 0,
+  "closed": 0
+ },
  "alansirius/Zotero-Exitem": {
   "open": 0,
   "closed": 0
@@ -434,7 +438,7 @@
   "closed": 19
  },
  "cookjohn/zotero-mcp": {
-  "open": 19,
+  "open": 20,
   "closed": 52
  },
  "daeh/zotero-citation-tally": {
@@ -574,8 +578,8 @@
   "closed": 16
  },
  "introfini/ZotSeek": {
-  "open": 4,
-  "closed": 35
+  "open": 5,
+  "closed": 36
  },
  "introfini/mcp-server-zotero-dev": {
   "open": 2,
@@ -607,7 +611,7 @@
  },
  "jlegewie/beaver-zotero": {
   "open": 31,
-  "closed": 67
+  "closed": 68
  },
  "jlegewie/zotfile": {
   "open": 280,
@@ -964,6 +968,10 @@
   "open": 2,
   "closed": 0
  },
+ "xiaoxiao937/li-yue-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "xuhan-rgb/zotero-ai-sidebar": {
   "open": 0,
   "closed": 4
@@ -977,7 +985,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 117,
+  "open": 118,
   "closed": 139
  },
  "ysqander/listen2papers-zotero": {
