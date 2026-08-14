@@ -80,7 +80,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 44,
+  "open": 45,
   "closed": 41
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -215,7 +215,7 @@
   "closed": 39
  },
  "MuiseDestiny/zotero-attanger": {
-  "open": 152,
+  "open": 153,
   "closed": 91
  },
  "MuiseDestiny/zotero-figure": {
@@ -701,6 +701,10 @@
   "open": 1,
   "closed": 20
  },
+ "mlfc0422/zotero-puls": {
+  "open": 0,
+  "closed": 0
+ },
  "mobench/zotero-annotation-links": {
   "open": 0,
   "closed": 6
@@ -877,7 +881,7 @@
   "closed": 66
  },
  "tenglvjun/mktero": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "theRatramnus/RIOPACAddChapter": {
@@ -986,7 +990,7 @@
  },
  "yilewang/llm-for-zotero": {
   "open": 118,
-  "closed": 139
+  "closed": 141
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
@@ -995,6 +999,13 @@
  "yueneiqi/zotero2eagle": {
   "open": 3,
   "closed": 4
+ },
+ "zhi-11/zotero-ai-paragraph-notes": {
+  "open": 0,
+  "closed": 0
+ },
+ "zhi-11/zotero-ai-sidebar": {
+  "disabled": true
  },
  "zhouyi654/zotero-title-translator": {
   "open": 0,
