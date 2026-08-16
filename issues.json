@@ -211,7 +211,7 @@
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
-  "open": 74,
+  "open": 75,
   "closed": 39
  },
  "MuiseDestiny/zotero-attanger": {
@@ -330,7 +330,7 @@
   "closed": 82
  },
  "Visterainer/zoteroAI": {
-  "open": 0,
+  "open": 1,
   "closed": 29
  },
  "WildDataX/suppr-zotero-plugin": {
@@ -805,7 +805,7 @@
   "closed": 38
  },
  "redleafnew/zotero-updateifsE": {
-  "open": 10,
+  "open": 11,
   "closed": 152
  },
  "replynow20/gemini-zotero": {
@@ -929,7 +929,7 @@
   "closed": 0
  },
  "wdcpclover/ai4paper": {
-  "open": 16,
+  "open": 19,
   "closed": 1
  },
  "whacked/zotero-special-tags-column": {
@@ -953,7 +953,7 @@
   "closed": 2
  },
  "windingwind/zotero-actions-tags": {
-  "open": 1,
+  "open": 2,
   "closed": 238
  },
  "windingwind/zotero-better-notes": {
@@ -965,8 +965,8 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 11,
-  "closed": 1057
+  "open": 10,
+  "closed": 1058
  },
  "wshanks/Zutilo": {
   "open": 79,
@@ -1001,8 +1001,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 119,
-  "closed": 141
+  "open": 113,
+  "closed": 150
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
