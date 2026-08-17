@@ -79,6 +79,10 @@
   "open": 0,
   "closed": 0
  },
+ "ChaoPlayer/zotero-glossary": {
+  "open": 0,
+  "closed": 0
+ },
  "ChenglongMa/zoplicate": {
   "open": 45,
   "closed": 41
@@ -166,6 +170,10 @@
   "open": 1,
   "closed": 0
  },
+ "Jiahaohong/mineru-to-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "Juris-M/zotero-odf-scan-plugin": {
   "open": 4,
   "closed": 36
@@ -211,7 +219,7 @@
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
-  "open": 75,
+  "open": 76,
   "closed": 39
  },
  "MuiseDestiny/zotero-attanger": {
@@ -330,7 +338,7 @@
   "closed": 82
  },
  "Visterainer/zoteroAI": {
-  "open": 1,
+  "open": 0,
   "closed": 29
  },
  "WildDataX/suppr-zotero-plugin": {
@@ -442,7 +450,7 @@
   "closed": 19
  },
  "cookjohn/zotero-mcp": {
-  "open": 21,
+  "open": 22,
   "closed": 51
  },
  "daeh/zotero-citation-tally": {
@@ -586,7 +594,7 @@
   "closed": 36
  },
  "introfini/mcp-server-zotero-dev": {
-  "open": 2,
+  "open": 3,
   "closed": 5
  },
  "iu-parvej/Zotero-PDF-Copier-Renamer": {
@@ -650,7 +658,7 @@
   "closed": 0
  },
  "l0o0/Garden-for-Zotero": {
-  "open": 2,
+  "open": 3,
   "closed": 10
  },
  "l0o0/MagicZotero": {
@@ -929,8 +937,8 @@
   "closed": 0
  },
  "wdcpclover/ai4paper": {
-  "open": 19,
-  "closed": 1
+  "open": 4,
+  "closed": 17
  },
  "whacked/zotero-special-tags-column": {
   "open": 5,
@@ -953,8 +961,8 @@
   "closed": 2
  },
  "windingwind/zotero-actions-tags": {
-  "open": 2,
-  "closed": 238
+  "open": 1,
+  "closed": 239
  },
  "windingwind/zotero-better-notes": {
   "open": 3,
@@ -988,6 +996,10 @@
   "open": 0,
   "closed": 0
  },
+ "xiaoxuan353/zotero-paper-radar": {
+  "open": 0,
+  "closed": 0
+ },
  "xuhan-rgb/zotero-ai-sidebar": {
   "open": 0,
   "closed": 4
@@ -1001,7 +1013,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 113,
+  "open": 115,
   "closed": 150
  },
  "ysqander/listen2papers-zotero": {
