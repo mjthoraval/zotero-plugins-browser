@@ -214,13 +214,17 @@
   "open": 1,
   "closed": 1
  },
+ "Mengqi97/codex-bilingual-reader-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "MuiseDestiny/ZoteroStyle": {
   "open": 781,
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
-  "open": 76,
-  "closed": 39
+  "open": 75,
+  "closed": 40
  },
  "MuiseDestiny/zotero-attanger": {
   "open": 153,
@@ -358,7 +362,7 @@
   "closed": 0
  },
  "XiaoDuComrade/zotero-manual-sort": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "XiaoDuComrade/zotero-margin-comments": {
@@ -498,7 +502,7 @@
   "closed": 9
  },
  "ethanwillis/zotero-scihub": {
-  "open": 27,
+  "open": 28,
   "closed": 46
  },
  "federicotorrielli/zotero-metadata-hunter": {
@@ -594,8 +598,8 @@
   "closed": 36
  },
  "introfini/mcp-server-zotero-dev": {
-  "open": 3,
-  "closed": 5
+  "open": 2,
+  "closed": 6
  },
  "iu-parvej/Zotero-PDF-Copier-Renamer": {
   "open": 0,
@@ -762,7 +766,7 @@
   "closed": 8
  },
  "papersgpt/papersgpt-for-zotero": {
-  "open": 73,
+  "open": 74,
   "closed": 36
  },
  "paulusm/zotero-trilium": {
@@ -865,7 +869,7 @@
   "closed": 4
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 10,
+  "open": 11,
   "closed": 162
  },
  "stevepowell99/causalmap-zotero": {
@@ -973,7 +977,7 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 10,
+  "open": 11,
   "closed": 1058
  },
  "wshanks/Zutilo": {
@@ -1013,8 +1017,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 115,
-  "closed": 150
+  "open": 116,
+  "closed": 149
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
