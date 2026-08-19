@@ -48,7 +48,7 @@
   "closed": 2
  },
  "Avi7ii/Zotero-glass": {
-  "open": 2,
+  "open": 3,
   "closed": 4
  },
  "B3000Kcn/daily-folder-for-zotero": {
@@ -84,7 +84,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 45,
+  "open": 46,
   "closed": 41
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -109,7 +109,7 @@
  },
  "Dominic-DallOsto/zotero-reading-list": {
   "open": 17,
-  "closed": 62
+  "closed": 63
  },
  "DrinkTea905/zotero-paper-outline": {
   "open": 3,
@@ -123,10 +123,6 @@
   "open": 1,
   "closed": 1
  },
- "FOODZERO-hub/zotero-semantic-tag-colors": {
-  "open": 0,
-  "closed": 0
- },
  "Fangziyang0910/zotero-ccf-plus": {
   "open": 1,
   "closed": 0
@@ -137,6 +133,10 @@
  },
  "GOKORURI007/zotero-api-plus": {
   "open": 1,
+  "closed": 0
+ },
+ "GinixStudy/zotero-browser": {
+  "open": 0,
   "closed": 0
  },
  "GroundbreakerLhy/CCF-Rank": {
@@ -218,6 +218,10 @@
   "open": 0,
   "closed": 0
  },
+ "Moon-python/zotero-reading-flow": {
+  "open": 0,
+  "closed": 2
+ },
  "MuiseDestiny/ZoteroStyle": {
   "open": 781,
   "closed": 492
@@ -227,7 +231,7 @@
   "closed": 40
  },
  "MuiseDestiny/zotero-attanger": {
-  "open": 153,
+  "open": 154,
   "closed": 91
  },
  "MuiseDestiny/zotero-figure": {
@@ -235,7 +239,7 @@
   "closed": 27
  },
  "MuiseDestiny/zotero-gpt": {
-  "open": 240,
+  "open": 241,
   "closed": 170
  },
  "MuiseDestiny/zotero-reference": {
@@ -279,12 +283,12 @@
   "closed": 1
  },
  "RoadToDream/ZotMeta": {
-  "open": 1,
+  "open": 2,
   "closed": 12
  },
  "Royshare/zotero-spotlight": {
-  "open": 6,
-  "closed": 5
+  "open": 4,
+  "closed": 8
  },
  "Rphone/zotero-tab-enhance": {
   "open": 0,
@@ -338,7 +342,7 @@
   "closed": 11
  },
  "UB-Mannheim/zotero-ocr": {
-  "open": 9,
+  "open": 10,
   "closed": 82
  },
  "Visterainer/zoteroAI": {
@@ -374,7 +378,7 @@
   "closed": 0
  },
  "XoYaPeng/zotero-hide-fields": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "YanSH258/zotero-dailypaper": {
@@ -398,7 +402,7 @@
   "closed": 1
  },
  "airalinknowledge/zotero-book-splitter": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "alansirius/Zotero-Exitem": {
@@ -424,6 +428,10 @@
  "astro-koko/deepseek-copilot-for-zotero": {
   "open": 0,
   "closed": 0
+ },
+ "ben-AI-cybersec/zotero-publication-rankings": {
+  "open": 6,
+  "closed": 5
  },
  "bulletproof-system/zotero-maimemo-sync": {
   "open": 0,
@@ -458,7 +466,7 @@
   "closed": 51
  },
  "daeh/zotero-citation-tally": {
-  "open": 2,
+  "open": 3,
   "closed": 16
  },
  "daeh/zotero-markdb-connect": {
@@ -477,9 +485,21 @@
   "open": 85,
   "closed": 132
  },
+ "digitalartificialint-cmd/Zotero-Med-Impact": {
+  "open": 0,
+  "closed": 0
+ },
+ "dralkh/seerai": {
+  "open": 4,
+  "closed": 6
+ },
+ "dschaehi/Zotero-Focused-Mode": {
+  "open": 3,
+  "closed": 13
+ },
  "dvanoni/notero": {
-  "open": 60,
-  "closed": 272
+  "open": 59,
+  "closed": 274
  },
  "edwintuan/pdf-ai-bookmarks": {
   "open": 0,
@@ -586,7 +606,7 @@
   "closed": 2
  },
  "immersive-translate/zotero-immersivetranslate": {
-  "open": 12,
+  "open": 13,
   "closed": 20
  },
  "inciteful-xyz/inciteful-zotero-plugin": {
@@ -638,7 +658,7 @@
   "closed": 0
  },
  "josesiqueira/zotero-watch-folder": {
-  "open": 7,
+  "open": 8,
   "closed": 3
  },
  "justinfjx/zotero-ai-collection": {
@@ -646,7 +666,7 @@
   "closed": 3
  },
  "justinribeiro/zotero-google-scholar-citation-count": {
-  "open": 15,
+  "open": 16,
   "closed": 35
  },
  "jyjulianwong/PolarRec-Zotero-Plugin": {
@@ -722,8 +742,8 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 1,
-  "closed": 20
+  "open": 0,
+  "closed": 21
  },
  "mlfc0422/zotero-puls": {
   "open": 0,
@@ -753,6 +773,10 @@
   "open": 0,
   "closed": 0
  },
+ "oekeur/zotero-linked-mindmaps": {
+  "open": 0,
+  "closed": 0
+ },
  "origin652/zotero-assistant": {
   "open": 0,
   "closed": 0
@@ -769,6 +793,10 @@
   "open": 74,
   "closed": 36
  },
+ "paulMrG2/zotero-highlight-descriptions": {
+  "open": 2,
+  "closed": 0
+ },
  "paulusm/zotero-trilium": {
   "disabled": true
  },
@@ -779,6 +807,10 @@
  "peterdresslar/zotero-gemini-notebook": {
   "open": 8,
   "closed": 13
+ },
+ "ppavlidis/condense-info-view": {
+  "open": 0,
+  "closed": 0
  },
  "psiQAQ/zotero-agent": {
   "open": 0,
@@ -833,7 +865,7 @@
   "closed": 23
  },
  "retorquere/zotero-open-pdf": {
-  "open": 6,
+  "open": 7,
   "closed": 20
  },
  "retorquere/zotero-pmcid-fetcher": {
@@ -941,8 +973,8 @@
   "closed": 0
  },
  "wdcpclover/ai4paper": {
-  "open": 4,
-  "closed": 17
+  "open": 3,
+  "closed": 18
  },
  "whacked/zotero-special-tags-column": {
   "open": 5,
@@ -950,7 +982,7 @@
  },
  "wileyyugioh/zotmoov": {
   "open": 41,
-  "closed": 94
+  "closed": 95
  },
  "windfollowingheart/zotero-paper-agent": {
   "open": 21,
@@ -981,7 +1013,7 @@
   "closed": 1058
  },
  "wshanks/Zutilo": {
-  "open": 79,
+  "open": 80,
   "closed": 143
  },
  "wshanks/lyz": {
@@ -1017,7 +1049,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 116,
+  "open": 118,
   "closed": 149
  },
  "ysqander/listen2papers-zotero": {
@@ -1028,12 +1060,24 @@
   "open": 3,
   "closed": 4
  },
+ "zerolfl/zotero-split-view-reader": {
+  "open": 7,
+  "closed": 8
+ },
  "zhi-11/zotero-ai-paragraph-notes": {
   "open": 0,
   "closed": 0
  },
  "zhi-11/zotero-ai-sidebar": {
   "disabled": true
+ },
+ "zhongrubo/zotero-annotation-filter": {
+  "open": 1,
+  "closed": 0
+ },
+ "zhongrubo/zotero-tag-sort": {
+  "open": 0,
+  "closed": 0
  },
  "zhouyi654/zotero-title-translator": {
   "open": 0,
