@@ -64,7 +64,7 @@
   "closed": 0
  },
  "BaiRuic/BibGenie": {
-  "open": 4,
+  "open": 5,
   "closed": 2
  },
  "BlueBlueKitty/zotero-ainote": {
@@ -84,7 +84,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 46,
+  "open": 47,
   "closed": 41
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -108,8 +108,8 @@
   "closed": 9
  },
  "Dominic-DallOsto/zotero-reading-list": {
-  "open": 17,
-  "closed": 63
+  "open": 16,
+  "closed": 64
  },
  "DrinkTea905/zotero-paper-outline": {
   "open": 3,
@@ -227,11 +227,11 @@
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
-  "open": 75,
+  "open": 77,
   "closed": 40
  },
  "MuiseDestiny/zotero-attanger": {
-  "open": 154,
+  "open": 155,
   "closed": 91
  },
  "MuiseDestiny/zotero-figure": {
@@ -466,8 +466,8 @@
   "closed": 51
  },
  "daeh/zotero-citation-tally": {
-  "open": 3,
-  "closed": 16
+  "open": 2,
+  "closed": 17
  },
  "daeh/zotero-markdb-connect": {
   "open": 11,
@@ -483,7 +483,7 @@
  },
  "diegodlh/zotero-cita": {
   "open": 85,
-  "closed": 132
+  "closed": 133
  },
  "digitalartificialint-cmd/Zotero-Med-Impact": {
   "open": 0,
@@ -742,7 +742,7 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 0,
+  "open": 1,
   "closed": 21
  },
  "mlfc0422/zotero-puls": {
@@ -766,7 +766,7 @@
   "closed": 229
  },
  "nutstore/zotero-plugin-nutstore-sso": {
-  "open": 2,
+  "open": 3,
   "closed": 4
  },
  "occasional16/researchopia": {
@@ -849,15 +849,15 @@
   "closed": 38
  },
  "redleafnew/zotero-updateifsE": {
-  "open": 11,
-  "closed": 152
+  "open": 10,
+  "closed": 153
  },
  "replynow20/gemini-zotero": {
   "open": 0,
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 38,
+  "open": 40,
   "closed": 2519
  },
  "retorquere/zotero-folder-import": {
@@ -925,7 +925,7 @@
   "closed": 45
  },
  "syt2/zotero-scipdf": {
-  "open": 16,
+  "open": 17,
   "closed": 11
  },
  "taotaozsky2025-beep/zotero-var-highlighter": {
@@ -974,15 +974,15 @@
  },
  "wdcpclover/ai4paper": {
   "open": 3,
-  "closed": 18
+  "closed": 19
  },
  "whacked/zotero-special-tags-column": {
   "open": 5,
   "closed": 3
  },
  "wileyyugioh/zotmoov": {
-  "open": 41,
-  "closed": 95
+  "open": 40,
+  "closed": 96
  },
  "windfollowingheart/zotero-paper-agent": {
   "open": 21,
@@ -1049,8 +1049,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 118,
-  "closed": 149
+  "open": 119,
+  "closed": 150
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
