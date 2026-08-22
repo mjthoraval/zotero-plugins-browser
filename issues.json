@@ -64,8 +64,8 @@
   "closed": 0
  },
  "BaiRuic/BibGenie": {
-  "open": 5,
-  "closed": 2
+  "open": 3,
+  "closed": 4
  },
  "BlueBlueKitty/zotero-ainote": {
   "open": 0,
@@ -84,7 +84,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 47,
+  "open": 48,
   "closed": 41
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -167,7 +167,7 @@
   "closed": 2
  },
  "Jarvis-Towne/paper-feed-zotero": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "Jiahaohong/mineru-to-zotero": {
@@ -495,7 +495,7 @@
  },
  "dschaehi/Zotero-Focused-Mode": {
   "open": 3,
-  "closed": 13
+  "closed": 14
  },
  "dvanoni/notero": {
   "open": 59,
@@ -570,8 +570,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 68,
-  "closed": 187
+  "open": 56,
+  "closed": 199
  },
  "haozhihuiYmh150/zotero-agent": {
   "open": 0,
@@ -605,6 +605,22 @@
   "open": 6,
   "closed": 2
  },
+ "ievlevpn/zotero-djvu-converter": {
+  "open": 0,
+  "closed": 1
+ },
+ "ievlevpn/zotero-tag-explorer": {
+  "open": 0,
+  "closed": 0
+ },
+ "ievlevpn/zotero-theorem-list": {
+  "open": 1,
+  "closed": 0
+ },
+ "ievlevpn/zotero-time-tracking": {
+  "open": 0,
+  "closed": 0
+ },
  "immersive-translate/zotero-immersivetranslate": {
   "open": 14,
   "closed": 20
@@ -614,11 +630,11 @@
   "closed": 17
  },
  "introfini/ZotSeek": {
-  "open": 5,
-  "closed": 36
+  "open": 4,
+  "closed": 37
  },
  "introfini/mcp-server-zotero-dev": {
-  "open": 5,
+  "open": 6,
   "closed": 6
  },
  "iu-parvej/Zotero-PDF-Copier-Renamer": {
@@ -714,7 +730,7 @@
   "closed": 0
  },
  "lisontowind/zotero-mineru": {
-  "open": 4,
+  "open": 5,
   "closed": 1
  },
  "lss3765/Zotero-Bilingual-Reader-Public": {
@@ -742,7 +758,7 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 1,
+  "open": 2,
   "closed": 22
  },
  "mlfc0422/zotero-puls": {
@@ -766,7 +782,7 @@
   "closed": 229
  },
  "nutstore/zotero-plugin-nutstore-sso": {
-  "open": 3,
+  "open": 4,
   "closed": 4
  },
  "occasional16/researchopia": {
@@ -782,7 +798,7 @@
   "closed": 0
  },
  "ottersem/zotero-reference-linker": {
-  "open": 0,
+  "open": 2,
   "closed": 0
  },
  "pandaAIGC/zotero-doi-fix": {
@@ -810,7 +826,7 @@
  },
  "peterdresslar/zotero-gemini-notebook": {
   "open": 8,
-  "closed": 13
+  "closed": 17
  },
  "ppavlidis/condense-info-view": {
   "open": 0,
@@ -861,16 +877,16 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 40,
-  "closed": 2519
+  "open": 39,
+  "closed": 2521
  },
  "retorquere/zotero-folder-import": {
   "open": 4,
   "closed": 23
  },
  "retorquere/zotero-open-pdf": {
-  "open": 7,
-  "closed": 20
+  "open": 6,
+  "closed": 21
  },
  "retorquere/zotero-pmcid-fetcher": {
   "open": 1,
@@ -1053,7 +1069,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 120,
+  "open": 121,
   "closed": 151
  },
  "ysqander/listen2papers-zotero": {
