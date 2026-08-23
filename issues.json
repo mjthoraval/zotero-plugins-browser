@@ -84,7 +84,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 48,
+  "open": 49,
   "closed": 41
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -295,8 +295,8 @@
   "closed": 13
  },
  "SHANGKAIJIE/zotero-dual-title": {
-  "open": 2,
-  "closed": 0
+  "open": 0,
+  "closed": 2
  },
  "SHANGKAIJIE/zotero-hover-translate-eudic": {
   "open": 0,
@@ -494,7 +494,7 @@
   "closed": 6
  },
  "dschaehi/Zotero-Focused-Mode": {
-  "open": 3,
+  "open": 4,
   "closed": 14
  },
  "dvanoni/notero": {
@@ -570,8 +570,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 56,
-  "closed": 199
+  "open": 46,
+  "closed": 210
  },
  "haozhihuiYmh150/zotero-agent": {
   "open": 0,
@@ -607,7 +607,7 @@
  },
  "ievlevpn/zotero-djvu-converter": {
   "open": 0,
-  "closed": 1
+  "closed": 2
  },
  "ievlevpn/zotero-tag-explorer": {
   "open": 0,
@@ -798,8 +798,8 @@
   "closed": 0
  },
  "ottersem/zotero-reference-linker": {
-  "open": 2,
-  "closed": 0
+  "open": 0,
+  "closed": 2
  },
  "pandaAIGC/zotero-doi-fix": {
   "open": 0,
@@ -825,8 +825,8 @@
   "closed": 0
  },
  "peterdresslar/zotero-gemini-notebook": {
-  "open": 8,
-  "closed": 17
+  "open": 9,
+  "closed": 18
  },
  "ppavlidis/condense-info-view": {
   "open": 0,
@@ -877,8 +877,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 39,
-  "closed": 2521
+  "open": 42,
+  "closed": 2520
  },
  "retorquere/zotero-folder-import": {
   "open": 4,
@@ -921,7 +921,7 @@
   "closed": 4
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 11,
+  "open": 12,
   "closed": 162
  },
  "stevepowell99/causalmap-zotero": {
@@ -957,7 +957,7 @@
   "closed": 66
  },
  "tenglvjun/mktero": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "theRatramnus/RIOPACAddChapter": {
@@ -1017,7 +1017,7 @@
   "closed": 2
  },
  "windingwind/zotero-actions-tags": {
-  "open": 1,
+  "open": 3,
   "closed": 239
  },
  "windingwind/zotero-better-notes": {
@@ -1033,8 +1033,8 @@
   "closed": 1059
  },
  "wshanks/Zutilo": {
-  "open": 80,
-  "closed": 143
+  "open": 79,
+  "closed": 144
  },
  "wshanks/lyz": {
   "open": 10,
