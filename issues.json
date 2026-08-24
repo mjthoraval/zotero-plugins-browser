@@ -37,7 +37,7 @@
  },
  "AllanChain/zotero-arxiv-workflow": {
   "open": 3,
-  "closed": 41
+  "closed": 42
  },
  "Ares960826/zotero-grouptag": {
   "open": 0,
@@ -223,7 +223,7 @@
   "closed": 2
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 784,
+  "open": 785,
   "closed": 492
  },
  "MuiseDestiny/eaiser-citation": {
@@ -385,6 +385,10 @@
   "open": 0,
   "closed": 2
  },
+ "Yuriyagn/zotero-pdf2zh": {
+  "open": 0,
+  "closed": 0
+ },
  "Zar-rok/Zotero-Add-Collection-Tag": {
   "open": 3,
   "closed": 0
@@ -494,8 +498,8 @@
   "closed": 6
  },
  "dschaehi/Zotero-Focused-Mode": {
-  "open": 4,
-  "closed": 14
+  "open": 3,
+  "closed": 15
  },
  "dvanoni/notero": {
   "open": 59,
@@ -530,8 +534,8 @@
   "closed": 1
  },
  "fkguo/zotero-inspire": {
-  "open": 1,
-  "closed": 21
+  "open": 0,
+  "closed": 22
  },
  "forrtproject/fred_zotero": {
   "open": 8,
@@ -570,8 +574,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 46,
-  "closed": 210
+  "open": 44,
+  "closed": 212
  },
  "haozhihuiYmh150/zotero-agent": {
   "open": 0,
@@ -798,7 +802,7 @@
   "closed": 0
  },
  "ottersem/zotero-reference-linker": {
-  "open": 0,
+  "open": 1,
   "closed": 2
  },
  "pandaAIGC/zotero-doi-fix": {
@@ -810,7 +814,7 @@
   "closed": 8
  },
  "papersgpt/papersgpt-for-zotero": {
-  "open": 74,
+  "open": 75,
   "closed": 36
  },
  "paulMrG2/zotero-highlight-descriptions": {
@@ -826,14 +830,14 @@
  },
  "peterdresslar/zotero-gemini-notebook": {
   "open": 9,
-  "closed": 18
+  "closed": 19
  },
  "ppavlidis/condense-info-view": {
   "open": 0,
   "closed": 0
  },
  "psiQAQ/zotero-agent": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "q77190858/zotero-pdf-background": {
@@ -860,6 +864,10 @@
   "open": 1,
   "closed": 1
  },
+ "quillamio/bilingual-reader": {
+  "open": 0,
+  "closed": 0
+ },
  "redleafnew/delitemwithatt": {
   "open": 2,
   "closed": 43
@@ -877,12 +885,12 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 42,
-  "closed": 2520
+  "open": 43,
+  "closed": 2519
  },
  "retorquere/zotero-folder-import": {
   "open": 4,
-  "closed": 23
+  "closed": 24
  },
  "retorquere/zotero-open-pdf": {
   "open": 6,
@@ -921,7 +929,7 @@
   "closed": 4
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 12,
+  "open": 13,
   "closed": 162
  },
  "stevepowell99/causalmap-zotero": {
@@ -1017,8 +1025,8 @@
   "closed": 2
  },
  "windingwind/zotero-actions-tags": {
-  "open": 3,
-  "closed": 239
+  "open": 1,
+  "closed": 241
  },
  "windingwind/zotero-better-notes": {
   "open": 3,
