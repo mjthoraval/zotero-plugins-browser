@@ -586,8 +586,8 @@
   "closed": 0
  },
  "gaviiiinnnn/zotero-settings-sync": {
-  "open": 1,
-  "closed": 0
+  "open": 0,
+  "closed": 1
  },
  "github-young/zotero-better-authors": {
   "open": 3,
@@ -742,7 +742,7 @@
   "closed": 0
  },
  "l0o0/jasminum": {
-  "open": 40,
+  "open": 41,
   "closed": 346
  },
  "l0o0/tara": {
@@ -981,7 +981,7 @@
   "closed": 3
  },
  "syt2/paper-chat-for-zotero": {
-  "open": 7,
+  "open": 8,
   "closed": 16
  },
  "syt2/zotero-addons": {
@@ -1105,8 +1105,8 @@
   "closed": 5
  },
  "xujialiu/Zotero-TTS": {
-  "open": 0,
-  "closed": 4
+  "open": 4,
+  "closed": 11
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1121,7 +1121,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 125,
+  "open": 127,
   "closed": 157
  },
  "ysqander/listen2papers-zotero": {
