@@ -105,7 +105,7 @@
  },
  "Dominic-DallOsto/zotero-pin-items": {
   "open": 2,
-  "closed": 9
+  "closed": 10
  },
  "Dominic-DallOsto/zotero-reading-list": {
   "open": 16,
@@ -215,7 +215,7 @@
   "closed": 1
  },
  "Mengqi97/codex-bilingual-reader-for-zotero": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "Moon-python/zotero-reading-flow": {
@@ -358,8 +358,8 @@
   "closed": 82
  },
  "Visterainer/zoteroAI": {
-  "open": 1,
-  "closed": 29
+  "open": 0,
+  "closed": 30
  },
  "WildDataX/suppr-zotero-plugin": {
   "open": 0,
@@ -510,7 +510,7 @@
   "closed": 0
  },
  "diegodlh/zotero-cita": {
-  "open": 85,
+  "open": 87,
   "closed": 133
  },
  "digitalartificialint-cmd/Zotero-Med-Impact": {
@@ -670,11 +670,11 @@
   "closed": 17
  },
  "introfini/ZotSeek": {
-  "open": 2,
-  "closed": 39
+  "open": 1,
+  "closed": 41
  },
  "introfini/mcp-server-zotero-dev": {
-  "open": 6,
+  "open": 8,
   "closed": 6
  },
  "iu-parvej/Zotero-PDF-Copier-Renamer": {
@@ -737,6 +737,10 @@
   "open": 0,
   "closed": 0
  },
+ "kongyan66/arxiv2zh": {
+  "open": 1,
+  "closed": 0
+ },
  "l0o0/Garden-for-Zotero": {
   "open": 4,
   "closed": 10
@@ -790,7 +794,7 @@
   "closed": 0
  },
  "milekpl/zotero-ner": {
-  "open": 0,
+  "open": 1,
   "closed": 3
  },
  "milekpl/zotero-search-replace": {
@@ -929,8 +933,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 45,
-  "closed": 2523
+  "open": 44,
+  "closed": 2526
  },
  "retorquere/zotero-folder-import": {
   "open": 4,
@@ -1113,8 +1117,8 @@
   "closed": 5
  },
  "xujialiu/Zotero-TTS": {
-  "open": 3,
-  "closed": 18
+  "open": 13,
+  "closed": 25
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1129,7 +1133,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 127,
+  "open": 129,
   "closed": 157
  },
  "ysqander/listen2papers-zotero": {
