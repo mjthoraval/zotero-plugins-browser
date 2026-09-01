@@ -271,7 +271,7 @@
   "closed": 0
  },
  "Rafael-Silva-Oliveira/NZBridge": {
-  "open": 0,
+  "open": 1,
   "closed": 5
  },
  "Rafael-Silva-Oliveira/numify": {
@@ -350,8 +350,8 @@
   "closed": 2
  },
  "TimeTrapzz/zotero-ccf-info": {
-  "open": 7,
-  "closed": 11
+  "open": 6,
+  "closed": 12
  },
  "UB-Mannheim/zotero-ocr": {
   "open": 11,
@@ -470,7 +470,7 @@
   "closed": 0
  },
  "chen7447/journal-tags": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "chen7447/rapidocr-for-zotero": {
@@ -671,7 +671,7 @@
  },
  "introfini/ZotSeek": {
   "open": 1,
-  "closed": 41
+  "closed": 42
  },
  "introfini/mcp-server-zotero-dev": {
   "open": 8,
@@ -722,8 +722,8 @@
   "closed": 3
  },
  "justinribeiro/zotero-google-scholar-citation-count": {
-  "open": 16,
-  "closed": 35
+  "open": 15,
+  "closed": 36
  },
  "jyjulianwong/PolarRec-Zotero-Plugin": {
   "open": 1,
@@ -877,8 +877,8 @@
   "closed": 0
  },
  "peterdresslar/zotero-gemini-notebook": {
-  "open": 11,
-  "closed": 19
+  "open": 8,
+  "closed": 22
  },
  "ppavlidis/condense-info-view": {
   "open": 0,
@@ -933,7 +933,7 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 44,
+  "open": 45,
   "closed": 2526
  },
  "retorquere/zotero-folder-import": {
@@ -1085,8 +1085,8 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 9,
-  "closed": 1060
+  "open": 8,
+  "closed": 1061
  },
  "wshanks/Zutilo": {
   "open": 80,
@@ -1117,8 +1117,8 @@
   "closed": 5
  },
  "xujialiu/Zotero-TTS": {
-  "open": 13,
-  "closed": 25
+  "open": 8,
+  "closed": 32
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1133,8 +1133,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 129,
-  "closed": 157
+  "open": 131,
+  "closed": 158
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
