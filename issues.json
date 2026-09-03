@@ -108,7 +108,7 @@
   "closed": 10
  },
  "Dominic-DallOsto/zotero-reading-list": {
-  "open": 16,
+  "open": 17,
   "closed": 64
  },
  "DrinkTea905/zotero-paper-outline": {
@@ -164,7 +164,7 @@
  },
  "Infinity4B/zotero-hjfy-split-reader": {
   "open": 0,
-  "closed": 2
+  "closed": 3
  },
  "Jarvis-Towne/paper-feed-zotero": {
   "open": 2,
@@ -227,8 +227,8 @@
   "closed": 2
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 784,
-  "closed": 496
+  "open": 785,
+  "closed": 497
  },
  "MuiseDestiny/eaiser-citation": {
   "open": 77,
@@ -362,7 +362,7 @@
   "closed": 82
  },
  "Visterainer/zoteroAI": {
-  "open": 0,
+  "open": 1,
   "closed": 30
  },
  "WildDataX/suppr-zotero-plugin": {
@@ -494,8 +494,8 @@
   "closed": 19
  },
  "cookjohn/zotero-mcp": {
-  "open": 23,
-  "closed": 51
+  "open": 16,
+  "closed": 59
  },
  "daeh/zotero-citation-tally": {
   "open": 2,
@@ -526,8 +526,8 @@
   "closed": 6
  },
  "dschaehi/Zotero-Focused-Mode": {
-  "open": 4,
-  "closed": 15
+  "open": 3,
+  "closed": 16
  },
  "dvanoni/notero": {
   "open": 60,
@@ -580,6 +580,9 @@
  "franzbischoff/zotero-pdf-metadata": {
   "open": 2,
   "closed": 0
+ },
+ "fre-ms/zotLook": {
+  "disabled": true
  },
  "frianasoa/Ze-Notes": {
   "open": 0,
@@ -723,7 +726,7 @@
  },
  "josesiqueira/zotero-watch-folder": {
   "open": 9,
-  "closed": 3
+  "closed": 4
  },
  "justinfjx/zotero-ai-collection": {
   "open": 1,
@@ -858,7 +861,7 @@
   "closed": 0
  },
  "ottersem/zotero-reference-linker": {
-  "open": 1,
+  "open": 2,
   "closed": 3
  },
  "pandaAIGC/zotero-doi-fix": {
@@ -942,7 +945,7 @@
  },
  "retorquere/zotero-better-bibtex": {
   "open": 45,
-  "closed": 2526
+  "closed": 2527
  },
  "retorquere/zotero-folder-import": {
   "open": 4,
@@ -1086,7 +1089,7 @@
  },
  "windingwind/zotero-better-notes": {
   "open": 1,
-  "closed": 949
+  "closed": 950
  },
  "windingwind/zotero-pdf-preview": {
   "open": 0,
@@ -1141,7 +1144,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 131,
+  "open": 132,
   "closed": 159
  },
  "ysqander/listen2papers-zotero": {
