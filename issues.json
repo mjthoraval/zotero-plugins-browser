@@ -231,7 +231,7 @@
   "closed": 2
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 788,
+  "open": 789,
   "closed": 497
  },
  "MuiseDestiny/eaiser-citation": {
@@ -349,6 +349,10 @@
   "open": 3,
   "closed": 8
  },
+ "Sum-su/zotero-js-bridge": {
+  "open": 0,
+  "closed": 0
+ },
  "Suzuka24/paper-chat-for-zotero": {
   "open": 0,
   "closed": 0
@@ -365,8 +369,8 @@
   "closed": 12
  },
  "UB-Mannheim/zotero-ocr": {
-  "open": 9,
-  "closed": 84
+  "open": 7,
+  "closed": 86
  },
  "Visterainer/zoteroAI": {
   "open": 3,
@@ -509,8 +513,8 @@
   "closed": 19
  },
  "cookjohn/zotero-mcp": {
-  "open": 11,
-  "closed": 66
+  "open": 10,
+  "closed": 67
  },
  "daeh/zotero-citation-tally": {
   "open": 2,
@@ -1024,7 +1028,7 @@
   "closed": 3
  },
  "syt2/paper-chat-for-zotero": {
-  "open": 7,
+  "open": 8,
   "closed": 17
  },
  "syt2/zotero-addons": {
@@ -1135,6 +1139,10 @@
   "open": 0,
   "closed": 0
  },
+ "wuok0618/zotero-sidemark": {
+  "open": 0,
+  "closed": 0
+ },
  "xfl031129/zotero-pdf-outline-builder": {
   "open": 2,
   "closed": 0
@@ -1149,11 +1157,11 @@
  },
  "xuhan-rgb/zotero-ai-sidebar": {
   "open": 1,
-  "closed": 6
+  "closed": 7
  },
  "xujialiu/Zotero-TTS": {
-  "open": 5,
-  "closed": 73
+  "open": 8,
+  "closed": 77
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1169,7 +1177,7 @@
  },
  "yilewang/llm-for-zotero": {
   "open": 141,
-  "closed": 164
+  "closed": 167
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
