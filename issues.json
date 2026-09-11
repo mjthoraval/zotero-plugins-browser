@@ -128,7 +128,7 @@
   "closed": 1
  },
  "Fangziyang0910/zotero-ccf-plus": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "FrLars21/ZoteroCitationCountsManager": {
@@ -163,7 +163,7 @@
   "closed": 0
  },
  "ImperialSquid/zotero-zotts": {
-  "open": 9,
+  "open": 10,
   "closed": 45
  },
  "Infinity4B/zotero-hjfy-split-reader": {
@@ -243,7 +243,7 @@
   "closed": 91
  },
  "MuiseDestiny/zotero-figure": {
-  "open": 49,
+  "open": 50,
   "closed": 27
  },
  "MuiseDestiny/zotero-gpt": {
@@ -251,7 +251,7 @@
   "closed": 171
  },
  "MuiseDestiny/zotero-reference": {
-  "open": 210,
+  "open": 211,
   "closed": 152
  },
  "Nayuta-9/zotero-geyi-translator": {
@@ -373,8 +373,8 @@
   "closed": 86
  },
  "Visterainer/zoteroAI": {
-  "open": 3,
-  "closed": 32
+  "open": 2,
+  "closed": 33
  },
  "WildDataX/suppr-zotero-plugin": {
   "open": 0,
@@ -465,8 +465,8 @@
   "closed": 0
  },
  "ben-AI-cybersec/zotero-publication-rankings": {
-  "open": 7,
-  "closed": 5
+  "open": 6,
+  "closed": 6
  },
  "bulletproof-system/zotero-maimemo-sync": {
   "open": 0,
@@ -837,7 +837,7 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 3,
+  "open": 4,
   "closed": 25
  },
  "mlfc0422/zotero-puls": {
@@ -1011,6 +1011,10 @@
   "open": 1,
   "closed": 4
  },
+ "soyami/zotero-pick2anki": {
+  "open": 0,
+  "closed": 0
+ },
  "steven-jianhao-li/zotero-AI-Butler": {
   "open": 13,
   "closed": 162
@@ -1156,12 +1160,12 @@
   "closed": 0
  },
  "xuhan-rgb/zotero-ai-sidebar": {
-  "open": 1,
+  "open": 2,
   "closed": 7
  },
  "xujialiu/Zotero-TTS": {
   "open": 8,
-  "closed": 77
+  "closed": 81
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1176,8 +1180,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 141,
-  "closed": 167
+  "open": 145,
+  "closed": 170
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
