@@ -145,7 +145,7 @@
  },
  "GroundbreakerLhy/CCF-Rank": {
   "open": 1,
-  "closed": 7
+  "closed": 6
  },
  "Helloxiaolaodi/Zotero-StaticSync": {
   "disabled": true
@@ -219,7 +219,7 @@
   "closed": 0
  },
  "ManuelaRunge/Zotitle": {
-  "open": 1,
+  "open": 2,
   "closed": 1
  },
  "Mengqi97/codex-bilingual-reader-for-zotero": {
@@ -757,7 +757,7 @@
   "closed": 3
  },
  "justinribeiro/zotero-google-scholar-citation-count": {
-  "open": 15,
+  "open": 16,
   "closed": 36
  },
  "jyjulianwong/PolarRec-Zotero-Plugin": {
@@ -809,8 +809,8 @@
   "closed": 0
  },
  "lisontowind/zotero-mineru": {
-  "open": 1,
-  "closed": 6
+  "open": 0,
+  "closed": 7
  },
  "lss3765/Zotero-Bilingual-Reader-Public": {
   "open": 0,
@@ -1128,8 +1128,8 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 8,
-  "closed": 1061
+  "open": 6,
+  "closed": 1063
  },
  "wshanks/Zutilo": {
   "open": 80,
@@ -1165,7 +1165,7 @@
  },
  "xujialiu/Zotero-TTS": {
   "open": 6,
-  "closed": 84
+  "closed": 92
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1180,7 +1180,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 146,
+  "open": 147,
   "closed": 170
  },
  "ysqander/listen2papers-zotero": {
