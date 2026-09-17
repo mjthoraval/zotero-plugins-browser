@@ -326,7 +326,7 @@
   "closed": 0
  },
  "SciImage/zotero-attachment-scanner": {
-  "open": 1,
+  "open": 2,
   "closed": 23
  },
  "ScienceLiveHub/science-live-platform": {
@@ -369,8 +369,8 @@
   "closed": 2
  },
  "TimeTrapzz/zotero-ccf-info": {
-  "open": 6,
-  "closed": 12
+  "open": 5,
+  "closed": 13
  },
  "UB-Mannheim/zotero-ocr": {
   "open": 7,
@@ -433,8 +433,8 @@
   "closed": 6
  },
  "ZorroStardust/zotero-vim-plus": {
-  "open": 1,
-  "closed": 1
+  "open": 0,
+  "closed": 3
  },
  "Zzq-02/zotero-vocab-builder": {
   "open": 0,
@@ -637,7 +637,7 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 45,
+  "open": 46,
   "closed": 214
  },
  "haozhihuiYmh150/zotero-agent": {
@@ -683,6 +683,10 @@
  "ievlevpn/zotero-latex-suite": {
   "open": 0,
   "closed": 1
+ },
+ "ievlevpn/zotero-sentence-focus": {
+  "open": 0,
+  "closed": 0
  },
  "ievlevpn/zotero-tag-explorer": {
   "open": 0,
@@ -745,8 +749,8 @@
   "closed": 0
  },
  "jlegewie/beaver-zotero": {
-  "open": 32,
-  "closed": 78
+  "open": 31,
+  "closed": 79
  },
  "jlegewie/zotfile": {
   "open": 280,
@@ -760,7 +764,11 @@
   "open": 10,
   "closed": 4
  },
- "justanotherjurastudent/zotero_flexAnnotations": {
+ "justanotherjurastudent/zotero_Book-Group": {
+  "open": 0,
+  "closed": 0
+ },
+ "justanotherjurastudent/zotero_FlexAnnotate": {
   "open": 0,
   "closed": 0
  },
@@ -849,8 +857,8 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 5,
-  "closed": 25
+  "open": 4,
+  "closed": 26
  },
  "mlfc0422/zotero-puls": {
   "open": 0,
@@ -1048,8 +1056,8 @@
   "closed": 17
  },
  "syt2/zotero-addons": {
-  "open": 8,
-  "closed": 45
+  "open": 7,
+  "closed": 46
  },
  "syt2/zotero-scipdf": {
   "open": 17,
@@ -1176,8 +1184,8 @@
   "closed": 9
  },
  "xujialiu/Zotero-TTS": {
-  "open": 9,
-  "closed": 104
+  "open": 10,
+  "closed": 108
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1192,8 +1200,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 151,
-  "closed": 170
+  "open": 150,
+  "closed": 173
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
