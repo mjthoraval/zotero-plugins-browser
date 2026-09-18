@@ -235,7 +235,7 @@
   "closed": 2
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 789,
+  "open": 790,
   "closed": 498
  },
  "MuiseDestiny/eaiser-citation": {
@@ -259,6 +259,10 @@
   "closed": 153
  },
  "Nayuta-9/zotero-geyi-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "NebulaRaven/zotero-refolio": {
   "open": 0,
   "closed": 0
  },
@@ -353,6 +357,10 @@
   "open": 3,
   "closed": 8
  },
+ "Sum-su/yaobian-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "Sum-su/zotero-js-bridge": {
   "open": 0,
   "closed": 0
@@ -363,6 +371,10 @@
  },
  "TangQi001/zotero-ai-assist": {
   "disabled": true
+ },
+ "TheJieee/zotero-pdf-translate": {
+  "open": 0,
+  "closed": 0
  },
  "Theigrams/zotero-pdf-custom-rename": {
   "open": 5,
@@ -625,7 +637,7 @@
   "closed": 0
  },
  "gaviiiinnnn/zotero-settings-sync": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "github-young/zotero-better-authors": {
@@ -761,8 +773,8 @@
   "closed": 1
  },
  "josesiqueira/zotero-watch-folder": {
-  "open": 10,
-  "closed": 4
+  "open": 8,
+  "closed": 6
  },
  "justanotherjurastudent/zotero_Book-Group": {
   "open": 0,
@@ -1035,6 +1047,10 @@
   "open": 0,
   "closed": 0
  },
+ "sstraume97/zotero-highlight-popup-ui-plugin": {
+  "open": 0,
+  "closed": 0
+ },
  "steven-jianhao-li/zotero-AI-Butler": {
   "open": 14,
   "closed": 162
@@ -1184,8 +1200,8 @@
   "closed": 9
  },
  "xujialiu/Zotero-TTS": {
-  "open": 10,
-  "closed": 108
+  "open": 9,
+  "closed": 112
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1200,8 +1216,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 150,
-  "closed": 173
+  "open": 155,
+  "closed": 174
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
