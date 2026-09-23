@@ -36,7 +36,7 @@
   "closed": 0
  },
  "AllanChain/zotero-arxiv-workflow": {
-  "open": 3,
+  "open": 4,
   "closed": 42
  },
  "Alleyf/zotero-duplicate-cleaner": {
@@ -174,7 +174,7 @@
   "open": 0,
   "closed": 4
  },
- "IrisM6/AlphaLikes": {
+ "IrisM6/AlphaPulse": {
   "open": 0,
   "closed": 0
  },
@@ -239,7 +239,7 @@
   "closed": 2
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 791,
+  "open": 792,
   "closed": 500
  },
  "MuiseDestiny/eaiser-citation": {
@@ -322,7 +322,7 @@
   "closed": 2
  },
  "SHANGKAIJIE/zotero-hover-translate-eudic": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "SRT117/LitMTrans-Zotero": {
@@ -330,6 +330,10 @@
   "closed": 0
  },
  "STRUGGLE1999/zotero-ai-notes": {
+  "open": 0,
+  "closed": 0
+ },
+ "Saytanz0815/annotation-color-memory": {
   "open": 0,
   "closed": 0
  },
@@ -565,7 +569,7 @@
   "closed": 0
  },
  "dralkh/seerai": {
-  "open": 4,
+  "open": 5,
   "closed": 6
  },
  "dschaehi/Zotero-Focused-Mode": {
@@ -729,8 +733,8 @@
   "closed": 17
  },
  "introfini/ZotSeek": {
-  "open": 4,
-  "closed": 44
+  "open": 3,
+  "closed": 45
  },
  "introfini/mcp-server-zotero-dev": {
   "open": 8,
@@ -888,6 +892,10 @@
   "open": 0,
   "closed": 0
  },
+ "mxlapan/zotero-prism": {
+  "open": 0,
+  "closed": 0
+ },
  "nian1147/-61-": {
   "open": 0,
   "closed": 0
@@ -933,7 +941,7 @@
   "closed": 8
  },
  "papersgpt/papersgpt-for-zotero": {
-  "open": 75,
+  "open": 74,
   "closed": 36
  },
  "paulMrG2/zotero-highlight-descriptions": {
@@ -1003,6 +1011,10 @@
   "open": 11,
   "closed": 153
  },
+ "renhao12356578/zotero-codex": {
+  "open": 0,
+  "closed": 0
+ },
  "replynow20/gemini-zotero": {
   "open": 0,
   "closed": 3
@@ -1060,7 +1072,7 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 15,
+  "open": 16,
   "closed": 162
  },
  "stevepowell99/causalmap-zotero": {
@@ -1160,8 +1172,8 @@
   "closed": 2
  },
  "windingwind/zotero-actions-tags": {
-  "open": 1,
-  "closed": 242
+  "open": 0,
+  "closed": 243
  },
  "windingwind/zotero-better-notes": {
   "open": 1,
@@ -1212,8 +1224,8 @@
   "closed": 10
  },
  "xujialiu/Zotero-TTS": {
-  "open": 9,
-  "closed": 119
+  "open": 11,
+  "closed": 120
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1229,7 +1241,7 @@
  },
  "yilewang/llm-for-zotero": {
   "open": 157,
-  "closed": 176
+  "closed": 177
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
