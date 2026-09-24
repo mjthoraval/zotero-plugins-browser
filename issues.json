@@ -569,8 +569,8 @@
   "closed": 0
  },
  "dralkh/seerai": {
-  "open": 5,
-  "closed": 6
+  "open": 0,
+  "closed": 11
  },
  "dschaehi/Zotero-Focused-Mode": {
   "open": 3,
@@ -645,7 +645,7 @@
   "closed": 0
  },
  "gaviiiinnnn/zotero-settings-sync": {
-  "open": 1,
+  "open": 2,
   "closed": 2
  },
  "github-young/zotero-better-authors": {
@@ -733,7 +733,7 @@
   "closed": 17
  },
  "introfini/ZotSeek": {
-  "open": 3,
+  "open": 4,
   "closed": 45
  },
  "introfini/mcp-server-zotero-dev": {
@@ -769,7 +769,7 @@
   "closed": 0
  },
  "jlegewie/beaver-zotero": {
-  "open": 31,
+  "open": 32,
   "closed": 79
  },
  "jlegewie/zotfile": {
@@ -877,8 +877,8 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 4,
-  "closed": 26
+  "open": 3,
+  "closed": 27
  },
  "mlfc0422/zotero-puls": {
   "open": 0,
@@ -921,7 +921,7 @@
   "closed": 0
  },
  "oekeur/zotero-linked-mindmaps": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "origin652/zotero-assistant": {
@@ -1220,12 +1220,12 @@
   "closed": 0
  },
  "xuhan-rgb/zotero-ai-sidebar": {
-  "open": 1,
+  "open": 2,
   "closed": 10
  },
  "xujialiu/Zotero-TTS": {
-  "open": 11,
-  "closed": 120
+  "open": 12,
+  "closed": 127
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1240,7 +1240,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 157,
+  "open": 158,
   "closed": 177
  },
  "ysqander/listen2papers-zotero": {
@@ -1275,6 +1275,10 @@
   "closed": 0
  },
  "zhouyi654/zotero-title-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "zxyl1003/Inthes": {
   "open": 0,
   "closed": 0
  },
