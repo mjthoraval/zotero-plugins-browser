@@ -12,7 +12,7 @@
   "closed": 0
  },
  "1ywan/zotero-odh": {
-  "open": 1,
+  "open": 2,
   "closed": 8
  },
  "4965898/zotero-AI-OCR": {
@@ -661,7 +661,7 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 47,
+  "open": 48,
   "closed": 215
  },
  "haozhihuiYmh150/zotero-agent": {
@@ -1028,8 +1028,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 48,
-  "closed": 2533
+  "open": 47,
+  "closed": 2534
  },
  "retorquere/zotero-folder-import": {
   "open": 6,
@@ -1192,8 +1192,8 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 6,
-  "closed": 1068
+  "open": 5,
+  "closed": 1069
  },
  "wshanks/Zutilo": {
   "open": 80,
@@ -1233,9 +1233,13 @@
  },
  "xujialiu/Zotero-TTS": {
   "open": 10,
-  "closed": 140
+  "closed": 141
  },
  "xutaoya/paper-mind": {
+  "open": 0,
+  "closed": 0
+ },
+ "yanchou3/zotero-lastread-format": {
   "open": 0,
   "closed": 0
  },
@@ -1248,7 +1252,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 162,
+  "open": 164,
   "closed": 177
  },
  "ysqander/listen2papers-zotero": {
