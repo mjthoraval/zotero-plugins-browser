@@ -251,7 +251,7 @@
   "closed": 41
  },
  "MuiseDestiny/zotero-attanger": {
-  "open": 155,
+  "open": 156,
   "closed": 92
  },
  "MuiseDestiny/zotero-figure": {
@@ -318,8 +318,8 @@
   "disabled": true
  },
  "RoadToDream/ZotMeta": {
-  "open": 3,
-  "closed": 12
+  "open": 0,
+  "closed": 15
  },
  "Royshare/zotero-spotlight": {
   "open": 7,
@@ -417,7 +417,7 @@
   "closed": 36
  },
  "WildDataX/suppr-zotero-plugin": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "WilliamsLiang/zotero-skr": {
@@ -577,11 +577,11 @@
   "closed": 0
  },
  "diegodlh/zotero-cita": {
-  "open": 84,
-  "closed": 138
+  "open": 85,
+  "closed": 139
  },
  "digitalartificialint-cmd/Zotero-Med-Impact": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "dralkh/seerai": {
@@ -677,8 +677,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 49,
-  "closed": 215
+  "open": 48,
+  "closed": 216
  },
  "haozhihuiYmh150/zotero-agent": {
   "open": 0,
@@ -774,7 +774,7 @@
  },
  "jagaldol/zotero-cite-preview-resizer": {
   "open": 0,
-  "closed": 3
+  "closed": 4
  },
  "janbaykara/zotero-syllabus": {
   "open": 0,
@@ -941,7 +941,7 @@
   "closed": 0
  },
  "oekeur/zotero-linked-mindmaps": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "origin652/zotero-assistant": {
@@ -953,8 +953,8 @@
   "closed": 5
  },
  "pandaAIGC/zotero-doi-fix": {
-  "open": 1,
-  "closed": 1
+  "open": 0,
+  "closed": 2
  },
  "panhaoyu/zotero-categorial-tags": {
   "open": 7,
@@ -1204,7 +1204,7 @@
   "closed": 243
  },
  "windingwind/zotero-better-notes": {
-  "open": 1,
+  "open": 2,
   "closed": 952
  },
  "windingwind/zotero-pdf-preview": {
@@ -1252,8 +1252,8 @@
   "closed": 10
  },
  "xujialiu/Zotero-TTS": {
-  "open": 11,
-  "closed": 152
+  "open": 8,
+  "closed": 155
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1272,7 +1272,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 164,
+  "open": 165,
   "closed": 178
  },
  "ysqander/listen2papers-zotero": {
