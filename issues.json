@@ -199,7 +199,11 @@
   "closed": 0
  },
  "LightWindW/zotero-better-vertical-tabs": {
-  "open": 1,
+  "open": 2,
+  "closed": 0
+ },
+ "Littview/zotero-openalex-pdf": {
+  "open": 0,
   "closed": 0
  },
  "LoveTheStar7/Zotero-CloseFlow": {
@@ -227,6 +231,10 @@
   "closed": 0
  },
  "MCXCC303/just-enough-color": {
+  "open": 0,
+  "closed": 0
+ },
+ "MaiZiPiaoPiao/InkBridge": {
   "open": 0,
   "closed": 0
  },
@@ -516,6 +524,10 @@
   "open": 7,
   "closed": 6
  },
+ "bionux-th/Zotero-Translate-for-ReadingMode": {
+  "open": 0,
+  "closed": 0
+ },
  "bulletproof-system/zotero-maimemo-sync": {
   "open": 0,
   "closed": 4
@@ -749,8 +761,8 @@
   "closed": 0
  },
  "immersive-translate/zotero-immersivetranslate": {
-  "open": 14,
-  "closed": 20
+  "open": 13,
+  "closed": 21
  },
  "inciteful-xyz/inciteful-zotero-plugin": {
   "open": 0,
@@ -773,7 +785,7 @@
   "closed": 0
  },
  "jadense-ai/jadense-in-zotero": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "jagaldol/zotero-cite-preview-resizer": {
@@ -1084,7 +1096,7 @@
   "closed": 1
  },
  "scitedotai/scite-zotero-plugin": {
-  "open": 22,
+  "open": 23,
   "closed": 40
  },
  "sheny-bio/marginalia": {
@@ -1257,7 +1269,7 @@
  },
  "xujialiu/Zotero-TTS": {
   "open": 9,
-  "closed": 155
+  "closed": 157
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1276,8 +1288,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 165,
-  "closed": 179
+  "open": 161,
+  "closed": 184
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
