@@ -252,7 +252,7 @@
  },
  "MuiseDestiny/ZoteroStyle": {
   "open": 794,
-  "closed": 500
+  "closed": 501
  },
  "MuiseDestiny/eaiser-citation": {
   "open": 77,
@@ -481,7 +481,7 @@
   "closed": 1
  },
  "ZionDoki/confucius": {
-  "open": 0,
+  "open": 1,
   "closed": 6
  },
  "ZorroStardust/zotero-vim-plus": {
@@ -605,8 +605,8 @@
   "closed": 0
  },
  "dralkh/seerai": {
-  "open": 1,
-  "closed": 11
+  "open": 0,
+  "closed": 12
  },
  "dschaehi/Zotero-Focused-Mode": {
   "open": 3,
@@ -809,7 +809,7 @@
   "closed": 0
  },
  "jlegewie/beaver-zotero": {
-  "open": 32,
+  "open": 33,
   "closed": 79
  },
  "jlegewie/zotfile": {
@@ -918,7 +918,7 @@
  },
  "mjthoraval/Weavero": {
   "open": 1,
-  "closed": 35
+  "closed": 36
  },
  "mlfc0422/zotero-puls": {
   "open": 0,
@@ -1064,8 +1064,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 47,
-  "closed": 2537
+  "open": 46,
+  "closed": 2539
  },
  "retorquere/zotero-folder-import": {
   "open": 6,
@@ -1272,8 +1272,8 @@
   "closed": 10
  },
  "xujialiu/Zotero-TTS": {
-  "open": 12,
-  "closed": 158
+  "open": 8,
+  "closed": 162
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1293,7 +1293,7 @@
  },
  "yilewang/llm-for-zotero": {
   "open": 163,
-  "closed": 184
+  "closed": 185
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
