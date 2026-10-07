@@ -773,7 +773,7 @@
   "closed": 17
  },
  "introfini/ZotSeek": {
-  "open": 5,
+  "open": 6,
   "closed": 45
  },
  "introfini/mcp-server-zotero-dev": {
@@ -868,6 +868,10 @@
   "open": 42,
   "closed": 346
  },
+ "l0o0/scholar-sketch": {
+  "open": 0,
+  "closed": 2
+ },
  "l0o0/tara": {
   "open": 4,
   "closed": 37
@@ -917,8 +921,8 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 1,
-  "closed": 36
+  "open": 2,
+  "closed": 35
  },
  "mlfc0422/zotero-puls": {
   "open": 0,
@@ -1032,7 +1036,7 @@
   "closed": 2
  },
  "qrkks/zotero-annotation-markdown": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "quertt/zotero-keyword-highlighter": {
@@ -1064,8 +1068,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 46,
-  "closed": 2539
+  "open": 44,
+  "closed": 2541
  },
  "retorquere/zotero-folder-import": {
   "open": 6,
@@ -1232,7 +1236,7 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 7,
+  "open": 8,
   "closed": 1069
  },
  "wshanks/Zutilo": {
@@ -1273,7 +1277,7 @@
  },
  "xujialiu/Zotero-TTS": {
   "open": 8,
-  "closed": 162
+  "closed": 163
  },
  "xutaoya/paper-mind": {
   "open": 0,
