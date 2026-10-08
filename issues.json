@@ -88,7 +88,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 50,
+  "open": 51,
   "closed": 43
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -203,7 +203,7 @@
   "closed": 0
  },
  "Littview/zotero-openalex-pdf": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "LoveTheStar7/Zotero-CloseFlow": {
@@ -251,7 +251,7 @@
   "closed": 2
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 794,
+  "open": 795,
   "closed": 501
  },
  "MuiseDestiny/eaiser-citation": {
@@ -342,7 +342,7 @@
   "closed": 2
  },
  "SHANGKAIJIE/zotero-hover-translate-eudic": {
-  "open": 1,
+  "open": 2,
   "closed": 1
  },
  "SRT117/LitMTrans-Zotero": {
@@ -362,7 +362,7 @@
   "closed": 23
  },
  "ScienceLiveHub/science-live-platform": {
-  "open": 16,
+  "open": 17,
   "closed": 17
  },
  "ShamanStone/Zotero_snapshot_reviver": {
@@ -374,8 +374,8 @@
   "closed": 13
  },
  "SolveSaint/RSSrch-for-Zotero": {
-  "open": 1,
-  "closed": 1
+  "open": 0,
+  "closed": 2
  },
  "StarKujo/zotero-wordbook": {
   "open": 0,
@@ -485,8 +485,8 @@
   "closed": 6
  },
  "ZorroStardust/zotero-vim-plus": {
-  "open": 1,
-  "closed": 3
+  "open": 0,
+  "closed": 4
  },
  "Zzq-02/zotero-vocab-builder": {
   "open": 0,
@@ -809,7 +809,7 @@
   "closed": 0
  },
  "jlegewie/beaver-zotero": {
-  "open": 33,
+  "open": 34,
   "closed": 79
  },
  "jlegewie/zotfile": {
@@ -865,8 +865,8 @@
   "closed": 0
  },
  "l0o0/jasminum": {
-  "open": 42,
-  "closed": 346
+  "open": 38,
+  "closed": 350
  },
  "l0o0/scholar-sketch": {
   "open": 0,
@@ -968,6 +968,10 @@
   "open": 2,
   "closed": 0
  },
+ "oekeur/zotero-timeline": {
+  "open": 2,
+  "closed": 0
+ },
  "origin652/zotero-assistant": {
   "open": 0,
   "closed": 0
@@ -1036,8 +1040,8 @@
   "closed": 2
  },
  "qrkks/zotero-annotation-markdown": {
-  "open": 1,
-  "closed": 1
+  "open": 0,
+  "closed": 2
  },
  "quertt/zotero-keyword-highlighter": {
   "open": 1,
@@ -1069,7 +1073,7 @@
  },
  "retorquere/zotero-better-bibtex": {
   "open": 44,
-  "closed": 2541
+  "closed": 2542
  },
  "retorquere/zotero-folder-import": {
   "open": 6,
@@ -1120,7 +1124,7 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 17,
+  "open": 18,
   "closed": 163
  },
  "stevepowell99/causalmap-zotero": {
@@ -1272,8 +1276,8 @@
   "closed": 0
  },
  "xuhan-rgb/zotero-ai-sidebar": {
-  "open": 4,
-  "closed": 10
+  "open": 1,
+  "closed": 14
  },
  "xujialiu/Zotero-TTS": {
   "open": 8,
@@ -1297,7 +1301,7 @@
  },
  "yilewang/llm-for-zotero": {
   "open": 163,
-  "closed": 185
+  "closed": 186
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
