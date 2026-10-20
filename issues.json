@@ -268,7 +268,7 @@
  },
  "MuiseDestiny/ZoteroStyle": {
   "open": 795,
-  "closed": 502
+  "closed": 503
  },
  "MuiseDestiny/eaiser-citation": {
   "open": 62,
@@ -350,7 +350,7 @@
   "disabled": true
  },
  "RoadToDream/ZotMeta": {
-  "open": 0,
+  "open": 1,
   "closed": 15
  },
  "Royshare/zotero-spotlight": {
@@ -445,8 +445,8 @@
   "closed": 88
  },
  "Veiluna/babeldoc-for-zotero": {
-  "open": 2,
-  "closed": 8
+  "open": 8,
+  "closed": 10
  },
  "Visterainer/zoteroAI": {
   "open": 0,
@@ -1092,7 +1092,7 @@
   "closed": 0
  },
  "redleafnew/delitemwithatt": {
-  "open": 2,
+  "open": 3,
   "closed": 43
  },
  "redleafnew/zotero-updateifs": {
@@ -1164,8 +1164,8 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 18,
-  "closed": 163
+  "open": 10,
+  "closed": 171
  },
  "stevepowell99/causalmap-zotero": {
   "open": 0,
@@ -1276,8 +1276,8 @@
   "closed": 243
  },
  "windingwind/zotero-better-notes": {
-  "open": 3,
-  "closed": 953
+  "open": 2,
+  "closed": 954
  },
  "windingwind/zotero-pdf-preview": {
   "open": 0,
@@ -1324,8 +1324,8 @@
   "closed": 14
  },
  "xujialiu/Zotero-OpenReader": {
-  "open": 18,
-  "closed": 200
+  "open": 15,
+  "closed": 203
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1344,7 +1344,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 169,
+  "open": 170,
   "closed": 189
  },
  "ysqander/listen2papers-zotero": {
