@@ -96,7 +96,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 52,
+  "open": 53,
   "closed": 43
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -262,12 +262,12 @@
   "open": 1,
   "closed": 1
  },
- "Moon-python/zotero-reading-flow": {
-  "open": 0,
+ "Moonweave-Research/zotero-reading-flow": {
+  "open": 1,
   "closed": 2
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 795,
+  "open": 796,
   "closed": 503
  },
  "MuiseDestiny/eaiser-citation": {
@@ -358,8 +358,8 @@
   "closed": 9
  },
  "Rphone/zotero-tab-enhance": {
-  "open": 2,
-  "closed": 13
+  "open": 1,
+  "closed": 14
  },
  "SHANGKAIJIE/zotero-dual-title": {
   "open": 0,
@@ -399,7 +399,7 @@
  },
  "SolveSaint/RSSrch-for-Zotero": {
   "open": 1,
-  "closed": 2
+  "closed": 3
  },
  "StarKujo/zotero-wordbook": {
   "open": 0,
@@ -445,11 +445,11 @@
   "closed": 88
  },
  "Veiluna/babeldoc-for-zotero": {
-  "open": 8,
-  "closed": 10
+  "open": 1,
+  "closed": 18
  },
  "Visterainer/zoteroAI": {
-  "open": 0,
+  "open": 2,
   "closed": 38
  },
  "WWeiyiWang/BiRead": {
@@ -733,8 +733,12 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 52,
+  "open": 53,
   "closed": 218
+ },
+ "haohaomin/zotero-codex": {
+  "open": 0,
+  "closed": 0
  },
  "haozhihuiYmh150/zotero-agent": {
   "open": 0,
@@ -825,7 +829,7 @@
   "closed": 0
  },
  "jadense-ai/jadense-in-zotero": {
-  "open": 2,
+  "open": 3,
   "closed": 0
  },
  "jagaldol/zotero-cite-preview-resizer": {
@@ -905,8 +909,8 @@
   "closed": 353
  },
  "l0o0/scholar-sketch": {
-  "open": 2,
-  "closed": 2
+  "open": 1,
+  "closed": 3
  },
  "l0o0/tara": {
   "open": 4,
@@ -1063,10 +1067,6 @@
   "open": 1,
   "closed": 0
  },
- "q77190858/zotero-pdf-background": {
-  "open": 8,
-  "closed": 18
- },
  "qingpy/zotero-pdf2md": {
   "open": 0,
   "closed": 0
@@ -1102,10 +1102,6 @@
  "redleafnew/zotero-updateifsE": {
   "open": 11,
   "closed": 153
- },
- "renhao12356578/zotero-codex": {
-  "open": 0,
-  "closed": 0
  },
  "replynow20/gemini-zotero": {
   "open": 0,
@@ -1164,8 +1160,8 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 10,
-  "closed": 171
+  "open": 4,
+  "closed": 177
  },
  "stevepowell99/causalmap-zotero": {
   "open": 0,
@@ -1234,6 +1230,10 @@
  "volatile-static/Chartero": {
   "open": 31,
   "closed": 115
+ },
+ "wangqian06/zotero-pdf-background": {
+  "open": 8,
+  "closed": 18
  },
  "wangzikai01/zotero-row-colors": {
   "open": 0,
