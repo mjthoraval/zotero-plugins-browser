@@ -215,8 +215,8 @@
   "closed": 0
  },
  "Liozhang/z-transplit": {
-  "open": 1,
-  "closed": 0
+  "open": 0,
+  "closed": 1
  },
  "Littview/zotero-openalex-pdf": {
   "open": 1,
@@ -445,8 +445,8 @@
   "closed": 88
  },
  "Veiluna/babeldoc-for-zotero": {
-  "open": 1,
-  "closed": 18
+  "open": 4,
+  "closed": 27
  },
  "Visterainer/zoteroAI": {
   "open": 2,
@@ -497,7 +497,7 @@
   "closed": 2
  },
  "Yihtsy/ZotLink": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "Yuriyagn/zotero-pdf2zh": {
@@ -513,7 +513,7 @@
   "closed": 1
  },
  "ZionDoki/confucius": {
-  "open": 1,
+  "open": 2,
   "closed": 9
  },
  "ZorroStardust/zotero-vim-plus": {
@@ -733,7 +733,7 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 53,
+  "open": 54,
   "closed": 218
  },
  "haohaomin/zotero-codex": {
@@ -909,7 +909,7 @@
   "closed": 353
  },
  "l0o0/scholar-sketch": {
-  "open": 1,
+  "open": 2,
   "closed": 3
  },
  "l0o0/tara": {
@@ -986,7 +986,7 @@
  },
  "northword/zotero-format-metadata": {
   "open": 22,
-  "closed": 231
+  "closed": 232
  },
  "northword/zotero-mica": {
   "open": 0,
@@ -1108,8 +1108,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 51,
-  "closed": 2542
+  "open": 50,
+  "closed": 2543
  },
  "retorquere/zotero-folder-import": {
   "open": 6,
@@ -1160,8 +1160,8 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 4,
-  "closed": 177
+  "open": 3,
+  "closed": 178
  },
  "stevepowell99/causalmap-zotero": {
   "open": 0,
@@ -1324,8 +1324,8 @@
   "closed": 14
  },
  "xujialiu/Zotero-OpenReader": {
-  "open": 15,
-  "closed": 203
+  "open": 12,
+  "closed": 210
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1344,7 +1344,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 170,
+  "open": 172,
   "closed": 189
  },
  "ysqander/listen2papers-zotero": {
