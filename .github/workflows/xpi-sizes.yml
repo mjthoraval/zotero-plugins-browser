@@ -1,0 +1,35 @@
+name: Update XPI sizes
+
+# Hourly, so a plugin's new release gets its size soon after the scraper lists
+# it. Cheap: the script only queries XPIs it hasn't sized yet (plus the few
+# "latest" and non-GitHub links), through the release API -- it never downloads
+# an XPI, which would count as a download on the plugin's release page. Only
+# commits on change. Minute 50 keeps it clear of the last-release job (:35).
+on:
+  schedule:
+    - cron: '50 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/fetch-xpi-sizes.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet xpi_sizes.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add xpi_sizes.json
+            git commit -m "chore: update XPI sizes"
+            git push
+          fi

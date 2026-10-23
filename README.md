@@ -15,9 +15,10 @@ Mirrors the Zotero Addons list view (minus the local-install columns):
 - ★ stars
 - Release date and latest version (for the chosen Zotero target)
 - Tags
+- XPI size, for the release linked on that row
 - Direct XPI download link
 
-Plus: search, tag filters, sort by stars / date / name, Zotero version selector, and a light/dark theme that follows the OS.
+Plus: search, tag filters, sort by stars / date / name / XPI size, Zotero version selector, and a light/dark theme that follows the OS.
 
 ## Run it yourself
 

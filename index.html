@@ -78,6 +78,7 @@
   td.stars { white-space: nowrap; color: var(--star); font-variant-numeric: tabular-nums; }
   td.date, td.version, td.updated { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
   td.issues { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.82rem; }
+  td.size { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; color: var(--fg-muted); }
   td.issues .open { color: var(--accent); font-weight: 600; }
   td.issues .sep { color: var(--fg-muted); margin: 0 0.15em; }
   td.issues .closed { color: var(--fg-muted); }
@@ -131,6 +132,8 @@
       <option value="updated-asc">Last updated (oldest)</option>
       <option value="issues-desc">Open issues (high → low)</option>
       <option value="issues-asc">Open issues (low → high)</option>
+      <option value="size-desc">XPI size (large → small)</option>
+      <option value="size-asc">XPI size (small → large)</option>
       <option value="name-asc">Name (A → Z)</option>
       <option value="name-desc">Name (Z → A)</option>
     </select>
@@ -151,6 +154,7 @@
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
         <th title="Newest version compatible with the Zotero version selected above">Latest version</th>
         <th>Tags</th>
+        <th data-sort="size" title="Size of the XPI file linked on the right (for the Zotero version selected above)">Size</th>
         <th></th>
       </tr>
     </thead>
@@ -181,7 +185,7 @@ async function fetchFirst(urls) {
 }
 
 const SORT_DEFAULT = "stars-desc";
-const SORT_RE = /^(name|stars|updated|first|issues)-(asc|desc)$/;
+const SORT_RE = /^(name|stars|updated|first|issues|size)-(asc|desc)$/;
 
 // First-release dates (repo -> ISO date), rebuilt daily by a GitHub Action
 // (.github/workflows/first-releases.yml) from each plugin's own GitHub
@@ -215,6 +219,17 @@ async function fetchLastReleases() {
   } catch { return {}; }
 }
 
+// XPI sizes (download URL -> bytes), refreshed hourly by a GitHub Action
+// (.github/workflows/xpi-sizes.yml) from the GitHub release API -- without
+// downloading the files, which would count as downloads on each plugin's
+// release page. Optional: the page works without it, the column shows dashes.
+async function fetchXpiSizes() {
+  try {
+    const res = await fetch("xpi_sizes.json");
+    return res.ok ? await res.json() : {};
+  } catch { return {}; }
+}
+
 // Read the sort order from the URL (?sort=field-dir), so a refresh or a
 // shared link keeps it; fall back to the default on anything invalid.
 function sortFromURL() {
@@ -239,6 +254,7 @@ const state = {
   firstRelease: {},
   issues: {},
   lastRelease: {},
+  xpiSize: {},
 };
 
 // Reflect state.sort / state.zTarget into the URL without adding history entries.
@@ -347,6 +363,21 @@ function issuesCell(repo) {
     + `<span class="closed" title="${c.closed} closed">${c.closed}</span>`;
 }
 
+// Size in bytes of the XPI the row links to (the release picked for the
+// selected Zotero version); null when unknown.
+function xpiSize(plugin) {
+  const url = pickRelease(plugin, state.zTarget).xpiDownloadUrl?.github;
+  return url ? state.xpiSize[url] ?? null : null;
+}
+
+// "843 B" / "79 KB" / "1.2 MB" (binary units, as file managers show them).
+function fmtSize(bytes) {
+  if (bytes == null) return "—";
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
+  return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+}
+
 function escapeHtml(s) {
   return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
@@ -369,6 +400,7 @@ function render() {
     const ver = rel.xpiVersion || rel.tagName || "";
     const tags = p.tags || [];
     const updated = lastUpdated(p);
+    const size = xpiSize(p);
 
     return `
       <tr>
@@ -386,6 +418,7 @@ function render() {
         </td>
         <td class="version">${escapeHtml(ver)}</td>
         <td class="tags">${tags.map(t => `<span class="t">${escapeHtml(t)}</span>`).join("")}</td>
+        <td class="size"${size != null ? ` title="${size.toLocaleString("en-US")} bytes"` : ""}>${fmtSize(size)}</td>
         <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
       </tr>`;
   }).join("");
@@ -419,6 +452,12 @@ function applyFilters() {
   const sign = dir === "asc" ? 1 : -1;
   list = list.slice().sort((a, b) => {
     let av, bv;
+    if (field === "size") {
+      // Plugins without a known size sort last in either direction.
+      av = xpiSize(a); bv = xpiSize(b);
+      if (av == null || bv == null) return (av == null) - (bv == null);
+      return (av - bv) * sign;
+    }
     if (field === "name") { av = (a.name || a.repo || "").toLowerCase(); bv = (b.name || b.repo || "").toLowerCase(); }
     else if (field === "stars") { av = a.stars ?? 0; bv = b.stars ?? 0; }
     else if (field === "updated") {
@@ -495,11 +534,12 @@ function wire() {
 
 async function load() {
   try {
-    [state.all, state.firstRelease, state.issues, state.lastRelease] = await Promise.all([
+    [state.all, state.firstRelease, state.issues, state.lastRelease, state.xpiSize] = await Promise.all([
       fetchFirst(SOURCES),
       fetchFirstReleases(),
       fetchIssues(),
       fetchLastReleases(),
+      fetchXpiSizes(),
     ]);
     renderTagChips();
     populateZTargets();
