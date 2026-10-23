@@ -131,6 +131,10 @@
   "open": 0,
   "closed": 0
  },
+ "EEEEgoose/ocrflow": {
+  "open": 0,
+  "closed": 0
+ },
  "ET06731/zotero-paper2slides": {
   "open": 1,
   "closed": 1
@@ -441,15 +445,15 @@
   "closed": 0
  },
  "UB-Mannheim/zotero-ocr": {
-  "open": 6,
+  "open": 7,
   "closed": 88
  },
  "Veiluna/babeldoc-for-zotero": {
-  "open": 4,
+  "open": 12,
   "closed": 27
  },
  "Visterainer/zoteroAI": {
-  "open": 2,
+  "open": 3,
   "closed": 38
  },
  "WWeiyiWang/BiRead": {
@@ -609,7 +613,7 @@
   "closed": 23
  },
  "cookjohn/zotero-mcp": {
-  "open": 12,
+  "open": 13,
   "closed": 68
  },
  "daeh/zotero-citation-tally": {
@@ -936,6 +940,10 @@
   "open": 0,
   "closed": 7
  },
+ "liuwenbo0/zotero-local-translate": {
+  "open": 0,
+  "closed": 0
+ },
  "lss3765/Zotero-Bilingual-Reader-Public": {
   "open": 0,
   "closed": 0
@@ -961,8 +969,8 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 3,
-  "closed": 41
+  "open": 2,
+  "closed": 42
  },
  "mlfc0422/zotero-puls": {
   "open": 0,
@@ -985,8 +993,8 @@
   "closed": 0
  },
  "northword/zotero-format-metadata": {
-  "open": 22,
-  "closed": 232
+  "open": 21,
+  "closed": 233
  },
  "northword/zotero-mica": {
   "open": 0,
@@ -1160,7 +1168,7 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 3,
+  "open": 4,
   "closed": 178
  },
  "stevepowell99/causalmap-zotero": {
@@ -1320,11 +1328,11 @@
   "closed": 0
  },
  "xuhan-rgb/zotero-ai-sidebar": {
-  "open": 4,
-  "closed": 14
+  "open": 3,
+  "closed": 15
  },
  "xujialiu/Zotero-OpenReader": {
-  "open": 12,
+  "open": 13,
   "closed": 210
  },
  "xutaoya/paper-mind": {
@@ -1344,7 +1352,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 172,
+  "open": 174,
   "closed": 189
  },
  "ysqander/listen2papers-zotero": {
