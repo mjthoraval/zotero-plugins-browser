@@ -19,6 +19,10 @@
   "open": 0,
   "closed": 0
  },
+ "54yyyu/zotero-mcp": {
+  "open": 45,
+  "closed": 286
+ },
  "ANDYPENG09/zotero-ima-sync": {
   "open": 0,
   "closed": 0
@@ -157,7 +161,7 @@
  },
  "GroundbreakerLhy/CCF-Rank": {
   "open": 0,
-  "closed": 8
+  "closed": 9
  },
  "HDU-OrangeS/zotero-paper-chat": {
   "open": 1,
@@ -219,7 +223,7 @@
   "closed": 0
  },
  "Liozhang/z-transplit": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "Littview/zotero-openalex-pdf": {
@@ -267,8 +271,8 @@
   "closed": 1
  },
  "Moonweave-Research/zotero-reading-flow": {
-  "open": 2,
-  "closed": 2
+  "open": 1,
+  "closed": 3
  },
  "MuiseDestiny/ZoteroStyle": {
   "open": 796,
@@ -952,9 +956,17 @@
   "open": 0,
   "closed": 0
  },
+ "lvyrana/papermind-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "max3925vats/zotero-docling": {
   "open": 1,
   "closed": 15
+ },
+ "meaning-infinite/zotero-color-keys": {
+  "open": 0,
+  "closed": 0
  },
  "menyoung/zoTLDR": {
   "open": 4,
@@ -1192,7 +1204,7 @@
   "closed": 18
  },
  "syt2/zotero-addons": {
-  "open": 9,
+  "open": 11,
   "closed": 46
  },
  "syt2/zotero-scipdf": {
@@ -1332,8 +1344,8 @@
   "closed": 15
  },
  "xujialiu/Zotero-OpenReader": {
-  "open": 13,
-  "closed": 213
+  "open": 12,
+  "closed": 215
  },
  "xutaoya/paper-mind": {
   "open": 0,
