@@ -49,15 +49,18 @@
   .controls label { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--fg-muted); font-size: 0.85rem; }
   .controls select { padding: 0.4rem 0.5rem; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--fg); font: inherit; }
   .tag-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; padding: 0.5rem 1.5rem 0.75rem; }
+  /* Tag pills in the colours of syt2's Add-on Market (tagColor() below): the
+     tag colour as text, 12% of it as background, 20% as border; solid when on. */
   .chip {
     cursor: pointer; user-select: none;
-    background: var(--chip-bg); color: var(--fg);
+    color: var(--tag-color, var(--fg));
+    background: color-mix(in srgb, var(--tag-color, var(--fg-muted)) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--tag-color, var(--fg-muted)) 20%, transparent);
     padding: 0.2rem 0.6rem; border-radius: 999px;
-    font-size: 0.78rem;
-    border: 1px solid transparent;
+    font-size: 0.78rem; font-weight: 600;
   }
-  .chip:hover { border-color: var(--border); }
-  .chip.on { background: var(--chip-bg-on); color: var(--chip-fg-on); border-color: var(--chip-bg-on); }
+  .chip:hover { background: color-mix(in srgb, var(--tag-color, var(--fg-muted)) 18%, transparent); }
+  .chip.on { color: #fff; background: var(--tag-color, var(--chip-bg-on)); border-color: var(--tag-color, var(--chip-bg-on)); }
   .table-wrap { overflow-x: auto; }
   table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
   thead th {
@@ -101,8 +104,12 @@
   .legend .dot { margin: 0 0.15em 0 0.55em; }
   td.tags { white-space: nowrap; }
   td.tags .t {
-    display: inline-block; background: var(--chip-bg); color: var(--fg-muted);
-    padding: 0.05rem 0.4rem; border-radius: 4px; font-size: 0.72rem; margin-right: 0.2rem;
+    display: inline-block; margin-right: 0.25rem;
+    padding: 1px 8px; border-radius: 999px;
+    font-size: 11px; font-weight: 600; line-height: 1.35;
+    color: var(--tag-color, var(--fg-muted));
+    background: color-mix(in srgb, var(--tag-color, var(--fg-muted)) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--tag-color, var(--fg-muted)) 20%, transparent);
   }
   td.dl { white-space: nowrap; }
   td.dl a {
@@ -426,6 +433,23 @@ function fmtSize(bytes) {
   return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
 }
 
+// A tag's colour, as syt2's Add-on Market (zotero-addons, AGPL-3.0) assigns it:
+// the same palette and string hash as its src/utils/tagColor.ts, so a tag looks
+// the same here as in the plugin.
+const TAG_COLORS = [
+  "#2563eb", "#0f766e", "#059669", "#65a30d", "#ca8a04", "#ea580c", "#dc2626",
+  "#e11d48", "#db2777", "#9333ea", "#7c3aed", "#4f46e5", "#0891b2", "#0284c7",
+  "#0369a1", "#0d9488", "#15803d", "#4d7c0f", "#b45309", "#be123c",
+];
+function tagColor(tag) {
+  let hash = 0;
+  for (const char of tag) {
+    hash = (hash << 5) - hash + char.charCodeAt(0);
+    hash |= 0;
+  }
+  return TAG_COLORS[Math.abs(hash) % TAG_COLORS.length];
+}
+
 function escapeHtml(s) {
   return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
@@ -469,7 +493,7 @@ function render() {
           <span class="age">${escapeHtml(relAge(updated))}</span>
         </td>
         <td class="version">${escapeHtml(ver)}${overMax ? `<span class="max">max ${escapeHtml(overMax)}</span>` : ""}</td>
-        <td class="tags">${tags.map(t => `<span class="t">${escapeHtml(t)}</span>`).join("")}</td>
+        <td class="tags">${tags.map(t => `<span class="t" style="--tag-color: ${tagColor(t)}">${escapeHtml(t)}</span>`).join("")}</td>
         <td class="size"${size != null ? ` title="${size.toLocaleString("en-US")} bytes"` : ""}>${fmtSize(size)}</td>
         <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
       </tr>`;
@@ -549,7 +573,7 @@ function renderTagChips() {
   for (const p of state.all) for (const t of (p.tags || [])) counts[t] = (counts[t] || 0) + 1;
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
   document.getElementById("tagChips").innerHTML = sorted.map(([t, n]) =>
-    `<span class="chip" data-tag="${escapeHtml(t)}">${escapeHtml(t)} <span style="opacity:0.6">${n}</span></span>`
+    `<span class="chip" data-tag="${escapeHtml(t)}" style="--tag-color: ${tagColor(t)}">${escapeHtml(t)} <span style="opacity:0.6">${n}</span></span>`
   ).join("");
 }
 

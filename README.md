@@ -32,6 +32,6 @@ It's a single self-contained HTML file with no build step. Either:
 ## Credits
 
 - Plugin metadata: [`syt2/zotero-addons-scraper`](https://github.com/syt2/zotero-addons-scraper) (CC0, scraped from each plugin's GitHub).
-- In-Zotero counterpart: [`syt2/zotero-addons`](https://github.com/syt2/zotero-addons).
+- In-Zotero counterpart: [`syt2/zotero-addons`](https://github.com/syt2/zotero-addons) (AGPL-3.0). The tag colours reuse its palette and hash (`src/utils/tagColor.ts`), so each tag has the same colour here as in the plugin.
 
 This is an unofficial prototype, not maintained by syt2. If you'd like a similar feature integrated into the official project, see the discussion in the upstream issue tracker.
