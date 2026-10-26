@@ -125,7 +125,7 @@
  },
  "Dominic-DallOsto/zotero-reading-list": {
   "open": 13,
-  "closed": 69
+  "closed": 70
  },
  "DrinkTea905/zotero-paper-outline": {
   "open": 3,
@@ -230,6 +230,10 @@
   "open": 1,
   "closed": 0
  },
+ "LiusirAi/tree-koala": {
+  "open": 0,
+  "closed": 0
+ },
  "LoveTheStar7/Zotero-CloseFlow": {
   "open": 0,
   "closed": 0
@@ -239,6 +243,10 @@
   "closed": 0
  },
  "LuckYang1/zotero2eagle": {
+  "open": 0,
+  "closed": 0
+ },
+ "Luke-Evan/zotero-keep-window": {
   "open": 0,
   "closed": 0
  },
@@ -272,7 +280,7 @@
  },
  "Moonweave-Research/zotero-reading-flow": {
   "open": 1,
-  "closed": 3
+  "closed": 4
  },
  "MuiseDestiny/ZoteroStyle": {
   "open": 796,
@@ -291,7 +299,7 @@
   "closed": 28
  },
  "MuiseDestiny/zotero-gpt": {
-  "open": 242,
+  "open": 243,
   "closed": 172
  },
  "MuiseDestiny/zotero-reference": {
@@ -378,8 +386,8 @@
   "closed": 1
  },
  "SRT117/LitMTrans-Zotero": {
-  "open": 2,
-  "closed": 0
+  "open": 1,
+  "closed": 1
  },
  "STRUGGLE1999/zotero-ai-notes": {
   "open": 0,
@@ -390,8 +398,8 @@
   "closed": 0
  },
  "SciImage/zotero-attachment-scanner": {
-  "open": 2,
-  "closed": 23
+  "open": 0,
+  "closed": 25
  },
  "ScienceLiveHub/science-live-platform": {
   "open": 19,
@@ -418,7 +426,7 @@
   "closed": 8
  },
  "Sum-su/yaobian-zotero": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "Sum-su/zotero-js-bridge": {
@@ -845,7 +853,7 @@
   "closed": 4
  },
  "janbaykara/zotero-syllabus": {
-  "open": 0,
+  "open": 1,
   "closed": 14
  },
  "jetxa/zotero-ai-assistant": {
@@ -905,7 +913,7 @@
   "closed": 2
  },
  "l0o0/Garden-for-Zotero": {
-  "open": 3,
+  "open": 4,
   "closed": 13
  },
  "l0o0/MagicZotero": {
@@ -913,7 +921,7 @@
   "closed": 0
  },
  "l0o0/jasminum": {
-  "open": 36,
+  "open": 37,
   "closed": 353
  },
  "l0o0/scholar-sketch": {
@@ -1204,8 +1212,8 @@
   "closed": 18
  },
  "syt2/zotero-addons": {
-  "open": 11,
-  "closed": 46
+  "open": 9,
+  "closed": 49
  },
  "syt2/zotero-scipdf": {
   "open": 18,
@@ -1296,7 +1304,7 @@
   "closed": 243
  },
  "windingwind/zotero-better-notes": {
-  "open": 2,
+  "open": 4,
   "closed": 954
  },
  "windingwind/zotero-pdf-preview": {
@@ -1304,7 +1312,7 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 12,
+  "open": 13,
   "closed": 1069
  },
  "wshanks/Zutilo": {
@@ -1364,7 +1372,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 175,
+  "open": 176,
   "closed": 190
  },
  "ysqander/listen2papers-zotero": {
