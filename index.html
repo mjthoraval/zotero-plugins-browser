@@ -17,6 +17,7 @@
     --chip-bg-on: #cc2936;
     --chip-fg-on: #ffffff;
     --star: #d4a017;
+    --bad: #cf222e;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
@@ -29,6 +30,7 @@
       --link: #6ab0ff;
       --chip-bg: #2a2a30;
       --star: #e0b840;
+      --bad: #ff7b72;
     }
   }
   * { box-sizing: border-box; }
@@ -78,6 +80,13 @@
   td.stars { white-space: nowrap; color: var(--star); font-variant-numeric: tabular-nums; }
   td.date, td.version, td.updated { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
   td.issues { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.82rem; }
+  /* A plugin whose newest release declares a Zotero major that Zotero asks
+     plugins not to declare yet (see ALLOWED_ZOTERO_MAJOR). */
+  tbody tr.overdeclared { box-shadow: inset 4px 0 0 var(--bad); }
+  tbody tr.overdeclared td.name a { color: var(--bad); }
+  td.version .max { display: block; color: var(--bad); font-size: 0.72rem; }
+  .legend-bad { color: var(--bad); }
+  .legend-bad a { color: var(--bad); }
   td.size { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; color: var(--fg-muted); }
   td.issues .open { color: var(--accent); font-weight: 600; }
   td.issues .sep { color: var(--fg-muted); margin: 0 0.15em; }
@@ -114,6 +123,7 @@
     <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
     · <span id="count" class="count">loading…</span>
     · <span class="legend" title="Recency of the latest release"><span class="dot fresh"></span>&lt; 6 mo<span class="dot aging"></span>&lt; 2 yr<span class="dot stale"></span>older</span>
+    <span id="overdeclared" class="legend-bad"></span>
   </div>
 </header>
 
@@ -183,6 +193,14 @@ async function fetchFirst(urls) {
   }
   throw lastErr;
 }
+
+// The newest Zotero major plugins may declare compatibility with. Zotero asks
+// plugins not to declare the next one until it announces, on the zotero-dev
+// list, that it is feature-frozen: "Do not update your plugin to declare
+// compatibility with Zotero 11 at this time" (Zotero 11 for Developers).
+// Raise this when that announcement comes.
+const ALLOWED_ZOTERO_MAJOR = 10;
+const COMPAT_RULE_URL = "https://www.zotero.org/support/dev/zotero_11_for_developers#updating_plugin_compatibility";
 
 const SORT_DEFAULT = "stars-desc";
 const SORT_RE = /^(name|stars|updated|first|issues|size)-(asc|desc)$/;
@@ -268,19 +286,26 @@ function updateURLState() {
 }
 
 // Build the Zotero-version dropdown from the versions present in the data,
-// newest first (the hardcoded 6/7 list predated Zotero 8/9/10 entries).
+// newest first (the hardcoded 6/7 list predated Zotero 8/9/10 entries). Majors
+// above ALLOWED_ZOTERO_MAJOR are left out: the scraper derives them from
+// maximums Zotero asks plugins not to declare yet ("11.*", "*", "99.*").
 function populateZTargets() {
   const vers = new Set();
   for (const p of state.all) {
     for (const r of (p.releases || [])) {
-      if (r.targetZoteroVersion != null) vers.add(String(r.targetZoteroVersion));
+      if (r.targetZoteroVersion != null && Number(r.targetZoteroVersion) <= ALLOWED_ZOTERO_MAJOR) {
+        vers.add(String(r.targetZoteroVersion));
+      }
     }
   }
   const sel = document.getElementById("z-target");
   sel.innerHTML = '<option value="">any</option>' +
     [...vers].sort((a, b) => Number(b) - Number(a))
       .map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join("");
-  if (state.zTarget && !vers.has(state.zTarget)) state.zTarget = "";
+  if (state.zTarget && !vers.has(state.zTarget)) {
+    state.zTarget = "";          // e.g. an old shared link with ?z=11
+    updateURLState();
+  }
   sel.value = state.zTarget;
 }
 
@@ -294,14 +319,37 @@ function syncSortUI() {
   });
 }
 
-// Pick the release that targets the chosen Zotero version, else first.
+// Pick the release that targets the chosen Zotero version; with no version
+// chosen, the first one targeting an allowed major, else the first.
 function pickRelease(plugin, zTarget) {
   const rels = plugin.releases || [];
   if (zTarget) {
     const exact = rels.find(r => String(r.targetZoteroVersion) === String(zTarget));
     if (exact) return exact;
   }
-  return rels[0] || {};
+  return rels.find(r => Number(r.targetZoteroVersion) <= ALLOWED_ZOTERO_MAJOR) || rels[0] || {};
+}
+
+// Major version of a declared maximum: "11.*" -> 11, "10.99.99" -> 10,
+// "*" -> Infinity (open-ended); null when there is no number to read.
+function maxMajor(v) {
+  if (!v) return null;
+  if (String(v).trim() === "*") return Infinity;
+  const m = /^\s*(\d+)/.exec(v);
+  return m ? Number(m[1]) : null;
+}
+
+// The maximum declared by the plugin's NEWEST listed release, when it goes past
+// ALLOWED_ZOTERO_MAJOR; else null. Judged on the newest release only: an
+// older one may still be listed for an old Zotero target after the author has
+// corrected the maximum (Better BibTeX's v9.0.27 declared "19.*", v9.0.71 "10.*").
+function overdeclaredMax(plugin) {
+  let newest = null;
+  for (const r of plugin.releases || []) {
+    if (!newest || (r.releaseDate || "") > (newest.releaseDate || "")) newest = r;
+  }
+  const major = newest && maxMajor(newest.maxZoteroVersion);
+  return major != null && major > ALLOWED_ZOTERO_MAJOR ? newest.maxZoteroVersion : null;
 }
 
 // Latest release date across ALL releases, independent of the selected Zotero
@@ -401,9 +449,13 @@ function render() {
     const tags = p.tags || [];
     const updated = lastUpdated(p);
     const size = xpiSize(p);
+    const overMax = overdeclaredMax(p);
+    const overTip = overMax
+      ? `Declares compatibility up to Zotero ${overMax}. Zotero asks plugins not to declare compatibility with Zotero ${ALLOWED_ZOTERO_MAJOR + 1} until it announces the feature freeze.`
+      : "";
 
     return `
-      <tr>
+      <tr${overMax ? ` class="overdeclared" title="${escapeHtml(overTip)}"` : ""}>
         <td class="name">
           <a href="${escapeHtml(repoUrl)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
           <span class="author">${escapeHtml(author)}</span>
@@ -416,7 +468,7 @@ function render() {
           <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
           <span class="age">${escapeHtml(relAge(updated))}</span>
         </td>
-        <td class="version">${escapeHtml(ver)}</td>
+        <td class="version">${escapeHtml(ver)}${overMax ? `<span class="max">max ${escapeHtml(overMax)}</span>` : ""}</td>
         <td class="tags">${tags.map(t => `<span class="t">${escapeHtml(t)}</span>`).join("")}</td>
         <td class="size"${size != null ? ` title="${size.toLocaleString("en-US")} bytes"` : ""}>${fmtSize(size)}</td>
         <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
@@ -482,6 +534,16 @@ function applyFilters() {
   render();
 }
 
+// Header note: how many plugins are marked red, with a link to Zotero's rule.
+function renderOverdeclaredNote() {
+  const n = state.all.filter(overdeclaredMax).length;
+  const el = document.getElementById("overdeclared");
+  if (!n) { el.innerHTML = ""; return; }
+  el.innerHTML = `· <a href="${COMPAT_RULE_URL}" target="_blank" rel="noopener"`
+    + ` title="Zotero asks plugins not to declare compatibility with Zotero ${ALLOWED_ZOTERO_MAJOR + 1} yet">`
+    + `${n} in red declare Zotero ${ALLOWED_ZOTERO_MAJOR + 1}+</a>`;
+}
+
 function renderTagChips() {
   const counts = {};
   for (const p of state.all) for (const t of (p.tags || [])) counts[t] = (counts[t] || 0) + 1;
@@ -542,6 +604,7 @@ async function load() {
       fetchXpiSizes(),
     ]);
     renderTagChips();
+    renderOverdeclaredNote();
     populateZTargets();
     wire();
     syncSortUI();

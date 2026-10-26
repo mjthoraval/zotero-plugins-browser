@@ -18,6 +18,8 @@ Mirrors the Zotero Addons list view (minus the local-install columns):
 - XPI size, for the release linked on that row
 - Direct XPI download link
 
+Plugins whose newest release declares compatibility with a Zotero major that Zotero asks plugins not to declare yet (currently Zotero 11+: ["Do not update your plugin to declare compatibility with Zotero 11 at this time"](https://www.zotero.org/support/dev/zotero_11_for_developers#updating_plugin_compatibility)) are marked in red, with the declared maximum; the Zotero version selector stops at the allowed major (`ALLOWED_ZOTERO_MAJOR` in `index.html`, to raise when Zotero announces the next feature freeze).
+
 Plus: search, tag filters, sort by stars / date / name / XPI size, Zotero version selector, and a light/dark theme that follows the OS.
 
 ## Run it yourself
