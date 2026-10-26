@@ -255,6 +255,87 @@ async function fetchXpiSizes() {
   } catch { return {}; }
 }
 
+// Sizes the hourly job hasn't recorded yet. GitHub runs "hourly" schedules every
+// few hours on a free repo, so a release published since the last run would
+// show "—" for hours. Look those few up here, from the release API: asset
+// metadata, NOT a download, so the plugins' download counts stay untouched.
+// Unauthenticated API calls are limited to 60/hour per visitor, so a page load
+// makes at most LIVE_SIZE_MAX_REQUESTS of them, stops at a rate-limit answer,
+// and remembers what it found for a week (an asset under a fixed tag doesn't
+// change size). Non-GitHub XPIs are left to the job (no CORS for a browser).
+const LIVE_SIZE_CACHE = "xpiSizeCache.v1";
+const LIVE_SIZE_MAX_REQUESTS = 20;
+const LIVE_SIZE_TTL = 7 * 86400000;
+const GH_ASSET = /^https:\/\/github\.com\/([^/]+)\/([^/]+)\/releases\/(?:latest\/download|download\/(.+))\/([^/?#]+)$/;
+
+function readSizeCache() {
+  try { return JSON.parse(localStorage.getItem(LIVE_SIZE_CACHE)) || {}; } catch { return {}; }
+}
+function writeSizeCache(cache) {
+  const now = Date.now();
+  for (const [url, entry] of Object.entries(cache)) {
+    if (!entry || now - entry.t > LIVE_SIZE_TTL) delete cache[url];
+  }
+  try { localStorage.setItem(LIVE_SIZE_CACHE, JSON.stringify(cache)); } catch {}
+}
+
+async function fillMissingSizes() {
+  const missing = new Set();
+  for (const p of state.all) {
+    for (const r of p.releases || []) {
+      const url = r.xpiDownloadUrl?.github;
+      if (url && state.xpiSize[url] == null) missing.add(url);
+    }
+  }
+  if (!missing.size) return;
+
+  const cache = readSizeCache();
+  const now = Date.now();
+  let changed = false;
+  const releases = new Map();
+  for (const url of missing) {
+    const hit = cache[url];
+    if (hit && now - hit.t < LIVE_SIZE_TTL) { state.xpiSize[url] = hit.size; changed = true; continue; }
+    const m = GH_ASSET.exec(url);
+    if (!m) continue;
+    const [, owner, repo, tag, file] = m;
+    const key = `${owner}/${repo}@${tag ?? ""}`;
+    if (!releases.has(key)) {
+      releases.set(key, { owner, repo, tag: tag === undefined ? null : decodeURIComponent(tag), files: [] });
+    }
+    releases.get(key).files.push({ url, name: decodeURIComponent(file) });
+  }
+  if (changed) applyFilters();
+
+  let requests = 0;
+  changed = false;
+  for (const rel of releases.values()) {
+    if (requests++ >= LIVE_SIZE_MAX_REQUESTS) break;
+    const which = rel.tag === null ? "latest" : `tags/${encodeURIComponent(rel.tag)}`;
+    let res;
+    try {
+      res = await fetch(`https://api.github.com/repos/${rel.owner}/${rel.repo}/releases/${which}`,
+        { headers: { Accept: "application/vnd.github+json" } });
+    } catch { break; }
+    if (res.status === 403 || res.status === 429) break;   // rate-limited: next visit
+    if (!res.ok) continue;
+    const assets = (await res.json()).assets || [];
+    for (const f of rel.files) {
+      const asset = assets.find(a => a.name === f.name)
+        || assets.find(a => a.name.toLowerCase() === f.name.toLowerCase());
+      if (!asset) continue;
+      state.xpiSize[f.url] = asset.size;
+      // A "latest" link can point at a new file at any time: don't remember it.
+      if (rel.tag !== null) cache[f.url] = { size: asset.size, t: now };
+      changed = true;
+    }
+  }
+  if (changed) {
+    writeSizeCache(cache);
+    applyFilters();
+  }
+}
+
 // Read the sort order from the URL (?sort=field-dir), so a refresh or a
 // shared link keeps it; fall back to the default on anything invalid.
 function sortFromURL() {
@@ -633,6 +714,7 @@ async function load() {
     wire();
     syncSortUI();
     applyFilters();
+    fillMissingSizes();   // not awaited: the table is usable meanwhile
   } catch (e) {
     document.getElementById("count").textContent = `failed to load: ${e.message}`;
   }

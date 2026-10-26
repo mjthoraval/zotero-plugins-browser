@@ -15,7 +15,7 @@ Mirrors the Zotero Addons list view (minus the local-install columns):
 - ★ stars
 - Release date and latest version (for the chosen Zotero target)
 - Tags
-- XPI size, for the release linked on that row
+- XPI size, for the release linked on that row (from `xpi_sizes.json`, refreshed by a scheduled job; a release newer than the last run is looked up by the page from GitHub's release API, without downloading it)
 - Direct XPI download link
 
 Plugins whose newest release declares compatibility with a Zotero major that Zotero asks plugins not to declare yet (currently Zotero 11+: ["Do not update your plugin to declare compatibility with Zotero 11 at this time"](https://www.zotero.org/support/dev/zotero_11_for_developers#updating_plugin_compatibility)) are marked in red, with the declared maximum; the Zotero version selector stops at the allowed major (`ALLOWED_ZOTERO_MAJOR` in `index.html`, to raise when Zotero announces the next feature freeze).
