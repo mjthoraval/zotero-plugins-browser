@@ -283,15 +283,15 @@
   "closed": 4
  },
  "MuiseDestiny/ZoteroStyle": {
-  "open": 796,
-  "closed": 504
+  "open": 4,
+  "closed": 1296
  },
  "MuiseDestiny/eaiser-citation": {
   "open": 62,
   "closed": 56
  },
  "MuiseDestiny/zotero-attanger": {
-  "open": 158,
+  "open": 159,
   "closed": 93
  },
  "MuiseDestiny/zotero-figure": {
@@ -299,8 +299,8 @@
   "closed": 28
  },
  "MuiseDestiny/zotero-gpt": {
-  "open": 243,
-  "closed": 172
+  "open": 1,
+  "closed": 414
  },
  "MuiseDestiny/zotero-reference": {
   "open": 211,
@@ -335,8 +335,8 @@
   "closed": 14
  },
  "PubPeerFoundation/pubpeer_zotero_plugin": {
-  "open": 4,
-  "closed": 28
+  "open": 3,
+  "closed": 29
  },
  "QinSihan/zotero-paper-partner": {
   "open": 0,
@@ -465,7 +465,7 @@
   "closed": 40
  },
  "Visterainer/zoteroAI": {
-  "open": 2,
+  "open": 3,
   "closed": 38
  },
  "WWeiyiWang/BiRead": {
@@ -485,7 +485,7 @@
   "closed": 0
  },
  "WncFht/texlate": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "XiaoDuComrade/Zotero-margin-notes": {
@@ -493,8 +493,8 @@
   "closed": 0
  },
  "XiaoDuComrade/zotero-manual-sort": {
-  "open": 2,
-  "closed": 0
+  "open": 1,
+  "closed": 1
  },
  "XiaoDuComrade/zotero-margin-comments": {
   "open": 0,
@@ -529,8 +529,8 @@
   "closed": 1
  },
  "ZionDoki/confucius": {
-  "open": 2,
-  "closed": 9
+  "open": 1,
+  "closed": 10
  },
  "ZorroStardust/zotero-vim-plus": {
   "open": 0,
@@ -710,7 +710,7 @@
  },
  "forrtproject/fred_zotero": {
   "open": 8,
-  "closed": 70
+  "closed": 71
  },
  "frangoud/ZoteroDuplicatesMerger": {
   "open": 13,
@@ -749,8 +749,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 53,
-  "closed": 220
+  "open": 50,
+  "closed": 224
  },
  "haohaomin/zotero-codex": {
   "open": 0,
@@ -837,7 +837,7 @@
   "closed": 0
  },
  "introfini/ZotSeek": {
-  "open": 5,
+  "open": 6,
   "closed": 46
  },
  "introfini/mcp-server-zotero-dev": {
@@ -933,7 +933,7 @@
   "closed": 354
  },
  "l0o0/scholar-sketch": {
-  "open": 0,
+  "open": 1,
   "closed": 6
  },
  "l0o0/tara": {
@@ -1006,7 +1006,7 @@
  },
  "mobench/zotero-annotation-links": {
   "open": 0,
-  "closed": 7
+  "closed": 8
  },
  "mpatelh/zbatch": {
   "open": 0,
@@ -1380,8 +1380,8 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 173,
-  "closed": 195
+  "open": 172,
+  "closed": 198
  },
  "ysqander/listen2papers-zotero": {
   "open": 0,
