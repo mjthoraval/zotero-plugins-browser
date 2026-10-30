@@ -100,7 +100,7 @@
   "closed": 0
  },
  "ChenglongMa/zoplicate": {
-  "open": 53,
+  "open": 54,
   "closed": 43
  },
  "Chikit-L/zotero-fulltext-translate": {
@@ -215,7 +215,7 @@
   "closed": 0
  },
  "LightWindW/zotero-better-vertical-tabs": {
-  "open": 0,
+  "open": 2,
   "closed": 2
  },
  "Liozhang/z-search": {
@@ -461,12 +461,12 @@
   "closed": 88
  },
  "Veiluna/babeldoc-for-zotero": {
-  "open": 12,
-  "closed": 40
+  "open": 13,
+  "closed": 41
  },
  "Visterainer/zoteroAI": {
-  "open": 3,
-  "closed": 38
+  "open": 1,
+  "closed": 40
  },
  "WWeiyiWang/BiRead": {
   "open": 0,
@@ -505,7 +505,7 @@
   "closed": 0
  },
  "XoYaPeng/zotero-hide-fields": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "YanSH258/zotero-dailypaper": {
@@ -626,7 +626,7 @@
  },
  "cookjohn/zotero-mcp": {
   "open": 13,
-  "closed": 68
+  "closed": 69
  },
  "daeh/zotero-citation-tally": {
   "open": 2,
@@ -677,6 +677,10 @@
   "closed": 26
  },
  "endoretic/zotero-wallpaper": {
+  "open": 0,
+  "closed": 0
+ },
+ "equalang/equalang-zotero-plugin": {
   "open": 0,
   "closed": 0
  },
@@ -861,7 +865,7 @@
   "closed": 4
  },
  "janbaykara/zotero-syllabus": {
-  "open": 1,
+  "open": 4,
   "closed": 14
  },
  "jetxa/zotero-ai-assistant": {
@@ -933,7 +937,7 @@
   "closed": 354
  },
  "l0o0/scholar-sketch": {
-  "open": 1,
+  "open": 2,
   "closed": 6
  },
  "l0o0/tara": {
@@ -977,7 +981,7 @@
   "closed": 0
  },
  "max3925vats/zotero-docling": {
-  "open": 1,
+  "open": 2,
   "closed": 15
  },
  "meaning-infinite/zotero-color-keys": {
@@ -1041,11 +1045,11 @@
   "closed": 0
  },
  "oekeur/zotero-linked-mindmaps": {
-  "open": 5,
+  "open": 7,
   "closed": 0
  },
  "oekeur/zotero-timeline": {
-  "open": 5,
+  "open": 7,
   "closed": 0
  },
  "origin652/zotero-assistant": {
@@ -1144,7 +1148,7 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 52,
+  "open": 53,
   "closed": 2543
  },
  "retorquere/zotero-folder-import": {
@@ -1196,7 +1200,7 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 3,
+  "open": 4,
   "closed": 181
  },
  "stevepowell99/causalmap-zotero": {
