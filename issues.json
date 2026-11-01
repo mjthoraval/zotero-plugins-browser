@@ -20,8 +20,8 @@
   "closed": 0
  },
  "54yyyu/zotero-mcp": {
-  "open": 48,
-  "closed": 286
+  "open": 39,
+  "closed": 297
  },
  "ANDYPENG09/zotero-ima-sync": {
   "open": 1,
@@ -287,7 +287,7 @@
   "closed": 1296
  },
  "MuiseDestiny/eaiser-citation": {
-  "open": 62,
+  "open": 63,
   "closed": 56
  },
  "MuiseDestiny/zotero-attanger": {
@@ -415,7 +415,7 @@
  },
  "SolveSaint/RSSrch-for-Zotero": {
   "open": 1,
-  "closed": 3
+  "closed": 4
  },
  "StarKujo/zotero-wordbook": {
   "open": 0,
@@ -533,7 +533,7 @@
   "closed": 10
  },
  "ZorroStardust/zotero-vim-plus": {
-  "open": 0,
+  "open": 2,
   "closed": 4
  },
  "Zzq-02/zotero-vocab-builder": {
@@ -934,10 +934,10 @@
  },
  "l0o0/jasminum": {
   "open": 36,
-  "closed": 354
+  "closed": 355
  },
  "l0o0/scholar-sketch": {
-  "open": 2,
+  "open": 3,
   "closed": 6
  },
  "l0o0/tara": {
@@ -973,6 +973,10 @@
   "closed": 0
  },
  "lss3765/Zotero-Display-Title-Public": {
+  "open": 0,
+  "closed": 0
+ },
+ "luciferer/zotero-open-router": {
   "open": 0,
   "closed": 0
  },
@@ -1148,8 +1152,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 52,
-  "closed": 2544
+  "open": 51,
+  "closed": 2546
  },
  "retorquere/zotero-folder-import": {
   "open": 6,
@@ -1240,7 +1244,7 @@
   "closed": 66
  },
  "tenglvjun/mktero": {
-  "open": 0,
+  "open": 1,
   "closed": 5
  },
  "theRatramnus/RIOPACAddChapter": {
@@ -1324,7 +1328,7 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 13,
+  "open": 14,
   "closed": 1070
  },
  "wshanks/Zutilo": {
@@ -1365,7 +1369,7 @@
  },
  "xujialiu/Zotero-OpenReader": {
   "open": 11,
-  "closed": 216
+  "closed": 219
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1384,7 +1388,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 173,
+  "open": 174,
   "closed": 198
  },
  "ysqander/listen2papers-zotero": {
