@@ -12,15 +12,15 @@
   "closed": 0
  },
  "1ywan/zotero-odh": {
-  "open": 2,
-  "closed": 8
+  "open": 1,
+  "closed": 9
  },
  "4965898/zotero-AI-OCR": {
   "open": 0,
   "closed": 0
  },
  "54yyyu/zotero-mcp": {
-  "open": 39,
+  "open": 40,
   "closed": 297
  },
  "ANDYPENG09/zotero-ima-sync": {
@@ -170,6 +170,10 @@
  "Helloxiaolaodi/Zotero-StaticSync": {
   "disabled": true
  },
+ "Huaisure/zotero-quick-copy-pdf": {
+  "open": 0,
+  "closed": 0
+ },
  "Huoyuuu/zotero-ai-latex": {
   "open": 0,
   "closed": 0
@@ -187,8 +191,8 @@
   "closed": 45
  },
  "Infinity4B/zotero-hjfy-split-reader": {
-  "open": 1,
-  "closed": 4
+  "open": 0,
+  "closed": 5
  },
  "IrisM6/AlphaPulse": {
   "open": 0,
@@ -215,7 +219,7 @@
   "closed": 0
  },
  "LightWindW/zotero-better-vertical-tabs": {
-  "open": 2,
+  "open": 3,
   "closed": 2
  },
  "Liozhang/z-search": {
@@ -284,7 +288,7 @@
  },
  "MuiseDestiny/ZoteroStyle": {
   "open": 3,
-  "closed": 1299
+  "closed": 1300
  },
  "MuiseDestiny/eaiser-citation": {
   "open": 62,
@@ -300,7 +304,7 @@
  },
  "MuiseDestiny/zotero-gpt": {
   "open": 1,
-  "closed": 414
+  "closed": 415
  },
  "MuiseDestiny/zotero-reference": {
   "open": 211,
@@ -472,6 +476,10 @@
   "open": 0,
   "closed": 0
  },
+ "Waynehfut/Paper-Miner": {
+  "open": 0,
+  "closed": 0
+ },
  "WildDataX/suppr-zotero-plugin": {
   "open": 0,
   "closed": 0
@@ -493,7 +501,7 @@
   "closed": 0
  },
  "XiaoDuComrade/zotero-manual-sort": {
-  "open": 1,
+  "open": 2,
   "closed": 1
  },
  "XiaoDuComrade/zotero-margin-comments": {
@@ -533,8 +541,8 @@
   "closed": 10
  },
  "ZorroStardust/zotero-vim-plus": {
-  "open": 2,
-  "closed": 4
+  "open": 1,
+  "closed": 5
  },
  "Zzq-02/zotero-vocab-builder": {
   "open": 0,
@@ -680,6 +688,10 @@
   "open": 11,
   "closed": 26
  },
+ "elsevoid/zotero-close-to-tray": {
+  "open": 0,
+  "closed": 0
+ },
  "endoretic/zotero-wallpaper": {
   "open": 0,
   "closed": 0
@@ -717,8 +729,8 @@
   "closed": 23
  },
  "forrtproject/fred_zotero": {
-  "open": 8,
-  "closed": 71
+  "open": 9,
+  "closed": 73
  },
  "frangoud/ZoteroDuplicatesMerger": {
   "open": 13,
@@ -757,8 +769,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 53,
-  "closed": 224
+  "open": 51,
+  "closed": 226
  },
  "haohaomin/zotero-codex": {
   "open": 0,
@@ -881,7 +893,7 @@
   "closed": 0
  },
  "jlegewie/beaver-zotero": {
-  "open": 38,
+  "open": 39,
   "closed": 83
  },
  "jlegewie/zotfile": {
@@ -897,7 +909,7 @@
   "closed": 0
  },
  "josesiqueira/zotero-watch-folder": {
-  "open": 9,
+  "open": 10,
   "closed": 6
  },
  "justanotherjurastudent/zotero_Book-Group": {
@@ -1013,7 +1025,7 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 3,
+  "open": 4,
   "closed": 42
  },
  "mlfc0422/zotero-puls": {
@@ -1172,8 +1184,8 @@
   "closed": 24
  },
  "retorquere/zotero-open-pdf": {
-  "open": 7,
-  "closed": 21
+  "open": 6,
+  "closed": 22
  },
  "retorquere/zotero-pmcid-fetcher": {
   "open": 0,
@@ -1216,7 +1228,7 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 4,
+  "open": 5,
   "closed": 181
  },
  "stevepowell99/causalmap-zotero": {
@@ -1400,7 +1412,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 173,
+  "open": 175,
   "closed": 201
  },
  "ysqander/listen2papers-zotero": {
