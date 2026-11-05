@@ -151,12 +151,12 @@
     Plugin list from
     <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
     · dates, issues, sizes and authors from GitHub
-    · ratings from <a href="https://zoteroplugins.org">zoteroplugins.org</a> (Ilias Beshimov), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+    · ratings from <a href="https://zoteroplugins.org">Zotero Plugins Atlas</a> (Ilias Beshimov), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
     · <span id="count" class="count">loading…</span>
     · <span class="legend" title="Recency of the latest release"><span class="dot fresh"></span>&lt; 6 mo<span class="dot aging"></span>&lt; 2 yr<span class="dot stale"></span>older</span>
     <span id="overdeclared" class="legend-bad"></span>
   </div>
-  <div class="meta">Personal project, not affiliated with Zotero or zoteroplugins.org. Zotero does not provide this data.</div>
+  <div class="meta">Personal project, not affiliated with Zotero or the Zotero Plugins Atlas. Zotero does not provide this data.</div>
 </header>
 
 <div class="controls">
@@ -193,7 +193,7 @@
         <th data-sort="name">Name</th>
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
-        <th data-sort="rating" title="Grade from zoteroplugins.org, from its automated code checks. Click a grade to open the plugin's page there.">Rating</th>
+        <th data-sort="rating" title="Grade from the Zotero Plugins Atlas, from its automated code checks. Click a grade to open the plugin's page there.">Rating</th>
         <th data-sort="issues" title="Open / closed issues on GitHub (excludes pull requests)">Issues</th>
         <th data-sort="first" title="Date of the plugin's first GitHub release">First release</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
@@ -571,7 +571,7 @@ function ratingCell(repo) {
   if (!a) return "—";
   const g = GRADES[a.grade];
   const tip = (g ? `Grade ${a.grade}${a.why ? `: ${a.why}` : ""}.` : "Not graded yet.")
-    + " Open this plugin's page on zoteroplugins.org.";
+    + " Open this plugin's page on the Zotero Plugins Atlas.";
   return `<a${g ? ` class="${g.tone}"` : ""} href="https://zoteroplugins.org/p/${encodeURIComponent(a.slug)}"`
     + ` target="_blank" rel="noopener" title="${escapeHtml(tip)}">${g ? escapeHtml(a.grade) : "–"}</a>`;
 }
