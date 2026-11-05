@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Zotero Plugins</title>
+<title>Zotero Plugins Browser</title>
 <style>
   :root {
     --fg: #1c1c1e;
@@ -129,10 +129,11 @@
 <body>
 
 <header>
-  <h1>Zotero Plugins</h1>
+  <h1>Zotero Plugins Browser</h1>
   <div class="meta">
-    Data from
+    Plugin list from
     <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
+    · dates, issues, sizes and authors from GitHub
     · <span id="count" class="count">loading…</span>
     · <span class="legend" title="Recency of the latest release"><span class="dot fresh"></span>&lt; 6 mo<span class="dot aging"></span>&lt; 2 yr<span class="dot stale"></span>older</span>
     <span id="overdeclared" class="legend-bad"></span>
@@ -245,6 +246,17 @@ async function fetchIssues() {
 async function fetchLastReleases() {
   try {
     const res = await fetch("last_release.json");
+    return res.ok ? await res.json() : {};
+  } catch { return {}; }
+}
+
+// Author names (repo -> name), rebuilt daily by a GitHub Action
+// (.github/workflows/authors.yml) from each plugin's manifest.json or
+// package.json; the scraper only has the GitHub profile's display name.
+// Optional: without it the author line falls back to that display name.
+async function fetchAuthors() {
+  try {
+    const res = await fetch("authors.json");
     return res.ok ? await res.json() : {};
   } catch { return {}; }
 }
@@ -366,6 +378,7 @@ const state = {
   issues: {},
   lastRelease: {},
   xpiSize: {},
+  authors: {},
 };
 
 // Reflect state.sort / state.zTarget into the URL without adding history entries.
@@ -540,6 +553,23 @@ function escapeHtml(s) {
   return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
 
+// The form Weavero gives Zotero's Plugins Manager: `Fuling Lin [zerolfl]`, plain
+// `windingwind` when the two coincide. The name is the one the plugin declares,
+// else the GitHub display name, so a repo with no readable author keeps a real
+// name (ZotFile, whose only record is a legacy install.rdf). The username stays
+// in sight because a declared name can be wrong (a template's author left in).
+// The tooltip is the display name, when not on the line.
+function authorLine(p) {
+  const owner = (p.repo || "").split("/")[0];
+  const display = p.author?.name || "";
+  const name = state.authors[p.repo] || display;
+  const same = (a, b) => a.toLowerCase() === b.toLowerCase();
+  const author = !name || !owner || same(name, owner) ? name || owner : `${name} [${owner}]`;
+  const authorTip = display && !same(display, name) && !same(display, owner)
+    ? `GitHub profile: ${display}` : "";
+  return { author, authorTip };
+}
+
 function render() {
   const tbody = document.getElementById("rows");
   const list = state.filtered;
@@ -551,7 +581,7 @@ function render() {
     const rel = pickRelease(p, state.zTarget);
     const name = p.name || (p.repo || "").split("/")[1] || p.repo || "—";
     const repoUrl = p.repo ? `https://github.com/${p.repo}` : "#";
-    const author = p.author?.name || (p.repo || "").split("/")[0] || "";
+    const { author, authorTip } = authorLine(p);
     const desc = p.description || rel.description || "";
     const stars = p.stars ?? p.star ?? null;
     const xpi = rel.xpiDownloadUrl?.github;
@@ -568,7 +598,7 @@ function render() {
       <tr${overMax ? ` class="overdeclared" title="${escapeHtml(overTip)}"` : ""}>
         <td class="name">
           <a href="${escapeHtml(repoUrl)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
-          <span class="author">${escapeHtml(author)}</span>
+          <span class="author"${authorTip ? ` title="${escapeHtml(authorTip)}"` : ""}>${escapeHtml(author)}</span>
         </td>
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
@@ -603,7 +633,7 @@ function applyFilters() {
     list = list.filter(p => {
       const blob = [
         p.name, p.repo, p.description,
-        p.author?.name, ...(p.tags || []),
+        p.author?.name, state.authors[p.repo], ...(p.tags || []),
         ...(p.releases || []).map(r => r.name + " " + r.description)
       ].join(" ").toLowerCase();
       return blob.includes(q);
@@ -706,12 +736,13 @@ function wire() {
 
 async function load() {
   try {
-    [state.all, state.firstRelease, state.issues, state.lastRelease, state.xpiSize] = await Promise.all([
+    [state.all, state.firstRelease, state.issues, state.lastRelease, state.xpiSize, state.authors] = await Promise.all([
       fetchFirst(SOURCES),
       fetchFirstReleases(),
       fetchIssues(),
       fetchLastReleases(),
       fetchXpiSizes(),
+      fetchAuthors(),
     ]);
     renderTagChips();
     renderOverdeclaredNote();

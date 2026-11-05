@@ -4,13 +4,13 @@ A simple static webpage to browse the list of Zotero plugins from a browser, wit
 
 Live: **https://mjthoraval.github.io/zotero-plugins-browser/**
 
-The plugin data comes from [`syt2/zotero-addons-scraper`](https://github.com/syt2/zotero-addons-scraper), the same source used by the in-Zotero [Zotero Addons](https://github.com/syt2/zotero-addons) plugin. The page is a thin consumer: it fetches the published JSON live from jsDelivr on each load, so it stays in sync with the scraper.
+The plugin list comes from [`syt2/zotero-addons-scraper`](https://github.com/syt2/zotero-addons-scraper), the same source used by the in-Zotero [Zotero Addons](https://github.com/syt2/zotero-addons) plugin. The page fetches the published JSON live on each load, from raw GitHub with jsDelivr as a fallback, so it stays in sync with the scraper. Scheduled jobs in this repo add what the scraper doesn't carry, read from GitHub: release dates, issue counts, XPI sizes and authors.
 
 ## What it shows
 
 Mirrors the Zotero Addons list view (minus the local-install columns):
 
-- Name and author
+- Name and author, as `Name [username]`: the name the plugin declares in its `manifest.json` or `package.json` (from `authors.json`, refreshed by a scheduled job, without downloading any XPI) or else the GitHub display name, then the GitHub username when the two differ
 - Description
 - ★ stars
 - Release date and latest version (for the chosen Zotero target)
