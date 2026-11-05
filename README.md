@@ -1,6 +1,6 @@
 # Zotero Plugins Browser
 
-A simple static webpage to browse the list of Zotero plugins from a browser, without installing Zotero or any plugin.
+A simple static webpage to browse the list of Zotero plugins from a browser, without installing Zotero or any plugin. It is a personal project, not affiliated with Zotero, and Zotero does not provide this data.
 
 Live: **https://mjthoraval.github.io/zotero-plugins-browser/**
 
