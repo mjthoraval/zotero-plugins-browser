@@ -18,6 +18,8 @@
     --chip-fg-on: #ffffff;
     --star: #d4a017;
     --bad: #cf222e;
+    --grade-good: #1a7f37;
+    --grade-mid: #9a6700;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   @media (prefers-color-scheme: dark) {
@@ -31,6 +33,8 @@
       --chip-bg: #2a2a30;
       --star: #e0b840;
       --bad: #ff7b72;
+      --grade-good: #3fb950;
+      --grade-mid: #d29922;
     }
   }
   * { box-sizing: border-box; }
@@ -86,6 +90,19 @@
   td.name .author { display: block; color: var(--fg-muted); font-size: 0.78rem; font-weight: 400; }
   td.desc { max-width: 36rem; }
   td.stars { white-space: nowrap; color: var(--star); font-variant-numeric: tabular-nums; }
+  td.rating { white-space: nowrap; color: var(--fg-muted); }
+  td.rating a {
+    display: inline-block; min-width: 2.1em; padding: 1px 6px; border-radius: 4px;
+    text-align: center; text-decoration: none;
+    font-size: 0.78rem; font-weight: 700; line-height: 1.35;
+    color: var(--grade-color, var(--fg-muted));
+    background: color-mix(in srgb, var(--grade-color, var(--fg-muted)) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--grade-color, var(--fg-muted)) 25%, transparent);
+  }
+  td.rating a:hover { text-decoration: underline; }
+  td.rating a.good { --grade-color: var(--grade-good); }
+  td.rating a.mid { --grade-color: var(--grade-mid); }
+  td.rating a.low { --grade-color: var(--bad); }
   td.date, td.version, td.updated { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
   td.issues { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.82rem; }
   /* A plugin whose newest release declares a Zotero major that Zotero asks
@@ -134,11 +151,12 @@
     Plugin list from
     <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
     · dates, issues, sizes and authors from GitHub
+    · ratings from <a href="https://zoteroplugins.org">zoteroplugins.org</a> (Ilias Beshimov), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
     · <span id="count" class="count">loading…</span>
     · <span class="legend" title="Recency of the latest release"><span class="dot fresh"></span>&lt; 6 mo<span class="dot aging"></span>&lt; 2 yr<span class="dot stale"></span>older</span>
     <span id="overdeclared" class="legend-bad"></span>
   </div>
-  <div class="meta">Personal project, not affiliated with Zotero. Zotero does not provide this data.</div>
+  <div class="meta">Personal project, not affiliated with Zotero or zoteroplugins.org. Zotero does not provide this data.</div>
 </header>
 
 <div class="controls">
@@ -150,6 +168,8 @@
     <select id="sortSel">
       <option value="stars-desc">Stars (high → low)</option>
       <option value="stars-asc">Stars (low → high)</option>
+      <option value="rating-desc">Rating (best → worst)</option>
+      <option value="rating-asc">Rating (worst → best)</option>
       <option value="first-desc">First release (newest)</option>
       <option value="first-asc">First release (oldest)</option>
       <option value="updated-desc">Last updated (newest)</option>
@@ -173,6 +193,7 @@
         <th data-sort="name">Name</th>
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
+        <th data-sort="rating" title="Grade from zoteroplugins.org, from its automated code checks. Click a grade to open the plugin's page there.">Rating</th>
         <th data-sort="issues" title="Open / closed issues on GitHub (excludes pull requests)">Issues</th>
         <th data-sort="first" title="Date of the plugin's first GitHub release">First release</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
@@ -217,7 +238,7 @@ const ALLOWED_ZOTERO_MAJOR = 10;
 const COMPAT_RULE_URL = "https://www.zotero.org/support/dev/zotero_11_for_developers#updating_plugin_compatibility";
 
 const SORT_DEFAULT = "stars-desc";
-const SORT_RE = /^(name|stars|updated|first|issues|size)-(asc|desc)$/;
+const SORT_RE = /^(name|stars|rating|updated|first|issues|size)-(asc|desc)$/;
 
 // First-release dates (repo -> ISO date), rebuilt daily by a GitHub Action
 // (.github/workflows/first-releases.yml) from each plugin's own GitHub
@@ -258,6 +279,17 @@ async function fetchLastReleases() {
 async function fetchAuthors() {
   try {
     const res = await fetch("authors.json");
+    return res.ok ? await res.json() : {};
+  } catch { return {}; }
+}
+
+// Ratings (repo -> {grade, slug, why}), rebuilt daily by a GitHub Action
+// (.github/workflows/atlas.yml) from the catalogue of zoteroplugins.org, by
+// Ilias Beshimov, CC BY 4.0. Optional: the page works without it, the Rating
+// column just shows dashes.
+async function fetchAtlas() {
+  try {
+    const res = await fetch("atlas.json");
     return res.ok ? await res.json() : {};
   } catch { return {}; }
 }
@@ -380,6 +412,7 @@ const state = {
   lastRelease: {},
   xpiSize: {},
   authors: {},
+  atlas: {},
 };
 
 // Reflect state.sort / state.zTarget into the URL without adding history entries.
@@ -518,6 +551,31 @@ function issuesCell(repo) {
     + `<span class="closed" title="${c.closed} closed">${c.closed}</span>`;
 }
 
+// The Atlas's grades, best first. An entry it hasn't graded yet reads "–" and is
+// not here: it keeps its link but no colour, and sorts with the ungraded.
+const GRADES = {
+  "A+": { rank: 4, tone: "good" },
+  "A":  { rank: 3, tone: "good" },
+  "B":  { rank: 2, tone: "mid" },
+  "C":  { rank: 1, tone: "low" },
+};
+
+function gradeRank(plugin) {
+  return GRADES[state.atlas[plugin.repo]?.grade]?.rank ?? null;
+}
+
+// The grade, linked to the plugin's page on zoteroplugins.org, with the Atlas's
+// reason as the tooltip. "—" for a plugin the Atlas doesn't list.
+function ratingCell(repo) {
+  const a = state.atlas[repo];
+  if (!a) return "—";
+  const g = GRADES[a.grade];
+  const tip = (g ? `Grade ${a.grade}${a.why ? `: ${a.why}` : ""}.` : "Not graded yet.")
+    + " Open this plugin's page on zoteroplugins.org.";
+  return `<a${g ? ` class="${g.tone}"` : ""} href="https://zoteroplugins.org/p/${encodeURIComponent(a.slug)}"`
+    + ` target="_blank" rel="noopener" title="${escapeHtml(tip)}">${g ? escapeHtml(a.grade) : "–"}</a>`;
+}
+
 // Size in bytes of the XPI the row links to (the release picked for the
 // selected Zotero version); null when unknown.
 function xpiSize(plugin) {
@@ -603,6 +661,7 @@ function render() {
         </td>
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
+        <td class="rating">${ratingCell(p.repo)}</td>
         <td class="issues">${issuesCell(p.repo)}</td>
         <td class="date">${escapeHtml(fmtDate(state.firstRelease[p.repo]))}</td>
         <td class="updated" title="Last updated ${escapeHtml(fmtDate(updated))}${updated ? " (" + escapeHtml(relAge(updated)) + ")" : ""}">
@@ -650,6 +709,13 @@ function applyFilters() {
       av = xpiSize(a); bv = xpiSize(b);
       if (av == null || bv == null) return (av == null) - (bv == null);
       return (av - bv) * sign;
+    }
+    if (field === "rating") {
+      // Plugins without a grade sort last in either direction; hundreds share
+      // a grade, so within one the most starred come first.
+      av = gradeRank(a); bv = gradeRank(b);
+      if (av == null || bv == null) return (av == null) - (bv == null);
+      return (av - bv) * sign || (b.stars ?? 0) - (a.stars ?? 0);
     }
     if (field === "name") { av = (a.name || a.repo || "").toLowerCase(); bv = (b.name || b.repo || "").toLowerCase(); }
     else if (field === "stars") { av = a.stars ?? 0; bv = b.stars ?? 0; }
@@ -737,13 +803,14 @@ function wire() {
 
 async function load() {
   try {
-    [state.all, state.firstRelease, state.issues, state.lastRelease, state.xpiSize, state.authors] = await Promise.all([
+    [state.all, state.firstRelease, state.issues, state.lastRelease, state.xpiSize, state.authors, state.atlas] = await Promise.all([
       fetchFirst(SOURCES),
       fetchFirstReleases(),
       fetchIssues(),
       fetchLastReleases(),
       fetchXpiSizes(),
       fetchAuthors(),
+      fetchAtlas(),
     ]);
     renderTagChips();
     renderOverdeclaredNote();
