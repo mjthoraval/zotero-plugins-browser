@@ -103,6 +103,13 @@
   td.rating a.good { --grade-color: var(--grade-good); }
   td.rating a.mid { --grade-color: var(--grade-mid); }
   td.rating a.low { --grade-color: var(--bad); }
+  .rating-tip {
+    position: fixed; z-index: 10; max-width: min(22rem, calc(100vw - 16px)); padding: 0.4rem 0.6rem;
+    background: var(--bg); color: var(--fg); font-size: 0.8rem; line-height: 1.35;
+    border: 1px solid var(--border); border-radius: 6px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%); pointer-events: none;
+  }
+  .rating-tip .hint { margin-top: 0.15rem; color: var(--fg-muted); }
   td.date, td.version, td.updated { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
   td.issues { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.82rem; }
   /* A plugin whose newest release declares a Zotero major that Zotero asks
@@ -208,6 +215,7 @@
 </div>
 
 <div id="empty" class="empty" hidden>No plugins match.</div>
+<div id="ratingTip" class="rating-tip" aria-hidden="true" hidden></div>
 
 <script>
 // Raw GitHub first — always current; jsDelivr as fallback (its branch cache
@@ -560,20 +568,46 @@ const GRADES = {
   "C":  { rank: 1, tone: "low" },
 };
 
+const RATING_HINT = "Open this plugin's page on the Zotero Plugins Atlas.";
+
 function gradeRank(plugin) {
   return GRADES[state.atlas[plugin.repo]?.grade]?.rank ?? null;
 }
 
 // The grade, linked to the plugin's page on zoteroplugins.org, with the Atlas's
-// reason as the tooltip. "—" for a plugin the Atlas doesn't list.
+// reason for showRatingTip(). "—" for a plugin the Atlas doesn't list. The empty
+// title keeps a red row's own tooltip off the link.
 function ratingCell(repo) {
   const a = state.atlas[repo];
   if (!a) return "—";
   const g = GRADES[a.grade];
-  const tip = (g ? `Grade ${a.grade}${a.why ? `: ${a.why}` : ""}.` : "Not graded yet.")
-    + " Open this plugin's page on the Zotero Plugins Atlas.";
+  const why = g ? `Grade ${a.grade}${a.why ? `: ${a.why}` : ""}.` : "Not graded yet.";
   return `<a${g ? ` class="${g.tone}"` : ""} href="https://zoteroplugins.org/p/${encodeURIComponent(a.slug)}"`
-    + ` target="_blank" rel="noopener" title="${escapeHtml(tip)}">${g ? escapeHtml(a.grade) : "–"}</a>`;
+    + ` target="_blank" rel="noopener" title="" data-why="${escapeHtml(why)}"`
+    + ` aria-label="${escapeHtml(`${why} ${RATING_HINT}`)}">${g ? escapeHtml(a.grade) : "–"}</a>`;
+}
+
+// One tooltip for every grade. A native title can't grey part of its text, so
+// this is a page element, placed under the link, or above it near the window's
+// bottom edge, and kept inside the window's sides.
+function showRatingTip(link) {
+  const tip = document.getElementById("ratingTip");
+  tip.innerHTML = `<div>${escapeHtml(link.dataset.why)}</div><div class="hint">${escapeHtml(RATING_HINT)}</div>`;
+  tip.hidden = false;
+  // Measure from the corner: at the position of the last link, near the window's
+  // edge, it would shrink to the space left there and read as a thin column.
+  tip.style.left = tip.style.top = "0";
+  const box = link.getBoundingClientRect();
+  const { width, height } = tip.getBoundingClientRect();
+  const gap = 6, edge = 8;
+  const below = box.bottom + gap;
+  const top = below + height + edge > innerHeight ? box.top - gap - height : below;
+  tip.style.top = `${Math.max(edge, top)}px`;
+  tip.style.left = `${Math.max(edge, Math.min(box.left, innerWidth - width - edge))}px`;
+}
+
+function hideRatingTip() {
+  document.getElementById("ratingTip").hidden = true;
 }
 
 // Size in bytes of the XPI the row links to (the release picked for the
@@ -630,6 +664,7 @@ function authorLine(p) {
 }
 
 function render() {
+  hideRatingTip();   // its link is about to go; no mouseout will say so
   const tbody = document.getElementById("rows");
   const list = state.filtered;
   document.getElementById("empty").hidden = list.length > 0;
@@ -761,6 +796,22 @@ function renderTagChips() {
 }
 
 function wire() {
+  const rows = document.getElementById("rows");
+  const ratingLink = e => e.target.closest("td.rating a");
+  rows.addEventListener("mouseover", e => {
+    const link = ratingLink(e);
+    if (link) showRatingTip(link);
+  });
+  rows.addEventListener("mouseout", e => { if (ratingLink(e)) hideRatingTip(); });
+  // :focus-visible, for the keyboard: a clicked link keeps focus, and the tip
+  // would come back on its own when the visitor returns from the opened tab.
+  rows.addEventListener("focusin", e => {
+    const link = ratingLink(e);
+    if (link?.matches(":focus-visible")) showRatingTip(link);
+  });
+  rows.addEventListener("focusout", e => { if (ratingLink(e)) hideRatingTip(); });
+  window.addEventListener("scroll", hideRatingTip, { passive: true });
+
   document.getElementById("q").addEventListener("input", e => {
     state.query = e.target.value;
     applyFilters();

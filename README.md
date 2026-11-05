@@ -13,7 +13,7 @@ Mirrors the Zotero Addons list view (minus the local-install columns):
 - Name and author, as `Name [username]`: the name the plugin declares in its `manifest.json` or `package.json` (from `authors.json`, refreshed by a scheduled job, without downloading any XPI) or else the GitHub display name, then the GitHub username when the two differ
 - Description
 - ★ stars
-- Rating: the plugin's grade on the [Zotero Plugins Atlas](https://zoteroplugins.org), which links to its page there, with the site's reason as the tooltip (from `atlas.json`, refreshed by a scheduled job); a dash when the site doesn't list the plugin. Matched on the GitHub repo, following renames, and never on the plugin ID, because forks share it
+- Rating: the plugin's grade on the [Zotero Plugins Atlas](https://zoteroplugins.org), which links to its page there, with the site's reason in a tooltip (from `atlas.json`, refreshed by a scheduled job); a dash when the site doesn't list the plugin. Matched on the GitHub repo, following renames, and never on the plugin ID, because forks share it
 - Release date and latest version (for the chosen Zotero target)
 - Tags
 - XPI size, for the release linked on that row (from `xpi_sizes.json`, refreshed by a scheduled job; a release newer than the last run is looked up by the page from GitHub's release API, without downloading it)
