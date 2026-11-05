@@ -12,7 +12,7 @@
   "closed": 0
  },
  "1ywan/zotero-odh": {
-  "open": 1,
+  "open": 2,
   "closed": 9
  },
  "4965898/zotero-AI-OCR": {
@@ -20,7 +20,7 @@
   "closed": 0
  },
  "54yyyu/zotero-mcp": {
-  "open": 40,
+  "open": 42,
   "closed": 297
  },
  "ANDYPENG09/zotero-ima-sync": {
@@ -48,7 +48,7 @@
   "closed": 0
  },
  "Ares960826/zotero-grouptag": {
-  "open": 0,
+  "open": 1,
   "closed": 5
  },
  "Asianfleet/mineru-for-zotero": {
@@ -418,7 +418,7 @@
   "closed": 13
  },
  "SolveSaint/RSSrch-for-Zotero": {
-  "open": 1,
+  "open": 2,
   "closed": 4
  },
  "StarKujo/zotero-wordbook": {
@@ -541,8 +541,8 @@
   "closed": 10
  },
  "ZorroStardust/zotero-vim-plus": {
-  "open": 1,
-  "closed": 5
+  "open": 0,
+  "closed": 6
  },
  "Zzq-02/zotero-vocab-builder": {
   "open": 0,
@@ -729,8 +729,8 @@
   "closed": 23
  },
  "forrtproject/fred_zotero": {
-  "open": 9,
-  "closed": 73
+  "open": 8,
+  "closed": 74
  },
  "frangoud/ZoteroDuplicatesMerger": {
   "open": 13,
@@ -825,7 +825,7 @@
   "closed": 1
  },
  "ievlevpn/zotero-sentence-focus": {
-  "open": 3,
+  "open": 4,
   "closed": 0
  },
  "ievlevpn/zotero-tag-explorer": {
@@ -957,8 +957,8 @@
   "closed": 355
  },
  "l0o0/scholar-sketch": {
-  "open": 2,
-  "closed": 8
+  "open": 1,
+  "closed": 9
  },
  "l0o0/tara": {
   "open": 4,
@@ -1025,7 +1025,7 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 4,
+  "open": 5,
   "closed": 42
  },
  "mlfc0422/zotero-puls": {
@@ -1228,7 +1228,7 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 5,
+  "open": 6,
   "closed": 181
  },
  "stevepowell99/causalmap-zotero": {
@@ -1387,13 +1387,17 @@
   "open": 1,
   "closed": 0
  },
+ "xiuxiuki/zotero-pdf2zh-batch": {
+  "open": 0,
+  "closed": 0
+ },
  "xuhan-rgb/zotero-ai-sidebar": {
-  "open": 3,
+  "open": 4,
   "closed": 15
  },
  "xujialiu/Zotero-OpenReader": {
   "open": 12,
-  "closed": 222
+  "closed": 225
  },
  "xutaoya/paper-mind": {
   "open": 0,
@@ -1412,7 +1416,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 175,
+  "open": 177,
   "closed": 201
  },
  "ysqander/listen2papers-zotero": {
