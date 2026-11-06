@@ -199,6 +199,11 @@
   "slug": "zotero-paper-chat",
   "why": "every code check came out low"
  },
+ "Huaisure/zotero-quick-copy-pdf": {
+  "grade": "B",
+  "slug": "zotero-quick-copy-pdf",
+  "why": "it loads native code"
+ },
  "Huoyuuu/zotero-ai-latex": {
   "grade": "B",
   "slug": "zotero-ai-latex",
@@ -1176,7 +1181,7 @@
  },
  "lss3765/Zotero-Bilingual-Reader-Public": {
   "grade": "B",
-  "slug": "zotero-bilingual-reader-public",
+  "slug": "zotero-bilingual-reader--lss3765",
   "why": "it launches programs on your computer"
  },
  "lss3765/Zotero-Display-Title-Public": {
@@ -1304,6 +1309,11 @@
   "slug": "zotero-categorial-tags",
   "why": "every code check came out low"
  },
+ "panhh0804/folio-zotero": {
+  "grade": "A",
+  "slug": "folio-zotero",
+  "why": "every code check came out low"
+ },
  "papersgpt/papersgpt-for-zotero": {
   "grade": "–",
   "slug": "papersgpt-for-zotero",
@@ -1397,7 +1407,7 @@
  "retorquere/zotero-better-bibtex": {
   "grade": "B",
   "slug": "zotero-better-bibtex",
-  "why": "it sends data through a public relay: filebin.net, and 1 more finding"
+  "why": "it launches programs on your computer"
  },
  "retorquere/zotero-folder-import": {
   "grade": "B",
@@ -1485,9 +1495,9 @@
   "why": "updates itself outside Zotero's updater"
  },
  "syt2/zotero-addons": {
-  "grade": "C",
+  "grade": "B",
   "slug": "zotero-addons",
-  "why": "it installs other add-ons"
+  "why": "its code names a developer's server: artalk.zotero.store, and 2 more findings"
  },
  "syt2/zotero-scipdf": {
   "grade": "B",
@@ -1526,7 +1536,7 @@
  },
  "vastronghq/MarginMind": {
   "grade": "B",
-  "slug": "marginmind",
+  "slug": "marginmind--vvvastrong",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "volatile-static/Chartero": {
@@ -1623,6 +1633,11 @@
   "grade": "B",
   "slug": "zotero-paper-radar",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "xiuxiuki/zotero-pdf2zh-batch": {
+  "grade": "A",
+  "slug": "zotero-pdf2zh-batch",
+  "why": "every code check came out low"
  },
  "xuhan-rgb/zotero-ai-sidebar": {
   "grade": "B",
