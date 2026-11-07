@@ -20,7 +20,7 @@
   "closed": 0
  },
  "54yyyu/zotero-mcp": {
-  "open": 42,
+  "open": 43,
   "closed": 297
  },
  "ANDYPENG09/zotero-ima-sync": {
@@ -105,6 +105,10 @@
  },
  "Chikit-L/zotero-fulltext-translate": {
   "open": 4,
+  "closed": 0
+ },
+ "CommanderPho/zotero-desktop-annotation": {
+  "open": 0,
   "closed": 0
  },
  "Creling/Zotero-Metadata-Scraper": {
@@ -219,8 +223,8 @@
   "closed": 0
  },
  "LightWindW/zotero-better-vertical-tabs": {
-  "open": 1,
-  "closed": 4
+  "open": 0,
+  "closed": 5
  },
  "Liozhang/z-search": {
   "open": 0,
@@ -303,7 +307,7 @@
   "closed": 28
  },
  "MuiseDestiny/zotero-gpt": {
-  "open": 1,
+  "open": 2,
   "closed": 415
  },
  "MuiseDestiny/zotero-reference": {
@@ -374,8 +378,8 @@
   "closed": 15
  },
  "Royshare/zotero-spotlight": {
-  "open": 8,
-  "closed": 9
+  "open": 4,
+  "closed": 13
  },
  "Rphone/zotero-tab-enhance": {
   "open": 1,
@@ -953,8 +957,8 @@
   "closed": 0
  },
  "l0o0/jasminum": {
-  "open": 37,
-  "closed": 355
+  "open": 36,
+  "closed": 356
  },
  "l0o0/scholar-sketch": {
   "open": 1,
@@ -1025,8 +1029,8 @@
   "closed": 1
  },
  "mjthoraval/Weavero": {
-  "open": 4,
-  "closed": 43
+  "open": 2,
+  "closed": 45
  },
  "mlfc0422/zotero-puls": {
   "open": 0,
@@ -1049,7 +1053,7 @@
   "closed": 0
  },
  "northword/zotero-format-metadata": {
-  "open": 22,
+  "open": 23,
   "closed": 233
  },
  "northword/zotero-mica": {
@@ -1069,11 +1073,11 @@
   "closed": 0
  },
  "oekeur/zotero-linked-mindmaps": {
-  "open": 7,
+  "open": 8,
   "closed": 0
  },
  "oekeur/zotero-timeline": {
-  "open": 7,
+  "open": 8,
   "closed": 0
  },
  "origin652/zotero-assistant": {
@@ -1176,7 +1180,7 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 43,
+  "open": 44,
   "closed": 2555
  },
  "retorquere/zotero-folder-import": {
@@ -1228,7 +1232,7 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 6,
+  "open": 7,
   "closed": 181
  },
  "stevepowell99/causalmap-zotero": {
@@ -1318,6 +1322,10 @@
  "wdcpclover/ai4paper": {
   "open": 6,
   "closed": 20
+ },
+ "weilr/zotero-scholium": {
+  "open": 0,
+  "closed": 0
  },
  "whacked/zotero-special-tags-column": {
   "open": 5,
