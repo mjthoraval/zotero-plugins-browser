@@ -124,6 +124,11 @@
   "slug": "zotero-fulltext-translate",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "CommanderPho/zotero-desktop-annotation": {
+  "grade": "B",
+  "slug": "zotero-desktop-annotation",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "Creling/Zotero-Metadata-Scraper": {
   "grade": "B",
   "slug": "zotero-metadata-scraper",
@@ -196,7 +201,7 @@
  },
  "HDU-OrangeS/zotero-paper-chat": {
   "grade": "A",
-  "slug": "zotero-paper-chat",
+  "slug": "zotero-paper-chat--zhihaocui233",
   "why": "every code check came out low"
  },
  "Huaisure/zotero-quick-copy-pdf": {
@@ -1564,6 +1569,11 @@
   "slug": "ai4paper",
   "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it"
  },
+ "weilr/zotero-scholium": {
+  "grade": "B",
+  "slug": "zotero-scholium",
+  "why": "it launches programs on your computer"
+ },
  "wileyyugioh/zotmoov": {
   "grade": "A",
   "slug": "zotmoov",
@@ -1683,6 +1693,11 @@
   "grade": "B",
   "slug": "zotero-split-view-reader",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "zhangyehao/zotero-fulltext-assistant": {
+  "grade": "B",
+  "slug": "zotero-fulltext-assistant",
+  "why": "it loads native code, and 1 more finding"
  },
  "zhi-11/zotero-ai-paragraph-notes": {
   "grade": "A",
