@@ -24,6 +24,11 @@
   "slug": "zotero-ai-ocr",
   "why": "it contacts a server we couldn't identify: discovery-api.intern-ai.org.cn, and 2 more findings"
  },
+ "4season/zotero-reading-shelf": {
+  "grade": "B",
+  "slug": "zotero-reading-shelf",
+  "why": "it launches programs on your computer"
+ },
  "54yyyu/zotero-mcp": {
   "grade": "C",
   "slug": "zotero-mcp--54yyyu",
@@ -402,7 +407,7 @@
  "NoEdgeAI/Doc2XZoteroPlugin9": {
   "grade": "C",
   "slug": "doc2xzoteroplugin9",
-  "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it, and 1 more finding"
+  "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it"
  },
  "Noahxie83/zotero-lexibridge": {
   "grade": "A",
@@ -460,9 +465,9 @@
   "why": "every code check came out low"
  },
  "Royshare/zotero-spotlight": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-spotlight",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "Rphone/zotero-tab-enhance": {
   "grade": "B",
@@ -1595,9 +1600,9 @@
   "why": "it launches programs on your computer"
  },
  "windingwind/zotero-actions-tags": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-actions-tags",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "windingwind/zotero-better-notes": {
   "grade": "B",
