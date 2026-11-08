@@ -19,8 +19,12 @@
   "open": 0,
   "closed": 0
  },
+ "4season/zotero-reading-shelf": {
+  "open": 0,
+  "closed": 0
+ },
  "54yyyu/zotero-mcp": {
-  "open": 43,
+  "open": 45,
   "closed": 297
  },
  "ANDYPENG09/zotero-ima-sync": {
@@ -287,7 +291,7 @@
   "closed": 1
  },
  "Moonweave-Research/zotero-reading-flow": {
-  "open": 1,
+  "open": 2,
   "closed": 4
  },
  "MuiseDestiny/ZoteroStyle": {
@@ -378,8 +382,8 @@
   "closed": 15
  },
  "Royshare/zotero-spotlight": {
-  "open": 4,
-  "closed": 13
+  "open": 6,
+  "closed": 15
  },
  "Rphone/zotero-tab-enhance": {
   "open": 1,
@@ -921,7 +925,7 @@
   "closed": 0
  },
  "justanotherjurastudent/zotero_FlexAnnotate": {
-  "open": 0,
+  "open": 4,
   "closed": 0
  },
  "justinfjx/zotero-ai-collection": {
@@ -957,7 +961,7 @@
   "closed": 0
  },
  "l0o0/jasminum": {
-  "open": 36,
+  "open": 37,
   "closed": 356
  },
  "l0o0/scholar-sketch": {
@@ -1232,8 +1236,8 @@
   "closed": 0
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 7,
-  "closed": 181
+  "open": 6,
+  "closed": 182
  },
  "stevepowell99/causalmap-zotero": {
   "open": 0,
@@ -1352,7 +1356,7 @@
   "closed": 243
  },
  "windingwind/zotero-better-notes": {
-  "open": 4,
+  "open": 5,
   "closed": 954
  },
  "windingwind/zotero-pdf-preview": {
@@ -1360,8 +1364,8 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 15,
-  "closed": 1071
+  "open": 14,
+  "closed": 1072
  },
  "wshanks/Zutilo": {
   "open": 80,
