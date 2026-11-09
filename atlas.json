@@ -272,7 +272,7 @@
  "LightWindW/zotero-better-vertical-tabs": {
   "grade": "B",
   "slug": "zotero-better-vertical-tabs",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
  "Liozhang/z-search": {
   "grade": "B",
@@ -1020,9 +1020,9 @@
   "why": "it sends usage data to analytics.immersivetranslate.cn, analytics.immersivetranslate.com and www.google-analytics.com, and 2 more findings"
  },
  "inciteful-xyz/inciteful-zotero-plugin": {
-  "grade": "B",
+  "grade": "A",
   "slug": "inciteful-zotero-plugin",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "informalgit/zotero-collection-nav": {
   "grade": "A",
@@ -1157,7 +1157,7 @@
  "l0o0/tara": {
   "grade": "B",
   "slug": "tara",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "it changes other plugins, and 2 more findings"
  },
  "leike0813/Zotero-Skills": {
   "grade": "C",
@@ -1208,6 +1208,11 @@
   "grade": "B",
   "slug": "papermind-zotero",
   "why": "it contacts a developer's server: papermindapp.com, and 1 more finding"
+ },
+ "mapengsen/zotero-centers": {
+  "grade": "A",
+  "slug": "zotero-centers",
+  "why": "every code check came out low"
  },
  "max3925vats/zotero-docling": {
   "grade": "A",
@@ -1693,6 +1698,11 @@
   "grade": "B",
   "slug": "zotero2eagle--yueneiqi",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "yuweidong/zotero-texlink": {
+  "grade": "–",
+  "slug": "zotero-texlink",
+  "why": "we're still checking where its network code sends data"
  },
  "zerolfl/zotero-split-view-reader": {
   "grade": "B",
