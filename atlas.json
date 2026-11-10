@@ -50,9 +50,9 @@
   "why": "every code check came out low"
  },
  "AllanChain/zotero-arxiv-workflow": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-arxiv-workflow",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "Alleyf/zotero-duplicate-cleaner": {
   "grade": "A+",
@@ -370,9 +370,9 @@
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
  "MuiseDestiny/zotero-figure": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-figure",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "MuiseDestiny/zotero-gpt": {
   "grade": "C",
@@ -1169,6 +1169,11 @@
   "slug": "arxiv-marker",
   "why": "every code check came out low"
  },
+ "lemos1235/zotero-putongdoc": {
+  "grade": "B",
+  "slug": "zotero-putongdoc",
+  "why": "it uses the network; we couldn't tell where, and 2 more findings"
+ },
  "lifan0127/ai-research-assistant": {
   "grade": "B",
   "slug": "ai-research-assistant",
@@ -1208,6 +1213,11 @@
   "grade": "B",
   "slug": "papermind-zotero",
   "why": "it contacts a developer's server: papermindapp.com, and 1 more finding"
+ },
+ "lynneguo930-prog/zotero-auto-classify": {
+  "grade": "A",
+  "slug": "zotero-auto-classify",
+  "why": "every code check came out low"
  },
  "mapengsen/zotero-centers": {
   "grade": "A",
@@ -1412,7 +1422,7 @@
  "redleafnew/zotero-updateifsE": {
   "grade": "B",
   "slug": "zotero-updateifse",
-  "why": "it contacts a server we couldn't identify: 121.196.229.180, and 2 more findings"
+  "why": "it contacts a server we couldn't identify: 121.196.229.180"
  },
  "replynow20/gemini-zotero": {
   "grade": "B",
@@ -1580,9 +1590,9 @@
   "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it"
  },
  "weilr/zotero-scholium": {
-  "grade": "B",
+  "grade": "C",
   "slug": "zotero-scholium",
-  "why": "it launches programs on your computer"
+  "why": "it downloads and runs a program we haven't reviewed yet, and 1 more finding"
  },
  "wileyyugioh/zotmoov": {
   "grade": "A",
@@ -1610,9 +1620,9 @@
   "why": "every code check came out low"
  },
  "windingwind/zotero-better-notes": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-better-notes",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "windingwind/zotero-pdf-translate": {
   "grade": "B",
@@ -1687,7 +1697,7 @@
  "yilewang/llm-for-zotero": {
   "grade": "C",
   "slug": "llm-for-zotero",
-  "why": "it installs and runs npm or PyPI packages without a fixed version, and 1 more finding"
+  "why": "its AI agent can run commands on your computer without asking you"
  },
  "ysqander/listen2papers-zotero": {
   "grade": "B",
