@@ -32,7 +32,7 @@
  "54yyyu/zotero-mcp": {
   "grade": "C",
   "slug": "zotero-mcp--54yyyu",
-  "why": "it installs and runs npm or PyPI packages without a fixed version"
+  "why": "it downloads and runs a program we haven't reviewed yet, and 1 more finding"
  },
  "ANDYPENG09/zotero-ima-sync": {
   "grade": "A",
@@ -1142,7 +1142,7 @@
  "l0o0/MagicZotero": {
   "grade": "C",
   "slug": "magiczotero",
-  "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it, and 1 more finding"
+  "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it"
  },
  "l0o0/jasminum": {
   "grade": "B",
