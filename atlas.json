@@ -49,6 +49,11 @@
   "slug": "semantic-zotero",
   "why": "every code check came out low"
  },
+ "Alioth5670/zotero-metadata-reconciler": {
+  "grade": "B",
+  "slug": "zotero-metadata-reconciler",
+  "why": "it contacts a server we couldn't identify: proceedings.iclr.cc"
+ },
  "AllanChain/zotero-arxiv-workflow": {
   "grade": "A",
   "slug": "zotero-arxiv-workflow",
@@ -60,9 +65,9 @@
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "Ares960826/zotero-grouptag": {
-  "grade": "A",
+  "grade": "A+",
   "slug": "zotero-grouptag",
-  "why": "every code check came out low"
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "Asianfleet/mineru-for-zotero": {
   "grade": "B",
@@ -785,9 +790,9 @@
   "why": "it launches programs on your computer"
  },
  "daeh/zotero-citation-tally": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-citation-tally",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "daeh/zotero-markdb-connect": {
   "grade": "B",
@@ -875,9 +880,9 @@
   "why": "it contacts a server we couldn't identify: sci-net.xyz"
  },
  "federicotorrielli/zotero-metadata-hunter": {
-  "grade": "A",
+  "grade": "B",
   "slug": "zotero-metadata-hunter",
-  "why": "every code check came out low"
+  "why": "its code names the developer's server: dblp.federicotorrielli.me"
  },
  "fenghsu2019/zotero-mineru-obsidian": {
   "grade": "A",
@@ -1152,7 +1157,7 @@
  "l0o0/scholar-sketch": {
   "grade": "B",
   "slug": "scholar-sketch",
-  "why": "it uses the network; we couldn't tell where, and 4 more findings"
+  "why": "it uses the network; we couldn't tell where, and 3 more findings"
  },
  "l0o0/tara": {
   "grade": "B",
@@ -1172,7 +1177,7 @@
  "lemos1235/zotero-putongdoc": {
   "grade": "B",
   "slug": "zotero-putongdoc",
-  "why": "it uses the network; we couldn't tell where, and 2 more findings"
+  "why": "its code names the developer's server: putongdoc.com, and 2 more findings"
  },
  "lifan0127/ai-research-assistant": {
   "grade": "B",
@@ -1220,9 +1225,9 @@
   "why": "every code check came out low"
  },
  "mapengsen/zotero-centers": {
-  "grade": "A",
+  "grade": "B",
   "slug": "zotero-centers",
-  "why": "every code check came out low"
+  "why": "it changes other plugins"
  },
  "max3925vats/zotero-docling": {
   "grade": "A",
@@ -1535,9 +1540,9 @@
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "tenglvjun/mktero": {
-  "grade": "A",
+  "grade": "B",
   "slug": "mktero",
-  "why": "every code check came out low"
+  "why": "its code names the developer's server: api.mktero.com"
  },
  "theRatramnus/Zotero-download-DigiVatLib-pdf": {
   "grade": "B",
