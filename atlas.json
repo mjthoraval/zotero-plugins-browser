@@ -211,7 +211,7 @@
  },
  "HDU-OrangeS/zotero-paper-chat": {
   "grade": "A",
-  "slug": "zotero-paper-chat--zhihaocui233",
+  "slug": "zotero-paper-chat",
   "why": "every code check came out low"
  },
  "Huaisure/zotero-quick-copy-pdf": {
@@ -359,6 +359,11 @@
   "slug": "zotero-reading-flow",
   "why": "every code check came out low"
  },
+ "Muanyan-mjq/zotero-interlinear": {
+  "grade": "B",
+  "slug": "zotero-interlinear",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "MuiseDestiny/ZoteroStyle": {
   "grade": "C",
   "slug": "zotero-style",
@@ -412,7 +417,7 @@
  "NoEdgeAI/Doc2XZoteroPlugin9": {
   "grade": "C",
   "slug": "doc2xzoteroplugin9",
-  "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it"
+  "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it, and 1 more finding"
  },
  "Noahxie83/zotero-lexibridge": {
   "grade": "A",
@@ -587,7 +592,7 @@
  "Visterainer/zoteroAI": {
   "grade": "C",
   "slug": "aidea-zotero",
-  "why": "it installs and runs npm or PyPI packages without a fixed version"
+  "why": "it downloads and runs a program we haven't reviewed yet"
  },
  "WWeiyiWang/BiRead": {
   "grade": "B",
@@ -730,9 +735,9 @@
   "why": "every code check came out low"
  },
  "bulletproof-system/zotero-maimemo-sync": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-maimemo-sync",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "bwiernik/zotero-shortdoi": {
   "grade": "A",
@@ -1535,9 +1540,9 @@
   "why": "it changes Zotero settings that aren't its own, and 2 more findings"
  },
  "taotaozsky2025-beep/zotero-var-highlighter": {
-  "grade": "B",
+  "grade": "A",
   "slug": "zotero-var-highlighter",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "why": "every code check came out low"
  },
  "tenglvjun/mktero": {
   "grade": "B",
