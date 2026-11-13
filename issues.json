@@ -24,8 +24,8 @@
   "closed": 0
  },
  "54yyyu/zotero-mcp": {
-  "open": 35,
-  "closed": 314
+  "open": 33,
+  "closed": 319
  },
  "ANDYPENG09/zotero-ima-sync": {
   "open": 1,
@@ -733,8 +733,8 @@
   "closed": 53
  },
  "federicotorrielli/zotero-metadata-hunter": {
-  "open": 1,
-  "closed": 3
+  "open": 0,
+  "closed": 4
  },
  "fenghsu2019/zotero-mineru-obsidian": {
   "open": 0,
@@ -785,8 +785,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 53,
-  "closed": 226
+  "open": 52,
+  "closed": 227
  },
  "haohaomin/zotero-codex": {
   "open": 0,
@@ -1076,8 +1076,8 @@
   "closed": 0
  },
  "northword/zotero-format-metadata": {
-  "open": 23,
-  "closed": 237
+  "open": 22,
+  "closed": 238
  },
  "northword/zotero-mica": {
   "open": 0,
@@ -1203,7 +1203,7 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 43,
+  "open": 44,
   "closed": 2556
  },
  "retorquere/zotero-folder-import": {
@@ -1227,7 +1227,7 @@
   "closed": 0
  },
  "samreading/zotero-mindmap": {
-  "open": 4,
+  "open": 5,
   "closed": 0
  },
  "sbilmis/zotero-project-manager": {
@@ -1247,7 +1247,7 @@
   "closed": 4
  },
  "soyami/zotero-pick2anki": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "sstraume97/zotero-highlight-popup-ui-plugin": {
@@ -1287,8 +1287,8 @@
   "closed": 13
  },
  "taotaozsky2025-beep/zotero-var-highlighter": {
-  "open": 1,
-  "closed": 1
+  "open": 0,
+  "closed": 2
  },
  "tefkah/zotero-night": {
   "open": 91,
@@ -1296,7 +1296,7 @@
  },
  "tenglvjun/mktero": {
   "open": 0,
-  "closed": 8
+  "closed": 9
  },
  "theRatramnus/RIOPACAddChapter": {
   "open": 0,
@@ -1447,7 +1447,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 179,
+  "open": 180,
   "closed": 204
  },
  "ysqander/listen2papers-zotero": {
