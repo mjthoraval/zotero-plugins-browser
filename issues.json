@@ -24,7 +24,7 @@
   "closed": 0
  },
  "54yyyu/zotero-mcp": {
-  "open": 33,
+  "open": 34,
   "closed": 319
  },
  "ANDYPENG09/zotero-ima-sync": {
@@ -52,7 +52,7 @@
   "closed": 45
  },
  "Alleyf/zotero-duplicate-cleaner": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "Ares960826/zotero-grouptag": {
@@ -76,7 +76,7 @@
   "closed": 0
  },
  "B3000Kcn/minimize-zotero-to-tray": {
-  "open": 6,
+  "open": 7,
   "closed": 1
  },
  "Babylonehy/zetero-BabelDoc": {
@@ -243,7 +243,7 @@
   "closed": 3
  },
  "Littview/zotero-openalex-pdf": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "LiusirAi/tree-koala": {
@@ -279,7 +279,7 @@
   "closed": 0
  },
  "MCXCC303/just-enough-color": {
-  "open": 0,
+  "open": 1,
   "closed": 1
  },
  "MaiZiPiaoPiao/InkBridge": {
@@ -391,7 +391,7 @@
  },
  "Royshare/zotero-spotlight": {
   "open": 7,
-  "closed": 15
+  "closed": 16
  },
  "Rphone/zotero-tab-enhance": {
   "open": 2,
@@ -434,7 +434,7 @@
   "closed": 13
  },
  "SolveSaint/RSSrch-for-Zotero": {
-  "open": 2,
+  "open": 3,
   "closed": 4
  },
  "StarKujo/zotero-wordbook": {
@@ -650,7 +650,7 @@
  },
  "cookjohn/zotero-mcp": {
   "open": 9,
-  "closed": 73
+  "closed": 72
  },
  "cube-lover/paperloom": {
   "open": 0,
@@ -797,11 +797,11 @@
   "closed": 0
  },
  "haozhihuiYmh150/zotero-agent": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "heimi98/zotero-deduplicator": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "heimi98/zotero-figure-overview": {
@@ -837,28 +837,28 @@
   "closed": 0
  },
  "ievlevpn/zotero-latex-suite": {
-  "open": 1,
-  "closed": 1
+  "open": 0,
+  "closed": 2
  },
  "ievlevpn/zotero-sentence-focus": {
-  "open": 4,
-  "closed": 0
+  "open": 1,
+  "closed": 3
  },
  "ievlevpn/zotero-tag-explorer": {
   "open": 0,
   "closed": 0
  },
  "ievlevpn/zotero-tag-fuzzy-search": {
-  "open": 1,
-  "closed": 0
+  "open": 0,
+  "closed": 1
  },
  "ievlevpn/zotero-theorem-list": {
   "open": 1,
   "closed": 0
  },
  "ievlevpn/zotero-time-tracking": {
-  "open": 1,
-  "closed": 0
+  "open": 0,
+  "closed": 1
  },
  "immersive-translate/zotero-immersivetranslate": {
   "open": 13,
@@ -917,7 +917,7 @@
   "closed": 271
  },
  "jmiba/Zotero-add-items-from-text": {
-  "open": 1,
+  "open": 2,
   "closed": 1
  },
  "josesiqueira/zotero-bibliometero": {
@@ -973,7 +973,7 @@
   "closed": 363
  },
  "l0o0/scholar-sketch": {
-  "open": 1,
+  "open": 2,
   "closed": 9
  },
  "l0o0/tara": {
@@ -1048,7 +1048,7 @@
   "closed": 4
  },
  "milekpl/zotero-search-replace": {
-  "open": 1,
+  "open": 2,
   "closed": 1
  },
  "mjthoraval/Weavero": {
@@ -1056,11 +1056,11 @@
   "closed": 45
  },
  "mlfc0422/zotero-puls": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "mobench/zotero-annotation-links": {
-  "open": 1,
+  "open": 2,
   "closed": 8
  },
  "mpatelh/zbatch": {
@@ -1096,7 +1096,7 @@
   "closed": 0
  },
  "oekeur/zotero-linked-mindmaps": {
-  "open": 10,
+  "open": 11,
   "closed": 0
  },
  "oekeur/zotero-timeline": {
@@ -1139,7 +1139,7 @@
   "disabled": true
  },
  "peekabooXT/Zotero_Paper_Classification_XT": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "peterdresslar/zotero-gemini-notebook": {
@@ -1163,7 +1163,7 @@
   "closed": 0
  },
  "qingpy/zotero-pdf2md": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "qiwei-ma/zotero-pdf-setHorizontal": {
@@ -1383,8 +1383,8 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 14,
-  "closed": 1073
+  "open": 13,
+  "closed": 1074
  },
  "wshanks/Zutilo": {
   "open": 80,
@@ -1395,11 +1395,11 @@
   "closed": 33
  },
  "wu-uk/zotero-feishu": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "wuok0618/zotero-sidemark": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "wyhao2333/zotero-paperpilot": {
@@ -1415,7 +1415,7 @@
   "closed": 0
  },
  "xiaoxuan353/zotero-paper-radar": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "xiuxiuki/zotero-pdf2zh-batch": {
@@ -1423,8 +1423,8 @@
   "closed": 0
  },
  "xuhan-rgb/zotero-ai-sidebar": {
-  "open": 4,
-  "closed": 15
+  "open": 3,
+  "closed": 16
  },
  "xujialiu/Zotero-OpenReader": {
   "open": 10,
@@ -1463,8 +1463,8 @@
   "closed": 0
  },
  "zerolfl/zotero-split-view-reader": {
-  "open": 8,
-  "closed": 8
+  "open": 6,
+  "closed": 10
  },
  "zhangyehao/zotero-fulltext-assistant": {
   "open": 0,
