@@ -144,6 +144,11 @@
   "slug": "zotero-metadata-scraper",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "Cydoimos/zotero-abbreviation-helper": {
+  "grade": "A",
+  "slug": "zotero-abbreviation-helper",
+  "why": "every code check came out low"
+ },
  "Dirreke/zotero-metadata-translator": {
   "grade": "B",
   "slug": "zotero-metadata-translator",
@@ -349,6 +354,11 @@
   "slug": "zotitle",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "Marco0431/askgpt-zotero": {
+  "grade": "B",
+  "slug": "askgpt-zotero",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "Mengqi97/codex-bilingual-reader-for-zotero": {
   "grade": "B",
   "slug": "codex-bilingual-reader-for-zotero",
@@ -468,6 +478,11 @@
   "grade": "A+",
   "slug": "astrozotero",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "Rimagination/journal-scout-zotero": {
+  "grade": "B",
+  "slug": "journal-scout-zotero",
+  "why": "it contacts the developer's servers: journal.scansci.com and www.scansci.com, and 1 more finding"
  },
  "RoadToDream/ZotMeta": {
   "grade": "A",
@@ -1269,6 +1284,11 @@
   "slug": "zotero-puls",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "mo-qc/mo-qc-zotero-wpsnote-sync": {
+  "grade": "B",
+  "slug": "mo-qc-zotero-wpsnote-sync",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "mobench/zotero-annotation-links": {
   "grade": "B",
   "slug": "zotero-annotation-links",
@@ -1593,11 +1613,6 @@
   "grade": "A",
   "slug": "mdbundle-for-zotero",
   "why": "every code check came out low"
- },
- "wdcpclover/ai4paper": {
-  "grade": "C",
-  "slug": "ai4paper",
-  "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it"
  },
  "weilr/zotero-scholium": {
   "grade": "C",
