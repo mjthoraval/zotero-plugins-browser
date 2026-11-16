@@ -120,6 +120,7 @@
   .legend-bad { color: var(--bad); }
   .legend-bad a { color: var(--bad); }
   td.size { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; color: var(--fg-muted); }
+  td.downloads { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; }
   td.issues .open { color: var(--accent); font-weight: 600; }
   td.issues .sep { color: var(--fg-muted); margin: 0 0.15em; }
   td.issues .closed { color: var(--fg-muted); }
@@ -157,7 +158,7 @@
   <div class="meta">
     Plugin list from
     <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
-    · dates, issues, sizes and authors from GitHub
+    · dates, downloads, issues, sizes and authors from GitHub
     · ratings from <a href="https://zoteroplugins.org">Zotero Plugins Atlas</a> (Ilias Beshimov), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
     · <span id="count" class="count">loading…</span>
     · <span class="legend" title="Recency of the latest release"><span class="dot fresh"></span>&lt; 6 mo<span class="dot aging"></span>&lt; 2 yr<span class="dot stale"></span>older</span>
@@ -181,6 +182,8 @@
       <option value="first-asc">First release (oldest)</option>
       <option value="updated-desc">Last updated (newest)</option>
       <option value="updated-asc">Last updated (oldest)</option>
+      <option value="downloads-desc">Downloads of the latest version (most)</option>
+      <option value="downloads-asc">Downloads of the latest version (fewest)</option>
       <option value="issues-desc">Open issues (high → low)</option>
       <option value="issues-asc">Open issues (low → high)</option>
       <option value="size-desc">XPI size (large → small)</option>
@@ -204,6 +207,7 @@
         <th data-sort="issues" title="Open / closed issues on GitHub (excludes pull requests)">Issues</th>
         <th data-sort="first" title="Date of the plugin's first GitHub release">First release</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
+        <th data-sort="downloads" title="Downloads of the latest release's XPI on GitHub (the release dated in Last updated): every install and every automatic update to that version">Downloads</th>
         <th title="Newest version compatible with the Zotero version selected above">Latest version</th>
         <th>Tags</th>
         <th data-sort="size" title="Size of the XPI file linked on the right (for the Zotero version selected above)">Size</th>
@@ -246,7 +250,7 @@ const ALLOWED_ZOTERO_MAJOR = 10;
 const COMPAT_RULE_URL = "https://www.zotero.org/support/dev/zotero_11_for_developers#updating_plugin_compatibility";
 
 const SORT_DEFAULT = "stars-desc";
-const SORT_RE = /^(name|stars|rating|updated|first|issues|size)-(asc|desc)$/;
+const SORT_RE = /^(name|stars|rating|updated|downloads|first|issues|size)-(asc|desc)$/;
 
 // First-release dates (repo -> ISO date), rebuilt daily by a GitHub Action
 // (.github/workflows/first-releases.yml) from each plugin's own GitHub
@@ -276,6 +280,17 @@ async function fetchIssues() {
 async function fetchLastReleases() {
   try {
     const res = await fetch("last_release.json");
+    return res.ok ? await res.json() : {};
+  } catch { return {}; }
+}
+
+// Download counts of each plugin's newest release (repo -> {tag, date,
+// downloads}), from the same job as last_release.json, read from the release
+// API's asset metadata (never by downloading). `downloads` is null when that
+// release has no XPI. Optional: without it the column shows dashes.
+async function fetchLatestDownloads() {
+  try {
+    const res = await fetch("latest_downloads.json");
     return res.ok ? await res.json() : {};
   } catch { return {}; }
 }
@@ -418,6 +433,7 @@ const state = {
   firstRelease: {},
   issues: {},
   lastRelease: {},
+  latestDownloads: {},
   xpiSize: {},
   authors: {},
   atlas: {},
@@ -510,6 +526,29 @@ function lastUpdated(plugin) {
     if (r.releaseDate && r.releaseDate > max) max = r.releaseDate;
   }
   return max;
+}
+
+// Downloads of the latest version -- the newest release with an XPI, which is
+// the release "Last updated" dates or one published with it: {n, tag, date},
+// or null when the release has no XPI, or when the job has not counted the
+// newest version yet (the scraper, whose releases all carry an XPI, already
+// lists a newer one -- then the count would be the previous version's).
+function latestDownloads(plugin) {
+  const d = state.latestDownloads[plugin.repo];
+  if (!d || d.downloads == null) return null;
+  let scraperNewest = "";
+  for (const r of plugin.releases || []) {
+    if (r.releaseDate && r.releaseDate > scraperNewest) scraperNewest = r.releaseDate;
+  }
+  if (scraperNewest && d.date && scraperNewest.slice(0, 10) > d.date.slice(0, 10)) return null;
+  return { n: d.downloads, tag: d.tag, date: d.date };
+}
+
+function fmtDownloads(n) {
+  if (n == null) return "—";
+  if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
+  if (n >= 1000) return (n / 1000).toFixed(1) + "k";
+  return String(n);
 }
 
 const DAY = 86400000;
@@ -683,6 +722,10 @@ function render() {
     const tags = p.tags || [];
     const updated = lastUpdated(p);
     const size = xpiSize(p);
+    const dl = latestDownloads(p);
+    const dlTip = dl
+      ? `${dl.n.toLocaleString("en-US")} downloads of ${dl.tag} (released ${fmtDate(dl.date)})`
+      : (state.latestDownloads[p.repo]?.downloads === null ? "The latest release has no XPI file" : "Not counted yet");
     const overMax = overdeclaredMax(p);
     const overTip = overMax
       ? `Declares compatibility up to Zotero ${overMax}. Zotero asks plugins not to declare compatibility with Zotero ${ALLOWED_ZOTERO_MAJOR + 1} until it announces the feature freeze.`
@@ -703,6 +746,7 @@ function render() {
           <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
           <span class="age">${escapeHtml(relAge(updated))}</span>
         </td>
+        <td class="downloads" title="${escapeHtml(dlTip)}">${fmtDownloads(dl ? dl.n : null)}</td>
         <td class="version">${escapeHtml(ver)}${overMax ? `<span class="max">max ${escapeHtml(overMax)}</span>` : ""}</td>
         <td class="tags">${tags.map(t => `<span class="t" style="--tag-color: ${tagColor(t)}">${escapeHtml(t)}</span>`).join("")}</td>
         <td class="size"${size != null ? ` title="${size.toLocaleString("en-US")} bytes"` : ""}>${fmtSize(size)}</td>
@@ -742,6 +786,11 @@ function applyFilters() {
     if (field === "size") {
       // Plugins without a known size sort last in either direction.
       av = xpiSize(a); bv = xpiSize(b);
+      if (av == null || bv == null) return (av == null) - (bv == null);
+      return (av - bv) * sign;
+    }
+    if (field === "downloads") {
+      av = latestDownloads(a)?.n ?? null; bv = latestDownloads(b)?.n ?? null;
       if (av == null || bv == null) return (av == null) - (bv == null);
       return (av - bv) * sign;
     }
@@ -854,11 +903,12 @@ function wire() {
 
 async function load() {
   try {
-    [state.all, state.firstRelease, state.issues, state.lastRelease, state.xpiSize, state.authors, state.atlas] = await Promise.all([
+    [state.all, state.firstRelease, state.issues, state.lastRelease, state.latestDownloads, state.xpiSize, state.authors, state.atlas] = await Promise.all([
       fetchFirst(SOURCES),
       fetchFirstReleases(),
       fetchIssues(),
       fetchLastReleases(),
+      fetchLatestDownloads(),
       fetchXpiSizes(),
       fetchAuthors(),
       fetchAtlas(),

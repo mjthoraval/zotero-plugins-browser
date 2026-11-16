@@ -2,8 +2,10 @@ name: Update last-release dates
 
 # Hourly, so the "Last updated" column stays fresh independent of the upstream
 # scraper's 6x/day cadence (a release published just after a scraper run would
-# otherwise look stale for hours). Cost is negligible on a public repo: ~8
-# GraphQL requests/run, unmetered Actions minutes; only commits on change.
+# otherwise look stale for hours), and the "Downloads" column (that release's
+# XPI download count, latest_downloads.json) with it. Cost is negligible on a
+# public repo: ~13 GraphQL requests/run, unmetered Actions minutes; only
+# commits on change.
 on:
   schedule:
     - cron: '35 * * * *'
@@ -25,10 +27,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
-          if ! git diff --quiet last_release.json; then
+          git add -N latest_downloads.json
+          if ! git diff --quiet last_release.json latest_downloads.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add last_release.json
-            git commit -m "chore: update last-release dates"
+            git add last_release.json latest_downloads.json
+            git commit -m "chore: update last-release dates and downloads"
             git push
           fi
