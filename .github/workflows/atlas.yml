@@ -21,10 +21,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
-          git add atlas.json
-          if ! git diff --cached --quiet atlas.json; then
+          git add atlas.json atlas_only.json
+          if ! git diff --cached --quiet atlas.json atlas_only.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore: update Atlas ratings"
+            git commit -m "chore: update Atlas ratings and Atlas-only plugins"
             git push
           fi

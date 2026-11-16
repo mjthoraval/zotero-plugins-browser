@@ -7,7 +7,8 @@
 
 import { readFileSync, writeFileSync } from "node:fs";
 
-const SCRAPER = "https://raw.githubusercontent.com/syt2/zotero-addons-scraper/publish/addon_infos.json";
+// The scraper's plugins and the Atlas-only ones (atlas_only.json).
+import { loadPlugins } from "./plugin-list.mjs";
 const OUT = new URL("../first_release.json", import.meta.url);
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
@@ -39,7 +40,7 @@ async function oldestReleaseDate(repo) {
   return res ? (await res.json()).created_at ?? null : null;
 }
 
-const addons = await (await fetch(SCRAPER)).json();
+const addons = await loadPlugins();
 const repos = [...new Set(addons.map(p => p.repo).filter(Boolean))].sort();
 
 let existing = {};

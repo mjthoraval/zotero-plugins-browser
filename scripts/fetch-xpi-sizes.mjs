@@ -14,7 +14,8 @@
 
 import { readFileSync, writeFileSync } from "node:fs";
 
-const SCRAPER = "https://raw.githubusercontent.com/syt2/zotero-addons-scraper/publish/addon_infos.json";
+// The scraper's plugins and the Atlas-only ones (atlas_only.json).
+import { loadPlugins } from "./plugin-list.mjs";
 const OUT = new URL("../xpi_sizes.json", import.meta.url);
 const BATCH = 30;
 const ALL = process.argv.includes("--all");
@@ -88,7 +89,7 @@ async function headSize(url) {
   }
 }
 
-const addons = await (await fetch(SCRAPER)).json();
+const addons = await loadPlugins();
 const urls = [...new Set(addons.flatMap(p => (p.releases || [])
   .map(r => r.xpiDownloadUrl?.github).filter(Boolean)))].sort();
 

@@ -120,6 +120,12 @@
   .legend-bad { color: var(--bad); }
   .legend-bad a { color: var(--bad); }
   td.size { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; color: var(--fg-muted); }
+  td.listed { white-space: nowrap; }
+  td.listed span {
+    display: inline-block; padding: 1px 7px; border-radius: 4px; font-size: 0.74rem; font-weight: 600;
+    color: var(--fg-muted); border: 1px solid var(--border);
+  }
+  td.listed span.both { color: var(--grade-good); border-color: color-mix(in srgb, var(--grade-good) 35%, transparent); }
   td.downloads { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; }
   td.issues .open { color: var(--accent); font-weight: 600; }
   td.issues .sep { color: var(--fg-muted); margin: 0 0.15em; }
@@ -156,8 +162,9 @@
 <header>
   <h1>Zotero Plugins Browser</h1>
   <div class="meta">
-    Plugin list from
-    <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a>
+    Plugin lists from
+    <a href="https://github.com/syt2/zotero-addons-scraper">syt2/zotero-addons-scraper</a> (the Zotero Addons plugin's)
+    and the <a href="https://zoteroplugins.org">Zotero Plugins Atlas</a>
     · dates, downloads, issues, sizes and authors from GitHub
     · ratings from <a href="https://zoteroplugins.org">Zotero Plugins Atlas</a> (Ilias Beshimov), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
     · <span id="count" class="count">loading…</span>
@@ -171,6 +178,14 @@
   <input id="q" type="search" placeholder="Search by name, description, author, repo…" autofocus>
   <label>Zotero
     <select id="z-target"><option value="">any</option></select>
+  </label>
+  <label>Listed in
+    <select id="listed-in">
+      <option value="">either list</option>
+      <option value="both">both lists</option>
+      <option value="addons">Zotero Addons only</option>
+      <option value="atlas">Atlas only</option>
+    </select>
   </label>
   <label>Sort
     <select id="sortSel">
@@ -201,14 +216,15 @@
     <thead>
       <tr>
         <th data-sort="name">Name</th>
+        <th title="Which plugin lists include it: Zotero Addons (syt2/zotero-addons-scraper, the list the Zotero Addons plugin shows) and the Zotero Plugins Atlas (zoteroplugins.org)">Listed in</th>
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
         <th data-sort="rating" title="Grade from the Zotero Plugins Atlas, from its automated code checks. Click a grade to open the plugin's page there.">Rating</th>
         <th data-sort="issues" title="Open / closed issues on GitHub (excludes pull requests)">Issues</th>
         <th data-sort="first" title="Date of the plugin's first GitHub release">First release</th>
         <th data-sort="updated" title="Latest release across all Zotero versions; dot shows recency">Last updated</th>
-        <th data-sort="downloads" title="Downloads of the latest release's XPI on GitHub (the release dated in Last updated): every install and every automatic update to that version">Downloads</th>
         <th title="Newest version compatible with the Zotero version selected above">Latest version</th>
+        <th data-sort="downloads" title="Downloads of the XPI of the plugin's newest release on GitHub: every install and every automatic update to that version (its tag and date in each cell's tooltip)">Downloads</th>
         <th>Tags</th>
         <th data-sort="size" title="Size of the XPI file linked on the right (for the Zotero version selected above)">Size</th>
         <th></th>
@@ -310,6 +326,15 @@ async function fetchAuthors() {
 // (.github/workflows/atlas.yml) from the catalogue of zoteroplugins.org, by
 // Ilias Beshimov, CC BY 4.0. Optional: the page works without it, the Rating
 // column just shows dashes.
+// The plugins only the Atlas lists (repo-matched, renames followed), in the scraper's shape,
+// rebuilt daily with atlas.json (.github/workflows/atlas.yml). Optional.
+async function fetchAtlasOnly() {
+  try {
+    const res = await fetch("atlas_only.json");
+    return res.ok ? await res.json() : [];
+  } catch { return []; }
+}
+
 async function fetchAtlas() {
   try {
     const res = await fetch("atlas.json");
@@ -418,6 +443,11 @@ function sortFromURL() {
 
 // Read the Zotero-version filter from the URL (?z=); validated against the
 // versions actually present in the data after load. Default: any.
+function listedFromURL() {
+  const v = new URLSearchParams(location.search).get("in");
+  return v === "both" || v === "addons" || v === "atlas" ? v : "";
+}
+
 function zFromURL() {
   const z = new URLSearchParams(location.search).get("z");
   return z && /^\d+$/.test(z) ? z : "";
@@ -428,6 +458,7 @@ const state = {
   filtered: [],
   query: "",
   zTarget: zFromURL(),
+  listed: listedFromURL(),
   sort: sortFromURL(),
   activeTags: new Set(),
   firstRelease: {},
@@ -446,6 +477,8 @@ function updateURLState() {
   else url.searchParams.set("sort", state.sort);
   if (!state.zTarget) url.searchParams.delete("z");
   else url.searchParams.set("z", state.zTarget);
+  if (!state.listed) url.searchParams.delete("in");
+  else url.searchParams.set("in", state.listed);
   history.replaceState(null, "", url);
 }
 
@@ -702,6 +735,20 @@ function authorLine(p) {
   return { author, authorTip };
 }
 
+// "both" when the scraper lists it and the Atlas has it (atlas.json, matched on the repo),
+// "addons" for the scraper alone, "atlas" for the Atlas alone (atlas_only.json).
+function listedIn(p) {
+  if (p.listedIn === "atlas") return "atlas";
+  return state.atlas[p.repo] ? "both" : "addons";
+}
+
+function listedCell(p) {
+  const v = listedIn(p);
+  if (v === "both") return '<span class="both" title="Listed in Zotero Addons and in the Zotero Plugins Atlas">Both</span>';
+  if (v === "atlas") return '<span title="Listed only in the Zotero Plugins Atlas (zoteroplugins.org)">Atlas</span>';
+  return '<span title="Listed only in Zotero Addons (syt2/zotero-addons-scraper)">Zotero Addons</span>';
+}
+
 function render() {
   hideRatingTip();   // its link is about to go; no mouseout will say so
   const tbody = document.getElementById("rows");
@@ -737,6 +784,7 @@ function render() {
           <a href="${escapeHtml(repoUrl)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
           <span class="author"${authorTip ? ` title="${escapeHtml(authorTip)}"` : ""}>${escapeHtml(author)}</span>
         </td>
+        <td class="listed">${listedCell(p)}</td>
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
         <td class="rating">${ratingCell(p.repo)}</td>
@@ -746,8 +794,8 @@ function render() {
           <span class="dot ${staleness(updated)}"></span>${escapeHtml(fmtDate(updated))}
           <span class="age">${escapeHtml(relAge(updated))}</span>
         </td>
-        <td class="downloads" title="${escapeHtml(dlTip)}">${fmtDownloads(dl ? dl.n : null)}</td>
         <td class="version">${escapeHtml(ver)}${overMax ? `<span class="max">max ${escapeHtml(overMax)}</span>` : ""}</td>
+        <td class="downloads" title="${escapeHtml(dlTip)}">${fmtDownloads(dl ? dl.n : null)}</td>
         <td class="tags">${tags.map(t => `<span class="t" style="--tag-color: ${tagColor(t)}">${escapeHtml(t)}</span>`).join("")}</td>
         <td class="size"${size != null ? ` title="${size.toLocaleString("en-US")} bytes"` : ""}>${fmtSize(size)}</td>
         <td class="dl">${xpi ? `<a href="${escapeHtml(xpi)}">XPI</a>` : ""}</td>
@@ -766,6 +814,10 @@ function applyFilters() {
 
   if (state.zTarget) {
     list = list.filter(p => (p.releases || []).some(r => String(r.targetZoteroVersion) === state.zTarget));
+  }
+
+  if (state.listed) {
+    list = list.filter(p => listedIn(p) === state.listed);
   }
 
   if (q) {
@@ -865,6 +917,13 @@ function wire() {
     state.query = e.target.value;
     applyFilters();
   });
+  const listedSel = document.getElementById("listed-in");
+  listedSel.value = state.listed;
+  listedSel.addEventListener("change", e => {
+    state.listed = e.target.value;
+    updateURLState();
+    applyFilters();
+  });
   document.getElementById("z-target").addEventListener("change", e => {
     state.zTarget = e.target.value;
     updateURLState();
@@ -903,8 +962,10 @@ function wire() {
 
 async function load() {
   try {
-    [state.all, state.firstRelease, state.issues, state.lastRelease, state.latestDownloads, state.xpiSize, state.authors, state.atlas] = await Promise.all([
+    let atlasOnly;
+    [state.all, atlasOnly, state.firstRelease, state.issues, state.lastRelease, state.latestDownloads, state.xpiSize, state.authors, state.atlas] = await Promise.all([
       fetchFirst(SOURCES),
+      fetchAtlasOnly(),
       fetchFirstReleases(),
       fetchIssues(),
       fetchLastReleases(),
@@ -913,6 +974,9 @@ async function load() {
       fetchAuthors(),
       fetchAtlas(),
     ]);
+    // The Atlas-only plugins after the scraper's; a repo both carry is the scraper's row.
+    const have = new Set(state.all.map(p => (p.repo || "").toLowerCase()));
+    state.all = state.all.concat(atlasOnly.filter(p => p.repo && !have.has(p.repo.toLowerCase())));
     renderTagChips();
     renderOverdeclaredNote();
     populateZTargets();

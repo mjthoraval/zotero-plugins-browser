@@ -12,7 +12,8 @@
 
 import { readFileSync, writeFileSync } from "node:fs";
 
-const SCRAPER = "https://raw.githubusercontent.com/syt2/zotero-addons-scraper/publish/addon_infos.json";
+// The scraper's plugins and the Atlas-only ones (atlas_only.json).
+import { loadPlugins } from "./plugin-list.mjs";
 const OUT = new URL("../issues.json", import.meta.url);
 const BATCH = 30; // repos per GraphQL request
 
@@ -63,7 +64,7 @@ async function fetchBatch(batch) {
   return out;
 }
 
-const addons = await (await fetch(SCRAPER)).json();
+const addons = await loadPlugins();
 const repos = [...new Set(addons.map(p => p.repo).filter(Boolean))].sort();
 
 const out = {};

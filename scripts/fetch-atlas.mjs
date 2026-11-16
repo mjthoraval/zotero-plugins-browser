@@ -17,6 +17,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 const SCRAPER = "https://raw.githubusercontent.com/syt2/zotero-addons-scraper/publish/addon_infos.json";
 const CATALOG = "https://raw.githubusercontent.com/iliasbeshimov/zoteroplugins.org/HEAD/data/generated/catalog.json";
 const OUT = new URL("../atlas.json", import.meta.url);
+const OUT_ONLY = new URL("../atlas_only.json", import.meta.url);
 const BATCH = 30; // repos per GraphQL request
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
@@ -99,9 +100,11 @@ for (let i = 0; i < unmatched.length; i += BATCH) {
 let existing = {};
 try { existing = JSON.parse(readFileSync(OUT, "utf8")); } catch {}
 const sorted = {};
+const matched = new Set();
 for (const repo of repos) {
   const plugin = entry(repo) || byRepo.get(renamed.get(repo));
   if (plugin) {
+    matched.add(plugin);
     sorted[repo] = { grade: plugin.grade, slug: plugin.slug };
     if (plugin.because) sorted[repo].why = plugin.because;
   }
@@ -109,7 +112,44 @@ for (const repo of repos) {
     sorted[repo] = existing[repo];
   }
 }
+
+// The Atlas's plugins the scraper does not list (MJT 2026-11-16: "add all the plugins from the
+// Zotero Plugins Atlas"), in the scraper's shape so the page and every job treat them alike:
+// one release entry per Zotero major the Atlas says the current file supports. Marked
+// `listedIn: "atlas"`. Their grades join atlas.json under the same repo spelling.
+const ownerName = (url) => {
+  const m = /github\.com\/([^/]+\/[^/#?]+)/i.exec(url || "");
+  return m ? m[1].replace(/\.git$/, "") : null;
+};
+const atlasOnly = [];
+for (const plugin of plugins) {
+  if (matched.has(plugin)) continue;
+  const repo = ownerName(plugin.repo);
+  if (!repo) continue;
+  const file = plugin.file || {};
+  const releases = (file.url ? (file.supports || plugin.supports || []) : []).map(major => ({
+    targetZoteroVersion: String(major),
+    tagName: plugin.version || "",
+    xpiVersion: plugin.version || "",
+    xpiDownloadUrl: { github: file.url },
+    releaseDate: plugin.publishedAt || plugin.lastReleaseAt || null,
+    minZoteroVersion: file.min || "",
+    maxZoteroVersion: file.max || "",
+    name: plugin.name,
+    description: plugin.summary || "",
+    id: plugin.id || "",
+  }));
+  atlasOnly.push({
+    repo, name: plugin.name, description: plugin.summary || plugin.line || "",
+    stars: plugin.stars ?? null, tags: plugin.jobs || [], releases, listedIn: "atlas",
+  });
+  sorted[repo] = { grade: plugin.grade, slug: plugin.slug };
+  if (plugin.because) sorted[repo].why = plugin.because;
+}
+atlasOnly.sort((a, b) => a.repo.localeCompare(b.repo));
+writeFileSync(OUT_ONLY, "[\n" + atlasOnly.map(p => JSON.stringify(p)).join(",\n") + "\n]\n");
+console.log(`${atlasOnly.length} plugins only on the Atlas written to atlas_only.json`);
 writeFileSync(OUT, JSON.stringify(sorted, null, 1) + "\n");
-console.log(`${Object.keys(sorted).length} of ${repos.length} repos are on the Atlas`);
+console.log(`${matched.size} of ${repos.length} scraper repos are on the Atlas`);
 const missing = repos.filter(repo => !sorted[repo]);
 if (missing.length) console.log(`not on the Atlas: ${missing.join(", ")}`);
