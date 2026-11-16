@@ -123,6 +123,10 @@
   "open": 7,
   "closed": 0
  },
+ "Cydoimos/zotero-abbreviation-helper": {
+  "open": 0,
+  "closed": 0
+ },
  "Dirreke/zotero-metadata-translator": {
   "open": 1,
   "closed": 0
@@ -136,7 +140,7 @@
   "closed": 11
  },
  "Dominic-DallOsto/zotero-reading-list": {
-  "open": 13,
+  "open": 14,
   "closed": 71
  },
  "DrinkTea905/zotero-paper-outline": {
@@ -230,6 +234,10 @@
   "open": 0,
   "closed": 0
  },
+ "LIPO1024/tais-appearance": {
+  "open": 0,
+  "closed": 0
+ },
  "LightWindW/zotero-better-vertical-tabs": {
   "open": 0,
   "closed": 5
@@ -288,6 +296,10 @@
  },
  "ManuelaRunge/Zotitle": {
   "open": 2,
+  "closed": 2
+ },
+ "Marco0431/askgpt-zotero": {
+  "open": 0,
   "closed": 2
  },
  "Mengqi97/codex-bilingual-reader-for-zotero": {
@@ -385,8 +397,12 @@
  "RickWashon/AstroZotero": {
   "disabled": true
  },
+ "Rimagination/journal-scout-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "RoadToDream/ZotMeta": {
-  "open": 2,
+  "open": 3,
   "closed": 15
  },
  "Royshare/zotero-spotlight": {
@@ -406,8 +422,8 @@
   "closed": 1
  },
  "SRT117/LitMTrans-Zotero": {
-  "open": 1,
-  "closed": 1
+  "open": 0,
+  "closed": 2
  },
  "STRUGGLE1999/zotero-ai-notes": {
   "open": 1,
@@ -434,8 +450,8 @@
   "closed": 13
  },
  "SolveSaint/RSSrch-for-Zotero": {
-  "open": 4,
-  "closed": 4
+  "open": 3,
+  "closed": 5
  },
  "StarKujo/zotero-wordbook": {
   "open": 0,
@@ -485,7 +501,7 @@
   "closed": 44
  },
  "Visterainer/zoteroAI": {
-  "open": 3,
+  "open": 4,
   "closed": 40
  },
  "WWeiyiWang/BiRead": {
@@ -557,8 +573,8 @@
   "closed": 10
  },
  "ZorroStardust/zotero-vim-plus": {
-  "open": 1,
-  "closed": 6
+  "open": 0,
+  "closed": 7
  },
  "Zzq-02/zotero-vocab-builder": {
   "open": 1,
@@ -693,7 +709,7 @@
   "closed": 18
  },
  "dvanoni/notero": {
-  "open": 62,
+  "open": 63,
   "closed": 276
  },
  "edwintuan/pdf-ai-bookmarks": {
@@ -785,8 +801,8 @@
   "closed": 5
  },
  "guaguastandup/zotero-pdf2zh": {
-  "open": 52,
-  "closed": 227
+  "open": 39,
+  "closed": 241
  },
  "haohaomin/zotero-codex": {
   "open": 0,
@@ -874,11 +890,11 @@
  },
  "introfini/ZotSeek": {
   "open": 6,
-  "closed": 46
+  "closed": 47
  },
  "introfini/mcp-server-zotero-dev": {
   "open": 8,
-  "closed": 8
+  "closed": 9
  },
  "iu-parvej/Zotero-PDF-Copier-Renamer": {
   "open": 1,
@@ -1059,6 +1075,10 @@
   "open": 1,
   "closed": 0
  },
+ "mo-qc/mo-qc-zotero-wpsnote-sync": {
+  "open": 0,
+  "closed": 0
+ },
  "mobench/zotero-annotation-links": {
   "open": 2,
   "closed": 8
@@ -1076,8 +1096,8 @@
   "closed": 0
  },
  "northword/zotero-format-metadata": {
-  "open": 22,
-  "closed": 238
+  "open": 21,
+  "closed": 239
  },
  "northword/zotero-mica": {
   "open": 0,
@@ -1175,8 +1195,8 @@
   "closed": 2
  },
  "qrkks/zotero-annotation-markdown": {
-  "open": 1,
-  "closed": 4
+  "open": 0,
+  "closed": 5
  },
  "quertt/zotero-keyword-highlighter": {
   "open": 1,
@@ -1247,7 +1267,7 @@
   "closed": 4
  },
  "soyami/zotero-pick2anki": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "sstraume97/zotero-highlight-popup-ui-plugin": {
@@ -1267,8 +1287,8 @@
   "closed": 0
  },
  "swcxito/zotero-ai-bar": {
-  "open": 1,
-  "closed": 7
+  "open": 0,
+  "closed": 8
  },
  "syt2/Zotero-TLDR": {
   "open": 6,
@@ -1279,7 +1299,7 @@
   "closed": 18
  },
  "syt2/zotero-addons": {
-  "open": 11,
+  "open": 12,
   "closed": 49
  },
  "syt2/zotero-scipdf": {
@@ -1295,8 +1315,8 @@
   "closed": 66
  },
  "tenglvjun/mktero": {
-  "open": 0,
-  "closed": 9
+  "open": 3,
+  "closed": 10
  },
  "theRatramnus/RIOPACAddChapter": {
   "open": 0,
@@ -1342,10 +1362,6 @@
   "open": 0,
   "closed": 0
  },
- "wdcpclover/ai4paper": {
-  "open": 6,
-  "closed": 20
- },
  "weilr/zotero-scholium": {
   "open": 0,
   "closed": 0
@@ -1383,8 +1399,8 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 13,
-  "closed": 1074
+  "open": 10,
+  "closed": 1079
  },
  "wshanks/Zutilo": {
   "open": 80,
@@ -1447,7 +1463,7 @@
   "closed": 5
  },
  "yilewang/llm-for-zotero": {
-  "open": 181,
+  "open": 183,
   "closed": 204
  },
  "ysqander/listen2papers-zotero": {
