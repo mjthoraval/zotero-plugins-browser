@@ -1,4 +1,8 @@
 {
+ "00sapo/zotero-skimming": {
+  "open": 3,
+  "closed": 0
+ },
  "018/zotcard": {
   "open": 56,
   "closed": 28
@@ -7,13 +11,85 @@
   "open": 12,
   "closed": 0
  },
+ "018/zoturead": {
+  "open": 3,
+  "closed": 0
+ },
+ "06-month/paperflow": {
+  "open": 2,
+  "closed": 0
+ },
+ "0frost0/research-assistant-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "0then0/margincarry": {
+  "open": 0,
+  "closed": 0
+ },
+ "0xc1c4da/zotero7-datalab": {
+  "open": 0,
+  "closed": 0
+ },
+ "0xc1c4da/zotero7-scidb": {
+  "open": 1,
+  "closed": 1
+ },
+ "111112200/zotero-pdf-ai-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "112345brian/zotero-zotflow-autosync": {
+  "open": 0,
+  "closed": 0
+ },
+ "11zhouxuan/vibe-zotero-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "1281300805/zotero-inline-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "15674852801/twinlens-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "1654842532/zotero-ai-assistant": {
   "open": 1,
+  "closed": 0
+ },
+ "18126295767-cell/zotero-review-reminder": {
+  "open": 0,
   "closed": 0
  },
  "1ywan/zotero-odh": {
   "open": 2,
   "closed": 9
+ },
+ "24kMengXin/atr-zotero-workbench": {
+  "open": 0,
+  "closed": 0
+ },
+ "2891892831z-ship-it/zotero-language-completer": {
+  "open": 0,
+  "closed": 0
+ },
+ "37-yami/zotero-dedup": {
+  "open": 0,
+  "closed": 0
+ },
+ "38260/zotero-wysiwyg-pdf-export": {
+  "open": 0,
+  "closed": 0
+ },
+ "4-Dimethylamino-78-dihydroxyflavone/zsync": {
+  "open": 0,
+  "closed": 0
+ },
+ "441837297/zotero-mineru-plugin": {
+  "open": 0,
+  "closed": 0
  },
  "4965898/zotero-AI-OCR": {
   "open": 0,
@@ -23,9 +99,41 @@
   "open": 0,
   "closed": 0
  },
+ "524892804/batch-obsidian-export": {
+  "open": 0,
+  "closed": 0
+ },
  "54yyyu/zotero-mcp": {
   "open": 31,
   "closed": 322
+ },
+ "577glq/scholarlens": {
+  "open": 0,
+  "closed": 0
+ },
+ "5HT2C/zotero-shortdoi": {
+  "open": 0,
+  "closed": 0
+ },
+ "666666lyc/zotero-codex-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "6forwater29/citation-dialogue": {
+  "open": 0,
+  "closed": 0
+ },
+ "9527crazy-2025/ZotMind": {
+  "open": 0,
+  "closed": 1
+ },
+ "A1exHorst/llm-for-zotero-themes-companion": {
+  "open": 0,
+  "closed": 0
+ },
+ "ADeravi/zotero-scrape-update-report": {
+  "open": 0,
+  "closed": 0
  },
  "ANDYPENG09/zotero-ima-sync": {
   "open": 1,
@@ -35,11 +143,71 @@
   "open": 1,
   "closed": 2
  },
+ "AaronGIG/pdf2zh-desktop": {
+  "open": 0,
+  "closed": 37
+ },
+ "Aaronkhodami/ZotGit": {
+  "open": 0,
+  "closed": 0
+ },
+ "Acatechnic/obsidian-notepad-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Acatechnic/zotero-scholar-search": {
+  "open": 1,
+  "closed": 0
+ },
+ "Achuan-2/zotero-figure-extract": {
+  "open": 0,
+  "closed": 0
+ },
+ "Acruxis/latest_pdf_first": {
+  "open": 0,
+  "closed": 0
+ },
+ "ActiveSky/zotero-hide-manage": {
+  "open": 0,
+  "closed": 0
+ },
+ "Adoream/zotero-citation-count": {
+  "open": 0,
+  "closed": 0
+ },
+ "Agents365-ai/zotero-cli-ai": {
+  "open": 1,
+  "closed": 24
+ },
  "AgiNetz/semantic-zotero": {
   "open": 3,
   "closed": 1
  },
+ "Aht02/zotero-blank-drag": {
+  "open": 0,
+  "closed": 0
+ },
+ "Aht02/zotero-smart-hand": {
+  "open": 0,
+  "closed": 0
+ },
+ "AiGraythorn/ZoteroSyncAssistant": {
+  "open": 0,
+  "closed": 0
+ },
  "AlbertShenC/Zotero-Literature-Manager": {
+  "open": 0,
+  "closed": 0
+ },
+ "AlessMor/zotero-citation-map": {
+  "open": 0,
+  "closed": 0
+ },
+ "AlexGrandbell/zotero-wdim": {
+  "open": 0,
+  "closed": 0
+ },
+ "Alice1323/zotero-research-workbench": {
   "open": 0,
   "closed": 0
  },
@@ -51,19 +219,87 @@
   "open": 2,
   "closed": 45
  },
+ "AllanChain/zotero-sort-by-color-tag": {
+  "open": 0,
+  "closed": 0
+ },
  "Alleyf/zotero-duplicate-cleaner": {
   "open": 1,
+  "closed": 0
+ },
+ "AllinOnein/patent-outline-4-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Alphainfix/AlphainZ": {
+  "open": 1,
+  "closed": 0
+ },
+ "Amogh-Joshi/zotero-rsvp": {
+  "open": 2,
+  "closed": 1
+ },
+ "Antonalia/PaperBridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "AprilGrimoire/zotero-reader-stack": {
+  "open": 0,
+  "closed": 0
+ },
+ "Arc816/Zotero-AI-Hub": {
+  "open": 0,
+  "closed": 0
+ },
+ "Archwindos/llm-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Archwindos/metadata-search-for-zotero": {
+  "open": 0,
   "closed": 0
  },
  "Ares960826/zotero-grouptag": {
   "open": 0,
   "closed": 8
  },
+ "AriyanBe/Science-Lense": {
+  "open": 0,
+  "closed": 0
+ },
  "Asianfleet/mineru-for-zotero": {
   "open": 1,
   "closed": 2
  },
+ "AskYourPdf/zotero_plugin": {
+  "open": 0,
+  "closed": 5
+ },
+ "Aspray166/zotero-archiver": {
+  "open": 0,
+  "closed": 0
+ },
+ "AstralScarsMoonshadow/zotero-paper-mind": {
+  "open": 0,
+  "closed": 0
+ },
+ "AtlasField92/zotero-bulk-importer-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "Audanstu/zotero-magic-digest-papers": {
+  "open": 0,
+  "closed": 0
+ },
  "Ausanx/zotero-card-library": {
+  "open": 0,
+  "closed": 0
+ },
+ "Austrust/zotero-guide-helper": {
+  "open": 0,
+  "closed": 0
+ },
+ "Authentic3096/zotero-kb": {
   "open": 0,
   "closed": 0
  },
@@ -71,13 +307,29 @@
   "open": 4,
   "closed": 4
  },
+ "Ayanya-0628/zotero-mcp": {
+  "open": 0,
+  "closed": 0
+ },
  "B3000Kcn/daily-folder-for-zotero": {
   "open": 0,
   "closed": 0
  },
  "B3000Kcn/minimize-zotero-to-tray": {
-  "open": 7,
+  "open": 8,
   "closed": 1
+ },
+ "BCS1037/synapse": {
+  "open": 2,
+  "closed": 0
+ },
+ "BJTUpupil/word-zotero-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "BKBrooklyn/zotero-citation-auto-collection": {
+  "open": 0,
+  "closed": 0
  },
  "Babylonehy/zetero-BabelDoc": {
   "open": 0,
@@ -87,9 +339,33 @@
   "open": 2,
   "closed": 5
  },
+ "BaiRuic/ZoteroCopilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "BarishNamazov/zotero-site-metadata": {
+  "open": 1,
+  "closed": 0
+ },
+ "BeichenZhao/zotero-remind-me": {
+  "open": 0,
+  "closed": 0
+ },
+ "Benature/zotero-plugin-generate-parent-item-by-ai": {
+  "open": 0,
+  "closed": 0
+ },
+ "Berumotto-mk/zotero-codex-local-api": {
+  "open": 0,
+  "closed": 0
+ },
  "BlueBlueKitty/zotero-ainote": {
   "open": 1,
   "closed": 3
+ },
+ "BluesilveEmperor/PDFTranslate-Zotero": {
+  "open": 0,
+  "closed": 0
  },
  "Bowen-0x00/zotero-action-cmd": {
   "open": 3,
@@ -99,7 +375,63 @@
   "open": 0,
   "closed": 0
  },
+ "CCsouljump/zotero-pdf-deduplicator": {
+  "open": 0,
+  "closed": 0
+ },
+ "CODRbio/RAG": {
+  "open": 0,
+  "closed": 0
+ },
+ "CUNY-AI-Lab/zotero-autofill": {
+  "open": 0,
+  "closed": 1
+ },
+ "CYandYue/BabelDOC_Zotero_Translate": {
+  "open": 0,
+  "closed": 0
+ },
  "Cabdoge/pdf2notelink": {
+  "open": 0,
+  "closed": 0
+ },
+ "Cai-aa/Zotero-One": {
+  "open": 3,
+  "closed": 0
+ },
+ "Callioper/zotero-aireader": {
+  "open": 0,
+  "closed": 0
+ },
+ "CalyrexThePal/zotero-tab-groups": {
+  "open": 0,
+  "closed": 0
+ },
+ "CarhoJohn/doi2pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "CatCodeMe/zotero-global-number": {
+  "open": 0,
+  "closed": 0
+ },
+ "CavalloScuro/LGFetcher": {
+  "open": 1,
+  "closed": 0
+ },
+ "Cedar-wood/formula-forge": {
+  "open": 0,
+  "closed": 0
+ },
+ "CentreForDigitalHumanities/lidia-zotero": {
+  "open": 7,
+  "closed": 38
+ },
+ "Chan-Developer/zotero-bilingual-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "ChanceZhangcr/zotero-bilingual-reader": {
   "open": 0,
   "closed": 0
  },
@@ -107,23 +439,106 @@
   "open": 0,
   "closed": 0
  },
+ "Chenglinbo/zotero-AI-sider": {
+  "open": 0,
+  "closed": 0
+ },
  "ChenglongMa/zoplicate": {
   "open": 56,
   "closed": 43
  },
+ "Chengyue-Lu/literature-mind": {
+  "open": 0,
+  "closed": 0
+ },
  "Chikit-L/zotero-fulltext-translate": {
   "open": 5,
+  "closed": 0
+ },
+ "Ching-Chiang/zotero-elsevier-fulltext": {
+  "open": 0,
+  "closed": 0
+ },
+ "Chocay/Zotero-Latex-Fix": {
+  "open": 0,
+  "closed": 0
+ },
+ "ChrisShank/zemble": {
+  "open": 2,
+  "closed": 0
+ },
+ "CnTeng/OneDict": {
+  "open": 0,
+  "closed": 0
+ },
+ "ColeFaraday/zotero-tex-fetch": {
+  "open": 0,
   "closed": 0
  },
  "CommanderPho/zotero-desktop-annotation": {
   "open": 0,
   "closed": 0
  },
+ "CommanderPho/zotero-plugin-noduplicates": {
+  "open": 0,
+  "closed": 0
+ },
+ "ConnorB/zotero-shortdoi": {
+  "disabled": true
+ },
+ "CouldfulRial/ZoteroCopyCitationKey": {
+  "open": 0,
+  "closed": 0
+ },
+ "CrazyHalfDay/ima-zotero-sync": {
+  "open": 0,
+  "closed": 1
+ },
  "Creling/Zotero-Metadata-Scraper": {
   "open": 7,
   "closed": 0
  },
+ "CrispStrobe/CrispZotLib": {
+  "open": 1,
+  "closed": 2
+ },
+ "Crowmane420/zotero-scientific-name-italicizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "CrushDemo01/zotero-pdf2md": {
+  "open": 0,
+  "closed": 0
+ },
+ "Cuzimnero/zitatlotse": {
+  "open": 0,
+  "closed": 0
+ },
  "Cydoimos/zotero-abbreviation-helper": {
+  "open": 0,
+  "closed": 0
+ },
+ "Daniel-Addae/zotero-vertical-tab-groups": {
+  "open": 0,
+  "closed": 0
+ },
+ "DelinQu/ipec-paper-group": {
+  "open": 0,
+  "closed": 0
+ },
+ "Dennis-Huangm/zotero-ai-companion": {
+  "open": 0,
+  "closed": 0
+ },
+ "Derican/zotero-annotes": {
+  "open": 0,
+  "closed": 0
+ },
+ "DinoMax00/codex_for_zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Diraw/zotero-split-theme": {
   "open": 0,
   "closed": 0
  },
@@ -131,9 +546,20 @@
   "open": 1,
   "closed": 0
  },
+ "DjebbKhaled/ZoteroPreview10": {
+  "disabled": true
+ },
+ "Dobby-Was-Free/FeedRank_for_Zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "Dominic-DallOsto/zotero-annotations-count": {
   "open": 2,
   "closed": 11
+ },
+ "Dominic-DallOsto/zotero-custom-item-fields": {
+  "open": 1,
+  "closed": 6
  },
  "Dominic-DallOsto/zotero-pin-items": {
   "open": 2,
@@ -143,8 +569,28 @@
   "open": 14,
   "closed": 71
  },
+ "DrUsagi/Colorful-Bionic": {
+  "open": 5,
+  "closed": 2
+ },
+ "DragonGong/zotero-math-patch": {
+  "open": 0,
+  "closed": 0
+ },
+ "DreamPerday/PaperLens-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Drezil/zotero-read-ai": {
+  "open": 0,
+  "closed": 0
+ },
  "DrinkTea905/zotero-paper-outline": {
   "open": 3,
+  "closed": 0
+ },
+ "DrownFish19/ZoteroFileManager": {
+  "open": 0,
   "closed": 0
  },
  "ECHOUniverse/zotero-translator-next": {
@@ -159,19 +605,135 @@
   "open": 1,
   "closed": 1
  },
+ "Echo-Lian/Zotero-TTS-Plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "Eiskola/translook": {
+  "open": 0,
+  "closed": 0
+ },
+ "EliorFoy/hide-annotations": {
+  "open": 0,
+  "closed": 0
+ },
+ "EricJin2002/zotero-convert-to-arxiv": {
+  "open": 0,
+  "closed": 0
+ },
+ "EthanWangHaven/Zotero-Math-Inline-Fixer": {
+  "open": 0,
+  "closed": 0
+ },
+ "Eureka39/CARS-Zotero-Plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "FKkzz/AIAgent": {
+  "open": 0,
+  "closed": 0
+ },
+ "Faibk/zotlit-notifier": {
+  "open": 0,
+  "closed": 2
+ },
  "Fangziyang0910/zotero-ccf-plus": {
   "open": 2,
   "closed": 0
+ },
+ "FedeFRC/Zotero-Paper-Viewer": {
+  "open": 0,
+  "closed": 0
+ },
+ "FelixFu1213/zotero-pdf2zh-cli": {
+  "open": 0,
+  "closed": 0
+ },
+ "FireFly-LYF/FireFly-Agent-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Flemington8/Lumina": {
+  "open": 0,
+  "closed": 0
+ },
+ "FluentRead/FluentRead": {
+  "open": 37,
+  "closed": 297
  },
  "FrLars21/ZoteroCitationCountsManager": {
   "open": 28,
   "closed": 1
  },
+ "FrankRCastillo/zotero-books-to-sections": {
+  "open": 0,
+  "closed": 0
+ },
+ "Frankkk1912/ai4s-literature-workbench": {
+  "open": 0,
+  "closed": 0
+ },
+ "FukangZ/zotero-pdf-to-markdown": {
+  "open": 0,
+  "closed": 0
+ },
+ "Futuresxy/Zotero-MinerU-Translator": {
+  "open": 0,
+  "closed": 0
+ },
  "GOKORURI007/zotero-api-plus": {
   "open": 1,
   "closed": 0
  },
+ "GW19ddd/PaperFlow": {
+  "open": 1,
+  "closed": 0
+ },
+ "GW19ddd/zotero-better-viewer": {
+  "open": 0,
+  "closed": 1
+ },
+ "GaiusSheh/attanger-plus": {
+  "open": 0,
+  "closed": 0
+ },
+ "Galapo/zotero-ai-referencing-plugin-releases": {
+  "open": 1,
+  "closed": 0
+ },
+ "Gavin-ZCX/zot-link": {
+  "open": 0,
+  "closed": 0
+ },
+ "GeneralPawz/zotero-researcher": {
+  "open": 0,
+  "closed": 0
+ },
+ "GeneralPawz/zotero-tts-byok": {
+  "open": 0,
+  "closed": 0
+ },
+ "Ghostvulture/zotero-litthread": {
+  "open": 0,
+  "closed": 0
+ },
  "GinixStudy/zotero-browser": {
+  "open": 0,
+  "closed": 0
+ },
+ "Golden-Pigeon/zotero-pdf-translate-plus-plus": {
+  "open": 0,
+  "closed": 0
+ },
+ "GrainRainAndy/zotero-storage-cleaner": {
+  "open": 0,
+  "closed": 0
+ },
+ "GreyCatProductions/sentAI": {
+  "open": 0,
+  "closed": 0
+ },
+ "GronuJ/zotero-paper-buddy": {
   "open": 0,
   "closed": 0
  },
@@ -179,14 +741,118 @@
   "open": 1,
   "closed": 12
  },
+ "Gty0709/ZoteroAGY": {
+  "open": 0,
+  "closed": 0
+ },
+ "GuCarpenter/zotmcp": {
+  "open": 0,
+  "closed": 0
+ },
+ "GuoXin-Ink/codex-zotero-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "GuotuanWang/cesi": {
+  "open": 0,
+  "closed": 0
+ },
+ "GuotuanWang/wenxianbianhao": {
+  "open": 0,
+  "closed": 0
+ },
+ "HBPEKING-TKS/Good-note-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "HDChen27/ZoteroMindMap": {
+  "open": 0,
+  "closed": 0
+ },
  "HDU-OrangeS/zotero-paper-chat": {
   "open": 1,
   "closed": 1
  },
+ "HRS0986/ZoteroPDF": {
+  "open": 0,
+  "closed": 0
+ },
+ "HannisLee/Zotero-word-books": {
+  "open": 0,
+  "closed": 0
+ },
+ "HansJoakimPersson/zotero-file-utility": {
+  "open": 1,
+  "closed": 0
+ },
+ "Hanson-Wang-chn/zotero-keep-reader-ready": {
+  "open": 0,
+  "closed": 0
+ },
+ "Hao-IANWY/zotero-retainpdf-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "HaoKnight/Zotero.Quicklook": {
+  "open": 0,
+  "closed": 0
+ },
+ "Haoq1nYuan/Zotero-better-popups": {
+  "open": 0,
+  "closed": 0
+ },
+ "HaraldsU/Zotero-Hide-Scrollbar": {
+  "open": 0,
+  "closed": 0
+ },
+ "Hashmapw/HJFY-PDFTranslate": {
+  "open": 0,
+  "closed": 0
+ },
+ "Heart-ttt/zotero-maimemo": {
+  "open": 0,
+  "closed": 1
+ },
+ "Hegghammer/zotero-settings-key": {
+  "open": 0,
+  "closed": 0
+ },
  "Helloxiaolaodi/Zotero-StaticSync": {
   "disabled": true
  },
+ "Heptazero/obsidian-lexis": {
+  "open": 0,
+  "closed": 10
+ },
+ "HiYvri/pdf-fetcher": {
+  "open": 0,
+  "closed": 0
+ },
+ "Hlx0509/zotero-bilingual-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "HocfaiSun/PaperDuet-Bridge-For-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "HopeLeeee/readerc": {
+  "open": 0,
+  "closed": 0
+ },
+ "Horbin-Magician/zotero-ninja": {
+  "open": 0,
+  "closed": 0
+ },
+ "Houxin2024/zotero-bilingual": {
+  "open": 0,
+  "closed": 0
+ },
  "Huaisure/zotero-quick-copy-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "HudderMr/Zotero-RAG": {
   "open": 0,
   "closed": 0
  },
@@ -196,6 +862,36 @@
  },
  "Huoyuuu/zotero-github-links": {
   "open": 1,
+  "closed": 0
+ },
+ "Hyiker/zotero-pdf-optimizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "Hzx0211/Zotero-Quick-Read-Note": {
+  "open": 0,
+  "closed": 0
+ },
+ "ICIRICECIECR/Zotero-Literature-Analizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "ILS-Research/seekbook-zotero": {
+  "disabled": true
+ },
+ "ILS-Research/seekchat-zotero": {
+  "disabled": true
+ },
+ "IPBES-Data/zotero-fix-proposals": {
+  "open": 0,
+  "closed": 0
+ },
+ "IPBES-Data/zotero-safe-edit": {
+  "open": 0,
+  "closed": 0
+ },
+ "IcyChlorine/paper-connections": {
+  "open": 0,
   "closed": 0
  },
  "ImagonTuTu/zotero-filelink-bridge": {
@@ -210,23 +906,158 @@
   "open": 1,
   "closed": 5
  },
+ "Invincible-Dhh/zotero-image-uploader": {
+  "open": 0,
+  "closed": 0
+ },
  "IrisM6/AlphaPulse": {
   "open": 0,
   "closed": 0
+ },
+ "Israfil-Hossen/zotero-supplementary-downloader": {
+  "open": 0,
+  "closed": 0
+ },
+ "JAEYOONSUNG/zotero-plugins": {
+  "open": 0,
+  "closed": 0
+ },
+ "JPWang-OvO/OpenReview-Fetcher": {
+  "open": 1,
+  "closed": 0
+ },
+ "JYKiki/Zotero-topic-focus-sync": {
+  "open": 0,
+  "closed": 0
+ },
+ "Jaaaahan/kernai": {
+  "open": 0,
+  "closed": 0
+ },
+ "JackBlack419/wenxian-yidu": {
+  "open": 0,
+  "closed": 0
+ },
+ "Jajaho/zotero-citation-graph": {
+  "open": 6,
+  "closed": 16
+ },
+ "JanR383/zotero-qualified-references": {
+  "open": 0,
+  "closed": 1
  },
  "Jarvis-Towne/paper-feed-zotero": {
   "open": 1,
   "closed": 2
  },
+ "JasperYep/zotero-llm-selection-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "Jasumin/zotero-bbt-pdf-mirror": {
+  "open": 0,
+  "closed": 0
+ },
+ "JeRrySun-Yong/zotero-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "Jellyjujube/jujube-zotero-joplin": {
+  "open": 0,
+  "closed": 0
+ },
  "Jiahaohong/mineru-to-zotero": {
   "open": 0,
+  "closed": 0
+ },
+ "JiangShuguo/zotero-memory": {
+  "open": 0,
+  "closed": 0
+ },
+ "JimCSuen/Zotero-reference-graph": {
+  "open": 0,
+  "closed": 0
+ },
+ "JimmyJuan/zotero-vim-half-scroll": {
+  "open": 0,
+  "closed": 0
+ },
+ "JingYangYuan/zotero-agent-mcp": {
+  "open": 0,
+  "closed": 0
+ },
+ "Jinshijiming/zotero-pdf-translate-z6": {
+  "open": 0,
+  "closed": 0
+ },
+ "JuKang80/zotero-cover-grid": {
+  "open": 0,
+  "closed": 0
+ },
+ "JuliusBairaktaris/zotero-shortdoi": {
+  "disabled": true
+ },
+ "JunyanKang/paper-loom": {
+  "open": 0,
+  "closed": 0
+ },
+ "JunyanKang/paper-nexus": {
+  "open": 0,
+  "closed": 0
+ },
+ "JunyanKang/paper-voice": {
+  "open": 0,
+  "closed": 0
+ },
+ "JunyeolYu/line_focus": {
+  "open": 3,
   "closed": 0
  },
  "Juris-M/zotero-odf-scan-plugin": {
   "open": 5,
   "closed": 36
  },
+ "JustusHenke/zotero-copy-path": {
+  "open": 0,
+  "closed": 0
+ },
+ "KESHEN-ZHOU/PaperRouter": {
+  "open": 0,
+  "closed": 0
+ },
+ "Kadzo/zotero-attachment-formats": {
+  "open": 0,
+  "closed": 0
+ },
+ "Kaergo/zotero_to_obsidian": {
+  "open": 0,
+  "closed": 0
+ },
  "KaguraTart/literature-review-with-LLM": {
+  "open": 0,
+  "closed": 0
+ },
+ "KalenJosifovski/zotero-integration-agent": {
+  "open": 0,
+  "closed": 0
+ },
+ "KatayamaLab/z-permalink": {
+  "open": 1,
+  "closed": 0
+ },
+ "KateW11/Zotero-imprint": {
+  "open": 0,
+  "closed": 0
+ },
+ "Kazuma-yj/preprint-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "KeiYuHin/zotero-obsidian-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "KeqiYe/Zotero-AI-Classifier": {
   "open": 0,
   "closed": 0
  },
@@ -234,13 +1065,112 @@
   "open": 0,
   "closed": 0
  },
+ "KinomotoMio/zotero-agent-copilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "Kohirus/super-scholar": {
+  "open": 0,
+  "closed": 0
+ },
+ "KorhonenAleksi/zotero-fix-caps": {
+  "open": 0,
+  "closed": 0
+ },
+ "KorhonenAleksi/zotero-reference-check": {
+  "open": 0,
+  "closed": 0
+ },
+ "KorhonenAleksi/zotero-research-radar": {
+  "open": 0,
+  "closed": 0
+ },
+ "KravornN/Zotero-easyGPT": {
+  "open": 1,
+  "closed": 0
+ },
+ "KuchinashiYume/Memorive": {
+  "open": 0,
+  "closed": 0
+ },
+ "Kumiko-kmk/Translator-for-Zotero": {
+  "disabled": true
+ },
+ "LFD-byte/zotero-citetally": {
+  "open": 0,
+  "closed": 0
+ },
  "LIPO1024/tais-appearance": {
+  "open": 0,
+  "closed": 0
+ },
+ "LLPetro/Zotero-Collection-Relations": {
+  "open": 0,
+  "closed": 0
+ },
+ "LSX-UniWue/bibsonomy-zotero-sync": {
+  "open": 6,
+  "closed": 0
+ },
+ "LXX006/zotero-rich-annotation": {
+  "open": 1,
+  "closed": 0
+ },
+ "LanTing-0119/zotero-bilingual-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "Last-diary/PaperTranslate-Zotero-Plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "LeeWin0531/zotero-pdf-compress": {
+  "open": 0,
+  "closed": 0
+ },
+ "Lendle-King/zotero-bibtex-copy": {
+  "open": 0,
+  "closed": 0
+ },
+ "Leonezz/tasks-timeline-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "LeviTK/Zotero2Readwise": {
+  "open": 0,
+  "closed": 0
+ },
+ "Li-Kangling/zotero-watch-folder-multiroot": {
+  "open": 0,
+  "closed": 0
+ },
+ "LiKa-shing/git4zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "LiamZhao710/paper-statistics-for-zotero": {
   "open": 0,
   "closed": 0
  },
  "LightWindW/zotero-better-vertical-tabs": {
   "open": 0,
   "closed": 5
+ },
+ "LilyKun064/Autotag_zotero_plugin": {
+  "open": 2,
+  "closed": 8
+ },
+ "Lilynaux/CitePulse": {
+  "open": 0,
+  "closed": 0
+ },
+ "Liotou/zotero-TOC": {
+  "open": 0,
+  "closed": 0
+ },
+ "Liotou/zotero-annota": {
+  "open": 0,
+  "closed": 0
  },
  "Liozhang/z-search": {
   "open": 0,
@@ -254,7 +1184,38 @@
   "open": 1,
   "closed": 1
  },
+ "LiuAoran/zotero-capsules-status-tag": {
+  "open": 0,
+  "closed": 0
+ },
+ "LiuAoran/zotero-veil": {
+  "open": 0,
+  "closed": 0
+ },
+ "LiuFangshuo666/DSH-for-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "LiusirAi/tree-koala": {
+  "open": 0,
+  "closed": 0
+ },
+ "Liyulia-droid/EasyCite": {
+  "disabled": true
+ },
+ "Lnearfar/zotero-agentibility": {
+  "open": 0,
+  "closed": 0
+ },
+ "LockFaiz/paper-notion-flow": {
+  "open": 0,
+  "closed": 0
+ },
+ "Logan12l/pinyin-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Loooookk/zotero-deepseek": {
   "open": 0,
   "closed": 0
  },
@@ -270,7 +1231,31 @@
   "open": 1,
   "closed": 0
  },
+ "LuckyFulong/zotlite": {
+  "open": 0,
+  "closed": 0
+ },
+ "LuisHCalderon/scihub-zotero-8": {
+  "open": 0,
+  "closed": 0
+ },
+ "Lukas7766/zotero-tag-viewer": {
+  "open": 0,
+  "closed": 0
+ },
  "Luke-Evan/zotero-keep-window": {
+  "open": 0,
+  "closed": 0
+ },
+ "LumiAzure/zotero-pdf-copy": {
+  "open": 0,
+  "closed": 0
+ },
+ "LuoRory/zotero-review-tab": {
+  "open": 0,
+  "closed": 0
+ },
+ "Lyn6969/mineru-parse": {
   "open": 0,
   "closed": 0
  },
@@ -282,6 +1267,10 @@
   "open": 2,
   "closed": 0
  },
+ "MARS-ROBOTICS-star/Local-Immersive-Translate": {
+  "open": 0,
+  "closed": 0
+ },
  "MCXCC303/ZCTr": {
   "open": 0,
   "closed": 0
@@ -290,7 +1279,23 @@
   "open": 1,
   "closed": 1
  },
+ "MOMISBACK/ProtPeek": {
+  "open": 0,
+  "closed": 0
+ },
+ "MUG-chen/zotero-context-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "MagicDakeAI/zotero-ai-reader": {
+  "open": 0,
+  "closed": 0
+ },
  "MaiZiPiaoPiao/InkBridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "Makashibata02/zotero-local-bilingual": {
   "open": 0,
   "closed": 0
  },
@@ -298,17 +1303,92 @@
   "open": 2,
   "closed": 2
  },
+ "Mappedinfo/local-zotero-bridge": {
+  "open": 0,
+  "closed": 0
+ },
  "Marco0431/askgpt-zotero": {
   "open": 0,
   "closed": 2
+ },
+ "MartinekV/zotero-safe-mcp": {
+  "open": 0,
+  "closed": 0
+ },
+ "Max101Johnston/EmbeddingZotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Maxccess/zotero-vocab": {
+  "open": 1,
+  "closed": 0
+ },
+ "MemorushB/zotero-smart-highlighter": {
+  "open": 1,
+  "closed": 0
+ },
+ "Mengqi-Lei/texglot": {
+  "open": 1,
+  "closed": 3
  },
  "Mengqi97/codex-bilingual-reader-for-zotero": {
   "open": 1,
   "closed": 1
  },
+ "Mengzeovo/zotero-agent-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "MiguelDLM/Zotlit": {
+  "open": 0,
+  "closed": 0
+ },
+ "MiguelDLM/author-harvester": {
+  "open": 0,
+  "closed": 0
+ },
+ "MiguelDLM/zotero-filters": {
+  "open": 0,
+  "closed": 0
+ },
+ "MiguelDLM/zotero-notebookLM": {
+  "open": 0,
+  "closed": 0
+ },
+ "MiguelDLM/zotero-paper-search": {
+  "open": 1,
+  "closed": 1
+ },
+ "Ming-321/zotero-paper2md": {
+  "open": 0,
+  "closed": 0
+ },
+ "MinhHaDuong/search-works-for-zotero": {
+  "open": 1,
+  "closed": 0
+ },
+ "Molaison/zotero-onekey-annotations": {
+  "open": 0,
+  "closed": 0
+ },
  "Moonweave-Research/zotero-reading-flow": {
   "open": 4,
   "closed": 4
+ },
+ "Moonweave-Research/zotero-vocab-flow": {
+  "open": 0,
+  "closed": 5
+ },
+ "MrBear9/zotero-smart-import": {
+  "open": 0,
+  "closed": 0
+ },
+ "MrSaneApps/zotero-sjr-rankings": {
+  "disabled": true
+ },
+ "MrYgoodenough/PaperBridge-zotero-plugin": {
+  "open": 2,
+  "closed": 0
  },
  "Muanyan-mjq/zotero-interlinear": {
   "open": 0,
@@ -326,6 +1406,10 @@
   "open": 159,
   "closed": 93
  },
+ "MuiseDestiny/zotero-claudero": {
+  "open": 0,
+  "closed": 0
+ },
  "MuiseDestiny/zotero-figure": {
   "open": 0,
   "closed": 78
@@ -338,11 +1422,47 @@
   "open": 211,
   "closed": 154
  },
+ "Myang-print/zotero-codex-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "N1116839/scu-apa7": {
+  "open": 0,
+  "closed": 0
+ },
+ "NEONOENONE/zotero-journal-suffix-cleaner": {
+  "open": 0,
+  "closed": 0
+ },
+ "NakamuraTakumu/Zotero-Gemini-PDF": {
+  "open": 0,
+  "closed": 0
+ },
  "Nayuta-9/zotero-geyi-translator": {
   "open": 0,
   "closed": 0
  },
+ "NbtKmy/zotero-price-lookup": {
+  "open": 0,
+  "closed": 0
+ },
+ "NbtKmy/zotero-rvk-classifier": {
+  "open": 0,
+  "closed": 0
+ },
  "NebulaRaven/zotero-refolio": {
+  "open": 0,
+  "closed": 0
+ },
+ "NickyNoName/zotero-saved-search-folders": {
+  "open": 0,
+  "closed": 0
+ },
+ "Nicrael/zotero-pdf-region-export": {
+  "open": 0,
+  "closed": 0
+ },
+ "NightLightTw/zotero-local-tts": {
   "open": 0,
   "closed": 0
  },
@@ -362,21 +1482,149 @@
   "open": 1,
   "closed": 0
  },
+ "NotoOotori/Zotero-Feed-Filter": {
+  "open": 0,
+  "closed": 0
+ },
+ "Nova-Meteor/zotero-sentence-hover": {
+  "open": 0,
+  "closed": 0
+ },
+ "OK-Feng-hash/zotero-card-view": {
+  "open": 0,
+  "closed": 0
+ },
+ "ObservaGP/adhd-lens": {
+  "open": 0,
+  "closed": 0
+ },
+ "Olekd21/Translate-Bridge-for-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "OliverDudgeon/zotero-arxiv-html": {
+  "open": 0,
+  "closed": 0
+ },
+ "OliverDudgeon/zotero-named-annotations": {
+  "open": 0,
+  "closed": 0
+ },
+ "OliverDudgeon/zotero-tab-fix": {
+  "open": 0,
+  "closed": 0
+ },
+ "OneOneLiu/Zotero-Research-Copilot": {
+  "open": 0,
+  "closed": 0
+ },
  "OneOneLiu/zotero-annotation-summary": {
   "open": 2,
   "closed": 14
+ },
+ "OneOneLiu/zotero-tag-graph": {
+  "open": 0,
+  "closed": 0
+ },
+ "OssifiedSardine/zotero-feed-sort": {
+  "open": 0,
+  "closed": 0
+ },
+ "PAOPAOovo/zotero-selection-notes": {
+  "open": 0,
+  "closed": 0
+ },
+ "Passionate0424/zotero-pdf-compare": {
+  "open": 0,
+  "closed": 0
+ },
+ "PeihengLu/zotero-synced-collections": {
+  "open": 0,
+  "closed": 0
+ },
+ "Philippyang21/zotero-pdf-helper": {
+  "open": 0,
+  "closed": 0
+ },
+ "Phlya/zotero-paper-import": {
+  "open": 0,
+  "closed": 0
+ },
+ "PhoenixChenLu/zotero-local-mcp-bridge": {
+  "open": 0,
+  "closed": 1
+ },
+ "Pigggggggggg/Better-tags-for-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "PikaPei/zotero-default-attachment": {
+  "open": 0,
+  "closed": 0
+ },
+ "PracticeEarnestly/zotero-ai-literature-workflow": {
+  "open": 0,
+  "closed": 0
+ },
+ "PracticeEarnestly/zotero-fulltext-flow": {
+  "open": 2,
+  "closed": 5
+ },
+ "PracticeEarnestly/zotero-literature-flow": {
+  "open": 0,
+  "closed": 0
+ },
+ "ProgrammerAyaka/zotero_paper_summary": {
+  "open": 0,
+  "closed": 0
  },
  "PubPeerFoundation/pubpeer_zotero_plugin": {
   "open": 3,
   "closed": 29
  },
+ "Purushka/zotero-concept-explorer": {
+  "open": 0,
+  "closed": 0
+ },
+ "QDryougi/zotero-mcp-tags": {
+  "open": 0,
+  "closed": 0
+ },
+ "QianrenLi/FastLinkInZotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Qilinn-Robotics/zotero-PaperChat": {
+  "open": 0,
+  "closed": 0
+ },
  "QinSihan/zotero-paper-partner": {
   "open": 0,
   "closed": 1
  },
+ "QingMu-Aoki/mktero-community-3.16": {
+  "open": 0,
+  "closed": 0
+ },
+ "Qingshu-wsy/ZoteroQuickLook-7-10": {
+  "open": 0,
+  "closed": 0
+ },
  "Qiujv/zotero-hashtags-column": {
   "open": 0,
   "closed": 0
+ },
+ "RJ0508/ZoteroAssistant": {
+  "open": 0,
+  "closed": 0
+ },
+ "RSLN-creator/zotero-pdf-associate": {
+  "open": 0,
+  "closed": 0
+ },
+ "RTLiang/zotero-codex": {
+  "open": 0,
+  "closed": 1
  },
  "Rafael-Silva-Oliveira/NZBridge": {
   "open": 0,
@@ -389,6 +1637,30 @@
  "Rafael-Silva-Oliveira/paperzorro": {
   "open": 0,
   "closed": 1
+ },
+ "RavenHogWarts/Zotero_CSL_Visual_Editor_Release": {
+  "open": 0,
+  "closed": 0
+ },
+ "Raymondxu-CivilTechLabs/zotero-item-type-converter": {
+  "open": 0,
+  "closed": 0
+ },
+ "Raymonsc/zotero-local-backup": {
+  "open": 0,
+  "closed": 0
+ },
+ "Raythere/Zotero-Infinity": {
+  "open": 0,
+  "closed": 0
+ },
+ "RebelPotato/readmate": {
+  "open": 0,
+  "closed": 0
+ },
+ "Reborker/reta-ai-chat": {
+  "open": 0,
+  "closed": 0
  },
  "RedkieZhang717/vocabu_text": {
   "open": 0,
@@ -405,6 +1677,14 @@
   "open": 3,
   "closed": 15
  },
+ "Robert-Stackflow/better-rss-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "Robert-Xiong1117/zotero-mcp-connector": {
+  "open": 0,
+  "closed": 0
+ },
  "Royshare/zotero-spotlight": {
   "open": 7,
   "closed": 16
@@ -412,6 +1692,10 @@
  "Rphone/zotero-tab-enhance": {
   "open": 2,
   "closed": 14
+ },
+ "Rsuiyi/Zotero_PaperLoom": {
+  "open": 0,
+  "closed": 0
  },
  "SHANGKAIJIE/zotero-dual-title": {
   "open": 1,
@@ -421,12 +1705,24 @@
   "open": 4,
   "closed": 1
  },
+ "SJTUHDT/Z-O-Bridge": {
+  "open": 0,
+  "closed": 0
+ },
  "SRT117/LitMTrans-Zotero": {
   "open": 0,
   "closed": 2
  },
  "STRUGGLE1999/zotero-ai-notes": {
   "open": 1,
+  "closed": 0
+ },
+ "SamyAteia/ZotExtract": {
+  "open": 0,
+  "closed": 0
+ },
+ "Saxena224pawan/zotero-scholar-assistant": {
+  "open": 0,
   "closed": 0
  },
  "Saytanz0815/annotation-color-memory": {
@@ -441,7 +1737,63 @@
   "open": 19,
   "closed": 17
  },
+ "ScienceLiveHub/zotero-nanopub-plugin": {
+  "open": 8,
+  "closed": 1
+ },
+ "SeanComeOn/zotero7_json_importer_checker": {
+  "open": 0,
+  "closed": 0
+ },
+ "SeehowLi/Zotero-localchat": {
+  "open": 0,
+  "closed": 0
+ },
+ "SeptYagu/zotero-margin-fit": {
+  "open": 0,
+  "closed": 0
+ },
+ "SeptYagu/zotero-theme-toggle": {
+  "open": 0,
+  "closed": 0
+ },
+ "Seraphina523/zotero-ai-assistant": {
+  "open": 0,
+  "closed": 0
+ },
+ "ShZhao27208/ZotAgent": {
+  "open": 0,
+  "closed": 0
+ },
+ "ShZhao27208/ZotEasyTran": {
+  "open": 0,
+  "closed": 0
+ },
  "ShamanStone/Zotero_snapshot_reviver": {
+  "open": 0,
+  "closed": 0
+ },
+ "ShengjieJin/pdftrim-for-llm": {
+  "open": 0,
+  "closed": 0
+ },
+ "ShiWenber/zotero-paper-copilot": {
+  "open": 0,
+  "closed": 1
+ },
+ "ShiyangZheng/zometaker": {
+  "open": 0,
+  "closed": 0
+ },
+ "Shuenhoy/zotero-break-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "Sinoftj/Bottom": {
+  "open": 0,
+  "closed": 0
+ },
+ "SiriYep/zotero-obsidian-linker": {
   "open": 0,
   "closed": 0
  },
@@ -453,13 +1805,49 @@
   "open": 3,
   "closed": 5
  },
+ "SparkleMuff1n/cjk-date-convert": {
+  "open": 0,
+  "closed": 0
+ },
+ "SparkleMuff1n/zotero-author-search": {
+  "open": 0,
+  "closed": 0
+ },
+ "SparkleMuff1n/zotero-collection-colors": {
+  "open": 1,
+  "closed": 0
+ },
+ "SparkleMuff1n/zotero-note-to-book-section": {
+  "open": 0,
+  "closed": 0
+ },
+ "Spullk/zotero-gruvbox-soft": {
+  "open": 0,
+  "closed": 0
+ },
+ "SrMateos/zotero-pinakes": {
+  "open": 7,
+  "closed": 2
+ },
  "StarKujo/zotero-wordbook": {
+  "open": 0,
+  "closed": 0
+ },
+ "StarlitSky27/zotero-renameAttachments": {
+  "open": 0,
+  "closed": 0
+ },
+ "Steven04hub/zotero-explain": {
   "open": 0,
   "closed": 0
  },
  "StevenGLee/zotero-author-browser": {
   "open": 5,
   "closed": 8
+ },
+ "StevenShen3641/Zotero-Core-Ranking": {
+  "open": 1,
+  "closed": 0
  },
  "Sum-su/yaobian-zotero": {
   "open": 1,
@@ -469,12 +1857,78 @@
   "open": 0,
   "closed": 0
  },
+ "Suresh-inbit/zotero-ai-chat": {
+  "open": 0,
+  "closed": 0
+ },
+ "Suwueng/zotero-reference-marker-fix": {
+  "open": 0,
+  "closed": 0
+ },
  "Suzuka24/paper-chat-for-zotero": {
   "open": 0,
   "closed": 0
  },
+ "TCXM/llm-for-zotero-ui": {
+  "disabled": true
+ },
+ "TJR-USTC-HUB/paper-workbench-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "TLzh/paperworm": {
+  "open": 1,
+  "closed": 1
+ },
+ "TRAVISZHAN/zotero-hermes-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "TShippen/zotero-adobe-ocr-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "Ta-Gu/zotero-plugin-hover-translation": {
+  "open": 0,
+  "closed": 0
+ },
+ "TaNgent-Owl/Zotero_Temporary_Ink": {
+  "open": 0,
+  "closed": 0
+ },
+ "Talos-1/zotero-citationcounts": {
+  "open": 1,
+  "closed": 0
+ },
  "TangQi001/zotero-ai-assist": {
   "disabled": true
+ },
+ "Tantalus13A98B5F/make-it-fullscreen": {
+  "disabled": true
+ },
+ "Tenor-John/Zotero-Lit_Ai_Matrix": {
+  "open": 0,
+  "closed": 0
+ },
+ "TerryWen2023/Zotero-C1LIFE": {
+  "open": 0,
+  "closed": 0
+ },
+ "ThaneJoss/ccfa-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "ThatGuo/zotero-import-preprocessor": {
+  "open": 0,
+  "closed": 0
+ },
+ "TheCiteShop/the-cite-shop-client-sync": {
+  "open": 0,
+  "closed": 0
+ },
+ "TheGadflyAndMontalleni/Zotero_download_from_scihub": {
+  "open": 0,
+  "closed": 0
  },
  "TheJieee/zotero-pdf-translate": {
   "open": 1,
@@ -484,27 +1938,106 @@
   "open": 6,
   "closed": 2
  },
+ "TheoCUC/zotero-arxiv-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "TianSuya/ZoteroChat": {
+  "open": 0,
+  "closed": 0
+ },
  "TimeTrapzz/zotero-ccf-info": {
   "open": 6,
   "closed": 13
  },
+ "Toby-Shi-cloud/Zotero-Auto-CCF-Tag-Plugin": {
+  "open": 0,
+  "closed": 0
+ },
  "TomYU2023/Zone": {
   "open": 1,
+  "closed": 0
+ },
+ "Tsai-ky/zoterochat": {
+  "open": 0,
+  "closed": 0
+ },
+ "Ttungx/easyread-zotero-sync": {
+  "open": 0,
+  "closed": 0
+ },
+ "Tulingli/zotero-literature-review": {
+  "open": 0,
   "closed": 0
  },
  "UB-Mannheim/zotero-ocr": {
   "open": 7,
   "closed": 88
  },
+ "USEPA/epa-zotero-plugin": {
+  "disabled": true
+ },
+ "UniTian/zotero-feed-management": {
+  "open": 0,
+  "closed": 0
+ },
+ "UniTian/zotero-memory-management": {
+  "open": 0,
+  "closed": 0
+ },
+ "Upcreat/zotero-code-link": {
+  "open": 0,
+  "closed": 0
+ },
+ "UtkuBilenDemir/kanzi": {
+  "open": 0,
+  "closed": 0
+ },
  "Veiluna/babeldoc-for-zotero": {
   "open": 12,
   "closed": 44
+ },
+ "Verandathu/Zotero-AI": {
+  "open": 0,
+  "closed": 0
+ },
+ "Vic-c33/zotero-pdf-attachment-downloader": {
+  "open": 0,
+  "closed": 0
+ },
+ "Victor-Levindo/nuvem-palavras-z": {
+  "open": 0,
+  "closed": 0
  },
  "Visterainer/zoteroAI": {
   "open": 4,
   "closed": 40
  },
+ "Vithrive/llm-for-zotero-sync": {
+  "open": 0,
+  "closed": 0
+ },
+ "Vithrive/llm-for-zotero-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "WANGZFOF/GB-T-7714-2025-Helper": {
+  "open": 0,
+  "closed": 0
+ },
+ "WCG0726/zotero-researchhub": {
+  "open": 0,
+  "closed": 0
+ },
  "WWeiyiWang/BiRead": {
+  "open": 0,
+  "closed": 0
+ },
+ "Wang-Wen-Hui/notebook-zotero-backlink": {
+  "open": 0,
+  "closed": 0
+ },
+ "WangErgouaaaa/zotero-note-batch-exporter": {
   "open": 0,
   "closed": 0
  },
@@ -512,7 +2045,47 @@
   "open": 0,
   "closed": 0
  },
+ "WeekendP/zotero-paper-chat": {
+  "open": 0,
+  "closed": 0
+ },
+ "Wegene38/zotero-auto-sort": {
+  "open": 0,
+  "closed": 0
+ },
+ "WeiCheng14159/zotero-local-pdf-manager": {
+  "open": 0,
+  "closed": 0
+ },
+ "WeiCheng14159/zotero-md": {
+  "open": 0,
+  "closed": 0
+ },
+ "WeiCheng14159/zotero_paper2speech": {
+  "open": 0,
+  "closed": 0
+ },
+ "WentianGodlike/Zotero-AskPage": {
+  "open": 0,
+  "closed": 0
+ },
+ "Wfssll/zotero-browser": {
+  "open": 0,
+  "closed": 0
+ },
  "WildDataX/suppr-zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "Wilhenry777/zotero-gpt-literature-summary": {
+  "open": 0,
+  "closed": 0
+ },
+ "WilliamJKYuan/zotero-batch-add-info": {
+  "open": 0,
+  "closed": 0
+ },
+ "WilliamWhite080808/zotero-structured-tags": {
   "open": 0,
   "closed": 0
  },
@@ -524,12 +2097,60 @@
   "open": 1,
   "closed": 0
  },
+ "Wintus/zotero-remove-space-ja": {
+  "open": 0,
+  "closed": 4
+ },
  "WncFht/texlate": {
   "open": 2,
   "closed": 0
  },
+ "Woif-sha/paper-translate-for-zotero": {
+  "open": 0,
+  "closed": 1
+ },
+ "Woif-sha/reference-for-zotro": {
+  "open": 0,
+  "closed": 56
+ },
+ "Woyekun-cell/Ask-for-GPT": {
+  "open": 0,
+  "closed": 0
+ },
+ "Wu-Lipeng/LexiNote": {
+  "open": 0,
+  "closed": 0
+ },
+ "WuGuangHeng/zotero-ragflow": {
+  "open": 2,
+  "closed": 0
+ },
+ "X-T-E-R/Zotero-MCP-Neo": {
+  "open": 3,
+  "closed": 0
+ },
+ "X-T-E-R/zotero-resource-search-mcp": {
+  "open": 0,
+  "closed": 0
+ },
+ "X1AOX1A/ZoFiles": {
+  "open": 3,
+  "closed": 0
+ },
+ "XIA-YH/zotero-reference-additions-stats": {
+  "open": 0,
+  "closed": 0
+ },
+ "XiangweiW/deepread": {
+  "open": 0,
+  "closed": 0
+ },
  "XiaoDuComrade/Zotero-margin-notes": {
   "open": 1,
+  "closed": 0
+ },
+ "XiaoDuComrade/zotero-browser-tabs": {
+  "open": 0,
   "closed": 0
  },
  "XiaoDuComrade/zotero-manual-sort": {
@@ -544,15 +2165,86 @@
   "open": 1,
   "closed": 0
  },
+ "XiaoheMo9178/paper-classifier": {
+  "open": 0,
+  "closed": 0
+ },
  "XoYaPeng/zotero-hide-fields": {
   "open": 2,
+  "closed": 0
+ },
+ "Xpropel/zotero-mcp": {
+  "open": 0,
+  "closed": 0
+ },
+ "XuZhiangDLUT/ZoteroTLDR": {
+  "disabled": true
+ },
+ "XuebaStudy/zotero10-hide-citation-highlights": {
+  "open": 0,
+  "closed": 0
+ },
+ "XvHaoR/paper-translation-master": {
+  "open": 0,
+  "closed": 0
+ },
+ "YIKUYOO/zotero-page-images": {
+  "open": 1,
+  "closed": 0
+ },
+ "YU5-novaiuk/zotero-research-framework": {
+  "open": 0,
   "closed": 0
  },
  "YanSH258/zotero-dailypaper": {
   "open": 1,
   "closed": 2
  },
+ "YangJay2004/zotero-paper-markdown": {
+  "open": 0,
+  "closed": 0
+ },
+ "YangyuTRUE/Tidal": {
+  "open": 0,
+  "closed": 0
+ },
+ "YeJiangnan1029/attachment-recover": {
+  "open": 0,
+  "closed": 0
+ },
+ "Yechuan480/literature-daily-reading": {
+  "open": 0,
+  "closed": 0
+ },
+ "Yezery/idea_for_zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "Yihtsy/ZotLink": {
+  "open": 0,
+  "closed": 0
+ },
+ "YogurtToSpring/zotero-pdf-paratranslate": {
+  "open": 0,
+  "closed": 0
+ },
+ "Yongwoo-Lee-ccl/zoterocrop": {
+  "open": 0,
+  "closed": 0
+ },
+ "Yu-TingSun/LitGap": {
+  "open": 0,
+  "closed": 0
+ },
+ "YuChen-06/Zotero-HTML-Style": {
+  "open": 0,
+  "closed": 0
+ },
+ "YufeiXIA/zotero-claude-code": {
+  "open": 0,
+  "closed": 0
+ },
+ "YufeiXIA/zotero-warm-theme": {
   "open": 0,
   "closed": 0
  },
@@ -560,7 +2252,23 @@
   "open": 0,
   "closed": 0
  },
+ "Yyu-ang/zotero-skill-task-mcp": {
+  "open": 0,
+  "closed": 2
+ },
+ "Z-rrsss/zotero-line-focus": {
+  "open": 0,
+  "closed": 0
+ },
+ "Z1hawl89/cueb-journal-tier": {
+  "open": 0,
+  "closed": 0
+ },
  "ZBigFish/zotero-ccf-rank": {
+  "open": 0,
+  "closed": 0
+ },
+ "ZJW11398925/zotero-retrieval-index": {
   "open": 0,
   "closed": 0
  },
@@ -568,27 +2276,199 @@
   "open": 2,
   "closed": 1
  },
+ "ZenanH/zotero-babeldoc": {
+  "open": 0,
+  "closed": 0
+ },
+ "Zhang-ren/Zotero-AI-Summarizer": {
+  "open": 1,
+  "closed": 0
+ },
+ "ZhangHangjia/zotero-note-preview-column": {
+  "open": 0,
+  "closed": 0
+ },
+ "ZhangLinqi-07/zotero-pdf2zh-body-only": {
+  "open": 0,
+  "closed": 0
+ },
+ "Zhanyuanium/Zotero-PDF-Noir": {
+  "open": 0,
+  "closed": 0
+ },
+ "ZhaoPuEE/zotero-eye-care": {
+  "open": 0,
+  "closed": 0
+ },
+ "ZhenwanLi/zotero-worldlib-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "ZhiboRao/zotero-meta-refresh": {
+  "open": 0,
+  "closed": 0
+ },
+ "ZhidongMiao/zotero-split-viewer": {
+  "open": 0,
+  "closed": 0
+ },
+ "Zhoas/zotero-md-annotations": {
+  "open": 0,
+  "closed": 0
+ },
+ "Zhoas/zotero-paperlist-csv": {
+  "open": 0,
+  "closed": 0
+ },
  "ZionDoki/confucius": {
   "open": 1,
   "closed": 10
+ },
+ "Zjj-Low-Key/zotero-word-learning": {
+  "open": 0,
+  "closed": 0
+ },
+ "Zonezzc/zotero-xmnote": {
+  "open": 0,
+  "closed": 0
  },
  "ZorroStardust/zotero-vim-plus": {
   "open": 0,
   "closed": 7
  },
+ "Zotero-Cat/Zotero-Cat": {
+  "open": 0,
+  "closed": 0
+ },
+ "Zotero-Flow/zotero-quick-highlight": {
+  "open": 0,
+  "closed": 0
+ },
  "Zzq-02/zotero-vocab-builder": {
   "open": 1,
+  "closed": 0
+ },
+ "Zzt-flash/zotero-reader-note-tweaks": {
+  "open": 0,
+  "closed": 0
+ },
+ "aaAarJimedes/zotero-pdf2zh-companion": {
+  "open": 0,
+  "closed": 0
+ },
+ "aadi219/defn": {
+  "open": 0,
+  "closed": 0
+ },
+ "acaValkyrie/zotero-handwritten-notes": {
+  "open": 0,
+  "closed": 0
+ },
+ "adamsghaier/zotero-open-in-obsidian": {
+  "open": 0,
+  "closed": 0
+ },
+ "adamsghaier/zotero-reader-window-focus": {
+  "open": 0,
+  "closed": 0
+ },
+ "adamsghaier/zotero-replace-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "adellife/zotero-skimread": {
+  "open": 1,
+  "closed": 0
+ },
+ "adno/zot-anlp": {
+  "open": 0,
+  "closed": 0
+ },
+ "adolinjonathan-bot/zotero-toolkit": {
+  "open": 0,
+  "closed": 0
+ },
+ "agentsmith29/Zotero-MCP-Plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "aguvener/zTLDR": {
+  "open": 0,
+  "closed": 0
+ },
+ "ahzs645/zotero-cite-gen": {
+  "open": 0,
   "closed": 0
  },
  "aidecameron/zotero-annotation-color-customizer": {
   "open": 1,
   "closed": 1
  },
+ "aidenlx/zotlit": {
+  "open": 22,
+  "closed": 1393
+ },
  "airalinknowledge/zotero-book-splitter": {
   "open": 1,
   "closed": 0
  },
+ "ajdavis/zotero-duplicates-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "ajdavis/zotero-metadata-search-plugin": {
+  "open": 1,
+  "closed": 0
+ },
+ "ajs7270/zotero-ai-summary": {
+  "open": 1,
+  "closed": 0
+ },
+ "akirk20-code/zotero-spellcheck-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "aknahin/kozosync": {
+  "open": 0,
+  "closed": 0
+ },
+ "alan-hpc/zotero-paper-weave": {
+  "open": 0,
+  "closed": 0
+ },
  "alansirius/Zotero-Exitem": {
+  "open": 0,
+  "closed": 0
+ },
+ "alanzeng423/zotero-paperlens": {
+  "open": 0,
+  "closed": 0
+ },
+ "alex-roc/zotero-agent": {
+  "open": 0,
+  "closed": 0
+ },
+ "alexanderjfink/zotero-voice-annotator": {
+  "open": 0,
+  "closed": 0
+ },
+ "alexgoodenbour/zotero-sort-by-annotation": {
+  "open": 0,
+  "closed": 0
+ },
+ "alexplaka/Zocrates": {
+  "open": 0,
+  "closed": 0
+ },
+ "alfakini/zotero-reMarkable-plugin": {
+  "open": 1,
+  "closed": 0
+ },
+ "alfredhw/zotero-to-voyant": {
+  "open": 1,
+  "closed": 0
+ },
+ "alh63/zotero-bibfix": {
   "open": 0,
   "closed": 0
  },
@@ -596,33 +2476,247 @@
   "open": 11,
   "closed": 4
  },
+ "all11250/zotero-selection-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "altairwei/ZutiloRE": {
+  "open": 0,
+  "closed": 0
+ },
+ "alvaroaguado3/journal-ranking-zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "anaxonda/uttermux-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "andrew-healey/open-inline-citation": {
+  "open": 3,
+  "closed": 0
+ },
+ "andrewmkahn/nihongo-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "andriwild/zotero-auto-export": {
+  "open": 0,
+  "closed": 0
+ },
  "anfang886/zotero-doi-column": {
   "open": 1,
+  "closed": 0
+ },
+ "anfang886/zotero-info-compact": {
+  "open": 0,
+  "closed": 0
+ },
+ "anfang886/zotero-selection-search": {
+  "open": 0,
+  "closed": 0
+ },
+ "anka-afk/PaperBridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "anoopkcn/reference-map": {
+  "open": 0,
+  "closed": 0
+ },
+ "anurag-dalal/zotero_custom_columns": {
+  "open": 0,
+  "closed": 0
+ },
+ "anurag-dalal/zotero_map_papers": {
+  "open": 0,
+  "closed": 0
+ },
+ "anzhaohao/zotero-research-database": {
+  "open": 0,
+  "closed": 0
+ },
+ "aokellermann/zotero-nexus": {
+  "open": 3,
+  "closed": 4
+ },
+ "apple5089/zotero-easyread": {
+  "open": 0,
+  "closed": 0
+ },
+ "aramosalv/zotero-apa7-uoc": {
+  "open": 0,
+  "closed": 2
+ },
+ "archechef/IACR-Tools": {
+  "open": 0,
   "closed": 0
  },
  "argenos/zotero-mdnotes": {
   "open": 0,
   "closed": 142
  },
+ "arjansiddhpura/ZotChat": {
+  "open": 0,
+  "closed": 0
+ },
  "arqueon/zotero-tagnavigator": {
   "open": 0,
   "closed": 1
+ },
+ "arrancurran/ZoLast": {
+  "open": 0,
+  "closed": 0
+ },
+ "arrancurran/ZoStats": {
+  "open": 0,
+  "closed": 0
+ },
+ "arrancurran/ZoTag": {
+  "open": 0,
+  "closed": 0
+ },
+ "arrancurran/ZoTrim": {
+  "open": 0,
+  "closed": 0
+ },
+ "as-zdq/zotero-institutional-pdf-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "ashwin-pothen/zocitally": {
+  "open": 0,
+  "closed": 0
  },
  "astro-koko/deepseek-copilot-for-zotero": {
   "open": 0,
   "closed": 0
  },
+ "asuka123456789/zotero-mcp-plus": {
+  "open": 0,
+  "closed": 0
+ },
+ "asuka123456789/zotero-topic-explorer": {
+  "open": 0,
+  "closed": 0
+ },
+ "atturk/ZotRecall": {
+  "open": 0,
+  "closed": 0
+ },
+ "aykutcayir34/zotero-smart-organizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "aykutpurde/metadata-duzelt": {
+  "open": 0,
+  "closed": 0
+ },
+ "aykutpurde/pdf-kucult": {
+  "open": 0,
+  "closed": 0
+ },
+ "azhar-rafiq/zotero-pdf-background": {
+  "disabled": true
+ },
+ "b1ue-e/zotero-llm-wiki": {
+  "open": 0,
+  "closed": 0
+ },
+ "babysharks2/deepseek-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "baijiyunze/zotero-chatgpt-sidebar": {
+  "open": 0,
+  "closed": 0
+ },
+ "bakasayaka/douban-to-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "bapungiri/litmatrix": {
+  "open": 0,
+  "closed": 0
+ },
+ "beaugunderson/ZoteroQuickLookNG": {
+  "disabled": true
+ },
  "ben-AI-cybersec/zotero-publication-rankings": {
   "open": 5,
   "closed": 12
  },
+ "benshen94/zotero-ask": {
+  "open": 0,
+  "closed": 0
+ },
+ "binbinsh/zotero-easytrans": {
+  "open": 2,
+  "closed": 3
+ },
  "bionux-th/Zotero-Translate-for-ReadingMode": {
+  "open": 0,
+  "closed": 0
+ },
+ "birugit/zotero-grounded-qa": {
+  "open": 1,
+  "closed": 1
+ },
+ "blanlak/docutranslate-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "boan-anbo/cite-non-english": {
+  "open": 6,
+  "closed": 6
+ },
+ "boan-anbo/zotero-title-without-articles": {
+  "open": 1,
+  "closed": 0
+ },
+ "booknary/ai-related-papers": {
+  "open": 0,
+  "closed": 0
+ },
+ "booknary/zaichat": {
+  "open": 0,
+  "closed": 0
+ },
+ "boschiffer/zotero-vrtl-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "boyi0/Zotero-ABS-Ranker": {
+  "open": 0,
+  "closed": 0
+ },
+ "bpiwowar/zotero-remarkable-sync": {
+  "open": 2,
+  "closed": 0
+ },
+ "brant-ruan/zotero-kentridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "brian-j-griffith/StorScan": {
+  "open": 1,
+  "closed": 0
+ },
+ "brigealong/zotero-mcp-enhanced": {
   "open": 0,
   "closed": 0
  },
  "bulletproof-system/zotero-maimemo-sync": {
   "open": 0,
   "closed": 5
+ },
+ "bulletproof-system/zotero-paralens": {
+  "open": 0,
+  "closed": 0
+ },
+ "buptweixin/zotero-hf-daily-papers": {
+  "open": 0,
+  "closed": 0
  },
  "bwiernik/zotero-shortdoi": {
   "open": 29,
@@ -632,8 +2726,64 @@
   "open": 0,
   "closed": 0
  },
+ "c7w/papersgpt-for-zotero-sidebar": {
+  "open": 4,
+  "closed": 4
+ },
+ "cameron-utils/zotero_semantic_scholar_plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "camiska/zotero-batchimport": {
+  "open": 0,
+  "closed": 0
+ },
  "cannolis/ZotRead": {
   "open": 1,
+  "closed": 0
+ },
+ "cantikapf/zotero-ai-agent": {
+  "open": 0,
+  "closed": 0
+ },
+ "canyi-chen/ZoteroQuickLookNG-z7": {
+  "open": 0,
+  "closed": 0
+ },
+ "capgarven/zotero-assistant": {
+  "open": 0,
+  "closed": 0
+ },
+ "captainedV/zotero-ai-chinese-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "cboulanger/zotero-language-categorizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "cboulanger/zotero-rag": {
+  "open": 16,
+  "closed": 35
+ },
+ "ccwss-maker/zotero-edge-tts": {
+  "open": 0,
+  "closed": 0
+ },
+ "cczmd/zotero-deselect": {
+  "open": 0,
+  "closed": 0
+ },
+ "chamomile93/ZoteroAutomaticReferenceExtraction": {
+  "open": 2,
+  "closed": 0
+ },
+ "charlesapetersen/zotero-pdf-transfer": {
+  "open": 0,
+  "closed": 0
+ },
+ "charliegarfield/Zotero-LLM-Extraction": {
+  "open": 0,
   "closed": 0
  },
  "chen7447/Rebootero": {
@@ -660,15 +2810,95 @@
   "open": 1,
   "closed": 0
  },
+ "chengcheng-cx/obsidian-zotero-vault-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "chengrain0424/zotero-chatgpt-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "chgwan/beaver-zotero-local": {
+  "open": 0,
+  "closed": 0
+ },
+ "chr-wei/zotero-annotation-finder": {
+  "open": 0,
+  "closed": 0
+ },
+ "chrislucy838-collab/zotero-research-copilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "chrisyangqn/zotero-zhutero": {
+  "open": 0,
+  "closed": 0
+ },
  "cislunarspace/bibtex-clean": {
   "open": 0,
   "closed": 23
+ },
+ "citestamp/zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "cloneorcopy/Zsearch": {
+  "open": 0,
+  "closed": 0
+ },
+ "cocmin/zotero-anki-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "coderirse/zotero-fulltext-pdf-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "coekfung/zotero-extra": {
+  "open": 0,
+  "closed": 1
+ },
+ "cookjohn/wohoo": {
+  "open": 0,
+  "closed": 0
  },
  "cookjohn/zotero-mcp": {
   "open": 9,
   "closed": 72
  },
+ "core-hn/hypothesis2zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "core-hn/readeck2zotero": {
+  "open": 2,
+  "closed": 0
+ },
+ "coro-afk/zotero-mouse-navigation": {
+  "open": 0,
+  "closed": 0
+ },
+ "cpsimpson/zotero-todoist-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "cshao07/zotero-doi-enrich": {
+  "open": 0,
+  "closed": 0
+ },
  "cube-lover/paperloom": {
+  "open": 0,
+  "closed": 0
+ },
+ "cxing-fdu/reader-ai": {
+  "open": 0,
+  "closed": 0
+ },
+ "cxrxhz/Note-display": {
+  "open": 0,
+  "closed": 0
+ },
+ "cz-hit/zotero-markdown-notes": {
   "open": 0,
   "closed": 0
  },
@@ -680,6 +2910,34 @@
   "open": 11,
   "closed": 75
  },
+ "dahliasan/zotero-doi-manager": {
+  "open": 0,
+  "closed": 0
+ },
+ "damarals/zotero-page-count": {
+  "open": 0,
+  "closed": 5
+ },
+ "danepps/zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "daniel5u/zotero-paper-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "danieleongari/zotero-openalex": {
+  "open": 4,
+  "closed": 3
+ },
+ "danieleongari/zotero-podcast": {
+  "open": 0,
+  "closed": 0
+ },
+ "dariusada/zotero-reading-guide": {
+  "open": 0,
+  "closed": 0
+ },
  "david3684/zotero-tab-limiter": {
   "open": 0,
   "closed": 0
@@ -688,9 +2946,53 @@
   "open": 2,
   "closed": 0
  },
+ "dawaltconley/zotero-grayscale-ui": {
+  "open": 1,
+  "closed": 2
+ },
+ "dawaltconley/zotero-paged-snapshots": {
+  "open": 0,
+  "closed": 0
+ },
+ "dawaltconley/zotero-pdf-content-flow": {
+  "open": 0,
+  "closed": 0
+ },
+ "dawaltconley/zotero-plugin-pdf-filters": {
+  "open": 0,
+  "closed": 0
+ },
+ "dawaltconley/zotero-vertical-toolbar": {
+  "open": 0,
+  "closed": 0
+ },
+ "dawsonmv/zotero-moment-o7": {
+  "open": 2,
+  "closed": 0
+ },
  "daxiaxiong88/zotero-research": {
   "open": 2,
   "closed": 0
+ },
+ "dcartertod/zotero-plugins": {
+  "open": 7,
+  "closed": 38
+ },
+ "dcondrey/zotero-validate": {
+  "open": 2,
+  "closed": 4
+ },
+ "dcy456/kokoro-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "dennisklappe/zotero-ai-summarizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "dianzuan/zotron": {
+  "open": 6,
+  "closed": 1
  },
  "diegodlh/zotero-cita": {
   "open": 85,
@@ -698,6 +3000,62 @@
  },
  "digitalartificialint-cmd/Zotero-Med-Impact": {
   "open": 1,
+  "closed": 0
+ },
+ "dingdinglz/zotero-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "dingzy53/zotero-S2": {
+  "open": 0,
+  "closed": 0
+ },
+ "dinnercooker/minimize-zotero-to-tray-plus": {
+  "open": 0,
+  "closed": 0
+ },
+ "dinosv/ZotTablet": {
+  "open": 1,
+  "closed": 0
+ },
+ "distinguish-dot/zotero-doi-order": {
+  "open": 0,
+  "closed": 0
+ },
+ "djluigipremium-byte/zotero-merge-all-duplicates": {
+  "open": 0,
+  "closed": 0
+ },
+ "dklsgui/zotMod": {
+  "open": 1,
+  "closed": 0
+ },
+ "dlestarjette/zotero-key-reveal": {
+  "open": 0,
+  "closed": 0
+ },
+ "dlwogjs128-sketch/Zotero-Margine-Notes": {
+  "open": 0,
+  "closed": 0
+ },
+ "dnnunn/zotero-auto-tagger": {
+  "open": 4,
+  "closed": 0
+ },
+ "dnnunn/zotero-doi-finder": {
+  "open": 0,
+  "closed": 0
+ },
+ "dnnunn/zotero-scihub-fetcher": {
+  "open": 0,
+  "closed": 0
+ },
+ "douxy1994/Zotero_paper_download": {
+  "open": 0,
+  "closed": 0
+ },
+ "dragonlau0924/zotero-hover-bars": {
+  "open": 0,
   "closed": 0
  },
  "dralkh/seerai": {
@@ -708,9 +3066,52 @@
   "open": 2,
   "closed": 18
  },
+ "dsmoz/scholar-companion": {
+  "open": 0,
+  "closed": 0
+ },
  "dvanoni/notero": {
   "open": 63,
   "closed": 276
+ },
+ "dvanoni/zotero-plugin-sandbox": {
+  "disabled": true
+ },
+ "dviralsh/Plugins4Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "dyingjie/zotero-livereload": {
+  "open": 0,
+  "closed": 0
+ },
+ "dzackgarza/zotero-local-write-api": {
+  "open": 15,
+  "closed": 26
+ },
+ "earnest-zhang/zotero-component-datasheets": {
+  "open": 0,
+  "closed": 0
+ },
+ "ebawak-fekede/zotero-ferry": {
+  "open": 0,
+  "closed": 0
+ },
+ "ebryg/ganglion-app": {
+  "open": 0,
+  "closed": 0
+ },
+ "edouardArmit/zotero-hover-abstract": {
+  "open": 0,
+  "closed": 0
+ },
+ "edtechhub/zotero-edtechhub": {
+  "open": 13,
+  "closed": 44
+ },
+ "edwardlewis35/zotero-translate": {
+  "open": 0,
+  "closed": 0
  },
  "edwintuan/pdf-ai-bookmarks": {
   "open": 0,
@@ -720,7 +3121,19 @@
   "open": 11,
   "closed": 26
  },
+ "eginez/zotero-ai-reply": {
+  "open": 0,
+  "closed": 0
+ },
+ "el0808/zotfile-lite": {
+  "open": 0,
+  "closed": 0
+ },
  "elsevoid/zotero-close-to-tray": {
+  "open": 0,
+  "closed": 0
+ },
+ "endoretic/zontex-zotero-librarian": {
   "open": 0,
   "closed": 0
  },
@@ -732,6 +3145,14 @@
   "open": 0,
   "closed": 0
  },
+ "eric-sly/zotero-mcp-manager": {
+  "open": 0,
+  "closed": 0
+ },
+ "eric-tramel/zoty": {
+  "open": 0,
+  "closed": 83
+ },
  "eschnett/zotero-citationcounts": {
   "open": 26,
   "closed": 14
@@ -739,6 +3160,10 @@
  "etShaw-zh/zotero-career-tracker": {
   "open": 0,
   "closed": 0
+ },
+ "etShaw-zh/zotero-evidence": {
+  "open": 1,
+  "closed": 5
  },
  "etShaw-zh/zotracer": {
   "open": 3,
@@ -748,11 +3173,91 @@
   "open": 21,
   "closed": 53
  },
+ "evanbrooks01/zotero-ai-reading-studio": {
+  "open": 0,
+  "closed": 0
+ },
+ "evelasko/zotero-citation-linker": {
+  "open": 0,
+  "closed": 0
+ },
+ "excellentenough/ScholarPop": {
+  "open": 0,
+  "closed": 0
+ },
+ "exhilarating0411/zotero-txt-md-to-epub": {
+  "open": 0,
+  "closed": 0
+ },
+ "fangchenghao/codex-bilingual-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "fangfren/Zotero-ai-organization": {
+  "open": 0,
+  "closed": 0
+ },
+ "fanqing203/openclaw-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "fanyc22/arch-note": {
+  "open": 0,
+  "closed": 0
+ },
+ "fanyingfx/zotero-excerpt": {
+  "open": 0,
+  "closed": 0
+ },
+ "fbkarsdorp/zotero-remarkable": {
+  "open": 0,
+  "closed": 0
+ },
+ "fdamken/zotero-remarkable": {
+  "open": 0,
+  "closed": 0
+ },
+ "fdossi/zotfetch": {
+  "open": 0,
+  "closed": 1
+ },
+ "fdossi/zotread": {
+  "open": 0,
+  "closed": 0
+ },
+ "februarysea/zotero-paper-lens": {
+  "open": 0,
+  "closed": 0
+ },
  "federicotorrielli/zotero-metadata-hunter": {
   "open": 0,
   "closed": 4
  },
+ "feiiiiii5/marginpack": {
+  "open": 0,
+  "closed": 0
+ },
+ "felipebocajr/zotero-reader-local-ai": {
+  "open": 0,
+  "closed": 0
+ },
  "fenghsu2019/zotero-mineru-obsidian": {
+  "open": 0,
+  "closed": 0
+ },
+ "fenzirong/zotero-zh-info": {
+  "open": 0,
+  "closed": 0
+ },
+ "ffff2004/zotero-mineru": {
+  "open": 1,
+  "closed": 1
+ },
+ "firekern/zusia": {
+  "open": 0,
+  "closed": 1
+ },
+ "fkallmer/zotero-orbit": {
   "open": 0,
   "closed": 0
  },
@@ -760,13 +3265,33 @@
   "open": 0,
   "closed": 23
  },
+ "flychen50/ZoteroCitationCountsAgent": {
+  "open": 2,
+  "closed": 6
+ },
+ "forgeters/zotero-fig": {
+  "open": 0,
+  "closed": 0
+ },
+ "forguse/zotero-paper-companion": {
+  "open": 0,
+  "closed": 0
+ },
  "forrtproject/fred_zotero": {
   "open": 8,
   "closed": 74
  },
+ "forxhunter/Deduplication_by_Folder_zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "frangoud/ZoteroDuplicatesMerger": {
   "open": 13,
   "closed": 4
+ },
+ "frankhumbleble/zotero-itemtree-expand": {
+  "open": 0,
+  "closed": 0
  },
  "franzbischoff/zotero-pdf-metadata": {
   "open": 2,
@@ -776,9 +3301,29 @@
   "open": 1,
   "closed": 0
  },
+ "fredyyoussif/zotero-extra-columns": {
+  "open": 0,
+  "closed": 0
+ },
  "frianasoa/Ze-Notes": {
   "open": 1,
   "closed": 32
+ },
+ "frostime/sy-f-misc": {
+  "open": 6,
+  "closed": 45
+ },
+ "fuchsi3010/zotero-selection-popup-on-alt": {
+  "open": 0,
+  "closed": 0
+ },
+ "fulinrenjian/zotero-reliable-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "fxz729/zotero-pdf2zh-easy": {
+  "open": 0,
+  "closed": 0
  },
  "garlicwu/fanyipaiban-zotero": {
   "open": 0,
@@ -792,17 +3337,161 @@
   "open": 4,
   "closed": 2
  },
+ "gchapron/ZoteroMultipleLibraries": {
+  "open": 0,
+  "closed": 0
+ },
+ "gchapron/ZoteroOllama": {
+  "open": 0,
+  "closed": 1
+ },
+ "gchapron/ZoteroQuickLookMac": {
+  "open": 0,
+  "closed": 4
+ },
+ "gchapron/ZoteroThumbFile": {
+  "open": 1,
+  "closed": 0
+ },
+ "gchapron/ZoteroThumbLibrary": {
+  "open": 0,
+  "closed": 0
+ },
+ "gdinh/citekey-url": {
+  "open": 0,
+  "closed": 0
+ },
+ "geshuangyang/zotero-hermes-ai-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "gesongping/Changed-Reference-Linker": {
+  "open": 0,
+  "closed": 0
+ },
+ "giaogiaogiaoluan/zhiyi-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "git-jiwon/zotero-context-search": {
+  "open": 0,
+  "closed": 0
+ },
+ "git-jiwon/zotero-pdf-metadata-refresh": {
+  "open": 0,
+  "closed": 0
+ },
  "github-young/zotero-better-authors": {
   "open": 3,
   "closed": 51
+ },
+ "givemetarte/chat-with-paper": {
+  "open": 1,
+  "closed": 0
+ },
+ "gmf3/zotero-bookmark-editor": {
+  "open": 0,
+  "closed": 0
+ },
+ "go00ood/zotero-hanja-readings": {
+  "open": 0,
+  "closed": 0
  },
  "gracefullight/pkgs": {
   "open": 0,
   "closed": 5
  },
+ "grahmgaydos/Zotero-PDF-Summarizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "grahmgaydos/zotero-reading-partner": {
+  "open": 0,
+  "closed": 0
+ },
+ "grantzachary/Zotero-highlighter": {
+  "open": 0,
+  "closed": 0
+ },
+ "groele/Zotero-CiteFlow": {
+  "open": 0,
+  "closed": 0
+ },
+ "groele/Zotero-MetaFlow": {
+  "open": 1,
+  "closed": 0
+ },
+ "groele/Zotero-MindFlow": {
+  "open": 0,
+  "closed": 0
+ },
+ "groele/Zotero-PaperFlow": {
+  "open": 0,
+  "closed": 0
+ },
+ "groele/Zotero-RefFlow": {
+  "open": 0,
+  "closed": 0
+ },
+ "groele/Zotero-TaskFlow": {
+  "open": 0,
+  "closed": 0
+ },
+ "groele/ZoteroPreview": {
+  "open": 0,
+  "closed": 0
+ },
+ "gshaikovski/zotero-quick-switcher": {
+  "open": 0,
+  "closed": 0
+ },
  "guaguastandup/zotero-pdf2zh": {
   "open": 39,
   "closed": 241
+ },
+ "guanjunz432-ctrl/zotero-bilingual-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "guochengran464-byte/zotero-orange-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "guoduan3727-alt/zotero-obsidian-scholar-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "guokelei1/zotero-export-pdf": {
+  "open": 2,
+  "closed": 0
+ },
+ "guoxinlu17-cmyk/dsh-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "guoyingwei6/zotero-backup-vault": {
+  "open": 0,
+  "closed": 0
+ },
+ "guzhiling/lolping_zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "haiyankong/zotero-md-note": {
+  "open": 0,
+  "closed": 0
+ },
+ "hanbinhsh/zotero-pdf2zh-bilingual": {
+  "open": 0,
+  "closed": 0
+ },
+ "hanxiangmin/zotero10-scholar": {
+  "open": 0,
+  "closed": 0
+ },
+ "haobbc/zotero-ai-notes": {
+  "open": 0,
+  "closed": 0
  },
  "haohaomin/zotero-codex": {
   "open": 0,
@@ -812,8 +3501,36 @@
   "open": 0,
   "closed": 0
  },
+ "haoning-Chen226/zotero-retainpdf": {
+  "open": 0,
+  "closed": 0
+ },
  "haozhihuiYmh150/zotero-agent": {
   "open": 1,
+  "closed": 0
+ },
+ "harrywang/zotero-attachments-markdown": {
+  "open": 0,
+  "closed": 0
+ },
+ "hcf0526/ZotWanglele": {
+  "open": 0,
+  "closed": 0
+ },
+ "hdusiaocbawa/zotero-gpt-binder-update-channel": {
+  "open": 0,
+  "closed": 0
+ },
+ "he-chun/paper-library-checker": {
+  "open": 0,
+  "closed": 0
+ },
+ "hebruce1005/zotero-parallel-reader-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "heidihelena/fullvahti": {
+  "open": 0,
   "closed": 0
  },
  "heimi98/zotero-deduplicator": {
@@ -828,8 +3545,72 @@
   "open": 0,
   "closed": 0
  },
+ "hockeykharlamov/journal-impact-factor-zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "holly1226/zotero-venue-tagger": {
+  "open": 0,
+  "closed": 0
+ },
+ "homomorph1sm/zotero-draft-pdf-watch": {
+  "open": 0,
+  "closed": 0
+ },
+ "howarddong711/PaperPet": {
+  "open": 0,
+  "closed": 0
+ },
+ "howtoexitvim/zotero-folder-import": {
+  "open": 0,
+  "closed": 0
+ },
  "huachuanchuan/ZoteroFastRead": {
   "open": 1,
+  "closed": 0
+ },
+ "huangyxi/zotero-alt-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "huanongfish/zotero-doc2x-tag": {
+  "open": 0,
+  "closed": 0
+ },
+ "huanongfish/zotero-doi-dedup-import-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "huanongfish/zotero-incremental-pdf-export": {
+  "open": 0,
+  "closed": 0
+ },
+ "huanongfish/zotero-normalize-date": {
+  "open": 0,
+  "closed": 0
+ },
+ "huanongfish/zotero-search-plus": {
+  "open": 0,
+  "closed": 0
+ },
+ "hugogene/intra-collection-invert-selection": {
+  "open": 0,
+  "closed": 0
+ },
+ "hugogene/zotero-column-optimization": {
+  "open": 0,
+  "closed": 0
+ },
+ "huqilin0504/zotero-academic-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "hyfaust/zotero-roam": {
+  "open": 0,
+  "closed": 0
+ },
+ "hyunhwan-bcm/zotero-kindle-sync": {
+  "open": 0,
   "closed": 0
  },
  "iShareStuff/Backup-Plugin-for-Zotero": {
@@ -843,6 +3624,10 @@
  "iShareStuff/ZoteroTheme": {
   "open": 6,
   "closed": 2
+ },
+ "ice-cream-cpu/Zotero-Plugin-Paper-Reading": {
+  "open": 0,
+  "closed": 0
  },
  "ievlevpn/zotero-djvu-converter": {
   "open": 0,
@@ -876,13 +3661,49 @@
   "open": 0,
   "closed": 1
  },
+ "ifeitao/zotero-finance": {
+  "open": 0,
+  "closed": 0
+ },
+ "iiwenwen/zotero-quicklook": {
+  "open": 0,
+  "closed": 1
+ },
+ "iiwenwen/zotero-update-metadata": {
+  "open": 3,
+  "closed": 2
+ },
+ "ilDon/zotero-crawler": {
+  "open": 0,
+  "closed": 0
+ },
+ "ilDon/zotero-semantic-search": {
+  "open": 1,
+  "closed": 1
+ },
+ "iliasbeshimov/zotero-atlas": {
+  "open": 0,
+  "closed": 2
+ },
+ "ilker-golcuk/zotero-plugins": {
+  "open": 0,
+  "closed": 0
+ },
  "immersive-translate/zotero-immersivetranslate": {
   "open": 13,
   "closed": 21
  },
+ "inactinique/zotero-archive-plugin": {
+  "open": 0,
+  "closed": 0
+ },
  "inciteful-xyz/inciteful-zotero-plugin": {
   "open": 0,
   "closed": 18
+ },
+ "ineffab1e-vista/zotero-url-import": {
+  "open": 0,
+  "closed": 0
  },
  "informalgit/zotero-collection-nav": {
   "open": 0,
@@ -896,11 +3717,39 @@
   "open": 8,
   "closed": 9
  },
+ "ipconfig2023/zotero-elsevier-pdf-helper": {
+  "open": 0,
+  "closed": 0
+ },
+ "isCopyman/zotero-bilingual-reader": {
+  "open": 1,
+  "closed": 0
+ },
+ "isaksamsten/zotero-hamburger": {
+  "open": 0,
+  "closed": 0
+ },
+ "itofrrr/zotero-reading-order": {
+  "open": 0,
+  "closed": 0
+ },
  "iu-parvej/Zotero-PDF-Copier-Renamer": {
   "open": 1,
   "closed": 0
  },
+ "iuliaturc/zotero-notebooklm": {
+  "open": 0,
+  "closed": 2
+ },
+ "izjxnxn/ZoteroMinerU": {
+  "open": 0,
+  "closed": 0
+ },
  "j-cyoung/PaperViewZoteroPlugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "jackdhch/zotero-research-companion": {
   "open": 0,
   "closed": 0
  },
@@ -908,20 +3757,119 @@
   "open": 3,
   "closed": 0
  },
+ "jaehho/zotero-citegraph": {
+  "open": 3,
+  "closed": 12
+ },
+ "jaehho/zotero-tray": {
+  "open": 1,
+  "closed": 0
+ },
  "jagaldol/zotero-cite-preview-resizer": {
   "open": 1,
   "closed": 4
+ },
+ "jain-arham-hsr/zotero-harvester": {
+  "open": 1,
+  "closed": 0
+ },
+ "jan-grp/zotvim": {
+  "open": 0,
+  "closed": 0
+ },
+ "janbaykara/zotero-annas-archive": {
+  "disabled": true
+ },
+ "janbaykara/zotero-photo-highlights": {
+  "open": 0,
+  "closed": 0
  },
  "janbaykara/zotero-syllabus": {
   "open": 16,
   "closed": 14
  },
+ "janbaykara/zotero-youtube-transcripts": {
+  "open": 2,
+  "closed": 0
+ },
+ "jderrfuss/zotero-narrative-citations": {
+  "open": 0,
+  "closed": 0
+ },
+ "jeff-jw-wang/zotero-llm-assistant": {
+  "open": 0,
+  "closed": 0
+ },
+ "jehyunlee/paper-curio": {
+  "open": 0,
+  "closed": 0
+ },
+ "jensen-zheng-cmd/Recto-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "jeremyliew7/zotero-dual-reader-releases": {
+  "open": 0,
+  "closed": 0
+ },
  "jetxa/zotero-ai-assistant": {
   "open": 1,
   "closed": 2
  },
+ "jh-chen0/zotero-move-to-collection": {
+  "open": 0,
+  "closed": 0
+ },
  "jhj223/zotero-ai-guided-reader": {
   "open": 0,
+  "closed": 0
+ },
+ "jiang-111/zotero-codex-chat": {
+  "open": 0,
+  "closed": 0
+ },
+ "jianghao-zhang/zotero-cli": {
+  "open": 1,
+  "closed": 0
+ },
+ "jiaojiaodubai/banyan": {
+  "open": 0,
+  "closed": 0
+ },
+ "jieyi9538-dot/zotero-snapshot2pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "jin-taiyu/zotero-mark-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "jinhao-luo/anytero": {
+  "open": 1,
+  "closed": 0
+ },
+ "jinkeguo/PaperLoop": {
+  "open": 0,
+  "closed": 0
+ },
+ "jiwannian/zhanhTRAN": {
+  "open": 0,
+  "closed": 0
+ },
+ "jkroes/zotero-hide-citation-highlights": {
+  "open": 1,
+  "closed": 2
+ },
+ "jkroes/zotero-tana": {
+  "open": 0,
+  "closed": 0
+ },
+ "jkroes/zotero-to-thymer": {
+  "open": 0,
+  "closed": 0
+ },
+ "jlegewie/ZotFile-Recovery": {
+  "open": 1,
   "closed": 0
  },
  "jlegewie/beaver-zotero": {
@@ -936,13 +3884,99 @@
   "open": 2,
   "closed": 1
  },
+ "jmiba/zotero-redisearch-rag": {
+  "open": 1,
+  "closed": 1
+ },
+ "jnsheff/zotero-hicite": {
+  "open": 0,
+  "closed": 0
+ },
+ "jnsheff/zotero-legal-translators": {
+  "open": 0,
+  "closed": 0
+ },
+ "joao-fisio/colecoes-coloridas-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "jorgepb96/nodus": {
+  "open": 2,
+  "closed": 529
+ },
  "josesiqueira/zotero-bibliometero": {
+  "open": 0,
+  "closed": 0
+ },
+ "josesiqueira/zotero-meta-data-repair": {
+  "open": 0,
+  "closed": 0
+ },
+ "josesiqueira/zotero-open-citations": {
+  "open": 0,
+  "closed": 0
+ },
+ "josesiqueira/zotero-stylero": {
   "open": 0,
   "closed": 0
  },
  "josesiqueira/zotero-watch-folder": {
   "open": 13,
   "closed": 6
+ },
+ "joshgao22/ZoteroCitationCountsManager": {
+  "disabled": true
+ },
+ "joydddd/Colorful-Bionic": {
+  "disabled": true
+ },
+ "jr-xing/2026-10-24-zotero-rich-comment-panel": {
+  "open": 0,
+  "closed": 0
+ },
+ "jrjfonseca/zotero_merge_supplementary_plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "jsglazer/enhanced-notes": {
+  "open": 2,
+  "closed": 0
+ },
+ "jsglazer/no-hover-preview": {
+  "open": 0,
+  "closed": 0
+ },
+ "jsglazer/zotero-audit": {
+  "open": 0,
+  "closed": 0
+ },
+ "jsrdcht/zotero-github-stars": {
+  "open": 0,
+  "closed": 0
+ },
+ "juandodyk/my-zotero-ocr": {
+  "open": 0,
+  "closed": 0
+ },
+ "julianschelb/zotero-citation-graph": {
+  "open": 0,
+  "closed": 0
+ },
+ "julyseaweed/adhd-reader-zotero": {
+  "open": 1,
+  "closed": 0
+ },
+ "jun0404/Zotero-Semantic-Scholar-Citation-Count": {
+  "open": 0,
+  "closed": 0
+ },
+ "junhwan26/zotero-margin-notes": {
+  "open": 0,
+  "closed": 0
+ },
+ "juniorxxue/zotero-copypath": {
+  "open": 0,
+  "closed": 0
  },
  "justanotherjurastudent/zotero_Book-Group": {
   "open": 0,
@@ -960,21 +3994,184 @@
   "open": 16,
   "closed": 36
  },
+ "jwingnut/zotero-batch-open": {
+  "open": 0,
+  "closed": 0
+ },
+ "jwow-schneider/zotero-shortdoi": {
+  "open": 0,
+  "closed": 0
+ },
  "jyjulianwong/PolarRec-Zotero-Plugin": {
   "open": 1,
+  "closed": 0
+ },
+ "jyluo1994/paper-acquisition-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "k-ghoshal/zotero-pdf-to-md": {
+  "open": 0,
+  "closed": 0
+ },
+ "kai-yhg/zotero-research-link-manager": {
+  "open": 0,
+  "closed": 0
+ },
+ "kaifeng0922/zotero-linksync": {
+  "open": 0,
+  "closed": 0
+ },
+ "kaiwen-wang/zotero-open-items-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "kanhao100/zotero-tag-logic": {
+  "open": 0,
+  "closed": 0
+ },
+ "karwanoa/ZoteroCitationCountsManager": {
+  "open": 0,
+  "closed": 0
+ },
+ "kasc0206/tst": {
+  "open": 0,
   "closed": 0
  },
  "kazgu/zotero-chatgpt": {
   "open": 20,
   "closed": 4
  },
+ "kazusa3e/zotero-progress": {
+  "open": 0,
+  "closed": 0
+ },
+ "kcodea516/zotero-ai-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "kdmsnr/zotero-metadata-updater": {
+  "open": 0,
+  "closed": 0
+ },
+ "kenanking/ZotClip": {
+  "open": 0,
+  "closed": 1
+ },
  "kevin65536/zotero-openreview-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "khakiakhaki/KeepZot": {
+  "open": 0,
+  "closed": 0
+ },
+ "ki-chi/zotbind": {
+  "open": 0,
+  "closed": 0
+ },
+ "kianmax0/zotero-chatgpt": {
+  "open": 0,
+  "closed": 0
+ },
+ "kianmax0/zotero-chatgpt-web": {
+  "open": 0,
+  "closed": 0
+ },
+ "kiastien/zotodo": {
+  "disabled": true
+ },
+ "kimstitute/zotero-obsidian-connector": {
+  "open": 0,
+  "closed": 0
+ },
+ "kinranlau/zotero_tag_recommender": {
+  "open": 2,
+  "closed": 3
+ },
+ "kirinccchang/zotero-perma-archiver": {
+  "open": 0,
+  "closed": 0
+ },
+ "kirinhcl/zotero-copilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "kl3574/deep-research": {
+  "open": 0,
+  "closed": 0
+ },
+ "kmaog15-damao/bilingual-metadata": {
+  "open": 0,
+  "closed": 0
+ },
+ "knhn1004/zotero-copy-author": {
+  "open": 0,
+  "closed": 0
+ },
+ "koabula/zotero-margin": {
+  "open": 0,
+  "closed": 0
+ },
+ "koenigderorangen/AnnoSync": {
+  "open": 1,
+  "closed": 0
+ },
+ "kongbai55/zotero-codex-reader": {
   "open": 0,
   "closed": 0
  },
  "kongyan66/arxiv2zh": {
   "open": 1,
   "closed": 2
+ },
+ "kongyan66/zotero-paper-radar": {
+  "open": 0,
+  "closed": 0
+ },
+ "kouichi-c-nakamura/zotero-relate-selected-items": {
+  "open": 0,
+  "closed": 0
+ },
+ "kromiii/paper-talk-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "kud3n013/zotero-hide-titlebar": {
+  "open": 1,
+  "closed": 0
+ },
+ "kvarnelis/zotero-compact-pane": {
+  "open": 0,
+  "closed": 0
+ },
+ "kvarnelis/zotero-notebooklm-pane": {
+  "open": 0,
+  "closed": 0
+ },
+ "kvarnelis/zotero-page-view": {
+  "open": 0,
+  "closed": 0
+ },
+ "kvarnelis/zotero-praetor": {
+  "open": 0,
+  "closed": 0
+ },
+ "kvarnelis/zotero-quiet-theme": {
+  "open": 0,
+  "closed": 0
+ },
+ "kylekahraman/zotero-flat-export": {
+  "open": 0,
+  "closed": 0
+ },
+ "kzhangsci/zotero-library-sync": {
+  "open": 0,
+  "closed": 0
+ },
+ "l-konrad/Calibre-Highlights-to-Zotero": {
+  "open": 0,
+  "closed": 0
  },
  "l0o0/Garden-for-Zotero": {
   "open": 1,
@@ -996,7 +4193,50 @@
   "open": 5,
   "closed": 37
  },
+ "l41036406-del/RetainPDF-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "laiduo12345/arxiv_marker_ccf2026": {
+  "open": 0,
+  "closed": 0
+ },
+ "lalalaladam/zotero-item-tree-expand-collapse": {
+  "open": 0,
+  "closed": 0
+ },
+ "lalalaladam/zotero-parent-item-open-url": {
+  "open": 0,
+  "closed": 0
+ },
+ "lassiterdc/zotero-email-intake": {
+  "open": 0,
+  "closed": 0
+ },
+ "lcneyc/zotero-copy-pdfs-to-clipboard": {
+  "disabled": true
+ },
+ "leauny/ZoteroTransnator": {
+  "open": 1,
+  "closed": 0
+ },
+ "legojeon/Zotero2Notion": {
+  "open": 0,
+  "closed": 0
+ },
  "leike0813/Zotero-Skills": {
+  "open": 0,
+  "closed": 0
+ },
+ "leike0813/mineru-cli-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "leike0813/zotero-agents": {
+  "open": 5,
+  "closed": 92
+ },
+ "leisongju/zotero-hjfy-split-reader-cn": {
   "open": 0,
   "closed": 0
  },
@@ -1007,9 +4247,73 @@
  "lemos1235/zotero-putongdoc": {
   "disabled": true
  },
+ "lenbour1/zotero-gpt-pro": {
+  "open": 0,
+  "closed": 0
+ },
+ "leobba/Daxiang-zotero-tools": {
+  "open": 0,
+  "closed": 0
+ },
+ "leobba/litflow": {
+  "open": 0,
+  "closed": 0
+ },
+ "leven-comeon/zotero-plugins": {
+  "open": 0,
+  "closed": 0
+ },
+ "lfan0103/zotero-wordbook": {
+  "open": 0,
+  "closed": 0
+ },
+ "liangliu-nlp/reference-guard": {
+  "open": 0,
+  "closed": 0
+ },
+ "lichong0429/Zotero-LLM-Wiki-Obsidian": {
+  "open": 0,
+  "closed": 0
+ },
+ "lidayunzhongjun-cell/paper-assistant-next": {
+  "open": 0,
+  "closed": 0
+ },
  "lifan0127/ai-research-assistant": {
   "open": 97,
   "closed": 25
+ },
+ "lin-qingming/zotero-attachment-type-icons": {
+  "open": 0,
+  "closed": 0
+ },
+ "lin-qingming/zotero-md-editor": {
+  "open": 0,
+  "closed": 0
+ },
+ "lineex/Zotero-WebAI": {
+  "open": 0,
+  "closed": 0
+ },
+ "lineex/zotero-fmrs": {
+  "open": 0,
+  "closed": 0
+ },
+ "lingyupeng/Zotero_Highlight_Collector": {
+  "open": 1,
+  "closed": 0
+ },
+ "linjiangxian110/zotero-local-academic-tts": {
+  "open": 0,
+  "closed": 0
+ },
+ "linxbxxh/retainpdf-zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "liongkj/zotero-library-bridge-skills": {
+  "open": 0,
+  "closed": 0
  },
  "lisontowind/zotero-copilot": {
   "open": 0,
@@ -1019,9 +4323,93 @@
   "open": 1,
   "closed": 7
  },
+ "lisontowind/zotero-tray": {
+  "open": 0,
+  "closed": 0
+ },
+ "liuaustin/zotero-pdf-mem-cleanup": {
+  "open": 0,
+  "closed": 0
+ },
+ "liunuozhi/zotero-scholar": {
+  "open": 0,
+  "closed": 0
+ },
+ "liupcmail/lpcteam-translate": {
+  "open": 0,
+  "closed": 0
+ },
  "liuwenbo0/zotero-local-translate": {
   "open": 0,
   "closed": 0
+ },
+ "lixvqing01/zotero-literature-library": {
+  "open": 0,
+  "closed": 0
+ },
+ "liyang-tju/AI-Web-for-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "liyanyi21/research-grid": {
+  "open": 0,
+  "closed": 0
+ },
+ "lllaterOn/zotero-bilingual-outline": {
+  "open": 0,
+  "closed": 0
+ },
+ "lllaterOn/zotero-comment-expand": {
+  "open": 0,
+  "closed": 0
+ },
+ "lllaterOn/zotero-focus-columns": {
+  "open": 0,
+  "closed": 0
+ },
+ "lllaterOn/zotero-tag-editor": {
+  "open": 0,
+  "closed": 0
+ },
+ "lllumos-luo/zotero-hover-focus": {
+  "open": 0,
+  "closed": 0
+ },
+ "loading500/codex-zotero-obsidian-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "lojeunhou/zotero-notes-sync-zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "longkou1988/zotero-submission-tracker": {
+  "open": 0,
+  "closed": 0
+ },
+ "loonghfut/zotero-siyuan": {
+  "open": 0,
+  "closed": 0
+ },
+ "lostwildland/zotero-extra-columns": {
+  "open": 0,
+  "closed": 0
+ },
+ "louis1642/zotero-trackpad-navigation": {
+  "open": 0,
+  "closed": 0
+ },
+ "lovelynewlife/ZoteroOfMine": {
+  "open": 3,
+  "closed": 3
+ },
+ "loveychen/zotero-chat": {
+  "open": 0,
+  "closed": 0
+ },
+ "lricher7329/zotero-mcp-claude-code": {
+  "open": 1,
+  "closed": 1
  },
  "lss3765/Zotero-Bilingual-Reader-Public": {
   "open": 0,
@@ -1031,7 +4419,27 @@
   "open": 0,
   "closed": 0
  },
+ "ltzyl/zotero-paper-companion": {
+  "open": 0,
+  "closed": 0
+ },
+ "lubinxtu/zotero-paper-translator": {
+  "open": 0,
+  "closed": 0
+ },
  "luciferer/zotero-open-router": {
+  "open": 0,
+  "closed": 0
+ },
+ "luluyang928/zotero-paper-guide": {
+  "open": 0,
+  "closed": 0
+ },
+ "luxun-spec/zotero-papercompare": {
+  "open": 0,
+  "closed": 0
+ },
+ "lvansnippenburg/zotero-utils": {
   "open": 0,
   "closed": 0
  },
@@ -1039,7 +4447,30 @@
   "open": 0,
   "closed": 0
  },
+ "lwmlw004/zotero-attachment-hub": {
+  "open": 0,
+  "closed": 0
+ },
  "lynneguo930-prog/zotero-auto-classify": {
+  "open": 0,
+  "closed": 0
+ },
+ "lzhmarkk/Zotero-RelationGraph": {
+  "open": 0,
+  "closed": 0
+ },
+ "lzy248/zotero-cs-venues": {
+  "open": 0,
+  "closed": 0
+ },
+ "ma-ji/miscite-zotero-connector": {
+  "open": 1,
+  "closed": 0
+ },
+ "maedayoshiaki/zotero-mcp": {
+  "disabled": true
+ },
+ "manu-gibst/zotero-color-shortcuts": {
   "open": 0,
   "closed": 0
  },
@@ -1047,16 +4478,64 @@
   "open": 0,
   "closed": 0
  },
+ "martindisley/ZotPDF2md": {
+  "open": 0,
+  "closed": 0
+ },
+ "marysethomas/zotero-read-tracker": {
+  "open": 0,
+  "closed": 0
+ },
+ "matfu-pixel/zotero-vim-note": {
+  "open": 0,
+  "closed": 0
+ },
+ "mathcals/zotero-logseqserver": {
+  "open": 0,
+  "closed": 0
+ },
+ "maverickzyc/zotero-context-translate": {
+  "open": 2,
+  "closed": 0
+ },
  "max3925vats/zotero-docling": {
   "open": 3,
   "closed": 15
+ },
+ "mbradaschia/zotero-companion-launcher": {
+  "open": 0,
+  "closed": 0
+ },
+ "mcburton/vinculum-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "mcburton/zotero-clavicularius": {
+  "open": 1,
+  "closed": 0
  },
  "meaning-infinite/zotero-color-keys": {
   "open": 0,
   "closed": 0
  },
+ "meekflyer/ZoteroKindleNotes": {
+  "open": 0,
+  "closed": 0
+ },
  "menyoung/zoTLDR": {
   "open": 4,
+  "closed": 0
+ },
+ "merc-hecl/zota": {
+  "open": 0,
+  "closed": 0
+ },
+ "meridianmcp/zotero-bridge-updates": {
+  "open": 0,
+  "closed": 0
+ },
+ "meteor0108/zotero2obsidian-autosync": {
+  "open": 0,
   "closed": 0
  },
  "milekpl/zotero-ner": {
@@ -1071,7 +4550,19 @@
   "open": 2,
   "closed": 45
  },
+ "mkant18/zotero_law": {
+  "open": 0,
+  "closed": 0
+ },
+ "mlava/scholar-sidekick-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "mlfc0422/zotero-puls": {
+  "open": 1,
+  "closed": 0
+ },
+ "mmmaurer/obsidian-zot": {
   "open": 1,
   "closed": 0
  },
@@ -1083,7 +4574,46 @@
   "open": 2,
   "closed": 8
  },
+ "mohui666/zotero-chatgpt-sidebar": {
+  "open": 0,
+  "closed": 0
+ },
+ "mondyue1001-alt/zotero-ai-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "moonbowterfly/pop-fish": {
+  "open": 0,
+  "closed": 0
+ },
  "mpatelh/zbatch": {
+  "open": 0,
+  "closed": 0
+ },
+ "mqjinwon/zotero-paper-ai": {
+  "open": 0,
+  "closed": 0
+ },
+ "mrbell/copy-item-uri-zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "mrcsvg/zotero-triage": {
+  "open": 16,
+  "closed": 1
+ },
+ "mrpsharp/zotero-extra-columns": {
+  "open": 0,
+  "closed": 0
+ },
+ "mspet1995/EvidenceGuide": {
+  "open": 0,
+  "closed": 0
+ },
+ "mtillman14/open-alex-work-id": {
+  "disabled": true
+ },
+ "musstafasnn/zotero-latin": {
   "open": 0,
   "closed": 0
  },
@@ -1091,7 +4621,71 @@
   "open": 1,
   "closed": 0
  },
+ "myheart521/cli2openai": {
+  "open": 0,
+  "closed": 0
+ },
+ "myshevchuk/zotero-jcode": {
+  "open": 0,
+  "closed": 0
+ },
+ "najibprog/zotero-reference-checker": {
+  "open": 2,
+  "closed": 0
+ },
+ "nebula0/zotero-llm-wiki": {
+  "open": 0,
+  "closed": 0
+ },
+ "nerdneilsfield/ZotPass": {
+  "open": 0,
+  "closed": 0
+ },
+ "newtontech/Zotero-AI-Newton": {
+  "open": 0,
+  "closed": 16
+ },
+ "nexdep/zotero-npdfpages": {
+  "open": 0,
+  "closed": 0
+ },
+ "nexdep/zotero-ntags": {
+  "open": 0,
+  "closed": 0
+ },
  "nian1147/-61-": {
+  "open": 0,
+  "closed": 0
+ },
+ "nian1147/zotero-pdf-translate-medical": {
+  "open": 0,
+  "closed": 0
+ },
+ "nickdu32/termground": {
+  "open": 0,
+  "closed": 0
+ },
+ "nikhilweee/zotfetch": {
+  "open": 0,
+  "closed": 0
+ },
+ "nkbaim/pubmed-importer": {
+  "open": 0,
+  "closed": 0
+ },
+ "nkbaim/zotero-ai-note": {
+  "open": 0,
+  "closed": 0
+ },
+ "nkbaim/zotero-wechat-importer": {
+  "open": 0,
+  "closed": 0
+ },
+ "noaul/PaperPulse": {
+  "open": 0,
+  "closed": 0
+ },
+ "normanify/zotero-attach-size": {
   "open": 0,
   "closed": 0
  },
@@ -1102,6 +4696,30 @@
  "northword/zotero-mica": {
   "open": 0,
   "closed": 1
+ },
+ "northword/zotero-plugin-test": {
+  "open": 1,
+  "closed": 0
+ },
+ "northws/zotero-ai-pdf-assistant": {
+  "open": 0,
+  "closed": 0
+ },
+ "notandia/zotero-plugin": {
+  "open": 4,
+  "closed": 0
+ },
+ "np-atcw/zotero-open-archive": {
+  "open": 0,
+  "closed": 0
+ },
+ "npasquier/zotero-pdf-shortcut": {
+  "open": 0,
+  "closed": 0
+ },
+ "nrb171/zotero-library-set-ops": {
+  "open": 0,
+  "closed": 0
  },
  "nutstore/zotero-plugin-nutstore-sso": {
   "open": 4,
@@ -1115,12 +4733,32 @@
   "open": 0,
   "closed": 0
  },
+ "oddish3/zotero-custom-plugins": {
+  "open": 0,
+  "closed": 0
+ },
  "oekeur/zotero-linked-mindmaps": {
   "open": 11,
   "closed": 0
  },
  "oekeur/zotero-timeline": {
   "open": 10,
+  "closed": 0
+ },
+ "offmor/TitleDrop": {
+  "open": 0,
+  "closed": 0
+ },
+ "onlyls/DocBoxTrans": {
+  "open": 0,
+  "closed": 0
+ },
+ "onyxaegis/zotero-tag-cited": {
+  "open": 0,
+  "closed": 0
+ },
+ "openhistorymap/ohm-zotero": {
+  "open": 0,
   "closed": 0
  },
  "origin652/zotero-assistant": {
@@ -1135,9 +4773,29 @@
   "open": 0,
   "closed": 0
  },
+ "p1aintiff/zotero-close-to-tray": {
+  "open": 0,
+  "closed": 0
+ },
+ "p1aintiff/zotero-rule-outline": {
+  "open": 0,
+  "closed": 0
+ },
+ "pad-mac/Zotero-Group-Linked-Files": {
+  "open": 0,
+  "closed": 0
+ },
  "pandaAIGC/zotero-doi-fix": {
   "open": 1,
   "closed": 2
+ },
+ "pandaAIGC/zotero-duplicate-doctor": {
+  "open": 0,
+  "closed": 0
+ },
+ "panhaoyu/Zotero-Title": {
+  "open": 0,
+  "closed": 0
  },
  "panhaoyu/zotero-categorial-tags": {
   "open": 8,
@@ -1147,24 +4805,104 @@
   "open": 0,
   "closed": 0
  },
+ "paolovolterra/Zotpush": {
+  "open": 0,
+  "closed": 0
+ },
  "papersgpt/papersgpt-for-zotero": {
   "open": 76,
   "closed": 36
+ },
+ "partlyjadedyouth/marktero": {
+  "open": 0,
+  "closed": 0
  },
  "paulMrG2/zotero-highlight-descriptions": {
   "open": 1,
   "closed": 3
  },
+ "paulluis-roehl/zotero-cover-view": {
+  "open": 2,
+  "closed": 2
+ },
  "paulusm/zotero-trilium": {
   "disabled": true
+ },
+ "pbilodeau94/zotero-figure-extract": {
+  "open": 0,
+  "closed": 0
+ },
+ "pcf566/zotero-kokoro-read-aloud-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "peash182/Zotero-for-WordCraft": {
+  "open": 0,
+  "closed": 0
  },
  "peekabooXT/Zotero_Paper_Classification_XT": {
   "open": 1,
   "closed": 0
  },
+ "pendulating/zotero-opendata-cite": {
+  "open": 0,
+  "closed": 0
+ },
+ "pengtb/zotero-custom-columns": {
+  "open": 0,
+  "closed": 0
+ },
+ "pengtb/zotero-litfetch": {
+  "open": 0,
+  "closed": 0
+ },
  "peterdresslar/zotero-gemini-notebook": {
   "open": 6,
   "closed": 29
+ },
+ "petrbouchal/zotero-biblio-html": {
+  "open": 0,
+  "closed": 0
+ },
+ "pfriedric/zotero-symlinks": {
+  "open": 0,
+  "closed": 0
+ },
+ "pgauding/zotero-smart-import": {
+  "open": 0,
+  "closed": 0
+ },
+ "phdemotions/zotero-citegeist": {
+  "open": 12,
+  "closed": 6
+ },
+ "phobrla/wikipedia-to-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "phs008/LLM_PapaerAssistance_for_zotero8": {
+  "open": 0,
+  "closed": 0
+ },
+ "physicslog/zotero-clock": {
+  "open": 0,
+  "closed": 0
+ },
+ "piskuliche/zotero-yorklib-exporter": {
+  "open": 0,
+  "closed": 0
+ },
+ "pl0ver/zotero-pdf-exporter": {
+  "open": 0,
+  "closed": 0
+ },
+ "plastik-punk/zotero-show-tags": {
+  "open": 0,
+  "closed": 0
+ },
+ "pmartinolli/ZotFlag": {
+  "open": 0,
+  "closed": 0
  },
  "poesein/ZotQuery": {
   "open": 0,
@@ -1174,12 +4912,43 @@
   "open": 0,
   "closed": 0
  },
+ "ppavlidis/better-find-full-text": {
+  "open": 2,
+  "closed": 0
+ },
  "ppavlidis/condense-info-view": {
   "open": 1,
   "closed": 0
  },
+ "ppavlidis/group-tabs-by-collection": {
+  "open": 4,
+  "closed": 0
+ },
+ "primuszp/lyz": {
+  "disabled": true
+ },
  "psiQAQ/zotero-agent": {
   "open": 1,
+  "closed": 0
+ },
+ "puzan/zotero-links": {
+  "open": 0,
+  "closed": 0
+ },
+ "pymaster17/zotero-agent-parser": {
+  "open": 0,
+  "closed": 0
+ },
+ "pymaster17/zotero-readtime": {
+  "open": 0,
+  "closed": 0
+ },
+ "qiangqianglab/scansci-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "qifu04/zotero-pdf-hand-catcher": {
+  "open": 0,
   "closed": 0
  },
  "qingpy/zotero-pdf2md": {
@@ -1206,6 +4975,42 @@
   "open": 2,
   "closed": 0
  },
+ "quinn-zilly/zotero-wiki-citations": {
+  "open": 0,
+  "closed": 0
+ },
+ "qyangcv/zopilot": {
+  "open": 0,
+  "closed": 1
+ },
+ "rahriver/Z-DAENA": {
+  "open": 0,
+  "closed": 0
+ },
+ "raideno/zotero-better-tags": {
+  "open": 0,
+  "closed": 2
+ },
+ "raphaelstevens/zotero-pdf-to-md": {
+  "open": 0,
+  "closed": 0
+ },
+ "rapharomero/zotero-fullscreen": {
+  "open": 0,
+  "closed": 0
+ },
+ "raykr/better-sync": {
+  "open": 0,
+  "closed": 0
+ },
+ "rbialoz/ZotReKey": {
+  "open": 0,
+  "closed": 0
+ },
+ "rch-huang/CiteLoom-Zotero-Plugin": {
+  "open": 0,
+  "closed": 0
+ },
  "redleafnew/delitemwithatt": {
   "open": 4,
   "closed": 43
@@ -1218,6 +5023,25 @@
   "open": 11,
   "closed": 152
  },
+ "reginalluna/zotero-ciation-preview": {
+  "open": 0,
+  "closed": 0
+ },
+ "reginalluna/zotero-doi-manager": {
+  "open": 1,
+  "closed": 1
+ },
+ "reginalluna/zotero-pdf-translate": {
+  "disabled": true
+ },
+ "reginalluna/zotero-reading-tracker": {
+  "open": 0,
+  "closed": 0
+ },
+ "relativity143/paperbridge-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "replynow20/gemini-zotero": {
   "open": 0,
   "closed": 3
@@ -1225,6 +5049,14 @@
  "retorquere/zotero-better-bibtex": {
   "open": 44,
   "closed": 2556
+ },
+ "retorquere/zotero-date-from-last-modified": {
+  "open": 1,
+  "closed": 6
+ },
+ "retorquere/zotero-debug-log": {
+  "open": 0,
+  "closed": 1
  },
  "retorquere/zotero-folder-import": {
   "open": 6,
@@ -1242,7 +5074,63 @@
   "open": 5,
   "closed": 13
  },
+ "reycn/zotero-super-search": {
+  "open": 0,
+  "closed": 0
+ },
+ "rg4sun/zotero-tab-manager": {
+  "open": 0,
+  "closed": 0
+ },
  "rikochyou/zotero-smart-clipboard-import": {
+  "open": 1,
+  "closed": 0
+ },
+ "rischconsulting/citation-phoenix": {
+  "open": 3,
+  "closed": 3
+ },
+ "rnicrosoft-studio/zot-plus-plus": {
+  "open": 0,
+  "closed": 0
+ },
+ "roderickvella/Zotero-Item-Key-Column": {
+  "open": 3,
+  "closed": 0
+ },
+ "roey-angel/zotero-semantic-tagger": {
+  "open": 2,
+  "closed": 0
+ },
+ "royenheart/zotero-proxy-gui": {
+  "open": 0,
+  "closed": 0
+ },
+ "ruali-dev/qingyi-translator": {
+  "open": 0,
+  "closed": 0
+ },
+ "ruijie-xi/zotero-chat-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "s1nyon/Margin-Markdown": {
+  "open": 0,
+  "closed": 0
+ },
+ "sahanarajan18/zotero-focus-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "saimlau/rhapsode": {
+  "open": 0,
+  "closed": 0
+ },
+ "sameggleton/zotero-organiser": {
+  "open": 0,
+  "closed": 0
+ },
+ "samlothen/ZotBag": {
   "open": 1,
   "closed": 0
  },
@@ -1250,8 +5138,40 @@
   "open": 5,
   "closed": 0
  },
+ "samuelyeewl/zot-nasa-ads": {
+  "open": 2,
+  "closed": 1
+ },
+ "saviotp/ufc-zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
  "sbilmis/zotero-project-manager": {
   "open": 1,
+  "closed": 0
+ },
+ "scaddleloong/Zotero_Reading_Record-per-year": {
+  "open": 0,
+  "closed": 0
+ },
+ "scaltagi/zotero-show-keys": {
+  "open": 0,
+  "closed": 0
+ },
+ "scarnecchia/semblero": {
+  "open": 2,
+  "closed": 0
+ },
+ "schulzedaniel/ZoteroCitationMaps": {
+  "open": 2,
+  "closed": 0
+ },
+ "sciencemaverick/zotero-getcitation": {
+  "open": 0,
+  "closed": 0
+ },
+ "sciencemaverick/zotero-getjournalabbr": {
+  "open": 0,
   "closed": 0
  },
  "scigreat/zotbox": {
@@ -1262,21 +5182,275 @@
   "open": 23,
   "closed": 40
  },
+ "seanlawsonphd/readwise2zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "seanlawsonphd/zotero-add-missing-snapshots": {
+  "open": 0,
+  "closed": 0
+ },
+ "seanlawsonphd/zotero-coding-templates": {
+  "open": 0,
+  "closed": 0
+ },
+ "seasideccm/zotero-read-aloud-loop": {
+  "open": 0,
+  "closed": 0
+ },
+ "seasideccm/zotero-translate-ant": {
+  "open": 0,
+  "closed": 0
+ },
+ "sebastian-rink/zotero-metasync": {
+  "open": 0,
+  "closed": 0
+ },
+ "seifer08ms/zotero-repository-detector": {
+  "open": 0,
+  "closed": 0
+ },
+ "seifer08ms/zotero-review-studio": {
+  "open": 0,
+  "closed": 0
+ },
+ "seigwen/dualtran-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "sentient-codebot/zotero-remarkable-usb": {
+  "open": 0,
+  "closed": 0
+ },
+ "senyamiku1101/glossa": {
+  "open": 0,
+  "closed": 0
+ },
+ "serbernardo/AI-Assistant-for-Zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "sfk8815-create/sovena": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaexys/zotero-auto-relate": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaexys/zotero-auto-tag": {
+  "open": 0,
+  "closed": 0
+ },
+ "shalom-lab/deepread": {
+  "open": 0,
+  "closed": 0
+ },
+ "shamus-li/zotero-citation-cards": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaowen-ye/zotero-collection-color-menu-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaowen-ye/zotero-collection-location-menu-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaowen-ye/zotero-collection-quick-jumper-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaowen-ye/zotero-collection-structure-manager-plugin": {
+  "open": 1,
+  "closed": 0
+ },
+ "shaowen-ye/zotero-doi-dedup-import-plugin": {
+  "disabled": true
+ },
+ "shaowen-ye/zotero-duplicate-merge-manager-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaowen-ye/zotero-inbox-tag-triage-manager-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "shaowen-ye/zotero-item-column-layout-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "sheng-liu/annotation-count": {
+  "open": 0,
+  "closed": 0
+ },
+ "shenghuang-123/cupertino-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "shenghuang-123/zotero-table-reader": {
+  "open": 0,
+  "closed": 0
+ },
  "sheny-bio/marginalia": {
   "open": 1,
   "closed": 4
  },
+ "shi-keke/vocab-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "shice951229-oss/Easy-Translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "shininvvs/zotero-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "shiysent-ctrl/Zotero-SideLine": {
+  "open": 0,
+  "closed": 0
+ },
+ "shourovj/zotero-tab-groups": {
+  "open": 0,
+  "closed": 0
+ },
+ "shunzi-work/zotero-bibtex-to-clipboard": {
+  "open": 0,
+  "closed": 0
+ },
+ "shuyao998/zotero-citation-radar": {
+  "open": 0,
+  "closed": 0
+ },
+ "sigmoid-bar/zotero-file": {
+  "disabled": true
+ },
+ "situkangsayur/zotero-generalgit-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "situkangsayur/zotero-github-plugin": {
+  "open": 1,
+  "closed": 0
+ },
+ "situkangsayur/zotero-graphanalysis-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "situkangsayur/zotero-llm-analysis-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "siyuanj/zotero-author-profiles": {
+  "open": 0,
+  "closed": 0
+ },
+ "sjc88661/zotero-nature-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "sleep-nobad/your_zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "slowphil/zotexmacs": {
+  "open": 1,
+  "closed": 4
+ },
+ "socratic-irony/zotero-snowball": {
+  "open": 0,
+  "closed": 0
+ },
+ "soft-defoliation/zotero-smart-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "solitern/zotero-inbox-organizer": {
+  "open": 0,
+  "closed": 0
+ },
+ "solivayne/ZoteroDict": {
+  "open": 0,
+  "closed": 0
+ },
+ "solsongli/deepread": {
+  "open": 0,
+  "closed": 0
+ },
+ "songheeinformatics/zotero-highlight-mirror": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/en2zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/mc2zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/pp2zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/refdetect": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/zotdupe": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/zotero-instant-cite": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/zotero-instant-cite-wordcraft": {
+  "open": 0,
+  "closed": 0
+ },
+ "sorinhostiuc/zotero-zotcloud": {
+  "open": 0,
+  "closed": 0
+ },
  "soyami/zotero-pick2anki": {
   "open": 2,
+  "closed": 0
+ },
+ "spgsu/zotero-focus-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "sprice/stratum-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "sprooc/zotero-CSVenue": {
+  "open": 0,
+  "closed": 0
+ },
+ "squirrelRao/zotero-lingocloud": {
+  "open": 0,
   "closed": 0
  },
  "sstraume97/zotero-highlight-popup-ui-plugin": {
   "open": 0,
   "closed": 0
  },
+ "stem-sw/zotero-reader-tool-shortcuts": {
+  "open": 0,
+  "closed": 2
+ },
  "steven-jianhao-li/zotero-AI-Butler": {
   "open": 3,
   "closed": 185
+ },
+ "steven-jianhao-li/zotero-AI-Butler-Fang": {
+  "open": 0,
+  "closed": 0
  },
  "stevepowell99/causalmap-zotero": {
   "open": 0,
@@ -1286,9 +5460,29 @@
   "open": 0,
   "closed": 0
  },
+ "sukui10/zotero-split-screen": {
+  "open": 0,
+  "closed": 0
+ },
+ "sumno-app/sumno-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "suppakoko/research_helper": {
+  "open": 0,
+  "closed": 0
+ },
+ "suraj1kc/zotero-folder-drop-importer": {
+  "open": 1,
+  "closed": 2
+ },
  "swcxito/zotero-ai-bar": {
   "open": 0,
   "closed": 8
+ },
+ "synesis-lang/zotero-synesis-export": {
+  "open": 0,
+  "closed": 0
  },
  "syt2/Zotero-TLDR": {
   "open": 6,
@@ -1306,9 +5500,49 @@
   "open": 19,
   "closed": 13
  },
+ "tabris-trees/zotero-plugin-dropdown": {
+  "open": 0,
+  "closed": 0
+ },
+ "tacmon/tacmon-trans": {
+  "open": 0,
+  "closed": 0
+ },
+ "takahashi-seiryu/noctua-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "tangzhao20/zotero-citation-counts": {
+  "open": 3,
+  "closed": 0
+ },
+ "taotaochen86/zbridge": {
+  "open": 0,
+  "closed": 0
+ },
  "taotaozsky2025-beep/zotero-var-highlighter": {
   "open": 0,
   "closed": 2
+ },
+ "teamlilysai/zotero-readray": {
+  "open": 0,
+  "closed": 0
+ },
+ "techczech/writeflex-app": {
+  "open": 0,
+  "closed": 0
+ },
+ "techczech/zoterolm": {
+  "open": 0,
+  "closed": 0
+ },
+ "techne-tools/logios": {
+  "open": 0,
+  "closed": 0
+ },
+ "techyangj/Zotero-voice": {
+  "open": 0,
+  "closed": 0
  },
  "tefkah/zotero-night": {
   "open": 91,
@@ -1318,11 +5552,31 @@
   "open": 3,
   "closed": 10
  },
+ "text70/zotero_ai": {
+  "open": 0,
+  "closed": 0
+ },
+ "thalloerupt/fusion_reader_for_zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "the-solipsist/zotero-wayback-autosave": {
+  "open": 0,
+  "closed": 0
+ },
  "theRatramnus/RIOPACAddChapter": {
   "open": 0,
   "closed": 0
  },
  "theRatramnus/Zotero-download-DigiVatLib-pdf": {
+  "open": 0,
+  "closed": 0
+ },
+ "thiagoelbert/collection-explorer-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "tianlanvera/zotero-autonote": {
   "open": 0,
   "closed": 0
  },
@@ -1334,7 +5588,82 @@
   "open": 0,
   "closed": 0
  },
+ "tim-vdl/ZotExtend": {
+  "open": 0,
+  "closed": 0
+ },
+ "tmarquez-mx/zotero-hook-releases": {
+  "open": 0,
+  "closed": 0
+ },
+ "tomgoodell/zotero-tag-picker": {
+  "open": 0,
+  "closed": 0
+ },
+ "toms-3300/zotero-reading-progress": {
+  "open": 0,
+  "closed": 0
+ },
+ "toustifer/zotero-dsh": {
+  "open": 0,
+  "closed": 0
+ },
+ "tsiangsun/Promote-Bib": {
+  "open": 0,
+  "closed": 0
+ },
+ "tsmdt/zotero-tagwiz": {
+  "open": 0,
+  "closed": 6
+ },
+ "ub-unibe-ch/zotero-swissbib-bb-locations": {
+  "open": 10,
+  "closed": 12
+ },
+ "ubombar/zotero-obsidian-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "ubvu/zotero-refsense": {
+  "disabled": true
+ },
+ "udiboy1209/zotero-annot-copy": {
+  "open": 0,
+  "closed": 0
+ },
+ "un-seen/hedwigai-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "understandlxy/mineru-html-parser-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "unfound77/Fidoic": {
+  "open": 0,
+  "closed": 0
+ },
+ "urschrei/pdferret": {
+  "open": 1,
+  "closed": 0
+ },
+ "urtzienriquez/zotero.nvim": {
+  "open": 1,
+  "closed": 3
+ },
+ "ustc-iontrap/Zotero-Author-Search": {
+  "open": 0,
+  "closed": 0
+ },
+ "utf8-coding/zotero-theme-switcher": {
+  "open": 0,
+  "closed": 0
+ },
+ "utsmok/endnote-date-fixer": {
+  "open": 0,
+  "closed": 0
+ },
+ "v7qx/zotero-si-docx-to-pdf": {
   "open": 0,
   "closed": 0
  },
@@ -1342,15 +5671,93 @@
   "open": 1,
   "closed": 0
  },
+ "vbcnft59/zotero-quicklex": {
+  "open": 0,
+  "closed": 0
+ },
+ "vdcmathieu/zotero-ai-toolkit": {
+  "open": 0,
+  "closed": 0
+ },
+ "veale/metadata-filler-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "vecear/zotero-epub": {
+  "open": 0,
+  "closed": 0
+ },
+ "vincent929-cyber/survey-papers-to-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "virchow-zhang/wmu-journal-tags": {
+  "open": 0,
+  "closed": 0
+ },
+ "virchow-zhang/zotero-doi-metadata-fill": {
+  "open": 0,
+  "closed": 0
+ },
+ "vishnutskumar/zotero-ai-explain": {
+  "open": 0,
+  "closed": 0
+ },
+ "visserle/zotero-google-this": {
+  "open": 0,
+  "closed": 0
+ },
+ "vitaminac/zotero-github-star-count": {
+  "disabled": true
+ },
  "volatile-static/Chartero": {
   "open": 32,
   "closed": 115
+ },
+ "volatile-static/zotero-reading-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "w1457344108-coder/zotero-pdf2zh-annotation-sync": {
+  "open": 0,
+  "closed": 0
+ },
+ "wadaxiyang/zotero-collection-sorter": {
+  "open": 0,
+  "closed": 0
+ },
+ "waelitani/crop-to-margin": {
+  "open": 0,
+  "closed": 0
+ },
+ "waingram/Zotero-Metadata-Scraper": {
+  "disabled": true
+ },
+ "wakatime/zotero-wakatime": {
+  "open": 0,
+  "closed": 2
+ },
+ "walking-wisely/dstu-8302-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "wandonwe/PaperMirror-for-Zotero": {
+  "open": 0,
+  "closed": 0
  },
  "wangqian06/zotero-pdf-background": {
   "open": 8,
   "closed": 18
  },
  "wangzikai01/zotero-row-colors": {
+  "open": 0,
+  "closed": 0
+ },
+ "waterwoods-ai/clautero": {
+  "open": 0,
+  "closed": 0
+ },
+ "wazeruan/zotero-translate-plugin": {
   "open": 0,
   "closed": 0
  },
@@ -1362,17 +5769,57 @@
   "open": 0,
   "closed": 0
  },
+ "wdcpclover/ai4paper": {
+  "open": 6,
+  "closed": 20
+ },
  "weilr/zotero-scholium": {
   "open": 0,
   "closed": 0
+ },
+ "wengu4765-lang/zotero-scholar-suite": {
+  "open": 0,
+  "closed": 0
+ },
+ "wgcyeo/AItero": {
+  "open": 0,
+  "closed": 1
  },
  "whacked/zotero-special-tags-column": {
   "open": 5,
   "closed": 3
  },
+ "white-ink-cell/lingkuma-zotero": {
+  "open": 1,
+  "closed": 0
+ },
+ "whiteofalien/zotero-ai-tab": {
+  "open": 2,
+  "closed": 0
+ },
  "wileyyugioh/zotmoov": {
   "open": 42,
   "closed": 98
+ },
+ "williamjasmine211-netizen/zotero-figure-peek": {
+  "open": 0,
+  "closed": 0
+ },
+ "windfollowingheart/deepseek-for-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "windfollowingheart/openclaw-zotero-channel": {
+  "open": 0,
+  "closed": 0
+ },
+ "windfollowingheart/zotero-claw": {
+  "open": 0,
+  "closed": 0
+ },
+ "windfollowingheart/zotero-copy-anything": {
+  "open": 8,
+  "closed": 3
  },
  "windfollowingheart/zotero-paper-agent": {
   "open": 21,
@@ -1402,6 +5849,33 @@
   "open": 10,
   "closed": 1079
  },
+ "windingwind/zotero-plugin-template": {
+  "open": 3,
+  "closed": 57
+ },
+ "windingwind/zotero-spotlight-search": {
+  "open": 1,
+  "closed": 0
+ },
+ "wmstack/Zotero-Toggle-Bars": {
+  "open": 4,
+  "closed": 3
+ },
+ "woniuzfb/zotero-voice-edge-plugin": {
+  "disabled": true
+ },
+ "wprimett/academic-lens-plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "wqe134/zotero-pdf-translate-custom": {
+  "open": 0,
+  "closed": 0
+ },
+ "wqytommy666/paper-library-zotero": {
+  "open": 0,
+  "closed": 0
+ },
  "wshanks/Zutilo": {
   "open": 80,
   "closed": 144
@@ -1410,20 +5884,71 @@
   "open": 10,
   "closed": 33
  },
+ "wsxwj123/zotero-claudian": {
+  "open": 0,
+  "closed": 0
+ },
  "wu-uk/zotero-feishu": {
   "open": 1,
+  "closed": 0
+ },
+ "wuc9521/zotero-search": {
+  "open": 0,
   "closed": 0
  },
  "wuok0618/zotero-sidemark": {
   "open": 2,
   "closed": 0
  },
+ "wuxinxin27/zotero-reading-room": {
+  "open": 0,
+  "closed": 0
+ },
+ "wuzirui/paper-meta-update": {
+  "open": 0,
+  "closed": 0
+ },
+ "wwsh123/zotero-zotadata": {
+  "disabled": true
+ },
  "wyhao2333/zotero-paperpilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "wyxu95/zotero-copy-pdf-path": {
+  "open": 0,
+  "closed": 0
+ },
+ "wzh4464/zotero-conference-abbreviations": {
+  "open": 0,
+  "closed": 0
+ },
+ "xamspanda/zotero-kokoro-tts": {
+  "open": 1,
+  "closed": 0
+ },
+ "xcjames/zotero_timer": {
   "open": 0,
   "closed": 0
  },
  "xfl031129/zotero-pdf-outline-builder": {
   "open": 2,
+  "closed": 0
+ },
+ "xfxf233/zotero-latex-math-tool": {
+  "open": 1,
+  "closed": 0
+ },
+ "xhy200606/Zotero-full-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "xiamu508/zotero-scipdf-zotero10": {
+  "open": 0,
+  "closed": 0
+ },
+ "xiaogou1234/ZoteroCopilot": {
+  "open": 0,
   "closed": 0
  },
  "xiaoxiao937/li-yue-zotero": {
@@ -1434,7 +5959,43 @@
   "open": 2,
   "closed": 0
  },
+ "xiaoxuanli-a/zotero_agent_reader_plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "xiaoyang0103/zotero-split-view-reader-z10": {
+  "open": 0,
+  "closed": 0
+ },
+ "xin-yi6/zotero-folder-collapse-all": {
+  "open": 0,
+  "closed": 0
+ },
+ "xin-yi6/zotero-paper-updater": {
+  "open": 0,
+  "closed": 0
+ },
+ "xinxzk/zotero-wakatime": {
+  "open": 0,
+  "closed": 0
+ },
  "xiuxiuki/zotero-pdf2zh-batch": {
+  "open": 0,
+  "closed": 0
+ },
+ "xjf17/zotero-ai-extension": {
+  "open": 0,
+  "closed": 0
+ },
+ "xu281530-rgb/zotero-lit-synapse-gpu": {
+  "open": 0,
+  "closed": 0
+ },
+ "xuanhuliming/zotero-terminal": {
+  "open": 0,
+  "closed": 0
+ },
+ "xuchaoemail1996-silence/CollectionCitationTracker": {
   "open": 0,
   "closed": 0
  },
@@ -1450,7 +6011,55 @@
   "open": 0,
   "closed": 0
  },
+ "xzhang001/modern-zotero-themes": {
+  "open": 0,
+  "closed": 0
+ },
+ "y-0768/zotero-manuscript-grid": {
+  "open": 0,
+  "closed": 0
+ },
+ "y1-fan/Re-Kubikatia": {
+  "open": 0,
+  "closed": 0
+ },
+ "yamaizumiminoru/zotero-ris-linker": {
+  "open": 0,
+  "closed": 0
+ },
  "yanchou3/zotero-lastread-format": {
+  "open": 0,
+  "closed": 0
+ },
+ "yanfeifan723/zotero-zotskim": {
+  "open": 0,
+  "closed": 0
+ },
+ "yanyucai/zotero-pdf-auto-bookmarks": {
+  "open": 0,
+  "closed": 0
+ },
+ "yasu/zotero-washo-salvager": {
+  "open": 0,
+  "closed": 0
+ },
+ "ydeng11/zotero-zotadata": {
+  "open": 0,
+  "closed": 10
+ },
+ "yebuqiu/zotero-papilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "yedadasd/scholar-published-bibtex": {
+  "open": 0,
+  "closed": 0
+ },
+ "yehongyu1234/chatpapers": {
+  "open": 0,
+  "closed": 0
+ },
+ "yellow-queer/zotero-LLM_summerize": {
   "open": 0,
   "closed": 0
  },
@@ -1462,11 +6071,59 @@
   "open": 1,
   "closed": 5
  },
+ "yihengli333-netizen/PaperPilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "yiiwang118/zotero-glossa": {
+  "open": 0,
+  "closed": 0
+ },
+ "yileme/zotero-chapterize": {
+  "open": 0,
+  "closed": 0
+ },
  "yilewang/llm-for-zotero": {
-  "open": 183,
-  "closed": 204
+  "open": 182,
+  "closed": 205
+ },
+ "yimmy23/zotero-refs": {
+  "open": 1,
+  "closed": 1
+ },
+ "yimmy23/zotero-zest": {
+  "open": 1,
+  "closed": 5
+ },
+ "yiyabo/zotero-reading-assistant": {
+  "open": 0,
+  "closed": 1
+ },
+ "yiyangbyts/twintext-releases": {
+  "open": 0,
+  "closed": 0
+ },
+ "young-bo-i/zotero-enterscholar": {
+  "open": 0,
+  "closed": 0
+ },
+ "young-bo-i/zotero-enterscholar-journal": {
+  "open": 0,
+  "closed": 0
+ },
+ "yrhoo/zotero-paperlens": {
+  "open": 0,
+  "closed": 0
  },
  "ysqander/listen2papers-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "yuanqi-xie/PaperPet": {
+  "open": 0,
+  "closed": 0
+ },
+ "yuchenlogin/paperflow-zotero-obsidian": {
   "open": 0,
   "closed": 0
  },
@@ -1474,7 +6131,59 @@
   "open": 3,
   "closed": 4
  },
+ "yunxop/Zotero-Superior-Intelligence": {
+  "open": 0,
+  "closed": 0
+ },
+ "yuukibarns/zotero-annotation-backlinks": {
+  "open": 0,
+  "closed": 0
+ },
+ "yuukibarns/zotero-compact-menu": {
+  "open": 0,
+  "closed": 0
+ },
+ "yuukibarns/zotero-page-tools": {
+  "open": 0,
+  "closed": 0
+ },
  "yuweidong/zotero-texlink": {
+  "open": 0,
+  "closed": 0
+ },
+ "yuyichao/zotero-tray": {
+  "open": 0,
+  "closed": 0
+ },
+ "z-jjj-y/zotero-research-bridge": {
+  "open": 0,
+  "closed": 0
+ },
+ "zbhou2002/iris-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "zcjie1/Zotero-AI": {
+  "open": 0,
+  "closed": 0
+ },
+ "zcybeijing/patent": {
+  "open": 0,
+  "closed": 0
+ },
+ "zcyisiee/zotero-tts-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "zebin426-wq/zotero-semantic-scholar-assistant": {
+  "open": 0,
+  "closed": 0
+ },
+ "zenon-lzz/ZoteroBaidupanSync": {
+  "open": 0,
+  "closed": 0
+ },
+ "zepadovani/zotobs-io": {
   "open": 0,
   "closed": 0
  },
@@ -1482,7 +6191,34 @@
   "open": 5,
   "closed": 11
  },
+ "zeya-labs/zotero-arxiv-source-helper": {
+  "open": 0,
+  "closed": 0
+ },
+ "zeyu42/breeze": {
+  "open": 0,
+  "closed": 0
+ },
+ "zgdd12345/AIPaperAnalysis": {
+  "open": 1,
+  "closed": 0
+ },
+ "zhang-dut/zotero-file": {
+  "disabled": true
+ },
+ "zhanghm1995/ZotarXiv": {
+  "open": 1,
+  "closed": 2
+ },
+ "zhangxincode/zotero_web": {
+  "open": 1,
+  "closed": 0
+ },
  "zhangyehao/zotero-fulltext-assistant": {
+  "open": 0,
+  "closed": 0
+ },
+ "zhenyuanzhou/zotero-folder-watch": {
   "open": 0,
   "closed": 0
  },
@@ -1492,6 +6228,10 @@
  },
  "zhi-11/zotero-ai-sidebar": {
   "disabled": true
+ },
+ "zhonghaoyi/zotero-ai-reading": {
+  "open": 0,
+  "closed": 0
  },
  "zhongrubo/translation-notebook": {
   "open": 1,
@@ -1505,11 +6245,103 @@
   "open": 0,
   "closed": 0
  },
+ "zhongyangchuwu/Zotero-Neo": {
+  "open": 7,
+  "closed": 99
+ },
  "zhouyi654/zotero-title-translator": {
   "open": 1,
   "closed": 0
  },
+ "zhstark/zotero9_gpt_plugin": {
+  "open": 0,
+  "closed": 0
+ },
+ "zhuhu00/Obsitero": {
+  "open": 0,
+  "closed": 0
+ },
+ "zhuzihan728/zotero-minimise-tray": {
+  "open": 0,
+  "closed": 0
+ },
+ "zhuzihan728/zotero-paperlink": {
+  "open": 0,
+  "closed": 0
+ },
+ "zjysnow/paperpilot": {
+  "open": 0,
+  "closed": 0
+ },
+ "zkforge/zotero-ask-gpt": {
+  "open": 0,
+  "closed": 0
+ },
+ "zoushucai/zotero-journalabbr": {
+  "open": 5,
+  "closed": 35
+ },
+ "zouyonghao/zotero-semantic-coloring": {
+  "open": 0,
+  "closed": 0
+ },
+ "zouyonghao/zotero-sync-to-tablet": {
+  "open": 0,
+  "closed": 2
+ },
+ "zpeters/zotero-page-count": {
+  "open": 1,
+  "closed": 0
+ },
+ "zpeters/zotero-random-read": {
+  "open": 0,
+  "closed": 0
+ },
+ "zqh666666666/paper-lens-zotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "zrqworkmail-cloud/sentence-translate": {
+  "open": 0,
+  "closed": 0
+ },
+ "zrqworkmail-cloud/zotero-vocab-review": {
+  "open": 0,
+  "closed": 0
+ },
+ "zsrobinson/rmzotero": {
+  "open": 0,
+  "closed": 0
+ },
+ "zwjjiaozhu/Zotero-TransLift": {
+  "open": 0,
+  "closed": 0
+ },
+ "zwmjohn-cool/showMarkdown": {
+  "open": 0,
+  "closed": 0
+ },
+ "zx33/zotero-cool-paper": {
+  "open": 1,
+  "closed": 1
+ },
+ "zxc-heu/mineru-zotero-reader": {
+  "open": 0,
+  "closed": 0
+ },
+ "zxing258974/zotero-knode-plugin": {
+  "open": 0,
+  "closed": 1
+ },
  "zxyl1003/Inthes": {
+  "open": 0,
+  "closed": 0
+ },
+ "zycyjun/KeepZotero-Windows": {
+  "open": 0,
+  "closed": 0
+ },
+ "zzangho/zotero-gemini": {
   "open": 0,
   "closed": 0
  },
