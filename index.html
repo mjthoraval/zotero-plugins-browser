@@ -120,12 +120,12 @@
   .legend-bad { color: var(--bad); }
   .legend-bad a { color: var(--bad); }
   td.size { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; color: var(--fg-muted); }
-  td.listed { white-space: nowrap; }
-  td.listed span {
-    display: inline-block; padding: 1px 7px; border-radius: 4px; font-size: 0.74rem; font-weight: 600;
-    color: var(--fg-muted); border: 1px solid var(--border);
-  }
-  td.listed span.both { color: var(--grade-good); border-color: color-mix(in srgb, var(--grade-good) 35%, transparent); }
+  /* The lists that include the plugin, as each list's own icon after its name
+     (MJT 2026-11-17: "directly shown in its line with an icon"); the Atlas icon
+     links to the plugin's Atlas page. */
+  td.name .src { white-space: nowrap; margin-left: 0.3em; }
+  td.name .src img { width: 14px; height: 14px; vertical-align: -2px; margin-left: 0.15em; }
+  td.name .src a { text-decoration: none; }
   td.downloads { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; font-size: 0.8rem; }
   td.issues .open { color: var(--accent); font-weight: 600; }
   td.issues .sep { color: var(--fg-muted); margin: 0 0.15em; }
@@ -215,8 +215,7 @@
   <table>
     <thead>
       <tr>
-        <th data-sort="name">Name</th>
-        <th title="Which plugin lists include it: Zotero Addons (syt2/zotero-addons-scraper, the list the Zotero Addons plugin shows) and the Zotero Plugins Atlas (zoteroplugins.org)">Listed in</th>
+        <th data-sort="name" title="The icons after a name show which plugin lists include it: Zotero Addons (syt2/zotero-addons-scraper, the list the Zotero Addons plugin shows) and the Zotero Plugins Atlas (zoteroplugins.org)">Name</th>
         <th>Description</th>
         <th data-sort="stars" class="sort-desc">★</th>
         <th data-sort="rating" title="Grade from the Zotero Plugins Atlas, from its automated code checks. Click a grade to open the plugin's page there.">Rating</th>
@@ -742,11 +741,25 @@ function listedIn(p) {
   return state.atlas[p.repo] ? "both" : "addons";
 }
 
-function listedCell(p) {
+// Each list's own icon, in the header's order: the Zotero Addons plugin's
+// (syt2/zotero-addons, addon/content/icons/favicon.svg, AGPL-3.0) and the Atlas's
+// (zoteroplugins.org/favicon.svg), copied to icons/. Zotero Addons has no page per
+// plugin, so its icon is not a link.
+function sourceIcons(p) {
   const v = listedIn(p);
-  if (v === "both") return '<span class="both" title="Listed in Zotero Addons and in the Zotero Plugins Atlas">Both</span>';
-  if (v === "atlas") return '<span title="Listed only in the Zotero Plugins Atlas (zoteroplugins.org)">Atlas</span>';
-  return '<span title="Listed only in Zotero Addons (syt2/zotero-addons-scraper)">Zotero Addons</span>';
+  let out = "";
+  if (v !== "atlas") {
+    out += '<img src="icons/zotero-addons.svg" alt="Zotero Addons" title="Listed in Zotero Addons (syt2/zotero-addons-scraper, the list the Zotero Addons plugin shows)">';
+  }
+  if (v !== "addons") {
+    const slug = state.atlas[p.repo]?.slug;
+    const img = '<img src="icons/atlas.svg" alt="Zotero Plugins Atlas" title="Listed in the Zotero Plugins Atlas (zoteroplugins.org)'
+      + (slug ? ': open its page there' : '') + '">';
+    out += slug
+      ? `<a href="https://zoteroplugins.org/p/${encodeURIComponent(slug)}" target="_blank" rel="noopener">${img}</a>`
+      : img;
+  }
+  return `<span class="src">${out}</span>`;
 }
 
 function render() {
@@ -781,10 +794,9 @@ function render() {
     return `
       <tr${overMax ? ` class="overdeclared" title="${escapeHtml(overTip)}"` : ""}>
         <td class="name">
-          <a href="${escapeHtml(repoUrl)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>
+          <a href="${escapeHtml(repoUrl)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>${sourceIcons(p)}
           <span class="author"${authorTip ? ` title="${escapeHtml(authorTip)}"` : ""}>${escapeHtml(author)}</span>
         </td>
-        <td class="listed">${listedCell(p)}</td>
         <td class="desc">${escapeHtml(desc)}</td>
         <td class="stars">★ ${escapeHtml(fmtStars(stars))}</td>
         <td class="rating">${ratingCell(p.repo)}</td>
