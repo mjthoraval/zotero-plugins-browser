@@ -242,7 +242,7 @@
  "HappyAny/zotero-turbo": {
   "grade": "–",
   "slug": "zotero-turbo",
-  "why": "zotero-turbo-0.10.0.xpi is 90 MB, over our 60 MB analysis limit"
+  "why": "zotero-turbo-0.13.2.xpi is 90 MB, over our 60 MB analysis limit"
  },
  "Huaisure/zotero-quick-copy-pdf": {
   "grade": "B",
@@ -1427,7 +1427,7 @@
  "papersgpt/papersgpt-for-zotero": {
   "grade": "–",
   "slug": "papersgpt-for-zotero",
-  "why": "papersgpt-v2.4.1.xpi is 202 MB, over our 60 MB analysis limit"
+  "why": "papersgpt-v2.4.2.xpi is 202 MB, over our 60 MB analysis limit"
  },
  "paulMrG2/zotero-highlight-descriptions": {
   "grade": "A+",
@@ -1964,30 +1964,30 @@
   "slug": "zotero-codex--rtliang",
   "why": "it watches Zotero's network traffic, and 2 more findings"
  },
- "DrUsagi/Colorful-Bionic": {
-  "grade": "B",
-  "slug": "colorful-bionic",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
  "yimmy23/zotero-refs": {
   "grade": "A",
   "slug": "zotero-refs",
   "why": "every code check came out low"
+ },
+ "DrUsagi/Colorful-Bionic": {
+  "grade": "B",
+  "slug": "colorful-bionic",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "aokellermann/zotero-nexus": {
   "grade": "A",
   "slug": "zotero-nexus",
   "why": "every code check came out low"
  },
- "beaugunderson/ZoteroQuickLookNG": {
-  "grade": "B",
-  "slug": "zoteroquicklookng",
-  "why": "it launches programs on your computer"
- },
  "X1AOX1A/ZoFiles": {
   "grade": "B",
   "slug": "zofiles",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "beaugunderson/ZoteroQuickLookNG": {
+  "grade": "B",
+  "slug": "zoteroquicklookng",
+  "why": "it launches programs on your computer"
  },
  "LilyKun064/Autotag_zotero_plugin": {
   "grade": "A+",
@@ -2044,6 +2044,11 @@
   "slug": "zotero-scholar",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "firekern/zusia": {
+  "grade": "B",
+  "slug": "zusia",
+  "why": "it launches programs on your computer"
+ },
  "Dominic-DallOsto/zotero-custom-item-fields": {
   "grade": "A",
   "slug": "zotero-custom-item-fields",
@@ -2059,24 +2064,24 @@
   "slug": "better-find-full-text",
   "why": "every code check came out low"
  },
- "alex-roc/zotero-agent": {
-  "grade": "B",
-  "slug": "zotero-agent--alex-roc",
-  "why": "it runs code other programs on this computer send it"
- },
  "dzackgarza/zotero-local-write-api": {
   "grade": "B",
   "slug": "zotero-local-write-api",
   "why": "it contacts a server we couldn't identify: api.zbmath.org, and 1 more finding"
+ },
+ "alex-roc/zotero-agent": {
+  "grade": "B",
+  "slug": "zotero-agent--alex-roc",
+  "why": "it runs code other programs on this computer send it"
  },
  "ub-unibe-ch/zotero-swissbib-bb-locations": {
   "grade": "A+",
   "slug": "zotero-swissbib-bb-locations",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "firekern/zusia": {
+ "ilDon/zotero-semantic-search": {
   "grade": "B",
-  "slug": "zusia",
+  "slug": "zotero-semantic-search",
   "why": "it launches programs on your computer"
  },
  "cboulanger/zotero-rag": {
@@ -2084,14 +2089,14 @@
   "slug": "zotero-rag",
   "why": "every code check came out low"
  },
- "ilDon/zotero-semantic-search": {
-  "grade": "B",
-  "slug": "zotero-semantic-search",
-  "why": "it launches programs on your computer"
- },
  "dnnunn/zotero-auto-tagger": {
   "grade": "A",
   "slug": "zotero-auto-tagger",
+  "why": "every code check came out low"
+ },
+ "Jajaho/zotero-citation-graph": {
+  "grade": "A",
+  "slug": "zotero-citation-graph",
   "why": "every code check came out low"
  },
  "jehyunlee/paper-curio": {
@@ -2114,20 +2119,15 @@
   "slug": "ai-assistant-for-zotero",
   "why": "it downloads and runs a program we haven't reviewed yet, and 1 more finding"
  },
- "BaiRuic/ZoteroCopilot": {
-  "grade": "B",
-  "slug": "zoterocopilot",
-  "why": "it contacts a server we couldn't identify: ollama.com, and 2 more findings"
- },
  "AlessMor/zotero-citation-map": {
   "grade": "B",
   "slug": "zotero-citation-map",
   "why": "its release file was replaced after publication"
  },
- "Jajaho/zotero-citation-graph": {
-  "grade": "A",
-  "slug": "zotero-citation-graph",
-  "why": "every code check came out low"
+ "BaiRuic/ZoteroCopilot": {
+  "grade": "B",
+  "slug": "zoterocopilot",
+  "why": "it contacts a server we couldn't identify: ollama.com, and 2 more findings"
  },
  "danepps/zotero": {
   "grade": "A",
@@ -2179,25 +2179,25 @@
   "slug": "zotero-debug-log",
   "why": "it sends data through a public relay: filebin.net"
  },
- "ppavlidis/group-tabs-by-collection": {
-  "grade": "A+",
-  "slug": "group-tabs-by-collection",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
  "bpiwowar/zotero-remarkable-sync": {
   "grade": "B",
   "slug": "zotero-remarkable-sync",
   "why": "it uses the network; we couldn't tell where, and 2 more findings"
  },
- "groele/Zotero-MetaFlow": {
-  "grade": "B",
-  "slug": "zotero-metaflow",
-  "why": "it keeps its own tables in Zotero's database, and 2 more findings"
+ "ppavlidis/group-tabs-by-collection": {
+  "grade": "A+",
+  "slug": "group-tabs-by-collection",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "heidihelena/fullvahti": {
   "grade": "A",
   "slug": "fullvahti",
   "why": "every code check came out low"
+ },
+ "groele/Zotero-MetaFlow": {
+  "grade": "B",
+  "slug": "zotero-metaflow",
+  "why": "it keeps its own tables in Zotero's database, and 2 more findings"
  },
  "adolinjonathan-bot/zotero-toolkit": {
   "grade": "A",
@@ -2214,34 +2214,44 @@
   "slug": "citation-phoenix",
   "why": "every code check came out low"
  },
- "adellife/zotero-skimread": {
-  "grade": "B",
-  "slug": "zotero-skimread",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
- },
  "hanxiangmin/zotero10-scholar": {
   "grade": "B",
   "slug": "zotero10-scholar",
   "why": "it contacts a server we couldn't identify: sparql.dblp.org"
  },
- "Cai-aa/Zotero-One": {
+ "adellife/zotero-skimread": {
   "grade": "B",
-  "slug": "zotero-one",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "slug": "zotero-skimread",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
+ "solsongli/deepread": {
+  "grade": "A",
+  "slug": "deepread--solsongli",
+  "why": "every code check came out low"
  },
  "wandonwe/PaperMirror-for-Zotero": {
   "grade": "A",
   "slug": "papermirror-for-zotero",
   "why": "every code check came out low"
  },
+ "Cai-aa/Zotero-One": {
+  "grade": "B",
+  "slug": "zotero-one",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "gchapron/ZoteroQuickLookMac": {
   "grade": "B",
   "slug": "zoteroquicklookmac",
   "why": "it launches programs on your computer, and 1 more finding"
  },
- "solsongli/deepread": {
+ "iliasbeshimov/zotero-atlas": {
+  "grade": "B",
+  "slug": "zotero-atlas",
+  "why": "it sends usage data to zoteroatlas.com, and 2 more findings"
+ },
+ "xzhang001/modern-zotero-themes": {
   "grade": "A",
-  "slug": "deepread--solsongli",
+  "slug": "modern-zotero-themes",
   "why": "every code check came out low"
  },
  "gchapron/ZoteroOllama": {
@@ -2254,9 +2264,9 @@
   "slug": "zotero-mindflow",
   "why": "every code check came out low"
  },
- "xzhang001/modern-zotero-themes": {
+ "fdossi/zotfetch": {
   "grade": "A",
-  "slug": "modern-zotero-themes",
+  "slug": "zotfetch--fdossi",
   "why": "every code check came out low"
  },
  "GuoXin-Ink/codex-zotero-bridge": {
@@ -2269,55 +2279,45 @@
   "slug": "papersgpt-for-zotero-sidebar",
   "why": "it runs the AI model's replies as code"
  },
- "fdossi/zotfetch": {
-  "grade": "A",
-  "slug": "zotfetch--fdossi",
-  "why": "every code check came out low"
- },
  "roey-angel/zotero-semantic-tagger": {
   "grade": "B",
   "slug": "zotero-semantic-tagger",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
- },
- "ajs7270/zotero-ai-summary": {
-  "grade": "B",
-  "slug": "zotero-ai-summary",
-  "why": "a website that knows an item's key could change your library through it"
- },
- "groele/Zotero-TaskFlow": {
-  "grade": "–",
-  "slug": "zotero-taskflow",
-  "why": "we're still checking where its network code sends data"
  },
  "paulluis-roehl/zotero-cover-view": {
   "grade": "B",
   "slug": "zotero-cover-view",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "iliasbeshimov/zotero-atlas": {
-  "grade": "B",
-  "slug": "zotero-atlas",
-  "why": "it sends usage data to zoteroatlas.com, and 2 more findings"
+ "groele/Zotero-TaskFlow": {
+  "grade": "–",
+  "slug": "zotero-taskflow",
+  "why": "we're still checking where its network code sends data"
  },
- "CentreForDigitalHumanities/lidia-zotero": {
-  "grade": "A",
-  "slug": "lidia-zotero",
-  "why": "every code check came out low"
+ "ajs7270/zotero-ai-summary": {
+  "grade": "B",
+  "slug": "zotero-ai-summary",
+  "why": "a website that knows an item's key could change your library through it"
  },
  "groele/Zotero-RefFlow": {
   "grade": "A",
   "slug": "zotero-refflow",
   "why": "every code check came out low"
  },
- "yiyangbyts/twintext-releases": {
-  "grade": "B",
-  "slug": "twintext-releases",
-  "why": "it downloads and runs a Python translation engine (about 460 MB) the first time you translate a PDF; we haven't checked what's inside it, and 3 more findings"
+ "CentreForDigitalHumanities/lidia-zotero": {
+  "grade": "A",
+  "slug": "lidia-zotero",
+  "why": "every code check came out low"
  },
  "nikhilweee/zotfetch": {
   "grade": "A",
   "slug": "zotfetch",
   "why": "every code check came out low"
+ },
+ "yiyangbyts/twintext-releases": {
+  "grade": "B",
+  "slug": "twintext-releases",
+  "why": "it downloads and runs a Python translation engine (about 460 MB) the first time you translate a PDF; we haven't checked what's inside it, and 3 more findings"
  },
  "groele/Zotero-PaperFlow": {
   "grade": "A",
@@ -2334,15 +2334,15 @@
   "slug": "zotero-export-pdf",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "vishnutskumar/zotero-ai-explain": {
-  "grade": "B",
-  "slug": "zotero-ai-explain",
-  "why": "it launches programs on your computer, and 1 more finding"
- },
  "jkroes/zotero-hide-citation-highlights": {
   "grade": "A",
   "slug": "zotero-hide-citation-highlights",
   "why": "every code check came out low"
+ },
+ "vishnutskumar/zotero-ai-explain": {
+  "grade": "B",
+  "slug": "zotero-ai-explain",
+  "why": "it launches programs on your computer, and 1 more finding"
  },
  "mkant18/zotero_law": {
   "grade": "A",
@@ -2354,19 +2354,34 @@
   "slug": "zotero10-hide-citation-highlights",
   "why": "every code check came out low"
  },
- "HansJoakimPersson/zotero-file-utility": {
-  "grade": "A",
-  "slug": "zotero-file-utility",
-  "why": "every code check came out low"
- },
  "andrew-healey/open-inline-citation": {
   "grade": "A",
   "slug": "open-inline-citation",
   "why": "every code check came out low"
  },
+ "HansJoakimPersson/zotero-file-utility": {
+  "grade": "A",
+  "slug": "zotero-file-utility",
+  "why": "every code check came out low"
+ },
  "dnnunn/zotero-scihub-fetcher": {
   "grade": "B",
   "slug": "zotero-scihub-fetcher",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "najibprog/zotero-reference-checker": {
+  "grade": "A",
+  "slug": "zotero-reference-checker",
+  "why": "every code check came out low"
+ },
+ "jsglazer/enhanced-notes": {
+  "grade": "B",
+  "slug": "enhanced-notes",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
+ "TLzh/paperworm": {
+  "grade": "B",
+  "slug": "paperworm",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "CUNY-AI-Lab/zotero-autofill": {
@@ -2377,16 +2392,6 @@
  "MiguelDLM/zotero-paper-search": {
   "grade": "B",
   "slug": "zotero-paper-search",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "najibprog/zotero-reference-checker": {
-  "grade": "A",
-  "slug": "zotero-reference-checker",
-  "why": "every code check came out low"
- },
- "TLzh/paperworm": {
-  "grade": "B",
-  "slug": "paperworm",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "dnnunn/zotero-doi-finder": {
@@ -2419,40 +2424,45 @@
   "slug": "zotero-duplicates-plugin",
   "why": "every code check came out low"
  },
- "jsglazer/enhanced-notes": {
-  "grade": "B",
-  "slug": "enhanced-notes",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ "GuotuanWang/cesi": {
+  "grade": "A+",
+  "slug": "cesi",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "qyangcv/zopilot": {
   "grade": "B",
   "slug": "zopilot",
   "why": "it downloads and runs a PDF helper program when you press Install under Dependencies; its developer can change what runs at any time, and 1 more finding"
  },
- "X-T-E-R/Zotero-MCP-Neo": {
-  "grade": "B",
-  "slug": "zotero-mcp-neo",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
- },
  "haobbc/zotero-ai-notes": {
   "grade": "B",
   "slug": "zotero-ai-notes--haobbc",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "GuotuanWang/cesi": {
-  "grade": "A+",
-  "slug": "cesi",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "zouyonghao/zotero-sync-to-tablet": {
+ "X-T-E-R/Zotero-MCP-Neo": {
   "grade": "B",
-  "slug": "zotero-sync-to-tablet",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "slug": "zotero-mcp-neo",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
+ "CODRbio/RAG": {
+  "grade": "B",
+  "slug": "rag",
+  "why": "it contacts a server we couldn't identify: 159.226.158.86"
+ },
+ "cnzotero/zotero-community": {
+  "grade": "B",
+  "slug": "zotero-community",
+  "why": "updates itself outside Zotero's updater"
  },
  "groele/Zotero-CiteFlow": {
   "grade": "B",
   "slug": "zotero-citeflow",
   "why": "it changes other plugins, and 1 more finding"
+ },
+ "zouyonghao/zotero-sync-to-tablet": {
+  "grade": "B",
+  "slug": "zotero-sync-to-tablet",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "fkallmer/zotero-orbit": {
   "grade": "B",
@@ -2469,11 +2479,6 @@
   "slug": "zotero-selection-popup-on-alt",
   "why": "every code check came out low"
  },
- "CODRbio/RAG": {
-  "grade": "B",
-  "slug": "rag",
-  "why": "it contacts a server we couldn't identify: 159.226.158.86"
- },
  "HRS0986/ZoteroPDF": {
   "grade": "B",
   "slug": "zoteropdf",
@@ -2489,6 +2494,11 @@
   "slug": "zotextract",
   "why": "every code check came out low"
  },
+ "shourovj/zotero-tab-groups": {
+  "grade": "B",
+  "slug": "zotero-tab-groups",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "Alphainfix/AlphainZ": {
   "grade": "B",
   "slug": "alphainz",
@@ -2499,10 +2509,10 @@
   "slug": "zotero-evidence",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "shourovj/zotero-tab-groups": {
-  "grade": "B",
-  "slug": "zotero-tab-groups",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ "seigwen/dualtran-zotero": {
+  "grade": "A",
+  "slug": "dualtran-zotero",
+  "why": "every code check came out low"
  },
  "Amogh-Joshi/zotero-rsvp": {
   "grade": "A",
@@ -2519,29 +2529,39 @@
   "slug": "zotero-default-attachment",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "roderickvella/Zotero-Item-Key-Column": {
-  "grade": "B",
-  "slug": "zotero-item-key-column",
-  "why": "updates are set to come from an address someone else could control"
- },
  "forgeters/zotero-fig": {
   "grade": "B",
   "slug": "zotero-fig",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
- "cnzotero/zotero-community": {
+ "roderickvella/Zotero-Item-Key-Column": {
   "grade": "B",
-  "slug": "zotero-community",
-  "why": "updates itself outside Zotero's updater"
+  "slug": "zotero-item-key-column",
+  "why": "updates are set to come from an address someone else could control"
+ },
+ "baijiyunze/zotero-chatgpt-sidebar": {
+  "grade": "B",
+  "slug": "zotero-chatgpt-sidebar--baijiyunze",
+  "why": "it watches Zotero's network traffic"
  },
  "eric-tramel/zoty": {
   "grade": "C",
   "slug": "zoty",
   "why": "any website you visit can make it act through its local server: it doesn't check where requests come from, and 1 more finding"
  },
+ "alfakini/zotero-reMarkable-plugin": {
+  "grade": "A",
+  "slug": "zotero-remarkable-plugin",
+  "why": "every code check came out low"
+ },
  "socratic-irony/zotero-snowball": {
   "grade": "A",
   "slug": "zotero-snowball",
+  "why": "every code check came out low"
+ },
+ "BJTUpupil/word-zotero-bridge": {
+  "grade": "A",
+  "slug": "word-zotero-bridge",
   "why": "every code check came out low"
  },
  "ZhaoPuEE/zotero-eye-care": {
@@ -2549,45 +2569,25 @@
   "slug": "zotero-eye-care",
   "why": "every code check came out low"
  },
- "young-bo-i/zotero-enterscholar": {
-  "grade": "B",
-  "slug": "zotero-enterscholar",
-  "why": "it contacts the developer's server: enterscholar.com"
- },
- "BJTUpupil/word-zotero-bridge": {
-  "grade": "A",
-  "slug": "word-zotero-bridge",
-  "why": "every code check came out low"
- },
- "Houxin2024/zotero-bilingual": {
-  "grade": "A",
-  "slug": "zotero-bilingual",
-  "why": "every code check came out low"
- },
  "waterwoods-ai/clautero": {
   "grade": "B",
   "slug": "clautero",
   "why": "it launches programs on your computer"
- },
- "seigwen/dualtran-zotero": {
-  "grade": "A",
-  "slug": "dualtran-zotero",
-  "why": "every code check came out low"
- },
- "alfakini/zotero-reMarkable-plugin": {
-  "grade": "A",
-  "slug": "zotero-remarkable-plugin",
-  "why": "every code check came out low"
  },
  "zhonghaoyi/zotero-ai-reading": {
   "grade": "B",
   "slug": "zotero-ai-reading",
   "why": "it launches programs on your computer"
  },
- "baijiyunze/zotero-chatgpt-sidebar": {
+ "Houxin2024/zotero-bilingual": {
+  "grade": "A",
+  "slug": "zotero-bilingual",
+  "why": "every code check came out low"
+ },
+ "young-bo-i/zotero-enterscholar": {
   "grade": "B",
-  "slug": "zotero-chatgpt-sidebar--baijiyunze",
-  "why": "it watches Zotero's network traffic"
+  "slug": "zotero-enterscholar",
+  "why": "it contacts the developer's server: enterscholar.com"
  },
  "ajdavis/zotero-metadata-search-plugin": {
   "grade": "B",
@@ -2609,15 +2609,25 @@
   "slug": "zotero-perma-archiver",
   "why": "every code check came out low"
  },
- "zx33/zotero-cool-paper": {
-  "grade": "B",
-  "slug": "zotero-cool-paper",
-  "why": "it keeps its own tables in Zotero's database, and 2 more findings"
+ "karwanoa/ZoteroCitationCountsManager": {
+  "grade": "A",
+  "slug": "zoterocitationcountsmanager--karwanoa",
+  "why": "every code check came out low"
  },
  "JunyanKang/paper-loom": {
   "grade": "B",
   "slug": "paper-loom",
   "why": "it launches programs on your computer"
+ },
+ "zx33/zotero-cool-paper": {
+  "grade": "B",
+  "slug": "zotero-cool-paper",
+  "why": "it keeps its own tables in Zotero's database, and 2 more findings"
+ },
+ "brant-ruan/zotero-kentridge": {
+  "grade": "B",
+  "slug": "zotero-kentridge",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "onyxaegis/zotero-tag-cited": {
   "grade": "A+",
@@ -2629,11 +2639,6 @@
   "slug": "zotero-neo",
   "why": "it writes to Zotero's database directly"
  },
- "brant-ruan/zotero-kentridge": {
-  "grade": "B",
-  "slug": "zotero-kentridge",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
  "sorinhostiuc/en2zotero": {
   "grade": "A",
   "slug": "en2zotero",
@@ -2644,19 +2649,14 @@
   "slug": "zotero-obsidian-linker",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "karwanoa/ZoteroCitationCountsManager": {
-  "grade": "A",
-  "slug": "zoterocitationcountsmanager--karwanoa",
-  "why": "every code check came out low"
- },
  "ShiWenber/zotero-paper-copilot": {
   "grade": "B",
   "slug": "zotero-paper-copilot",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "CavalloScuro/LGFetcher": {
+ "vdcmathieu/zotero-ai-toolkit": {
   "grade": "A",
-  "slug": "lgfetcher",
+  "slug": "zotero-ai-toolkit",
   "why": "every code check came out low"
  },
  "myheart521/cli2openai": {
@@ -2664,15 +2664,20 @@
   "slug": "cli2openai",
   "why": "it launches programs on your computer"
  },
- "vdcmathieu/zotero-ai-toolkit": {
-  "grade": "A",
-  "slug": "zotero-ai-toolkit",
-  "why": "every code check came out low"
- },
  "WeiCheng14159/zotero-local-pdf-manager": {
   "grade": "B",
   "slug": "zotero-local-pdf-manager",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "CavalloScuro/LGFetcher": {
+  "grade": "A",
+  "slug": "lgfetcher",
+  "why": "every code check came out low"
+ },
+ "yebuqiu/zotero-papilot": {
+  "grade": "C",
+  "slug": "zotero-papilot",
+  "why": "any website you visit can change your library through it"
  },
  "zpeters/zotero-random-read": {
   "grade": "A",
@@ -2684,6 +2689,11 @@
   "slug": "zotero-github-plugin",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "FluentRead/FluentRead": {
+  "grade": "A",
+  "slug": "fluentread",
+  "why": "every code check came out low"
+ },
  "HiYvri/pdf-fetcher": {
   "grade": "B",
   "slug": "pdf-fetcher",
@@ -2694,10 +2704,10 @@
   "slug": "zotero-pdf-translate--reginalluna",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
- "yebuqiu/zotero-papilot": {
-  "grade": "C",
-  "slug": "zotero-papilot",
-  "why": "any website you visit can change your library through it"
+ "Echo-Lian/Zotero-TTS-Plugin": {
+  "grade": "A+",
+  "slug": "zotero-tts-plugin",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "ChrisShank/zemble": {
   "grade": "B",
@@ -2709,25 +2719,30 @@
   "slug": "zotero-sort-by-color-tag",
   "why": "every code check came out low"
  },
- "Echo-Lian/Zotero-TTS-Plugin": {
-  "grade": "A+",
-  "slug": "zotero-tts-plugin",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ "0then0/margincarry": {
+  "grade": "A",
+  "slug": "margincarry",
+  "why": "every code check came out low"
  },
  "kinranlau/zotero_tag_recommender": {
   "grade": "B",
   "slug": "zotero-tag-recommender",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "0then0/margincarry": {
-  "grade": "A",
-  "slug": "margincarry",
-  "why": "every code check came out low"
+ "MuiseDestiny/zotero-claudero": {
+  "grade": "–",
+  "slug": "zotero-claudero",
+  "why": "claudero.xpi is 204 MB, over our 60 MB analysis limit"
  },
  "SeptYagu/zotero-margin-fit": {
   "grade": "A",
   "slug": "zotero-margin-fit",
   "why": "every code check came out low"
+ },
+ "musstafasnn/zotero-latin": {
+  "grade": "B",
+  "slug": "zotero-latin",
+  "why": "it contacts a server we couldn't identify: api.turath.io"
  },
  "JAEYOONSUNG/zotero-plugins": {
   "grade": "B",
@@ -2739,24 +2754,24 @@
   "slug": "zotron--diamondrill",
   "why": "every code check came out low"
  },
- "FluentRead/FluentRead": {
-  "grade": "A",
-  "slug": "fluentread",
-  "why": "every code check came out low"
- },
- "musstafasnn/zotero-latin": {
+ "Golden-Pigeon/zotero-pdf-translate-plus-plus": {
   "grade": "B",
-  "slug": "zotero-latin",
-  "why": "it contacts a server we couldn't identify: api.turath.io"
- },
- "KeiYuHin/zotero-obsidian-bridge": {
-  "grade": "A",
-  "slug": "zotero-obsidian-bridge",
-  "why": "every code check came out low"
+  "slug": "zotero-pdf-translate-plus-plus",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
  "xfxf233/zotero-latex-math-tool": {
   "grade": "A",
   "slug": "zotero-latex-math-tool",
+  "why": "every code check came out low"
+ },
+ "tsmdt/zotero-tagwiz": {
+  "grade": "A",
+  "slug": "zotero-tagwiz",
+  "why": "every code check came out low"
+ },
+ "KeiYuHin/zotero-obsidian-bridge": {
+  "grade": "A",
+  "slug": "zotero-obsidian-bridge",
   "why": "every code check came out low"
  },
  "reginalluna/zotero-reading-tracker": {
@@ -2764,25 +2779,10 @@
   "slug": "zotero-reading-tracker",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "Golden-Pigeon/zotero-pdf-translate-plus-plus": {
-  "grade": "B",
-  "slug": "zotero-pdf-translate-plus-plus",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
- },
  "MemorushB/zotero-smart-highlighter": {
   "grade": "B",
   "slug": "zotero-smart-highlighter",
   "why": "it launches programs on your computer, and 1 more finding"
- },
- "MuiseDestiny/zotero-claudero": {
-  "grade": "–",
-  "slug": "zotero-claudero",
-  "why": "claudero.xpi is 204 MB, over our 60 MB analysis limit"
- },
- "tsmdt/zotero-tagwiz": {
-  "grade": "A",
-  "slug": "zotero-tagwiz",
-  "why": "every code check came out low"
  },
  "Aaronkhodami/ZotGit": {
   "grade": "A+",
@@ -2794,11 +2794,6 @@
   "slug": "ztldr",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "USEPA/epa-zotero-plugin": {
-  "grade": "A",
-  "slug": "epa-zotero-plugin",
-  "why": "every code check came out low"
- },
  "fenzirong/zotero-zh-info": {
   "grade": "B",
   "slug": "zotero-zh-info",
@@ -2809,14 +2804,34 @@
   "slug": "crop-to-margin",
   "why": "every code check came out low"
  },
+ "USEPA/epa-zotero-plugin": {
+  "grade": "A",
+  "slug": "epa-zotero-plugin",
+  "why": "every code check came out low"
+ },
  "Shuenhoy/zotero-break-pdf": {
   "grade": "C",
   "slug": "zotero-break-pdf",
   "why": "a zotero:// link (a web page can open one) can make it run code without asking you (from zotero-plugin-toolkit)"
  },
+ "moonbowterfly/pop-fish": {
+  "grade": "B",
+  "slug": "pop-fish",
+  "why": "it contacts a server we couldn't identify: api.byteslink.cn"
+ },
+ "sorinhostiuc/refdetect": {
+  "grade": "A",
+  "slug": "refdetect",
+  "why": "every code check came out low"
+ },
  "edouardArmit/zotero-hover-abstract": {
   "grade": "B",
   "slug": "zotero-hover-abstract",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "janbaykara/zotero-youtube-transcripts": {
+  "grade": "B",
+  "slug": "zotero-youtube-transcripts",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "spgsu/zotero-focus-reader": {
@@ -2824,9 +2839,9 @@
   "slug": "zotero-focus-reader--spgsu",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "janbaykara/zotero-youtube-transcripts": {
+ "cboulanger/zotero-language-categorizer": {
   "grade": "B",
-  "slug": "zotero-youtube-transcripts",
+  "slug": "zotero-language-categorizer",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "seanlawsonphd/zotero-add-missing-snapshots": {
@@ -2839,34 +2854,19 @@
   "slug": "zotero-narrative-citations",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "moonbowterfly/pop-fish": {
+ "josesiqueira/zotero-stylero": {
   "grade": "B",
-  "slug": "pop-fish",
-  "why": "it contacts a server we couldn't identify: api.byteslink.cn"
+  "slug": "zotero-stylero",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "CarhoJohn/doi2pdf": {
   "grade": "B",
   "slug": "doi2pdf",
   "why": "it launches programs on your computer"
  },
- "sorinhostiuc/refdetect": {
+ "JanR383/zotero-qualified-references": {
   "grade": "A",
-  "slug": "refdetect",
-  "why": "every code check came out low"
- },
- "cboulanger/zotero-language-categorizer": {
-  "grade": "B",
-  "slug": "zotero-language-categorizer",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "josesiqueira/zotero-stylero": {
-  "grade": "B",
-  "slug": "zotero-stylero",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "excellentenough/ScholarPop": {
-  "grade": "A",
-  "slug": "scholarpop",
+  "slug": "zotero-qualified-references",
   "why": "every code check came out low"
  },
  "Agents365-ai/zotero-cli-ai": {
@@ -2874,15 +2874,25 @@
   "slug": "zotero-cli-ai",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "JanR383/zotero-qualified-references": {
-  "grade": "A",
-  "slug": "zotero-qualified-references",
-  "why": "every code check came out low"
+ "charlesapetersen/zotero-pdf-transfer": {
+  "grade": "A+",
+  "slug": "zotero-pdf-transfer",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "YufeiXIA/zotero-claude-code": {
   "grade": "B",
   "slug": "zotero-claude-code",
   "why": "it launches programs on your computer"
+ },
+ "excellentenough/ScholarPop": {
+  "grade": "A",
+  "slug": "scholarpop",
+  "why": "every code check came out low"
+ },
+ "pandaAIGC/zotero-duplicate-doctor": {
+  "grade": "B",
+  "slug": "zotero-duplicate-doctor",
+  "why": "it keeps its own tables in Zotero's database"
  },
  "kvarnelis/zotero-quiet-theme": {
   "grade": "A",
@@ -2894,25 +2904,35 @@
   "slug": "zotero-reader-tool-shortcuts",
   "why": "every code check came out low"
  },
+ "Diraw/zotero-split-theme": {
+  "grade": "A",
+  "slug": "zotero-split-theme",
+  "why": "every code check came out low"
+ },
  "woniuzfb/zotero-voice-edge-plugin": {
   "grade": "A+",
   "slug": "zotero-voice-edge-plugin",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "pandaAIGC/zotero-duplicate-doctor": {
+ "coderirse/zotero-fulltext-pdf-translate": {
   "grade": "B",
-  "slug": "zotero-duplicate-doctor",
-  "why": "it keeps its own tables in Zotero's database"
+  "slug": "zotero-fulltext-pdf-translate",
+  "why": "it sends data through a public relay: gh-proxy.com and ghproxy.net, and 3 more findings"
  },
  "kl3574/deep-research": {
   "grade": "A",
   "slug": "deep-research",
   "why": "every code check came out low"
  },
- "Diraw/zotero-split-theme": {
+ "bapungiri/litmatrix": {
   "grade": "A",
-  "slug": "zotero-split-theme",
+  "slug": "litmatrix",
   "why": "every code check came out low"
+ },
+ "forxhunter/Deduplication_by_Folder_zotero": {
+  "grade": "B",
+  "slug": "deduplication-by-folder-zotero",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "haiyankong/zotero-md-note": {
   "grade": "A",
@@ -2934,110 +2954,100 @@
   "slug": "texglot",
   "why": "it hands your documents to TeXGlot; we can't check where they go from there"
  },
- "forxhunter/Deduplication_by_Folder_zotero": {
+ "ShZhao27208/ZotAgent": {
   "grade": "B",
-  "slug": "deduplication-by-folder-zotero",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "zzangho/zotero-gemini": {
-  "grade": "B",
-  "slug": "zotero-gemini",
-  "why": "updates are set to come from an address someone else could control, and 2 more findings"
- },
- "charlesapetersen/zotero-pdf-transfer": {
-  "grade": "A+",
-  "slug": "zotero-pdf-transfer",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "Last-diary/PaperTranslate-Zotero-Plugin": {
-  "grade": "A",
-  "slug": "papertranslate-zotero-plugin",
-  "why": "every code check came out low"
+  "slug": "zotagent",
+  "why": "it launches programs on your computer"
  },
  "ilDon/zotero-crawler": {
   "grade": "A",
   "slug": "zotero-crawler",
   "why": "every code check came out low"
  },
- "sorinhostiuc/mc2zotero": {
-  "grade": "B",
-  "slug": "mc2zotero",
-  "why": "it launches programs on your computer"
+ "Last-diary/PaperTranslate-Zotero-Plugin": {
+  "grade": "A",
+  "slug": "papertranslate-zotero-plugin",
+  "why": "every code check came out low"
  },
  "SrMateos/zotero-pinakes": {
   "grade": "B",
   "slug": "zotero-pinakes",
   "why": "it contacts a server we couldn't identify: sparql.dblp.org"
  },
+ "zzangho/zotero-gemini": {
+  "grade": "B",
+  "slug": "zotero-gemini",
+  "why": "updates are set to come from an address someone else could control, and 2 more findings"
+ },
+ "sorinhostiuc/mc2zotero": {
+  "grade": "B",
+  "slug": "mc2zotero",
+  "why": "it launches programs on your computer"
+ },
  "sorinhostiuc/pp2zotero": {
   "grade": "B",
   "slug": "pp2zotero",
   "why": "it launches programs on your computer"
- },
- "iiwenwen/zotero-quicklook": {
-  "grade": "B",
-  "slug": "zotero-quicklook",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "coderirse/zotero-fulltext-pdf-translate": {
-  "grade": "B",
-  "slug": "zotero-fulltext-pdf-translate",
-  "why": "it sends data through a public relay: gh-proxy.com and ghproxy.net, and 3 more findings"
- },
- "CatCodeMe/zotero-global-number": {
-  "grade": "A+",
-  "slug": "zotero-global-number",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "LuisHCalderon/scihub-zotero-8": {
-  "grade": "A",
-  "slug": "scihub-zotero-8",
-  "why": "every code check came out low"
- },
- "whiteofalien/zotero-ai-tab": {
-  "grade": "B",
-  "slug": "zotero-ai-tab",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "ShZhao27208/ZotAgent": {
-  "grade": "B",
-  "slug": "zotagent",
-  "why": "it launches programs on your computer"
- },
- "he-chun/paper-library-checker": {
-  "grade": "A",
-  "slug": "paper-library-checker",
-  "why": "every code check came out low"
- },
- "CrazyHalfDay/ima-zotero-sync": {
-  "grade": "B",
-  "slug": "ima-zotero-sync",
-  "why": "its release file was replaced after publication"
- },
- "Frankkk1912/ai4s-literature-workbench": {
-  "grade": "A",
-  "slug": "ai4s-literature-workbench",
-  "why": "every code check came out low"
  },
  "anoopkcn/reference-map": {
   "grade": "B",
   "slug": "reference-map",
   "why": "it lets websites you approve use Zotero's built-in server, including other plugins' endpoints"
  },
+ "CatCodeMe/zotero-global-number": {
+  "grade": "A+",
+  "slug": "zotero-global-number",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "iiwenwen/zotero-quicklook": {
+  "grade": "B",
+  "slug": "zotero-quicklook",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "whiteofalien/zotero-ai-tab": {
+  "grade": "B",
+  "slug": "zotero-ai-tab",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "CrazyHalfDay/ima-zotero-sync": {
+  "grade": "B",
+  "slug": "ima-zotero-sync",
+  "why": "its release file was replaced after publication"
+ },
+ "linxbxxh/retainpdf-zotero-plugin": {
+  "grade": "B",
+  "slug": "retainpdf-zotero-plugin",
+  "why": "it launches programs on your computer"
+ },
+ "LuisHCalderon/scihub-zotero-8": {
+  "grade": "A",
+  "slug": "scihub-zotero-8",
+  "why": "every code check came out low"
+ },
  "sorinhostiuc/zotdupe": {
   "grade": "A",
   "slug": "zotdupe",
+  "why": "every code check came out low"
+ },
+ "he-chun/paper-library-checker": {
+  "grade": "A",
+  "slug": "paper-library-checker",
+  "why": "every code check came out low"
+ },
+ "rg4sun/zotero-tab-manager": {
+  "grade": "A",
+  "slug": "zotero-tab-manager",
+  "why": "every code check came out low"
+ },
+ "Frankkk1912/ai4s-literature-workbench": {
+  "grade": "A",
+  "slug": "ai4s-literature-workbench",
   "why": "every code check came out low"
  },
  "ZhiboRao/zotero-meta-refresh": {
   "grade": "A+",
   "slug": "zotero-meta-refresh",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "dklsgui/zotMod": {
-  "grade": "A",
-  "slug": "zotmod",
-  "why": "every code check came out low"
  },
  "jiaojiaodubai/banyan": {
   "grade": "B",
@@ -3064,29 +3074,19 @@
   "slug": "zotero-mark-reader",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "rg4sun/zotero-tab-manager": {
+ "dklsgui/zotMod": {
   "grade": "A",
-  "slug": "zotero-tab-manager",
+  "slug": "zotmod",
   "why": "every code check came out low"
  },
- "linxbxxh/retainpdf-zotero-plugin": {
-  "grade": "B",
-  "slug": "retainpdf-zotero-plugin",
-  "why": "it launches programs on your computer"
- },
- "bapungiri/litmatrix": {
-  "grade": "A",
-  "slug": "litmatrix",
-  "why": "every code check came out low"
+ "Ching-Chiang/zotero-elsevier-fulltext": {
+  "grade": "A+",
+  "slug": "zotero-elsevier-fulltext",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "fdamken/zotero-remarkable": {
   "grade": "A",
   "slug": "zotero-remarkable",
-  "why": "every code check came out low"
- },
- "xcjames/zotero_timer": {
-  "grade": "A",
-  "slug": "zotero-timer",
   "why": "every code check came out low"
  },
  "KravornN/Zotero-easyGPT": {
@@ -3094,10 +3094,15 @@
   "slug": "zotero-easygpt",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "Ching-Chiang/zotero-elsevier-fulltext": {
+ "pcf566/zotero-kokoro-read-aloud-bridge": {
   "grade": "A+",
-  "slug": "zotero-elsevier-fulltext",
+  "slug": "zotero-kokoro-read-aloud-bridge",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "xcjames/zotero_timer": {
+  "grade": "A",
+  "slug": "zotero-timer",
+  "why": "every code check came out low"
  },
  "laiduo12345/arxiv_marker_ccf2026": {
   "grade": "A",
@@ -3109,30 +3114,15 @@
   "slug": "zotero-warm-theme",
   "why": "every code check came out low"
  },
- "chrislucy838-collab/zotero-research-copilot": {
+ "senyamiku1101/glossa": {
   "grade": "B",
-  "slug": "zotero-research-copilot--chrislucy838-colla",
-  "why": "it keeps its own tables in Zotero's database, and 2 more findings"
- },
- "pcf566/zotero-kokoro-read-aloud-bridge": {
-  "grade": "A+",
-  "slug": "zotero-kokoro-read-aloud-bridge",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+  "slug": "glossa",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "lixvqing01/zotero-literature-library": {
   "grade": "A",
   "slug": "zotero-literature-library",
   "why": "every code check came out low"
- },
- "lineex/Zotero-WebAI": {
-  "grade": "B",
-  "slug": "zotero-webai",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "senyamiku1101/glossa": {
-  "grade": "B",
-  "slug": "glossa",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "josesiqueira/zotero-meta-data-repair": {
   "grade": "A",
@@ -3143,6 +3133,16 @@
   "grade": "A+",
   "slug": "zotero-plugin-pdf-filters",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "chrislucy838-collab/zotero-research-copilot": {
+  "grade": "B",
+  "slug": "zotero-research-copilot--chrislucy838-colla",
+  "why": "it keeps its own tables in Zotero's database, and 2 more findings"
+ },
+ "lineex/Zotero-WebAI": {
+  "grade": "B",
+  "slug": "zotero-webai",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "KateW11/Zotero-imprint": {
   "grade": "B",
@@ -3159,9 +3159,24 @@
   "slug": "zotero-auto-export",
   "why": "every code check came out low"
  },
+ "mohui666/zotero-chatgpt-sidebar": {
+  "grade": "A+",
+  "slug": "zotero-chatgpt-sidebar",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "kylekahraman/zotero-flat-export": {
+  "grade": "A+",
+  "slug": "zotero-flat-export",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
  "joao-fisio/colecoes-coloridas-zotero": {
   "grade": "A",
   "slug": "colecoes-coloridas-zotero",
+  "why": "every code check came out low"
+ },
+ "lojeunhou/zotero-notes-sync-zotero-plugin": {
+  "grade": "A",
+  "slug": "zotero-notes-sync-zotero-plugin",
   "why": "every code check came out low"
  },
  "JPWang-OvO/OpenReview-Fetcher": {
@@ -3174,15 +3189,10 @@
   "slug": "zotero-agent-reader-plugin",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
- "mohui666/zotero-chatgpt-sidebar": {
-  "grade": "A+",
-  "slug": "zotero-chatgpt-sidebar",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "lojeunhou/zotero-notes-sync-zotero-plugin": {
-  "grade": "A",
-  "slug": "zotero-notes-sync-zotero-plugin",
-  "why": "every code check came out low"
+ "coekfung/zotero-extra": {
+  "grade": "B",
+  "slug": "zotero-extra",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "Moonweave-Research/zotero-vocab-flow": {
   "grade": "A",
@@ -3194,40 +3204,15 @@
   "slug": "zotero-csvenue",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "coekfung/zotero-extra": {
-  "grade": "B",
-  "slug": "zotero-extra",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
  "OliverDudgeon/zotero-named-annotations": {
   "grade": "B",
   "slug": "zotero-named-annotations",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "marysethomas/zotero-read-tracker": {
-  "grade": "A",
-  "slug": "zotero-read-tracker",
-  "why": "every code check came out low"
- },
- "Crowmane420/zotero-scientific-name-italicizer": {
-  "grade": "A",
-  "slug": "zotero-scientific-name-italicizer",
-  "why": "every code check came out low"
- },
- "kylekahraman/zotero-flat-export": {
-  "grade": "A+",
-  "slug": "zotero-flat-export",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "Zotero-Cat/Zotero-Cat": {
+ "chgwan/beaver-zotero-local": {
   "grade": "B",
-  "slug": "zotero-cat",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "geshuangyang/zotero-hermes-ai-plugin": {
-  "grade": "B",
-  "slug": "zotero-hermes-ai-plugin",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+  "slug": "beaver-zotero-local",
+  "why": "its code names a developer's server: www.beaverapp.ai, and 3 more findings"
  },
  "lzy248/zotero-cs-venues": {
   "grade": "A+",
@@ -3239,6 +3224,36 @@
   "slug": "obsidian-lexis",
   "why": "every code check came out low"
  },
+ "Crowmane420/zotero-scientific-name-italicizer": {
+  "grade": "A",
+  "slug": "zotero-scientific-name-italicizer",
+  "why": "every code check came out low"
+ },
+ "marysethomas/zotero-read-tracker": {
+  "grade": "A",
+  "slug": "zotero-read-tracker",
+  "why": "every code check came out low"
+ },
+ "Zotero-Cat/Zotero-Cat": {
+  "grade": "B",
+  "slug": "zotero-cat",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "geshuangyang/zotero-hermes-ai-plugin": {
+  "grade": "B",
+  "slug": "zotero-hermes-ai-plugin",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
+ "XvHaoR/paper-translation-master": {
+  "grade": "C",
+  "slug": "paper-translation-master",
+  "why": "it downloads and runs a program we haven't reviewed yet"
+ },
+ "KESHEN-ZHOU/PaperRouter": {
+  "grade": "A+",
+  "slug": "paperrouter",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
  "the-solipsist/zotero-wayback-autosave": {
   "grade": "A",
   "slug": "zotero-wayback-autosave",
@@ -3248,11 +3263,6 @@
   "grade": "B",
   "slug": "mineru-parse",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "KESHEN-ZHOU/PaperRouter": {
-  "grade": "A+",
-  "slug": "paperrouter",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "dawaltconley/zotero-vertical-toolbar": {
   "grade": "A+",
@@ -3269,10 +3279,15 @@
   "slug": "zotero-codex-bridge",
   "why": "every code check came out low"
  },
- "chgwan/beaver-zotero-local": {
+ "Tenor-John/Zotero-Lit_Ai_Matrix": {
   "grade": "B",
-  "slug": "beaver-zotero-local",
-  "why": "its code names a developer's server: www.beaverapp.ai, and 3 more findings"
+  "slug": "zotero-lit-ai-matrix",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "quinn-zilly/zotero-wiki-citations": {
+  "grade": "B",
+  "slug": "zotero-wiki-citations",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "JiangShuguo/zotero-memory": {
   "grade": "B",
@@ -3289,16 +3304,6 @@
   "slug": "zotero-feed-sort--ossifiedsardine",
   "why": "every code check came out low"
  },
- "Tenor-John/Zotero-Lit_Ai_Matrix": {
-  "grade": "B",
-  "slug": "zotero-lit-ai-matrix",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "quinn-zilly/zotero-wiki-citations": {
-  "grade": "B",
-  "slug": "zotero-wiki-citations",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
  "ShiyangZheng/zometaker": {
   "grade": "A",
   "slug": "zometaker",
@@ -3314,15 +3319,35 @@
   "slug": "zotero-pdf-hand-catcher",
   "why": "it reads your web browser's saved cookies or passwords"
  },
+ "wakatime/zotero-wakatime": {
+  "grade": "B",
+  "slug": "zotero-wakatime",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
  "Lnearfar/zotero-agentibility": {
   "grade": "A+",
   "slug": "zotero-agentibility",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "hcf0526/ZotWanglele": {
+  "grade": "C",
+  "slug": "zotwanglele",
+  "why": "it installs and runs npm or PyPI packages without a fixed version"
+ },
+ "JackBlack419/wenxian-yidu": {
+  "grade": "C",
+  "slug": "wenxian-yidu",
+  "why": "it downloads and runs a program we haven't reviewed yet"
+ },
  "liyang-tju/AI-Web-for-Zotero": {
   "grade": "A",
   "slug": "ai-web-for-zotero",
   "why": "every code check came out low"
+ },
+ "kdmsnr/zotero-metadata-updater": {
+  "grade": "B",
+  "slug": "zotero-metadata-updater",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "kvarnelis/zotero-praetor": {
   "grade": "B",
@@ -3339,6 +3364,11 @@
   "slug": "zotero-ai-companion",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "kanhao100/zotero-tag-logic": {
+  "grade": "A",
+  "slug": "zotero-tag-logic",
+  "why": "every code check came out low"
+ },
  "ObservaGP/adhd-lens": {
   "grade": "B",
   "slug": "adhd-lens",
@@ -3349,49 +3379,39 @@
   "slug": "hjfy-pdftranslate",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "kdmsnr/zotero-metadata-updater": {
-  "grade": "B",
-  "slug": "zotero-metadata-updater",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
  "kromiii/paper-talk-zotero": {
   "grade": "B",
   "slug": "paper-talk-zotero",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "kanhao100/zotero-tag-logic": {
-  "grade": "A",
-  "slug": "zotero-tag-logic",
-  "why": "every code check came out low"
- },
- "JackBlack419/wenxian-yidu": {
-  "grade": "C",
-  "slug": "wenxian-yidu",
-  "why": "it downloads and runs a program we haven't reviewed yet"
- },
- "XvHaoR/paper-translation-master": {
-  "grade": "C",
-  "slug": "paper-translation-master",
-  "why": "it downloads and runs a program we haven't reviewed yet"
- },
- "core-hn/readeck2zotero": {
-  "grade": "A",
-  "slug": "readeck2zotero",
-  "why": "every code check came out low"
  },
  "seanlawsonphd/readwise2zotero": {
   "grade": "A",
   "slug": "readwise2zotero",
   "why": "every code check came out low"
  },
- "liuuang/researchgraph-releases": {
-  "grade": "B",
-  "slug": "researchgraph-releases",
-  "why": "it hands your data to a program on this computer; we can't check where it goes from there, and 1 more finding"
+ "coro-afk/zotero-mouse-navigation": {
+  "grade": "A+",
+  "slug": "zotero-mouse-navigation",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "kvarnelis/zotero-compact-pane": {
+  "grade": "A",
+  "slug": "zotero-compact-pane",
+  "why": "every code check came out low"
+ },
+ "core-hn/readeck2zotero": {
+  "grade": "A",
+  "slug": "readeck2zotero",
+  "why": "every code check came out low"
  },
  "Kohirus/super-scholar": {
   "grade": "A",
   "slug": "super-scholar",
+  "why": "every code check came out low"
+ },
+ "cczmd/zotero-deselect": {
+  "grade": "A",
+  "slug": "zotero-deselect",
   "why": "every code check came out low"
  },
  "zhuzihan728/zotero-minimise-tray": {
@@ -3409,65 +3429,70 @@
   "slug": "zotero-tray",
   "why": "it launches programs on your computer"
  },
- "dinosv/ZotTablet": {
+ "liuuang/researchgraph-releases": {
   "grade": "B",
-  "slug": "zottablet",
-  "why": "updates are set to come from an address someone else could control"
+  "slug": "researchgraph-releases",
+  "why": "it hands your data to a program on this computer; we can't check where it goes from there, and 1 more finding"
  },
- "cczmd/zotero-deselect": {
+ "Achuan-2/zotero-figure-extract": {
   "grade": "A",
-  "slug": "zotero-deselect",
+  "slug": "zotero-figure-extract--achuan-2",
   "why": "every code check came out low"
  },
- "coro-afk/zotero-mouse-navigation": {
-  "grade": "A+",
-  "slug": "zotero-mouse-navigation",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ "hyunhwan-bcm/zotero-kindle-sync": {
+  "grade": "B",
+  "slug": "zotero-kindle-sync",
+  "why": "it launches programs on your computer"
+ },
+ "josesiqueira/zotero-open-citations": {
+  "grade": "A",
+  "slug": "zotero-open-citations--josesiqueira",
+  "why": "every code check came out low"
  },
  "alanzeng423/zotero-paperlens": {
   "grade": "A",
   "slug": "zotero-paperlens--alanzeng423",
   "why": "every code check came out low"
  },
- "wakatime/zotero-wakatime": {
-  "grade": "B",
-  "slug": "zotero-wakatime",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
- },
  "gchapron/ZoteroThumbLibrary": {
   "grade": "A",
   "slug": "zoterothumblibrary",
   "why": "every code check came out low"
  },
- "hcf0526/ZotWanglele": {
-  "grade": "C",
-  "slug": "zotwanglele",
-  "why": "it installs and runs npm or PyPI packages without a fixed version"
- },
- "kvarnelis/zotero-compact-pane": {
-  "grade": "A",
-  "slug": "zotero-compact-pane",
-  "why": "every code check came out low"
- },
- "dingdinglz/zotero-translate": {
+ "dinosv/ZotTablet": {
   "grade": "B",
-  "slug": "zotero-translate",
-  "why": "it contacts a server we couldn't identify: free-oxr.somark.ai, and 2 more findings"
- },
- "KatayamaLab/z-permalink": {
-  "grade": "A",
-  "slug": "z-permalink",
-  "why": "every code check came out low"
+  "slug": "zottablet",
+  "why": "updates are set to come from an address someone else could control"
  },
  "huangyxi/zotero-alt-reader": {
   "grade": "A+",
   "slug": "zotero-alt-reader",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "Logan12l/pinyin-for-zotero": {
+  "grade": "A",
+  "slug": "pinyin-for-zotero",
+  "why": "every code check came out low"
+ },
+ "KatayamaLab/z-permalink": {
+  "grade": "A",
+  "slug": "z-permalink",
+  "why": "every code check came out low"
+ },
  "harrywang/zotero-attachments-markdown": {
   "grade": "B",
   "slug": "zotero-attachments-markdown",
   "why": "it contacts a server we couldn't identify: c2.com"
+ },
+ "yiiwang118/zotero-glossa": {
+  "grade": "B",
+  "slug": "zotero-glossa",
+  "why": "it launches programs on your computer"
+ },
+ "kvarnelis/zotero-notebooklm-pane": {
+  "grade": "A",
+  "slug": "zotero-notebooklm-pane",
+  "why": "every code check came out low"
  },
  "openhistorymap/ohm-zotero": {
   "grade": "B",
@@ -3484,9 +3509,14 @@
   "slug": "zotero-pdf-content-flow",
   "why": "every code check came out low"
  },
- "Logan12l/pinyin-for-zotero": {
+ "dingdinglz/zotero-translate": {
+  "grade": "B",
+  "slug": "zotero-translate",
+  "why": "it contacts a server we couldn't identify: free-oxr.somark.ai, and 2 more findings"
+ },
+ "synesis-lang/zotero-synesis-export": {
   "grade": "A",
-  "slug": "pinyin-for-zotero",
+  "slug": "zotero-synesis-export",
   "why": "every code check came out low"
  },
  "shi-keke/vocab-for-zotero": {
@@ -3494,15 +3524,15 @@
   "slug": "vocab-for-zotero",
   "why": "every code check came out low"
  },
- "josesiqueira/zotero-open-citations": {
-  "grade": "A",
-  "slug": "zotero-open-citations--josesiqueira",
-  "why": "every code check came out low"
+ "arjansiddhpura/ZotChat": {
+  "grade": "A+",
+  "slug": "zotchat",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "yiiwang118/zotero-glossa": {
-  "grade": "B",
-  "slug": "zotero-glossa",
-  "why": "it launches programs on your computer"
+ "jaehho/zotero-citegraph": {
+  "grade": "A",
+  "slug": "zotero-citegraph",
+  "why": "every code check came out low"
  },
  "WilliamWhite080808/zotero-structured-tags": {
   "grade": "A",
@@ -3534,49 +3564,14 @@
   "slug": "author-harvester",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "jaehho/zotero-citegraph": {
-  "grade": "A",
-  "slug": "zotero-citegraph",
-  "why": "every code check came out low"
- },
  "Horbin-Magician/zotero-ninja": {
   "grade": "B",
   "slug": "zotero-ninja",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "kvarnelis/zotero-notebooklm-pane": {
+ "damarals/zotero-page-count": {
   "grade": "A",
-  "slug": "zotero-notebooklm-pane",
-  "why": "every code check came out low"
- },
- "saviotp/ufc-zotero-plugin": {
-  "grade": "A",
-  "slug": "ufc-zotero-plugin",
-  "why": "every code check came out low"
- },
- "Achuan-2/zotero-figure-extract": {
-  "grade": "A",
-  "slug": "zotero-figure-extract--achuan-2",
-  "why": "every code check came out low"
- },
- "hyunhwan-bcm/zotero-kindle-sync": {
-  "grade": "B",
-  "slug": "zotero-kindle-sync",
-  "why": "it launches programs on your computer"
- },
- "yiyabo/zotero-reading-assistant": {
-  "grade": "B",
-  "slug": "zotero-reading-assistant",
-  "why": "it contacts a server we couldn't identify: new.yxgz.cc"
- },
- "synesis-lang/zotero-synesis-export": {
-  "grade": "A",
-  "slug": "zotero-synesis-export",
-  "why": "every code check came out low"
- },
- "text70/zotero_ai": {
-  "grade": "A",
-  "slug": "zotero-ai",
+  "slug": "zotero-page-count",
   "why": "every code check came out low"
  },
  "Kazuma-yj/preprint-bridge": {
@@ -3584,35 +3579,60 @@
   "slug": "preprint-bridge",
   "why": "every code check came out low"
  },
- "seifer08ms/zotero-repository-detector": {
+ "saviotp/ufc-zotero-plugin": {
   "grade": "A",
-  "slug": "zotero-repository-detector",
+  "slug": "ufc-zotero-plugin",
   "why": "every code check came out low"
  },
- "arjansiddhpura/ZotChat": {
+ "yiyabo/zotero-reading-assistant": {
+  "grade": "B",
+  "slug": "zotero-reading-assistant",
+  "why": "it contacts a server we couldn't identify: new.yxgz.cc"
+ },
+ "wzh4464/zotero-conference-abbreviations": {
   "grade": "A+",
-  "slug": "zotchat",
+  "slug": "zotero-conference-abbreviations",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "text70/zotero_ai": {
+  "grade": "A",
+  "slug": "zotero-ai",
+  "why": "every code check came out low"
  },
  "WeiCheng14159/zotero-md": {
   "grade": "B",
   "slug": "zotero-md",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
+ "janbaykara/zotero-photo-highlights": {
+  "grade": "B",
+  "slug": "zotero-photo-highlights",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
+ "seifer08ms/zotero-repository-detector": {
+  "grade": "A",
+  "slug": "zotero-repository-detector",
+  "why": "every code check came out low"
+ },
+ "boyi0/Zotero-ABS-Ranker": {
+  "grade": "A",
+  "slug": "zotero-abs-ranker",
+  "why": "every code check came out low"
+ },
+ "DrownFish19/ZoteroFileManager": {
+  "grade": "A",
+  "slug": "zoterofilemanager",
+  "why": "every code check came out low"
+ },
+ "zepadovani/zotobs-io": {
+  "grade": "B",
+  "slug": "zotobs-io",
+  "why": "it launches programs on your computer"
+ },
  "NakamuraTakumu/Zotero-Gemini-PDF": {
   "grade": "B",
   "slug": "zotero-gemini-pdf",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "mtillman14/open-alex-work-id": {
-  "grade": "A",
-  "slug": "open-alex-work-id",
-  "why": "every code check came out low"
- },
- "damarals/zotero-page-count": {
-  "grade": "A",
-  "slug": "zotero-page-count",
-  "why": "every code check came out low"
  },
  "BarishNamazov/zotero-site-metadata": {
   "grade": "A",
@@ -3624,25 +3644,15 @@
   "slug": "zotero-ragflow",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "mtillman14/open-alex-work-id": {
+  "grade": "A",
+  "slug": "open-alex-work-id",
+  "why": "every code check came out low"
+ },
  "9527crazy-2025/ZotMind": {
   "grade": "C",
   "slug": "zotmind",
   "why": "its code is obfuscated: deliberately scrambled, so we couldn't check all of it"
- },
- "wzh4464/zotero-conference-abbreviations": {
-  "grade": "A+",
-  "slug": "zotero-conference-abbreviations",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "samuelyeewl/zot-nasa-ads": {
-  "grade": "A",
-  "slug": "zot-nasa-ads",
-  "why": "every code check came out low"
- },
- "DrownFish19/ZoteroFileManager": {
-  "grade": "A",
-  "slug": "zoterofilemanager",
-  "why": "every code check came out low"
  },
  "yasu/zotero-washo-salvager": {
   "grade": "A",
@@ -3664,25 +3674,25 @@
   "slug": "miscite-zotero-connector",
   "why": "it contacts a developer's server: miscite.review, and 2 more findings"
  },
- "boyi0/Zotero-ABS-Ranker": {
+ "alexplaka/Zocrates": {
+  "grade": "B",
+  "slug": "zocrates",
+  "why": "it installs and runs software packages from npm or PyPI, and 1 more finding"
+ },
+ "samuelyeewl/zot-nasa-ads": {
   "grade": "A",
-  "slug": "zotero-abs-ranker",
+  "slug": "zot-nasa-ads",
   "why": "every code check came out low"
  },
- "janbaykara/zotero-photo-highlights": {
-  "grade": "B",
-  "slug": "zotero-photo-highlights",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ "Vic-c33/zotero-pdf-attachment-downloader": {
+  "grade": "A",
+  "slug": "zotero-pdf-attachment-downloader",
+  "why": "every code check came out low"
  },
  "loonghfut/zotero-siyuan": {
   "grade": "B",
   "slug": "zotero-siyuan",
   "why": "it changes Zotero settings that aren't its own, and 1 more finding"
- },
- "zepadovani/zotobs-io": {
-  "grade": "B",
-  "slug": "zotobs-io",
-  "why": "it launches programs on your computer"
  },
  "grantzachary/Zotero-highlighter": {
   "grade": "A",
@@ -3704,29 +3714,9 @@
   "slug": "zotero-page-view",
   "why": "every code check came out low"
  },
- "Vic-c33/zotero-pdf-attachment-downloader": {
-  "grade": "A",
-  "slug": "zotero-pdf-attachment-downloader",
-  "why": "every code check came out low"
- },
- "DragonGong/zotero-math-patch": {
-  "grade": "A",
-  "slug": "zotero-math-patch",
-  "why": "every code check came out low"
- },
- "Hanson-Wang-chn/zotero-keep-reader-ready": {
-  "grade": "A",
-  "slug": "zotero-keep-reader-ready",
-  "why": "every code check came out low"
- },
  "ilker-golcuk/zotero-plugins": {
   "grade": "A+",
   "slug": "zotero-plugins--ilker-golcuk",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "arrancurran/ZoTag": {
-  "grade": "A+",
-  "slug": "zotag",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "Toby-Shi-cloud/Zotero-Auto-CCF-Tag-Plugin": {
@@ -3734,15 +3724,40 @@
   "slug": "zotero-auto-ccf-tag-plugin",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "WeiCheng14159/zotero_paper2speech": {
-  "grade": "B",
-  "slug": "zotero-paper2speech",
-  "why": "it launches programs on your computer"
+ "DragonGong/zotero-math-patch": {
+  "grade": "A",
+  "slug": "zotero-math-patch",
+  "why": "every code check came out low"
  },
  "UniTian/zotero-memory-management": {
   "grade": "A+",
   "slug": "zotero-memory-management",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "core-hn/hypothesis2zotero": {
+  "grade": "A",
+  "slug": "hypothesis2zotero",
+  "why": "every code check came out low"
+ },
+ "Hanson-Wang-chn/zotero-keep-reader-ready": {
+  "grade": "A",
+  "slug": "zotero-keep-reader-ready",
+  "why": "every code check came out low"
+ },
+ "arrancurran/ZoTag": {
+  "grade": "A+",
+  "slug": "zotag",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "GaiusSheh/attanger-plus": {
+  "grade": "A",
+  "slug": "attanger-plus",
+  "why": "every code check came out low"
+ },
+ "WeiCheng14159/zotero_paper2speech": {
+  "grade": "B",
+  "slug": "zotero-paper2speech",
+  "why": "it launches programs on your computer"
  },
  "CrushDemo01/zotero-pdf2md": {
   "grade": "B",
@@ -3753,6 +3768,11 @@
   "grade": "B",
   "slug": "plugins4zotero",
   "why": "it launches programs on your computer"
+ },
+ "canyi-chen/ZoteroQuickLookNG-z7": {
+  "grade": "A",
+  "slug": "zoteroquicklookng-z7",
+  "why": "every code check came out low"
  },
  "zxing258974/zotero-knode-plugin": {
   "grade": "A+",
@@ -3779,20 +3799,10 @@
   "slug": "zotero-title-without-articles",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "liuaustin/zotero-pdf-mem-cleanup": {
+ "XuZhiangDLUT/ZoteroTLDR": {
   "grade": "B",
-  "slug": "zotero-pdf-mem-cleanup",
-  "why": "updates are set to come from an address someone else could control"
- },
- "schulzedaniel/ZoteroCitationMaps": {
-  "grade": "A",
-  "slug": "zoterocitationmaps",
-  "why": "every code check came out low"
- },
- "core-hn/hypothesis2zotero": {
-  "grade": "A",
-  "slug": "hypothesis2zotero",
-  "why": "every code check came out low"
+  "slug": "zoterotldr",
+  "why": "it contacts servers we couldn't identify: cpa.20020519.xyz and x666.me, and 2 more findings"
  },
  "dawaltconley/zotero-paged-snapshots": {
   "grade": "A+",
@@ -3809,6 +3819,11 @@
   "slug": "zotero-hf-daily-papers",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "liuaustin/zotero-pdf-mem-cleanup": {
+  "grade": "B",
+  "slug": "zotero-pdf-mem-cleanup",
+  "why": "updates are set to come from an address someone else could control"
+ },
  "Drezil/zotero-read-ai": {
   "grade": "B",
   "slug": "zotero-read-ai",
@@ -3824,15 +3839,15 @@
   "slug": "zotero-feed-management",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "canyi-chen/ZoteroQuickLookNG-z7": {
+ "schulzedaniel/ZoteroCitationMaps": {
   "grade": "A",
-  "slug": "zoteroquicklookng-z7",
+  "slug": "zoterocitationmaps",
   "why": "every code check came out low"
  },
- "GaiusSheh/attanger-plus": {
-  "grade": "A",
-  "slug": "attanger-plus",
-  "why": "every code check came out low"
+ "git-jiwon/zotero-pdf-metadata-refresh": {
+  "grade": "B",
+  "slug": "zotero-pdf-metadata-refresh",
+  "why": "it contacts servers we couldn't identify: www.aladin.co.kr, www.nl.go.kr and www.yes24.com, and 3 more findings"
  },
  "yedadasd/scholar-published-bibtex": {
   "grade": "A",
@@ -3854,6 +3869,11 @@
   "slug": "zotero-tex-fetch",
   "why": "every code check came out low"
  },
+ "volatile-static/zotero-reading-bridge": {
+  "grade": "A",
+  "slug": "zotero-reading-bridge",
+  "why": "every code check came out low"
+ },
  "Vithrive/llm-for-zotero-sync": {
   "grade": "A",
   "slug": "llm-for-zotero-sync",
@@ -3869,15 +3889,10 @@
   "slug": "paper-notion-flow",
   "why": "it installs and runs npm or PyPI packages without a fixed version"
  },
- "JunyanKang/paper-voice": {
-  "grade": "B",
-  "slug": "paper-voice",
-  "why": "it installs other add-ons, and 1 more finding"
- },
- "git-jiwon/zotero-pdf-metadata-refresh": {
-  "grade": "B",
-  "slug": "zotero-pdf-metadata-refresh",
-  "why": "it contacts servers we couldn't identify: www.aladin.co.kr, www.nl.go.kr and www.yes24.com, and 3 more findings"
+ "jacob-aubrey/remarkable-sync-zotero": {
+  "grade": "–",
+  "slug": "remarkable-sync-zotero",
+  "why": "reMarkable-Sync-for-Zotero-0.19.44.xpi is 179 MB, over our 60 MB analysis limit"
  },
  "TShippen/zotero-adobe-ocr-plugin": {
   "grade": "A",
@@ -3889,19 +3904,24 @@
   "slug": "zotero-fullscreen",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "volatile-static/zotero-reading-bridge": {
-  "grade": "A",
-  "slug": "zotero-reading-bridge",
-  "why": "every code check came out low"
- },
  "visserle/zotero-google-this": {
   "grade": "A+",
   "slug": "zotero-google-this",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "JunyanKang/paper-voice": {
+  "grade": "B",
+  "slug": "paper-voice",
+  "why": "it installs other add-ons, and 1 more finding"
+ },
  "raideno/zotero-better-tags": {
   "grade": "A",
   "slug": "zotero-better-tags",
+  "why": "every code check came out low"
+ },
+ "legojeon/Zotero2Notion": {
+  "grade": "A",
+  "slug": "zotero2notion",
   "why": "every code check came out low"
  },
  "altairwei/ZutiloRE": {
@@ -3939,10 +3959,10 @@
   "slug": "zotpush",
   "why": "every code check came out low"
  },
- "primuszp/lyz": {
-  "grade": "B",
-  "slug": "lyz--primuszp",
-  "why": "it loads native code"
+ "zpeters/zotero-page-count": {
+  "grade": "A",
+  "slug": "zotero-page-count--zpeters",
+  "why": "every code check came out low"
  },
  "Woif-sha/reference-for-zotro": {
   "grade": "B",
@@ -3959,44 +3979,29 @@
   "slug": "aipaperanalysis",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "givemetarte/chat-with-paper": {
+ "OliverDudgeon/zotero-arxiv-html": {
   "grade": "B",
-  "slug": "chat-with-paper",
+  "slug": "zotero-arxiv-html",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "jacob-aubrey/remarkable-sync-zotero": {
-  "grade": "–",
-  "slug": "remarkable-sync-zotero",
-  "why": "reMarkable-Sync-for-Zotero-0.19.43.xpi is 171 MB, over our 60 MB analysis limit"
- },
- "Hao-IANWY/zotero-retainpdf-plugin": {
+ "primuszp/lyz": {
   "grade": "B",
-  "slug": "zotero-retainpdf-plugin",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "alexplaka/Zocrates": {
-  "grade": "B",
-  "slug": "zocrates",
-  "why": "it installs and runs software packages from npm or PyPI, and 1 more finding"
- },
- "KinomotoMio/zotero-agent-copilot": {
-  "grade": "B",
-  "slug": "zotero-agent-copilot",
-  "why": "it launches programs on your computer"
- },
- "seasideccm/zotero-translate-ant": {
-  "grade": "C",
-  "slug": "zotero-translate-ant",
-  "why": "it writes to Zotero's database directly"
+  "slug": "lyz--primuszp",
+  "why": "it loads native code"
  },
  "wuzirui/paper-meta-update": {
   "grade": "B",
   "slug": "paper-meta-update",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "teamlilysai/zotero-readray": {
+ "Hao-IANWY/zotero-retainpdf-plugin": {
   "grade": "B",
-  "slug": "zotero-readray",
+  "slug": "zotero-retainpdf-plugin",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "KinomotoMio/zotero-agent-copilot": {
+  "grade": "B",
+  "slug": "zotero-agent-copilot",
   "why": "it launches programs on your computer"
  },
  "Zhanyuanium/Zotero-PDF-Noir": {
@@ -4004,9 +4009,24 @@
   "slug": "zotero-pdf-noir",
   "why": "every code check came out low"
  },
- "zpeters/zotero-page-count": {
+ "seasideccm/zotero-translate-ant": {
+  "grade": "C",
+  "slug": "zotero-translate-ant",
+  "why": "it writes to Zotero's database directly"
+ },
+ "givemetarte/chat-with-paper": {
+  "grade": "B",
+  "slug": "chat-with-paper",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "teamlilysai/zotero-readray": {
+  "grade": "B",
+  "slug": "zotero-readray",
+  "why": "it launches programs on your computer"
+ },
+ "jun0404/Zotero-Semantic-Scholar-Citation-Count": {
   "grade": "A",
-  "slug": "zotero-page-count--zpeters",
+  "slug": "zotero-semantic-scholar-citation-count",
   "why": "every code check came out low"
  },
  "offmor/TitleDrop": {
@@ -4034,24 +4054,29 @@
   "slug": "zotero-settings-key",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "kmaog15-damao/bilingual-metadata": {
+  "grade": "A",
+  "slug": "bilingual-metadata",
+  "why": "every code check came out low"
+ },
  "cxrxhz/Note-display": {
   "grade": "A",
   "slug": "note-display",
   "why": "every code check came out low"
- },
- "OliverDudgeon/zotero-arxiv-html": {
-  "grade": "B",
-  "slug": "zotero-arxiv-html",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "howarddong711/PaperPet": {
   "grade": "A",
   "slug": "paperpet",
   "why": "every code check came out low"
  },
- "jun0404/Zotero-Semantic-Scholar-Citation-Count": {
+ "0xc1c4da/zotero7-datalab": {
+  "grade": "B",
+  "slug": "zotero7-datalab",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "jmiba/zotero-redisearch-rag": {
   "grade": "A",
-  "slug": "zotero-semantic-scholar-citation-count",
+  "slug": "zotero-redisearch-rag",
   "why": "every code check came out low"
  },
  "shiysent-ctrl/Zotero-SideLine": {
@@ -4064,15 +4089,15 @@
   "slug": "zoteropreview",
   "why": "every code check came out low"
  },
- "0xc1c4da/zotero7-datalab": {
-  "grade": "B",
-  "slug": "zotero7-datalab",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
  "mrpsharp/zotero-extra-columns": {
   "grade": "B",
   "slug": "zotero-extra-columns--mrpsharp",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "junhwan26/zotero-margin-notes": {
+  "grade": "A",
+  "slug": "zotero-margin-notes--junhwan26",
+  "why": "every code check came out low"
  },
  "nebula0/zotero-llm-wiki": {
   "grade": "B",
@@ -4084,20 +4109,20 @@
   "slug": "paperbridge--anka-afk",
   "why": "it watches Zotero's network traffic, and 2 more findings"
  },
- "jmiba/zotero-redisearch-rag": {
-  "grade": "A",
-  "slug": "zotero-redisearch-rag",
-  "why": "every code check came out low"
- },
- "legojeon/Zotero2Notion": {
-  "grade": "A",
-  "slug": "zotero2notion",
-  "why": "every code check came out low"
- },
- "luluyang928/zotero-paper-guide": {
+ "solitern/zotero-inbox-organizer": {
   "grade": "A+",
-  "slug": "zotero-paper-guide",
+  "slug": "zotero-inbox-organizer",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "louis1642/zotero-trackpad-navigation": {
+  "grade": "A",
+  "slug": "zotero-trackpad-navigation",
+  "why": "every code check came out low"
+ },
+ "leauny/ZoteroTransnator": {
+  "grade": "B",
+  "slug": "zoterotransnator",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "zhuhu00/Obsitero": {
   "grade": "B",
@@ -4109,30 +4134,25 @@
   "slug": "zotero-paper-buddy",
   "why": "it contacts a server we couldn't identify: chat-ai.academiccloud.de"
  },
+ "luluyang928/zotero-paper-guide": {
+  "grade": "A+",
+  "slug": "zotero-paper-guide",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
  "zhanghm1995/ZotarXiv": {
   "grade": "B",
   "slug": "zotarxiv",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "solitern/zotero-inbox-organizer": {
-  "grade": "A+",
-  "slug": "zotero-inbox-organizer",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "louis1642/zotero-trackpad-navigation": {
-  "grade": "A",
-  "slug": "zotero-trackpad-navigation",
-  "why": "every code check came out low"
- },
- "junhwan26/zotero-margin-notes": {
-  "grade": "A",
-  "slug": "zotero-margin-notes--junhwan26",
-  "why": "every code check came out low"
- },
- "leauny/ZoteroTransnator": {
+ "wsxwj123/zotero-claudian": {
   "grade": "B",
-  "slug": "zoterotransnator",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "slug": "zotero-claudian",
+  "why": "it launches programs on your computer"
+ },
+ "noahweidig/refwright": {
+  "grade": "A",
+  "slug": "refwright",
+  "why": "every code check came out low"
  },
  "mcburton/vinculum-zotero": {
   "grade": "A",
@@ -4149,15 +4169,10 @@
   "slug": "zotero-rule-outline",
   "why": "every code check came out low"
  },
- "el0808/zotfile-lite": {
-  "grade": "A",
-  "slug": "zotfile-lite",
-  "why": "every code check came out low"
- },
  "ltzyl/zotero-paper-companion": {
   "grade": "B",
   "slug": "zotero-paper-companion",
-  "why": "it contacts servers we couldn't identify: files.pythonhosted.org, pypi.tuna.tsinghua.edu.cn and www.scigreat.com, and 1 more finding"
+  "why": "it contacts servers we couldn't identify: pypi.tuna.tsinghua.edu.cn and www.scigreat.com, and 1 more finding"
  },
  "BeichenZhao/zotero-remind-me": {
   "grade": "B",
@@ -4169,9 +4184,9 @@
   "slug": "zotero-storage-cleaner",
   "why": "every code check came out low"
  },
- "kmaog15-damao/bilingual-metadata": {
+ "el0808/zotfile-lite": {
   "grade": "A",
-  "slug": "bilingual-metadata",
+  "slug": "zotfile-lite",
   "why": "every code check came out low"
  },
  "Flemington8/Lumina": {
@@ -4199,20 +4214,30 @@
   "slug": "defn",
   "why": "every code check came out low"
  },
- "dawaltconley/zotero-grayscale-ui": {
-  "grade": "A",
-  "slug": "zotero-grayscale-ui",
-  "why": "every code check came out low"
- },
  "howtoexitvim/zotero-folder-import": {
   "grade": "A+",
   "slug": "zotero-folder-import--howtoexitvim",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "dawaltconley/zotero-grayscale-ui": {
+  "grade": "A",
+  "slug": "zotero-grayscale-ui",
+  "why": "every code check came out low"
+ },
+ "akirk20-code/zotero-spellcheck-plugin": {
+  "grade": "B",
+  "slug": "zotero-spellcheck-plugin",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "nexdep/zotero-npdfpages": {
   "grade": "B",
   "slug": "zotero-npdfpages",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "Ueky2000/zotero-tab-manager": {
+  "grade": "A",
+  "slug": "zotero-tab-manager--ueky2000",
+  "why": "every code check came out low"
  },
  "CommanderPho/zotero-plugin-noduplicates": {
   "grade": "B",
@@ -4239,34 +4264,24 @@
   "slug": "writeflex-app",
   "why": "every code check came out low"
  },
- "akirk20-code/zotero-spellcheck-plugin": {
+ "juandodyk/my-zotero-ocr": {
   "grade": "B",
-  "slug": "zotero-spellcheck-plugin",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+  "slug": "my-zotero-ocr",
+  "why": "it uses the network; we couldn't tell where, and 1 more finding"
  },
  "partlyjadedyouth/marktero": {
   "grade": "A",
   "slug": "marktero",
   "why": "every code check came out low"
  },
- "Ueky2000/zotero-tab-manager": {
+ "sentient-codebot/zotero-remarkable-usb": {
   "grade": "A",
-  "slug": "zotero-tab-manager--ueky2000",
+  "slug": "zotero-remarkable-usb",
   "why": "every code check came out low"
  },
- "all11250/zotero-selection-translator": {
-  "grade": "B",
-  "slug": "zotero-selection-translator",
-  "why": "it contacts a server we couldn't identify: oneshot-free.www.deepl.com"
- },
- "windfollowingheart/deepseek-for-zotero": {
-  "grade": "B",
-  "slug": "deepseek-for-zotero",
-  "why": "it hands your data to a program on this computer; we can't check where it goes from there, and 2 more findings"
- },
- "noahweidig/refwright": {
+ "babysharks2/deepseek-zotero": {
   "grade": "A",
-  "slug": "refwright",
+  "slug": "deepseek-zotero",
   "why": "every code check came out low"
  },
  "Derican/zotero-annotes": {
@@ -4274,29 +4289,19 @@
   "slug": "zotero-annotes",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "Robert-Stackflow/better-rss-for-zotero": {
+ "all11250/zotero-selection-translator": {
   "grade": "B",
-  "slug": "better-rss-for-zotero",
-  "why": "it uses the network; we couldn't tell where, and 2 more findings"
- },
- "wyxu95/zotero-copy-pdf-path": {
-  "grade": "A",
-  "slug": "zotero-copy-pdf-path--wyxu95",
-  "why": "every code check came out low"
+  "slug": "zotero-selection-translator",
+  "why": "it contacts a server we couldn't identify: oneshot-free.www.deepl.com"
  },
  "Ttungx/easyread-zotero-sync": {
   "grade": "B",
   "slug": "easyread-zotero-sync",
   "why": "it launches programs on your computer"
  },
- "nexdep/zotero-ntags": {
-  "grade": "B",
-  "slug": "zotero-ntags",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "sentient-codebot/zotero-remarkable-usb": {
+ "fbkarsdorp/zotero-remarkable": {
   "grade": "A",
-  "slug": "zotero-remarkable-usb",
+  "slug": "zotero-remarkable--fbkarsdorp",
   "why": "every code check came out low"
  },
  "Leonezz/tasks-timeline-zotero": {
@@ -4309,6 +4314,36 @@
   "slug": "zotero-voice",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "lisontowind/zotero-tray": {
+  "grade": "B",
+  "slug": "zotero-tray--lisontowind",
+  "why": "it loads native code"
+ },
+ "Robert-Stackflow/better-rss-for-zotero": {
+  "grade": "B",
+  "slug": "better-rss-for-zotero",
+  "why": "it uses the network; we couldn't tell where, and 2 more findings"
+ },
+ "wyxu95/zotero-copy-pdf-path": {
+  "grade": "A",
+  "slug": "zotero-copy-pdf-path--wyxu95",
+  "why": "every code check came out low"
+ },
+ "windfollowingheart/deepseek-for-zotero": {
+  "grade": "B",
+  "slug": "deepseek-for-zotero",
+  "why": "it hands your data to a program on this computer; we can't check where it goes from there, and 2 more findings"
+ },
+ "nexdep/zotero-ntags": {
+  "grade": "B",
+  "slug": "zotero-ntags",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "sameggleton/zotero-organiser": {
+  "grade": "A+",
+  "slug": "zotero-organiser",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
  "OliverDudgeon/zotero-tab-fix": {
   "grade": "B",
   "slug": "zotero-tab-fix",
@@ -4319,55 +4354,40 @@
   "slug": "docutranslate-zotero",
   "why": "it contacts servers we couldn't identify: s4.zstatic.net and token.sensenova.cn, and 1 more finding"
  },
- "fbkarsdorp/zotero-remarkable": {
-  "grade": "A",
-  "slug": "zotero-remarkable--fbkarsdorp",
-  "why": "every code check came out low"
- },
- "babysharks2/deepseek-zotero": {
-  "grade": "A",
-  "slug": "deepseek-zotero",
-  "why": "every code check came out low"
+ "loveychen/zotero-chat": {
+  "grade": "B",
+  "slug": "zotero-chat",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "mbradaschia/zotero-companion-launcher": {
   "grade": "A",
   "slug": "zotero-companion-launcher",
   "why": "every code check came out low"
  },
- "lisontowind/zotero-tray": {
-  "grade": "B",
-  "slug": "zotero-tray--lisontowind",
-  "why": "it loads native code"
+ "Nova-Meteor/zotero-sentence-hover": {
+  "grade": "A",
+  "slug": "zotero-sentence-hover",
+  "why": "every code check came out low"
  },
  "ScienceLiveHub/zotero-nanopub-plugin": {
   "grade": "A",
   "slug": "zotero-nanopub-plugin",
   "why": "every code check came out low"
  },
- "loveychen/zotero-chat": {
-  "grade": "B",
-  "slug": "zotero-chat",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "sameggleton/zotero-organiser": {
+ "MinhHaDuong/search-works-for-zotero": {
   "grade": "A+",
-  "slug": "zotero-organiser",
+  "slug": "search-works-for-zotero",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "Zonezzc/zotero-xmnote": {
-  "grade": "B",
-  "slug": "zotero-xmnote",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "QDryougi/zotero-mcp-tags": {
   "grade": "B",
   "slug": "zotero-mcp-tags",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
- "Nova-Meteor/zotero-sentence-hover": {
-  "grade": "A",
-  "slug": "zotero-sentence-hover",
-  "why": "every code check came out low"
+ "Zonezzc/zotero-xmnote": {
+  "grade": "B",
+  "slug": "zotero-xmnote",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "zeya-labs/zotero-arxiv-source-helper": {
   "grade": "A",
@@ -4378,16 +4398,6 @@
   "grade": "B",
   "slug": "bibsonomy-zotero-sync",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "MrYgoodenough/PaperBridge-zotero-plugin": {
-  "grade": "–",
-  "slug": "paperbridge-zotero-plugin",
-  "why": "paperbridge-0.3.7-windows-x64.xpi is 190 MB, over our 60 MB analysis limit"
- },
- "MinhHaDuong/search-works-for-zotero": {
-  "grade": "A+",
-  "slug": "search-works-for-zotero",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "fanyingfx/zotero-excerpt": {
   "grade": "B",
@@ -4409,6 +4419,11 @@
   "slug": "zotero-citation-cards",
   "why": "every code check came out low"
  },
+ "MrYgoodenough/PaperBridge-zotero-plugin": {
+  "grade": "–",
+  "slug": "paperbridge-zotero-plugin",
+  "why": "paperbridge-0.3.7-windows-x64.xpi is 190 MB, over our 60 MB analysis limit"
+ },
  "GreyCatProductions/sentAI": {
   "grade": "B",
   "slug": "sentai",
@@ -4418,11 +4433,6 @@
   "grade": "B",
   "slug": "uttermux-zotero",
   "why": "it hands your data to UtterMux; we can't check where it goes from there"
- },
- "camiska/zotero-batchimport": {
-  "grade": "A",
-  "slug": "zotero-batchimport",
-  "why": "every code check came out low"
  },
  "Chengyue-Lu/literature-mind": {
   "grade": "A",
@@ -4439,14 +4449,14 @@
   "slug": "zotero-cover-grid",
   "why": "every code check came out low"
  },
- "panhaoyu/Zotero-Title": {
-  "grade": "B",
-  "slug": "zotero-title",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
  "pymaster17/zotero-agent-parser": {
   "grade": "A",
   "slug": "zotero-agent-parser",
+  "why": "every code check came out low"
+ },
+ "camiska/zotero-batchimport": {
+  "grade": "A",
+  "slug": "zotero-batchimport",
   "why": "every code check came out low"
  },
  "LiuFangshuo666/DSH-for-Zotero": {
@@ -4479,6 +4489,11 @@
   "slug": "zotero-reference-check",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "panhaoyu/Zotero-Title": {
+  "grade": "B",
+  "slug": "zotero-title",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
  "5HT2C/zotero-shortdoi": {
   "grade": "A",
   "slug": "zotero-shortdoi--5ht2c",
@@ -4499,15 +4514,20 @@
   "slug": "zotero-glide",
   "why": "it uses the network; we couldn't tell where, and 2 more findings"
  },
- "wazeruan/zotero-translate-plugin": {
-  "grade": "B",
-  "slug": "zotero-translate-plugin",
-  "why": "updates are set to come from an address someone else could control"
+ "NickyNoName/zotero-saved-search-folders": {
+  "grade": "A",
+  "slug": "zotero-saved-search-folders",
+  "why": "every code check came out low"
  },
  "kianmax0/zotero-chatgpt-web": {
   "grade": "A",
   "slug": "zotero-chatgpt-web",
   "why": "every code check came out low"
+ },
+ "wazeruan/zotero-translate-plugin": {
+  "grade": "B",
+  "slug": "zotero-translate-plugin",
+  "why": "updates are set to come from an address someone else could control"
  },
  "gdinh/citekey-url": {
   "grade": "A",
@@ -4519,24 +4539,19 @@
   "slug": "zotero-component-datasheets",
   "why": "every code check came out low"
  },
- "Wu-Lipeng/LexiNote": {
-  "grade": "A",
-  "slug": "lexinote",
-  "why": "every code check came out low"
- },
  "takahashi-seiryu/noctua-zotero": {
   "grade": "B",
   "slug": "noctua-zotero",
   "why": "it runs a server other computers on your network can reach, and 1 more finding"
  },
+ "HocfaiSun/PaperDuet-Bridge-For-Zotero": {
+  "grade": "B",
+  "slug": "paperduet-bridge-for-zotero",
+  "why": "it launches programs on your computer"
+ },
  "wuxinxin27/zotero-reading-room": {
   "grade": "A",
   "slug": "zotero-reading-room",
-  "why": "every code check came out low"
- },
- "NickyNoName/zotero-saved-search-folders": {
-  "grade": "A",
-  "slug": "zotero-saved-search-folders",
   "why": "every code check came out low"
  },
  "Verandathu/Zotero-AI": {
@@ -4549,19 +4564,24 @@
   "slug": "zotero-mcp-plugin",
   "why": "it keeps its own tables in Zotero's database, and 1 more finding"
  },
+ "yuukibarns/zotero-compact-menu": {
+  "grade": "A",
+  "slug": "zotero-compact-menu",
+  "why": "every code check came out low"
+ },
+ "Wu-Lipeng/LexiNote": {
+  "grade": "A",
+  "slug": "lexinote",
+  "why": "every code check came out low"
+ },
  "yuukibarns/zotero-page-tools": {
   "grade": "A",
   "slug": "zotero-page-tools",
   "why": "every code check came out low"
  },
- "thiagoelbert/collection-explorer-for-zotero": {
-  "grade": "B",
-  "slug": "collection-explorer-for-zotero",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
- },
- "yuukibarns/zotero-compact-menu": {
+ "aykutcayir34/zotero-smart-organizer": {
   "grade": "A",
-  "slug": "zotero-compact-menu",
+  "slug": "zotero-smart-organizer",
   "why": "every code check came out low"
  },
  "zrqworkmail-cloud/zotero-vocab-review": {
@@ -4574,50 +4594,50 @@
   "slug": "paperbridge",
   "why": "it contacts a server we couldn't identify: mupdf.com, and 2 more findings"
  },
- "juandodyk/my-zotero-ocr": {
+ "thiagoelbert/collection-explorer-for-zotero": {
   "grade": "B",
-  "slug": "my-zotero-ocr",
-  "why": "it uses the network; we couldn't tell where, and 1 more finding"
- },
- "HocfaiSun/PaperDuet-Bridge-For-Zotero": {
-  "grade": "B",
-  "slug": "paperduet-bridge-for-zotero",
-  "why": "it launches programs on your computer"
- },
- "JimCSuen/Zotero-reference-graph": {
-  "grade": "B",
-  "slug": "zotero-reference-graph",
-  "why": "updates are set to come from an address someone else could control"
+  "slug": "collection-explorer-for-zotero",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "LLPetro/Zotero-Collection-Relations": {
   "grade": "A",
   "slug": "zotero-collection-relations",
   "why": "every code check came out low"
  },
- "aykutcayir34/zotero-smart-organizer": {
-  "grade": "A",
-  "slug": "zotero-smart-organizer",
-  "why": "every code check came out low"
- },
- "Ayanya-0628/zotero-mcp": {
-  "grade": "A+",
-  "slug": "zotero-mcp--ayanya-0628",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
  "666666lyc/zotero-codex-translate": {
   "grade": "C",
   "slug": "zotero-codex-translate",
   "why": "it installs and runs npm or PyPI packages without a fixed version"
+ },
+ "lin-qingming/zotero-md-editor": {
+  "grade": "A",
+  "slug": "zotero-md-editor",
+  "why": "every code check came out low"
  },
  "zsrobinson/rmzotero": {
   "grade": "A",
   "slug": "rmzotero",
   "why": "every code check came out low"
  },
+ "JimCSuen/Zotero-reference-graph": {
+  "grade": "B",
+  "slug": "zotero-reference-graph",
+  "why": "updates are set to come from an address someone else could control"
+ },
  "BluesilveEmperor/PDFTranslate-Zotero": {
   "grade": "B",
   "slug": "pdftranslate-zotero",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "Ayanya-0628/zotero-mcp": {
+  "grade": "A+",
+  "slug": "zotero-mcp--ayanya-0628",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "KuchinashiYume/Memorive": {
+  "grade": "B",
+  "slug": "memorive",
+  "why": "it launches programs on your computer"
  },
  "zcjie1/Zotero-AI": {
   "grade": "C",
@@ -4634,16 +4654,6 @@
   "slug": "zoterosyncassistant",
   "why": "its code names a developer's server: pdf2zh.lfystat.cn"
  },
- "lin-qingming/zotero-md-editor": {
-  "grade": "A",
-  "slug": "zotero-md-editor",
-  "why": "every code check came out low"
- },
- "KuchinashiYume/Memorive": {
-  "grade": "B",
-  "slug": "memorive",
-  "why": "it launches programs on your computer"
- },
  "Zotero-Flow/zotero-quick-highlight": {
   "grade": "A",
   "slug": "zotero-quick-highlight",
@@ -4659,6 +4669,11 @@
   "slug": "z-daena",
   "why": "every code check came out low"
  },
+ "Rsuiyi/Zotero_PaperLoom": {
+  "grade": "A",
+  "slug": "zotero-paperloom",
+  "why": "every code check came out low"
+ },
  "DjebbKhaled/ZoPreview": {
   "grade": "A",
   "slug": "zopreview",
@@ -4669,40 +4684,30 @@
   "slug": "zotero-folder-watch",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "wsxwj123/zotero-claudian": {
-  "grade": "B",
-  "slug": "zotero-claudian",
-  "why": "it launches programs on your computer"
- },
- "XuZhiangDLUT/ZoteroTLDR": {
-  "grade": "B",
-  "slug": "zoterotldr",
-  "why": "it contacts servers we couldn't identify: cpa.20020519.xyz and x666.me, and 2 more findings"
- },
  "jnsheff/zotero-hicite": {
   "grade": "A",
   "slug": "zotero-hicite",
   "why": "every code check came out low"
  },
- "Mappedinfo/local-zotero-bridge": {
-  "grade": "A+",
-  "slug": "local-zotero-bridge",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "Li-Kangling/zotero-watch-folder-multiroot": {
-  "grade": "A",
-  "slug": "zotero-watch-folder-multiroot",
-  "why": "every code check came out low"
+ "Philippyang21/zotero-pdf-helper": {
+  "grade": "B",
+  "slug": "zotero-pdf-helper",
+  "why": "it launches programs on your computer"
  },
  "qiangqianglab/scansci-zotero": {
   "grade": "B",
   "slug": "scansci-zotero",
   "why": "it launches programs on your computer"
  },
- "Philippyang21/zotero-pdf-helper": {
-  "grade": "B",
-  "slug": "zotero-pdf-helper",
-  "why": "it launches programs on your computer"
+ "Li-Kangling/zotero-watch-folder-multiroot": {
+  "grade": "A",
+  "slug": "zotero-watch-folder-multiroot",
+  "why": "every code check came out low"
+ },
+ "Mappedinfo/local-zotero-bridge": {
+  "grade": "A+",
+  "slug": "local-zotero-bridge",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "shaowen-ye/zotero-duplicate-merge-manager-plugin": {
   "grade": "A",
@@ -4724,9 +4729,9 @@
   "slug": "make-it-fullscreen",
   "why": "every code check came out low"
  },
- "Rsuiyi/Zotero_PaperLoom": {
+ "mrbell/copy-item-uri-zotero-plugin": {
   "grade": "A",
-  "slug": "zotero-paperloom",
+  "slug": "copy-item-uri-zotero-plugin",
   "why": "every code check came out low"
  },
  "koenigderorangen/AnnoSync": {
@@ -4734,35 +4739,40 @@
   "slug": "annosync",
   "why": "every code check came out low"
  },
+ "Dannyzimmer/zottelkasten": {
+  "grade": "A",
+  "slug": "zottelkasten",
+  "why": "every code check came out low"
+ },
+ "ebryg/ganglion-app": {
+  "grade": "B",
+  "slug": "ganglion-app",
+  "why": "it hands your documents to a program on this computer automatically; we can't check where they go from there"
+ },
  "jnsheff/zotero-legal-translators": {
   "grade": "A",
   "slug": "zotero-legal-translators",
   "why": "every code check came out low"
  },
- "apengtongzhi/zotero-bilingual-arxiv": {
+ "groele/Zotero-BridgeFlow": {
   "grade": "B",
-  "slug": "zotero-bilingual-arxiv",
-  "why": "it launches programs on your computer"
- },
- "mrbell/copy-item-uri-zotero-plugin": {
-  "grade": "A",
-  "slug": "copy-item-uri-zotero-plugin",
-  "why": "every code check came out low"
+  "slug": "zotero-bridgeflow",
+  "why": "it loads native code"
  },
  "Galapo/zotero-ai-referencing-plugin-releases": {
   "grade": "B",
   "slug": "zotero-ai-referencing-plugin-releases",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "apengtongzhi/zotero-bilingual-arxiv": {
+  "grade": "B",
+  "slug": "zotero-bilingual-arxiv",
+  "why": "it launches programs on your computer"
+ },
  "DinoMax00/codex_for_zotero": {
   "grade": "B",
   "slug": "codex-for-zotero",
   "why": "it launches programs on your computer"
- },
- "ebryg/ganglion-app": {
-  "grade": "B",
-  "slug": "ganglion-app",
-  "why": "it hands your documents to a program on this computer automatically; we can't check where they go from there"
  },
  "cz-hit/zotero-markdown-notes": {
   "grade": "B",
@@ -4804,14 +4814,14 @@
   "slug": "zotero-tabflow",
   "why": "every code check came out low"
  },
- "Dannyzimmer/zottelkasten": {
-  "grade": "A",
-  "slug": "zottelkasten",
-  "why": "every code check came out low"
- },
  "Nicrael/zotero-pdf-region-export": {
   "grade": "A",
   "slug": "zotero-pdf-region-export",
+  "why": "every code check came out low"
+ },
+ "Wegene38/zotero-auto-sort": {
+  "grade": "A",
+  "slug": "zotero-auto-sort",
   "why": "every code check came out low"
  },
  "longkou1988/zotero-submission-tracker": {
@@ -4819,29 +4829,44 @@
   "slug": "zotero-submission-tracker",
   "why": "it keeps its own tables in Zotero's database, and 2 more findings"
  },
- "Wegene38/zotero-auto-sort": {
-  "grade": "A",
-  "slug": "zotero-auto-sort",
-  "why": "every code check came out low"
- },
  "AriyanBe/Science-Lense": {
   "grade": "A+",
   "slug": "science-lense",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "SeptYagu/zotero-theme-toggle": {
+  "grade": "A",
+  "slug": "zotero-theme-toggle",
+  "why": "every code check came out low"
  },
  "GuCarpenter/zotmcp": {
   "grade": "B",
   "slug": "zotmcp",
   "why": "it runs code other programs on this computer send it"
  },
+ "jsglazer/zotero-audit": {
+  "grade": "A",
+  "slug": "zotero-audit",
+  "why": "every code check came out low"
+ },
  "Authentic3096/zotero-kb": {
   "grade": "B",
   "slug": "zotero-kb",
   "why": "it launches programs on your computer"
  },
+ "songheeinformatics/zotero-highlight-mirror": {
+  "grade": "A",
+  "slug": "zotero-highlight-mirror",
+  "why": "every code check came out low"
+ },
  "StarlitSky27/zotero-renameAttachments": {
   "grade": "A",
   "slug": "zotero-renameattachments",
+  "why": "every code check came out low"
+ },
+ "LXX006/zotero-rich-annotation": {
+  "grade": "A",
+  "slug": "zotero-rich-annotation",
   "why": "every code check came out low"
  },
  "Yyu-ang/zotero-skill-task-mcp": {
@@ -4849,24 +4874,29 @@
   "slug": "zotero-skill-task-mcp",
   "why": "it runs a server other computers on your network can reach"
  },
- "jsglazer/zotero-audit": {
+ "julyseaweed/adhd-reader-zotero": {
   "grade": "A",
-  "slug": "zotero-audit",
+  "slug": "adhd-reader-zotero",
   "why": "every code check came out low"
  },
- "SeptYagu/zotero-theme-toggle": {
+ "Chan-Developer/zotero-bilingual-reader": {
   "grade": "A",
-  "slug": "zotero-theme-toggle",
+  "slug": "zotero-bilingual-reader",
   "why": "every code check came out low"
+ },
+ "shalom-lab/deepread": {
+  "grade": "A",
+  "slug": "deepread",
+  "why": "every code check came out low"
+ },
+ "Woif-sha/paper-translate-for-zotero": {
+  "grade": "B",
+  "slug": "paper-translate-for-zotero",
+  "why": "it signs in using another app's identity, and 3 more findings"
  },
  "leobba/Daxiang-zotero-tools": {
   "grade": "A",
   "slug": "daxiang-zotero-tools",
-  "why": "every code check came out low"
- },
- "songheeinformatics/zotero-highlight-mirror": {
-  "grade": "A",
-  "slug": "zotero-highlight-mirror",
   "why": "every code check came out low"
  },
  "GeneralPawz/zotero-tts-byok": {
@@ -4874,14 +4904,9 @@
   "slug": "zotero-tts-byok",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "LXX006/zotero-rich-annotation": {
+ "CalyrexThePal/zotero-tab-groups": {
   "grade": "A",
-  "slug": "zotero-rich-annotation",
-  "why": "every code check came out low"
- },
- "julyseaweed/adhd-reader-zotero": {
-  "grade": "A",
-  "slug": "adhd-reader-zotero",
+  "slug": "zotero-tab-groups--calyrexthepal",
   "why": "every code check came out low"
  },
  "sachajw/aiops-zotero-mcp": {
@@ -4904,34 +4929,44 @@
   "slug": "zotero-zhutero",
   "why": "every code check came out low"
  },
- "vict0rg/cupertino-zotero-soft-theme": {
-  "grade": "A",
-  "slug": "cupertino-zotero-soft-theme",
-  "why": "every code check came out low"
- },
- "Woif-sha/paper-translate-for-zotero": {
-  "grade": "B",
-  "slug": "paper-translate-for-zotero",
-  "why": "it signs in using another app's identity, and 3 more findings"
- },
- "CalyrexThePal/zotero-tab-groups": {
-  "grade": "A",
-  "slug": "zotero-tab-groups--calyrexthepal",
-  "why": "every code check came out low"
- },
  "Jellyjujube/jujube-zotero-joplin": {
   "grade": "A",
   "slug": "jujube-zotero-joplin",
   "why": "every code check came out low"
  },
- "Chan-Developer/zotero-bilingual-reader": {
+ "fangchenghao/codex-bilingual-reader": {
+  "grade": "B",
+  "slug": "codex-bilingual-reader",
+  "why": "it downloads a program checked against a fixed fingerprint, and runs it, and 2 more findings"
+ },
+ "vict0rg/cupertino-zotero-soft-theme": {
   "grade": "A",
-  "slug": "zotero-bilingual-reader",
+  "slug": "cupertino-zotero-soft-theme",
   "why": "every code check came out low"
+ },
+ "pymaster17/zotero-readtime": {
+  "grade": "A",
+  "slug": "zotero-readtime",
+  "why": "every code check came out low"
+ },
+ "janbaykara/zotero-annas-archive": {
+  "grade": "B",
+  "slug": "zotero-annas-archive",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "Masterchiefm/dsh-in-zotero": {
+  "grade": "B",
+  "slug": "dsh-in-zotero",
+  "why": "it launches programs on your computer, and 1 more finding"
  },
  "Victor-Levindo/nuvem-palavras-z": {
   "grade": "A",
   "slug": "nuvem-palavras-z",
+  "why": "every code check came out low"
+ },
+ "JulianKimmig/zotero-reference-relationships": {
+  "grade": "A",
+  "slug": "zotero-reference-relationships",
   "why": "every code check came out low"
  },
  "ADeravi/zotero-scrape-update-report": {
@@ -4964,20 +4999,10 @@
   "slug": "zotero-pdf2zh-companion",
   "why": "it launches programs on your computer"
  },
- "pymaster17/zotero-readtime": {
-  "grade": "A",
-  "slug": "zotero-readtime",
-  "why": "every code check came out low"
- },
- "JulianKimmig/zotero-reference-relationships": {
-  "grade": "A",
-  "slug": "zotero-reference-relationships",
-  "why": "every code check came out low"
- },
- "janbaykara/zotero-annas-archive": {
-  "grade": "B",
-  "slug": "zotero-annas-archive",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ "itofrrr/zotero-reading-order": {
+  "grade": "A+",
+  "slug": "zotero-reading-order",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "ZhangLinqi-07/zotero-pdf2zh-body-only": {
   "grade": "B",
@@ -4989,24 +5014,24 @@
   "slug": "zotero-literature-analizer",
   "why": "it launches programs on your computer"
  },
- "zjysnow/paperpilot": {
-  "grade": "C",
-  "slug": "paperpilot",
-  "why": "its AI agent can run commands on your computer; it asks only for ones that look destructive"
- },
- "itofrrr/zotero-reading-order": {
-  "grade": "A+",
-  "slug": "zotero-reading-order",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
  "koabula/zotero-margin": {
   "grade": "A+",
   "slug": "zotero-margin",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "dvanoni/zotero-plugin-sandbox": {
+ "IcyChlorine/paper-connections": {
   "grade": "A",
-  "slug": "zotero-plugin-sandbox",
+  "slug": "paper-connections",
+  "why": "every code check came out low"
+ },
+ "zjysnow/paperpilot": {
+  "grade": "C",
+  "slug": "paperpilot",
+  "why": "its AI agent can run commands on your computer; it asks only for ones that look destructive"
+ },
+ "tomgoodell/zotero-tag-picker": {
+  "grade": "A",
+  "slug": "zotero-tag-picker",
   "why": "every code check came out low"
  },
  "steven-jianhao-li/zotero-AI-Butler-Fang": {
@@ -5019,14 +5044,14 @@
   "slug": "zotero-auto-relate",
   "why": "every code check came out low"
  },
- "IcyChlorine/paper-connections": {
-  "grade": "A",
-  "slug": "paper-connections",
-  "why": "every code check came out low"
+ "dcy456/kokoro-reader": {
+  "grade": "B",
+  "slug": "kokoro-reader",
+  "why": "it uses the network; we couldn't tell where, and 2 more findings"
  },
- "dcondrey/zotero-validate": {
+ "dvanoni/zotero-plugin-sandbox": {
   "grade": "A",
-  "slug": "zotero-validate",
+  "slug": "zotero-plugin-sandbox",
   "why": "every code check came out low"
  },
  "gchapron/ZoteroThumbFile": {
@@ -5034,35 +5059,40 @@
   "slug": "zoterothumbfile",
   "why": "every code check came out low"
  },
- "dcy456/kokoro-reader": {
-  "grade": "B",
-  "slug": "kokoro-reader",
-  "why": "it uses the network; we couldn't tell where, and 2 more findings"
+ "dcondrey/zotero-validate": {
+  "grade": "A",
+  "slug": "zotero-validate",
+  "why": "every code check came out low"
  },
  "PeihengLu/zotero-synced-collections": {
   "grade": "A",
   "slug": "zotero-synced-collections",
   "why": "every code check came out low"
  },
- "tomgoodell/zotero-tag-picker": {
-  "grade": "A",
-  "slug": "zotero-tag-picker",
-  "why": "every code check came out low"
- },
- "groele/Zotero-BridgeFlow": {
-  "grade": "B",
-  "slug": "zotero-bridgeflow",
-  "why": "it loads native code"
- },
  "tiagojct/zotero-gam": {
   "grade": "A",
   "slug": "zotero-gam",
   "why": "every code check came out low"
  },
- "fangchenghao/codex-bilingual-reader": {
-  "grade": "C",
-  "slug": "codex-bilingual-reader",
-  "why": "it downloads and runs a program we haven't reviewed yet, and 1 more finding"
+ "jrjfonseca/zotero_merge_supplementary_plugin": {
+  "grade": "B",
+  "slug": "zotero-merge-supplementary-plugin",
+  "why": "it contacts a server we couldn't identify: api.figshare.com, and 3 more findings"
+ },
+ "zwjjiaozhu/Zotero-TransLift": {
+  "grade": "B",
+  "slug": "zotero-translift",
+  "why": "it contacts servers we couldn't identify: oneshot-free.www.deepl.com and www.qianwen.com, and 3 more findings"
+ },
+ "CorsiQa/zotero-better-annotations": {
+  "grade": "A",
+  "slug": "zotero-better-annotations",
+  "why": "every code check came out low"
+ },
+ "Fade-r/zotero-codex-listener": {
+  "grade": "B",
+  "slug": "zotero-codex-listener",
+  "why": "it uses the network; we couldn't tell where, and 1 more finding"
  },
  "LumiAzure/zotero-pdf-copy": {
   "grade": "A",
@@ -5074,30 +5104,30 @@
   "slug": "zotero-hjfy-split-reader-cn",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "jrjfonseca/zotero_merge_supplementary_plugin": {
-  "grade": "B",
-  "slug": "zotero-merge-supplementary-plugin",
-  "why": "it contacts a server we couldn't identify: api.figshare.com, and 3 more findings"
- },
  "k-ghoshal/zotero-pdf-to-md": {
   "grade": "C",
   "slug": "zotero-pdf-to-md--k-ghoshal",
   "why": "it installs and runs npm or PyPI packages without a fixed version"
+ },
+ "PeberWang/zotero-sysdict-lookup": {
+  "grade": "A",
+  "slug": "zotero-sysdict-lookup",
+  "why": "every code check came out low"
  },
  "zhang-dut/zotero-file": {
   "grade": "C",
   "slug": "zotero-file",
   "why": "a button in its settings downloads and runs a PDF tool on Intel Macs; it comes over plain http, so anyone on your network could swap it"
  },
- "Fade-r/zotero-codex-listener": {
-  "grade": "B",
-  "slug": "zotero-codex-listener",
-  "why": "it uses the network; we couldn't tell where, and 1 more finding"
- },
  "zbhou2002/iris-zotero": {
   "grade": "C",
   "slug": "iris-zotero",
   "why": "it installs and runs npm or PyPI packages without a fixed version"
+ },
+ "HaoLi2030/zotero-fetch-si": {
+  "grade": "B",
+  "slug": "zotero-fetch-si",
+  "why": "it launches programs on your computer"
  },
  "yunxop/Zotero-Superior-Intelligence": {
   "grade": "A",
@@ -5129,9 +5159,9 @@
   "slug": "zotero-ia",
   "why": "it contacts a server we couldn't identify: incitefulmed.com"
  },
- "CorsiQa/zotero-better-annotations": {
+ "ActiveSky/zotero-hide-manage": {
   "grade": "A",
-  "slug": "zotero-better-annotations",
+  "slug": "zotero-hide-manage",
   "why": "every code check came out low"
  },
  "Makashibata02/zotero-local-bilingual": {
@@ -5144,50 +5174,35 @@
   "slug": "zotero-nature-reader",
   "why": "every code check came out low"
  },
- "HaoLi2030/zotero-fetch-si": {
-  "grade": "B",
-  "slug": "zotero-fetch-si",
-  "why": "it launches programs on your computer"
- },
- "ActiveSky/zotero-hide-manage": {
-  "grade": "A",
-  "slug": "zotero-hide-manage",
-  "why": "every code check came out low"
- },
  "thalloerupt/fusion_reader_for_zotero": {
   "grade": "B",
   "slug": "fusion-reader-for-zotero",
   "why": "updates are set to come from an address someone else could control, and 1 more finding"
- },
- "Yu-TingSun/LitGap": {
-  "grade": "A",
-  "slug": "litgap",
-  "why": "every code check came out low"
  },
  "SunsetKnights/Zotero-Local-Translation-Plugin": {
   "grade": "B",
   "slug": "zotero-local-translation-plugin",
   "why": "it launches programs on your computer, and 1 more finding"
  },
- "zwjjiaozhu/Zotero-TransLift": {
-  "grade": "B",
-  "slug": "zotero-translift",
-  "why": "it contacts servers we couldn't identify: oneshot-free.www.deepl.com and www.qianwen.com, and 3 more findings"
- },
- "sukui10/zotero-split-screen": {
+ "Pigggggggggg/Better-tags-for-Zotero": {
   "grade": "A",
-  "slug": "zotero-split-screen",
+  "slug": "better-tags-for-zotero",
   "why": "every code check came out low"
  },
- "Masterchiefm/dsh-in-zotero": {
-  "grade": "B",
-  "slug": "dsh-in-zotero",
-  "why": "it launches programs on your computer, and 1 more finding"
+ "Mr-K13/zotero-plugins": {
+  "grade": "A",
+  "slug": "zotero-plugins--mr-k13",
+  "why": "every code check came out low"
  },
  "shice951229-oss/Easy-Translate": {
   "grade": "A+",
   "slug": "easy-translate",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "Yu-TingSun/LitGap": {
+  "grade": "A",
+  "slug": "litgap",
+  "why": "every code check came out low"
  },
  "IPBES-Data/zotero-fix-proposals": {
   "grade": "A",
@@ -5199,19 +5214,14 @@
   "slug": "zotero-journalflow",
   "why": "every code check came out low"
  },
- "FKkzz/AIAgent": {
+ "sukui10/zotero-split-screen": {
   "grade": "A",
-  "slug": "aiagent",
+  "slug": "zotero-split-screen",
   "why": "every code check came out low"
  },
  "YIKUYOO/zotero-page-images": {
   "grade": "A",
   "slug": "zotero-page-images",
-  "why": "every code check came out low"
- },
- "JustusHenke/zotero-copy-path": {
-  "grade": "A",
-  "slug": "zotero-copy-path",
   "why": "every code check came out low"
  },
  "Vithrive/llm-for-zotero-translator": {
@@ -5224,14 +5234,39 @@
   "slug": "marginpack",
   "why": "every code check came out low"
  },
- "PeberWang/zotero-sysdict-lookup": {
+ "FKkzz/AIAgent": {
   "grade": "A",
-  "slug": "zotero-sysdict-lookup",
+  "slug": "aiagent",
   "why": "every code check came out low"
  },
- "Pigggggggggg/Better-tags-for-Zotero": {
+ "JustusHenke/zotero-copy-path": {
   "grade": "A",
-  "slug": "better-tags-for-zotero",
+  "slug": "zotero-copy-path",
+  "why": "every code check came out low"
+ },
+ "wzs2004/zotero-duxiu-meta": {
+  "grade": "B",
+  "slug": "zotero-duxiu-meta",
+  "why": "it contacts servers we couldn't identify: www.douban.com and www.duxiu.com"
+ },
+ "alan-hpc/zotero-paper-weave": {
+  "grade": "A",
+  "slug": "zotero-paper-weave",
+  "why": "every code check came out low"
+ },
+ "shinmohuang/ZoteConf": {
+  "grade": "A",
+  "slug": "zoteconf",
+  "why": "every code check came out low"
+ },
+ "captainedV/zotero-ai-chinese-reader": {
+  "grade": "B",
+  "slug": "zotero-ai-chinese-reader",
+  "why": "it installs other add-ons"
+ },
+ "lllumos-luo/zotero-hover-focus": {
+  "grade": "A",
+  "slug": "zotero-hover-focus",
   "why": "every code check came out low"
  },
  "1281300805/zotero-inline-translate": {
@@ -5249,15 +5284,10 @@
   "slug": "vibe-zotero-translate",
   "why": "every code check came out low"
  },
- "shinmohuang/ZoteConf": {
+ "IPBES-Data/zotero-safe-edit": {
   "grade": "A",
-  "slug": "zoteconf",
+  "slug": "zotero-safe-edit",
   "why": "every code check came out low"
- },
- "captainedV/zotero-ai-chinese-reader": {
-  "grade": "B",
-  "slug": "zotero-ai-chinese-reader",
-  "why": "it installs other add-ons"
  },
  "AtlasField92/zotero-bulk-importer-plugin": {
   "grade": "A+",
@@ -5269,11 +5299,6 @@
   "slug": "zotero-shortdoi--jwow-schneider",
   "why": "every code check came out low"
  },
- "wzs2004/zotero-duxiu-meta": {
-  "grade": "B",
-  "slug": "zotero-duxiu-meta",
-  "why": "it contacts servers we couldn't identify: www.douban.com and www.duxiu.com"
- },
  "ice-cream-cpu/Zotero-Plugin-Paper-Reading": {
   "grade": "B",
   "slug": "zotero-plugin-paper-reading",
@@ -5284,9 +5309,9 @@
   "slug": "zotero-ai-summarizer",
   "why": "updates are set to come from an address someone else could control, and 2 more findings"
  },
- "IPBES-Data/zotero-safe-edit": {
+ "zhongyangchuwu/Zotero-Bases": {
   "grade": "A",
-  "slug": "zotero-safe-edit",
+  "slug": "zotero-bases",
   "why": "every code check came out low"
  },
  "zcyisiee/zotero-tts-reader": {
@@ -5304,20 +5329,15 @@
   "slug": "zotero-ai-chat",
   "why": "it contacts a server we couldn't identify: router.requesty.ai"
  },
- "lllumos-luo/zotero-hover-focus": {
-  "grade": "A",
-  "slug": "zotero-hover-focus",
-  "why": "every code check came out low"
- },
  "Qilinn-Robotics/zotero-PaperChat": {
   "grade": "B",
   "slug": "zotero-paperchat",
   "why": "updates are set to come from an address someone else could control, and 2 more findings"
  },
- "alan-hpc/zotero-paper-weave": {
-  "grade": "A",
-  "slug": "zotero-paper-weave",
-  "why": "every code check came out low"
+ "xino-rofi/ScholarMarker": {
+  "grade": "B",
+  "slug": "scholarmarker",
+  "why": "it loads native code"
  },
  "zyyu1/zotero-reflow-translator": {
   "grade": "C",
@@ -5329,16 +5349,6 @@
   "slug": "anytero",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "shalom-lab/deepread": {
-  "grade": "A",
-  "slug": "deepread",
-  "why": "every code check came out low"
- },
- "Mr-K13/zotero-plugins": {
-  "grade": "A",
-  "slug": "zotero-plugins--mr-k13",
-  "why": "every code check came out low"
- },
  "111112200/zotero-pdf-ai-translate": {
   "grade": "A",
   "slug": "zotero-pdf-ai-translate",
@@ -5349,6 +5359,11 @@
   "slug": "zotero-author-search",
   "why": "updates are set to come from an address someone else could control"
  },
+ "utsmok/zotero-accessible": {
+  "grade": "A",
+  "slug": "zotero-accessible",
+  "why": "every code check came out low"
+ },
  "Robert-Xiong1117/zotero-mcp-connector": {
   "grade": "A",
   "slug": "zotero-mcp-connector",
@@ -5358,6 +5373,11 @@
   "grade": "B",
   "slug": "zotero-bibtex-copy",
   "why": "updates are set to come from an address someone else could control"
+ },
+ "homomorph1sm/zotero-draft-pdf-watch": {
+  "grade": "A",
+  "slug": "zotero-draft-pdf-watch",
+  "why": "every code check came out low"
  },
  "nian1147/zotero-pdf-translate-medical": {
   "grade": "B",
@@ -5374,9 +5394,9 @@
   "slug": "zotero-smart-translate",
   "why": "every code check came out low"
  },
- "utsmok/zotero-accessible": {
+ "haoning-Chen226/zotero-retainpdf": {
   "grade": "A",
-  "slug": "zotero-accessible",
+  "slug": "zotero-retainpdf",
   "why": "every code check came out low"
  },
  "nkbaim/zotero-ai-note": {
@@ -5404,10 +5424,20 @@
   "slug": "zotero-bibtex-to-clipboard",
   "why": "every code check came out low"
  },
- "homomorph1sm/zotero-draft-pdf-watch": {
+ "ChanglinWu/zotero-claude-bridge": {
   "grade": "A",
-  "slug": "zotero-draft-pdf-watch",
+  "slug": "zotero-claude-bridge",
   "why": "every code check came out low"
+ },
+ "as-zdq/zotero-institutional-pdf-bridge": {
+  "grade": "A",
+  "slug": "zotero-institutional-pdf-bridge",
+  "why": "every code check came out low"
+ },
+ "ZhangHangjia/zotero-note-preview-column": {
+  "grade": "A+",
+  "slug": "zotero-note-preview-column",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "CnTeng/OneDict": {
   "grade": "A",
@@ -5419,11 +5449,6 @@
   "slug": "zotero-reading-guide",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "xino-rofi/ScholarMarker": {
-  "grade": "B",
-  "slug": "scholarmarker",
-  "why": "it loads native code"
- },
  "merc-hecl/zota": {
   "grade": "B",
   "slug": "zota",
@@ -5434,30 +5459,50 @@
   "slug": "zotero-focus-columns",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
+ "tim-vdl/ZotExtend": {
+  "grade": "A+",
+  "slug": "zotextend",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "atturk/ZotRecall": {
+  "grade": "A",
+  "slug": "zotrecall",
+  "why": "every code check came out low"
+ },
  "squirrelRao/zotero-lingocloud": {
   "grade": "B",
   "slug": "zotero-lingocloud",
   "why": "a zotero:// link can make it run code if you approve a prompt (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "lubinxtu/zotero-paper-translator": {
+  "grade": "A",
+  "slug": "zotero-paper-translator",
+  "why": "every code check came out low"
  },
  "dahliasan/zotero-doi-manager": {
   "grade": "A",
   "slug": "zotero-doi-manager--dahliasan",
   "why": "every code check came out low"
  },
- "ZhangHangjia/zotero-note-preview-column": {
-  "grade": "A+",
-  "slug": "zotero-note-preview-column",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ "Yrooma/konnash": {
+  "grade": "B",
+  "slug": "konnash",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ },
+ "vbcnft59/zotero-quicklex": {
+  "grade": "A",
+  "slug": "zotero-quicklex",
+  "why": "every code check came out low"
+ },
+ "taotaochen86/zbridge": {
+  "grade": "C",
+  "slug": "zbridge",
+  "why": "it runs code web pages send it"
  },
  "sorinhostiuc/zotero-zotcloud": {
   "grade": "B",
   "slug": "zotero-zotcloud",
   "why": "it keeps its own tables in Zotero's database"
- },
- "haoning-Chen226/zotero-retainpdf": {
-  "grade": "A",
-  "slug": "zotero-retainpdf",
-  "why": "every code check came out low"
  },
  "dyingjie/zotero-livereload": {
   "grade": "A",
@@ -5479,14 +5524,14 @@
   "slug": "zotero-plugin-test",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "atturk/ZotRecall": {
-  "grade": "A",
-  "slug": "zotrecall",
-  "why": "every code check came out low"
+ "wgcyeo/AItero": {
+  "grade": "B",
+  "slug": "aitero",
+  "why": "it launches programs on your computer"
  },
- "lubinxtu/zotero-paper-translator": {
+ "murphyhoucn/zotero-plugin": {
   "grade": "A",
-  "slug": "zotero-paper-translator",
+  "slug": "zotero-plugin--murphyhoucn",
   "why": "every code check came out low"
  },
  "ustc-iontrap/Zotero-Author-Search": {
@@ -5504,10 +5549,20 @@
   "slug": "zotero-mineru-plugin",
   "why": "it launches programs on your computer"
  },
+ "ryoryoryo3838/ndlocr-lite_for_zotero": {
+  "grade": "C",
+  "slug": "ndlocr-lite-for-zotero",
+  "why": "it writes to Zotero's database directly, and 1 more finding"
+ },
  "cameron-utils/zotero_semantic_scholar_plugin": {
   "grade": "A",
   "slug": "zotero-semantic-scholar-plugin",
   "why": "every code check came out low"
+ },
+ "zkforge/zotero-ask-gpt": {
+  "grade": "B",
+  "slug": "zotero-ask-gpt",
+  "why": "it launches programs on your computer"
  },
  "Chocay/Zotero-Latex-Fix": {
   "grade": "B",
@@ -5524,15 +5579,15 @@
   "slug": "zotero-obsidian-connector",
   "why": "it signs in using another app's identity"
  },
- "tim-vdl/ZotExtend": {
-  "grade": "A+",
-  "slug": "zotextend",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ "mohawwadjavad/AyinYar": {
+  "grade": "A",
+  "slug": "ayinyar",
+  "why": "every code check came out low"
  },
- "wgcyeo/AItero": {
+ "NysaMisty/Batch-Citations": {
   "grade": "B",
-  "slug": "aitero",
-  "why": "it launches programs on your computer"
+  "slug": "batch-citations",
+  "why": "it loads native code"
  },
  "shaowen-ye/zotero-collection-color-menu-plugin": {
   "grade": "A",
@@ -5544,39 +5599,24 @@
   "slug": "iacr-tools",
   "why": "every code check came out low"
  },
- "as-zdq/zotero-institutional-pdf-bridge": {
-  "grade": "A",
-  "slug": "zotero-institutional-pdf-bridge",
-  "why": "every code check came out low"
- },
  "aknahin/kozosync": {
   "grade": "A",
   "slug": "kozosync",
   "why": "every code check came out low"
  },
- "ryoryoryo3838/ndlocr-lite_for_zotero": {
-  "grade": "C",
-  "slug": "ndlocr-lite-for-zotero",
-  "why": "it writes to Zotero's database directly, and 1 more finding"
+ "Passionate0424/zotero-pdf-compare": {
+  "grade": "A",
+  "slug": "zotero-pdf-compare",
+  "why": "every code check came out low"
  },
- "taotaochen86/zbridge": {
-  "grade": "C",
-  "slug": "zbridge",
-  "why": "it runs code web pages send it"
+ "jensen-zheng-cmd/Recto-plugin": {
+  "grade": "A",
+  "slug": "recto-plugin",
+  "why": "every code check came out low"
  },
  "jkroes/zotero-tana": {
   "grade": "A",
   "slug": "zotero-tana",
-  "why": "every code check came out low"
- },
- "zkforge/zotero-ask-gpt": {
-  "grade": "B",
-  "slug": "zotero-ask-gpt",
-  "why": "it launches programs on your computer"
- },
- "zhongyangchuwu/Zotero-Bases": {
-  "grade": "A",
-  "slug": "zotero-bases",
   "why": "every code check came out low"
  },
  "Talos-1/zotero-citationcounts": {
@@ -5584,30 +5624,30 @@
   "slug": "zotero-citationcounts--talos-1",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "murphyhoucn/zotero-plugin": {
+ "EthanWangHaven/Zotero-Math-Inline-Fixer": {
   "grade": "A",
-  "slug": "zotero-plugin--murphyhoucn",
+  "slug": "zotero-math-inline-fixer",
+  "why": "every code check came out low"
+ },
+ "yuyichao/zotero-tray": {
+  "grade": "B",
+  "slug": "zotero-tray--yuyichao",
+  "why": "it loads native code"
+ },
+ "yckbz/zotero-vectorize": {
+  "grade": "A",
+  "slug": "zotero-vectorize",
+  "why": "every code check came out low"
+ },
+ "pad-mac/Zotero-Group-Linked-Files": {
+  "grade": "A",
+  "slug": "zotero-group-linked-files",
   "why": "every code check came out low"
  },
  "dinnercooker/minimize-zotero-to-tray-plus": {
   "grade": "B",
   "slug": "minimize-zotero-to-tray-plus",
   "why": "it loads native code, and 1 more finding"
- },
- "Passionate0424/zotero-pdf-compare": {
-  "grade": "A",
-  "slug": "zotero-pdf-compare",
-  "why": "every code check came out low"
- },
- "vbcnft59/zotero-quicklex": {
-  "grade": "A",
-  "slug": "zotero-quicklex",
-  "why": "every code check came out low"
- },
- "jensen-zheng-cmd/Recto-plugin": {
-  "grade": "A",
-  "slug": "recto-plugin",
-  "why": "every code check came out low"
  },
  "sumno-app/sumno-zotero": {
   "grade": "B",
@@ -5629,14 +5669,9 @@
   "slug": "zotero-worldlib-pdf",
   "why": "it uses the network; we couldn't tell where"
  },
- "NysaMisty/Batch-Citations": {
-  "grade": "B",
-  "slug": "batch-citations",
-  "why": "it loads native code"
- },
- "ChanglinWu/zotero-claude-bridge": {
+ "liyanyi21/research-grid": {
   "grade": "A",
-  "slug": "zotero-claude-bridge",
+  "slug": "research-grid",
   "why": "every code check came out low"
  },
  "joydddd/Colorful-Bionic": {
@@ -5654,10 +5689,20 @@
   "slug": "zotero-mcp--maedayoshiaki",
   "why": "we're still checking where its network code sends data"
  },
+ "Adhara666/QBadge": {
+  "grade": "A",
+  "slug": "qbadge",
+  "why": "every code check came out low"
+ },
  "TheGadflyAndMontalleni/Zotero_download_from_scihub": {
   "grade": "A+",
   "slug": "zotero-download-from-scihub",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "Naasi-LF/zotero-split-reader": {
+  "grade": "A",
+  "slug": "zotero-split-reader",
+  "why": "every code check came out low"
  },
  "Cuzimnero/zitatlotse": {
   "grade": "–",
@@ -5669,20 +5714,20 @@
   "slug": "zotero-key-reveal",
   "why": "every code check came out low"
  },
- "EthanWangHaven/Zotero-Math-Inline-Fixer": {
+ "4-Dimethylamino-78-dihydroxyflavone/zsync": {
   "grade": "A",
-  "slug": "zotero-math-inline-fixer",
+  "slug": "zsync",
   "why": "every code check came out low"
+ },
+ "normanify/zotero-attach-size": {
+  "grade": "A+",
+  "slug": "zotero-attach-size",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "unfound77/Fidoic": {
   "grade": "A",
   "slug": "fidoic",
   "why": "every code check came out low"
- },
- "Yrooma/konnash": {
-  "grade": "B",
-  "slug": "konnash",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "veale/metadata-filler-for-zotero": {
   "grade": "B",
@@ -5694,11 +5739,6 @@
   "slug": "research-assistant-zotero",
   "why": "it launches programs on your computer"
  },
- "Naasi-LF/zotero-split-reader": {
-  "grade": "A",
-  "slug": "zotero-split-reader",
-  "why": "every code check came out low"
- },
  "np-atcw/zotero-open-archive": {
   "grade": "A",
   "slug": "zotero-open-archive",
@@ -5709,40 +5749,20 @@
   "slug": "zotero-resource-search-mcp",
   "why": "any website you visit can make it act through its local server: it doesn't check where requests come from, and 1 more finding"
  },
- "yckbz/zotero-vectorize": {
-  "grade": "A",
-  "slug": "zotero-vectorize",
-  "why": "every code check came out low"
- },
  "HaoKnight/Zotero.Quicklook": {
   "grade": "B",
   "slug": "zotero-quicklook--haoknight",
   "why": "updates are set to come from an address someone else could control, and 1 more finding"
  },
- "mohawwadjavad/AyinYar": {
-  "grade": "A",
-  "slug": "ayinyar",
-  "why": "every code check came out low"
- },
- "liyanyi21/research-grid": {
-  "grade": "A",
-  "slug": "research-grid",
-  "why": "every code check came out low"
- },
- "normanify/zotero-attach-size": {
+ "SparkleMuff1n/zotero-collection-colors": {
   "grade": "A+",
-  "slug": "zotero-attach-size",
+  "slug": "zotero-collection-colors",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "Adoream/zotero-citation-count": {
   "grade": "B",
   "slug": "zotero-citation-count",
   "why": "it contacts a server we couldn't identify: api.rua.dev"
- },
- "Adhara666/QBadge": {
-  "grade": "A",
-  "slug": "qbadge",
-  "why": "every code check came out low"
  },
  "liuguanlin80-cell/zotero-sync-translate": {
   "grade": "A",
@@ -5769,6 +5789,11 @@
   "slug": "zoterochat--tsai-ky",
   "why": "every code check came out low"
  },
+ "AlexGrandbell/zotero-wdim": {
+  "grade": "A",
+  "slug": "zotero-wdim",
+  "why": "every code check came out low"
+ },
  "Lilynaux/CitePulse": {
   "grade": "A+",
   "slug": "citepulse",
@@ -5778,6 +5803,11 @@
   "grade": "B",
   "slug": "just-translate-releases",
   "why": "it launches programs on your computer"
+ },
+ "zycyjun/KeepZotero-Windows": {
+  "grade": "B",
+  "slug": "keepzotero-windows",
+  "why": "it uses the network; we couldn't tell where, and 1 more finding"
  },
  "meekflyer/ZoteroKindleNotes": {
   "grade": "A",
@@ -5799,29 +5829,49 @@
   "slug": "wohoo",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "gulubao/zotero-eleven": {
+  "grade": "A",
+  "slug": "zotero-eleven",
+  "why": "every code check came out low"
+ },
  "dennisklappe/zotero-ai-summarizer": {
   "grade": "A",
   "slug": "zotero-ai-summarizer--dennisklappe",
   "why": "every code check came out low"
+ },
+ "Xpropel/zotero-mcp": {
+  "grade": "A+",
+  "slug": "zotero-mcp--xpropel",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "TaNgent-Owl/Zotero_Temporary_Ink": {
   "grade": "A",
   "slug": "zotero-temporary-ink",
   "why": "every code check came out low"
  },
+ "wwtwwwt/zotero-drawio-integration": {
+  "grade": "B",
+  "slug": "zotero-drawio-integration",
+  "why": "it contacts servers we couldn't identify: log.diagrams.net, log.draw.io and www.draw.io"
+ },
+ "hhdkz123-creator/Zotero-jasminum-ai-outline": {
+  "grade": "B",
+  "slug": "zotero-jasminum-ai-outline",
+  "why": "it contacts servers we couldn't identify: find.nlc.cn, ip.chinaz.com and www.douban.com, and 3 more findings"
+ },
  "lovelynewlife/ZoteroOfMine": {
   "grade": "B",
   "slug": "zoteroofmine",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "AlexGrandbell/zotero-wdim": {
-  "grade": "A",
-  "slug": "zotero-wdim",
-  "why": "every code check came out low"
- },
  "GuotuanWang/wenxianbianhao": {
   "grade": "A",
   "slug": "wenxianbianhao",
+  "why": "every code check came out low"
+ },
+ "zackmezera/zotero-autoscroll": {
+  "grade": "A",
+  "slug": "zotero-autoscroll",
   "why": "every code check came out low"
  },
  "yileme/zotero-chapterize": {
@@ -5829,20 +5879,10 @@
   "slug": "zotero-chapterize--yileme",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "SparkleMuff1n/zotero-collection-colors": {
-  "grade": "A+",
-  "slug": "zotero-collection-colors",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
  "khakiakhaki/KeepZot": {
   "grade": "A",
   "slug": "keepzot",
   "why": "every code check came out low"
- },
- "zycyjun/KeepZotero-Windows": {
-  "grade": "B",
-  "slug": "keepzotero-windows",
-  "why": "it uses the network; we couldn't tell where, and 1 more finding"
  },
  "MiguelDLM/Zotlit": {
   "grade": "A+",
@@ -5864,19 +5904,24 @@
   "slug": "lolping-zotero",
   "why": "every code check came out low"
  },
+ "MatanEcon/zotero-remarkable-desktop": {
+  "grade": "B",
+  "slug": "zotero-remarkable-desktop",
+  "why": "it launches programs on your computer"
+ },
  "scaltagi/zotero-show-keys": {
   "grade": "B",
   "slug": "zotero-show-keys",
   "why": "updates are set to come from an address someone else could control"
  },
+ "OneOneLiu/zotero-tag-graph": {
+  "grade": "B",
+  "slug": "zotero-tag-graph",
+  "why": "updates are set to come from an address someone else could control"
+ },
  "reginalluna/zotero-ciation-preview": {
   "grade": "A+",
   "slug": "zotero-ciation-preview",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "Xpropel/zotero-mcp": {
-  "grade": "A+",
-  "slug": "zotero-mcp--xpropel",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "lllaterOn/zotero-tag-editor": {
@@ -5888,11 +5933,6 @@
   "grade": "A+",
   "slug": "zotero-ai-reader--mondyue1001-alt",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "zackmezera/zotero-autoscroll": {
-  "grade": "A",
-  "slug": "zotero-autoscroll",
-  "why": "every code check came out low"
  },
  "gmf3/zotero-bookmark-editor": {
   "grade": "B",
@@ -5939,20 +5979,10 @@
   "slug": "zotero-research-link-manager",
   "why": "it launches programs on your computer"
  },
- "MatanEcon/zotero-remarkable-desktop": {
-  "grade": "B",
-  "slug": "zotero-remarkable-desktop",
-  "why": "it launches programs on your computer"
- },
  "brian-j-griffith/StorScan": {
   "grade": "A",
   "slug": "storscan",
   "why": "every code check came out low"
- },
- "OneOneLiu/zotero-tag-graph": {
-  "grade": "B",
-  "slug": "zotero-tag-graph",
-  "why": "updates are set to come from an address someone else could control"
  },
  "TheCiteShop/the-cite-shop-client-sync": {
   "grade": "B",
@@ -5969,14 +5999,24 @@
   "slug": "zotero-paper-radar--kongyan66",
   "why": "every code check came out low"
  },
- "hhdkz123-creator/Zotero-jasminum-ai-outline": {
-  "grade": "B",
-  "slug": "zotero-jasminum-ai-outline",
-  "why": "it contacts servers we couldn't identify: find.nlc.cn, ip.chinaz.com and www.douban.com, and 3 more findings"
+ "artkuo/ZotGlance": {
+  "grade": "A",
+  "slug": "zotglance",
+  "why": "every code check came out low"
  },
  "Purushka/zotero-concept-explorer": {
   "grade": "A",
   "slug": "zotero-concept-explorer",
+  "why": "every code check came out low"
+ },
+ "dongZheX/zotero-ai-reader": {
+  "grade": "A",
+  "slug": "zotero-ai-reader--dongzhex",
+  "why": "every code check came out low"
+ },
+ "belferIR/notes-migrator-basic": {
+  "grade": "A",
+  "slug": "notes-migrator-basic",
   "why": "every code check came out low"
  },
  "adamsghaier/zotero-replace-pdf": {
@@ -5989,6 +6029,11 @@
   "slug": "reta-ai-chat",
   "why": "every code check came out low"
  },
+ "xiamu508/zotero-scipdf-zotero10": {
+  "grade": "B",
+  "slug": "zotero-scipdf-zotero10",
+  "why": "it changes Zotero settings that aren't its own, and 2 more findings"
+ },
  "xiaoyang0103/zotero-split-view-reader-z10": {
   "grade": "B",
   "slug": "zotero-split-view-reader-z10",
@@ -5998,6 +6043,11 @@
   "grade": "B",
   "slug": "zotero-custom-plugins",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
+ "matospiso/zotero-topk": {
+  "grade": "B",
+  "slug": "zotero-topk",
+  "why": "it launches programs on your computer"
  },
  "Olekd21/Translate-Bridge-for-Zotero": {
   "grade": "B",
@@ -6039,9 +6089,9 @@
   "slug": "zotflag",
   "why": "every code check came out low"
  },
- "4-Dimethylamino-78-dihydroxyflavone/zsync": {
+ "zfergus/zotero-better-read-aloud": {
   "grade": "A",
-  "slug": "zsync",
+  "slug": "zotero-better-read-aloud",
   "why": "every code check came out low"
  },
  "shaowen-ye/zotero-collection-location-menu-plugin": {
@@ -6079,15 +6129,25 @@
   "slug": "zotero-split-viewer",
   "why": "a zotero:// link (a web page can open one) can make it run code without asking you"
  },
- "matospiso/zotero-topk": {
+ "erlichlab/search-for-doi": {
+  "grade": "A",
+  "slug": "search-for-doi",
+  "why": "every code check came out low"
+ },
+ "tacmon/tacmon-trans": {
   "grade": "B",
-  "slug": "zotero-topk",
+  "slug": "tacmon-trans",
   "why": "it launches programs on your computer"
  },
- "gulubao/zotero-eleven": {
-  "grade": "A",
-  "slug": "zotero-eleven",
-  "why": "every code check came out low"
+ "2yubin/trans_yb": {
+  "grade": "B",
+  "slug": "trans-yb",
+  "why": "it launches programs on your computer"
+ },
+ "xjf17/zotero-ai-extension": {
+  "grade": "A+",
+  "slug": "zotero-ai-extension",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "jiang-111/zotero-codex-chat": {
   "grade": "C",
@@ -6129,9 +6189,9 @@
   "slug": "zotero-html-style",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "dongZheX/zotero-ai-reader": {
+ "38260/zotero-wysiwyg-pdf-export": {
   "grade": "A",
-  "slug": "zotero-ai-reader--dongzhex",
+  "slug": "zotero-wysiwyg-pdf-export",
   "why": "every code check came out low"
  },
  "BKBrooklyn/zotero-citation-auto-collection": {
@@ -6154,9 +6214,24 @@
   "slug": "llm-for-zotero-themes-companion",
   "why": "every code check came out low"
  },
+ "y-0768/zotero-manuscript-grid": {
+  "grade": "A",
+  "slug": "zotero-manuscript-grid",
+  "why": "every code check came out low"
+ },
  "Phlya/zotero-paper-import": {
   "grade": "A",
   "slug": "zotero-paper-import",
+  "why": "every code check came out low"
+ },
+ "threeyang3/PaperRead": {
+  "grade": "A",
+  "slug": "paperread",
+  "why": "every code check came out low"
+ },
+ "abdullahmushtaq19/zotero-preview-search-results": {
+  "grade": "A",
+  "slug": "zotero-preview-search-results",
   "why": "every code check came out low"
  },
  "jxpeng98/qiongli": {
@@ -6177,16 +6252,6 @@
  "zhstark/zotero9_gpt_plugin": {
   "grade": "A",
   "slug": "zotero9-gpt-plugin",
-  "why": "every code check came out low"
- },
- "xiamu508/zotero-scipdf-zotero10": {
-  "grade": "B",
-  "slug": "zotero-scipdf-zotero10",
-  "why": "it changes Zotero settings that aren't its own, and 2 more findings"
- },
- "erlichlab/search-for-doi": {
-  "grade": "A",
-  "slug": "search-for-doi",
   "why": "every code check came out low"
  },
  "anfang886/zotero-selection-search": {
@@ -6244,29 +6309,9 @@
   "slug": "literature-daily-reading",
   "why": "every code check came out low"
  },
- "y-0768/zotero-manuscript-grid": {
-  "grade": "A",
-  "slug": "zotero-manuscript-grid",
-  "why": "every code check came out low"
- },
  "djluigipremium-byte/zotero-merge-all-duplicates": {
   "grade": "A",
   "slug": "zotero-merge-all-duplicates",
-  "why": "every code check came out low"
- },
- "belferIR/notes-migrator-basic": {
-  "grade": "A",
-  "slug": "notes-migrator-basic",
-  "why": "every code check came out low"
- },
- "threeyang3/PaperRead": {
-  "grade": "A",
-  "slug": "paperread",
-  "why": "every code check came out low"
- },
- "abdullahmushtaq19/zotero-preview-search-results": {
-  "grade": "A",
-  "slug": "zotero-preview-search-results",
   "why": "every code check came out low"
  },
  "grahmgaydos/zotero-reading-partner": {
@@ -6314,11 +6359,6 @@
   "slug": "zotero-quick-read-note",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "yuyichao/zotero-tray": {
-  "grade": "B",
-  "slug": "zotero-tray--yuyichao",
-  "why": "it loads native code"
- },
  "HDChen27/ZoteroMindMap": {
   "grade": "B",
   "slug": "zoteromindmap",
@@ -6327,11 +6367,6 @@
  "jan-grp/zotvim": {
   "grade": "A",
   "slug": "zotvim",
-  "why": "every code check came out low"
- },
- "38260/zotero-wysiwyg-pdf-export": {
-  "grade": "A",
-  "slug": "zotero-wysiwyg-pdf-export",
   "why": "every code check came out low"
  },
  "jwingnut/zotero-batch-open": {
@@ -6358,11 +6393,6 @@
   "grade": "A",
   "slug": "zotero-paper-updater",
   "why": "every code check came out low"
- },
- "2yubin/trans_yb": {
-  "grade": "B",
-  "slug": "trans-yb",
-  "why": "it launches programs on your computer"
  },
  "matfu-pixel/zotero-vim-note": {
   "grade": "A+",
@@ -6424,10 +6454,10 @@
   "slug": "zotrems",
   "why": "every code check came out low"
  },
- "zfergus/zotero-better-read-aloud": {
-  "grade": "A",
-  "slug": "zotero-better-read-aloud",
-  "why": "every code check came out low"
+ "klskzyh/zotero-english-assistant": {
+  "grade": "B",
+  "slug": "zotero-english-assistant",
+  "why": "it launches programs on your computer"
  },
  "shaowen-ye/zotero-collection-structure-manager-plugin": {
   "grade": "A",
@@ -6439,15 +6469,15 @@
   "slug": "zoterocrop",
   "why": "it launches programs on your computer"
  },
- "pad-mac/Zotero-Group-Linked-Files": {
-  "grade": "A",
-  "slug": "zotero-group-linked-files",
-  "why": "every code check came out low"
- },
  "fanqing203/openclaw-for-zotero": {
   "grade": "A",
   "slug": "openclaw-for-zotero",
   "why": "every code check came out low"
+ },
+ "GW19ddd/PaperFlow": {
+  "grade": "B",
+  "slug": "paperflow--gw19ddd",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
  "jinkeguo/PaperLoop": {
   "grade": "A",
@@ -6469,14 +6499,14 @@
   "slug": "twinlens-zotero",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "421zuoduan/zotero-verso-fulltext": {
+  "grade": "C",
+  "slug": "zotero-verso-fulltext",
+  "why": "it downloads and runs a program we haven't reviewed yet, and 1 more finding"
+ },
  "rbialoz/ZotReKey": {
   "grade": "A+",
   "slug": "zotrekey",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "xjf17/zotero-ai-extension": {
-  "grade": "A+",
-  "slug": "zotero-ai-extension",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "leobba/litflow": {
@@ -6509,10 +6539,15 @@
   "slug": "zotero-theme-switcher",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "klskzyh/zotero-english-assistant": {
-  "grade": "B",
-  "slug": "zotero-english-assistant",
-  "why": "it launches programs on your computer"
+ "nerdneilsfield/ZotPass": {
+  "grade": "A+",
+  "slug": "zotpass",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
+ "daewaf/zotero-term-ai": {
+  "grade": "A",
+  "slug": "zotero-term-ai",
+  "why": "every code check came out low"
  },
  "ailsammy03152-jpg/zotero-plugging": {
   "grade": "A",
@@ -6634,30 +6669,35 @@
   "slug": "zotero-utils",
   "why": "it launches programs on your computer"
  },
+ "eric-sly/zotero-mcp-manager": {
+  "grade": "B",
+  "slug": "zotero-mcp-manager",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ },
  "zebin426-wq/zotero-semantic-scholar-assistant": {
   "grade": "A",
   "slug": "zotero-semantic-scholar-assistant",
   "why": "every code check came out low"
  },
- "nerdneilsfield/ZotPass": {
-  "grade": "A+",
-  "slug": "zotpass",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ "Wences91/zotero-valoracion": {
+  "grade": "A",
+  "slug": "zotero-valoracion",
+  "why": "every code check came out low"
  },
  "WangErgouaaaa/zotero-note-batch-exporter": {
   "grade": "B",
   "slug": "zotero-note-batch-exporter",
   "why": "updates are set to come from an address someone else could control"
  },
- "daewaf/zotero-term-ai": {
-  "grade": "A",
-  "slug": "zotero-term-ai",
-  "why": "every code check came out low"
- },
  "wprimett/academic-lens-plugin": {
   "grade": "B",
   "slug": "academic-lens-plugin",
   "why": "updates are set to come from an address someone else could control, and 1 more finding"
+ },
+ "GW19ddd/zotero-better-viewer": {
+  "grade": "B",
+  "slug": "zotero-better-viewer",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "ChanceZhangcr/zotero-bilingual-reader": {
   "grade": "A",
@@ -6734,10 +6774,10 @@
   "slug": "zotero-onekey-annotations",
   "why": "every code check came out low"
  },
- "GW19ddd/PaperFlow": {
-  "grade": "B",
-  "slug": "paperflow--gw19ddd",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
+ "jacob-rosenthal/zotero-pin": {
+  "grade": "A",
+  "slug": "zotero-pin",
+  "why": "every code check came out low"
  },
  "y1-fan/Re-Kubikatia": {
   "grade": "A",
@@ -6758,11 +6798,6 @@
   "grade": "B",
   "slug": "zotero-smart-import",
   "why": "updates are set to come from an address someone else could control"
- },
- "421zuoduan/zotero-verso-fulltext": {
-  "grade": "C",
-  "slug": "zotero-verso-fulltext",
-  "why": "it downloads and runs a program we haven't reviewed yet, and 1 more finding"
  },
  "Daniel-Addae/zotero-vertical-tab-groups": {
   "grade": "A",
@@ -6819,6 +6854,11 @@
   "slug": "zotero-research-copilot--neroaway",
   "why": "every code check came out low"
  },
+ "dingzy53/zotero-S2": {
+  "grade": "A",
+  "slug": "zotero-s2",
+  "why": "every code check came out low"
+ },
  "asuka123456789/zotero-topic-explorer": {
   "grade": "B",
   "slug": "zotero-topic-explorer",
@@ -6828,11 +6868,6 @@
   "grade": "B",
   "slug": "zotero-wordbook--lfan0103",
   "why": "updates are set to come from an address someone else could control, and 2 more findings"
- },
- "Wences91/zotero-valoracion": {
-  "grade": "A",
-  "slug": "zotero-valoracion",
-  "why": "every code check came out low"
  },
  "meizano/zotfile": {
   "grade": "B",
@@ -6853,11 +6888,6 @@
   "grade": "A",
   "slug": "paperbridge-zotero",
   "why": "every code check came out low"
- },
- "GW19ddd/zotero-better-viewer": {
-  "grade": "B",
-  "slug": "zotero-better-viewer",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "seanlawsonphd/zotero-coding-templates": {
   "grade": "A",
@@ -6904,6 +6934,11 @@
   "slug": "openclaw-zotero-channel",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
+ "suppakoko/research_helper": {
+  "grade": "A+",
+  "slug": "research-helper",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
  "hyfaust/zotero-roam": {
   "grade": "B",
   "slug": "zotero-roam",
@@ -6919,11 +6954,6 @@
   "slug": "zotero-sort-by-annotation",
   "why": "updates are set to come from an address someone else could control, and 2 more findings"
  },
- "tacmon/tacmon-trans": {
-  "grade": "B",
-  "slug": "tacmon-trans",
-  "why": "it launches programs on your computer"
- },
  "wqe134/zotero-pdf-translate-custom": {
   "grade": "B",
   "slug": "zotero-pdf-translate-custom",
@@ -6938,6 +6968,11 @@
   "grade": "C",
   "slug": "zoteroagy",
   "why": "it launches programs on your computer"
+ },
+ "Seraphina523/zotero-ai-assistant": {
+  "grade": "B",
+  "slug": "zotero-ai-assistant--seraphina523",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "Wfssll/zotero-browser": {
   "grade": "C",
@@ -6964,6 +6999,11 @@
   "slug": "zotero-gpt-binder-update-channel",
   "why": "every code check came out low"
  },
+ "yellow-queer/zotero-LLM_summerize": {
+  "grade": "A+",
+  "slug": "zotero-llm-summerize",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ },
  "caohh2077-netizen/zotero-pdf2zh-codex": {
   "grade": "B",
   "slug": "zotero-pdf2zh-codex",
@@ -6977,11 +7017,6 @@
  "wengu4765-lang/zotero-scholar-suite": {
   "grade": "B",
   "slug": "zotero-scholar-suite",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
- },
- "eric-sly/zotero-mcp-manager": {
-  "grade": "B",
-  "slug": "zotero-mcp-manager",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 2 more findings"
  },
  "fdossi/zotread": {
@@ -7044,6 +7079,11 @@
   "slug": "zotero-bridge-updates",
   "why": "it loads native code"
  },
+ "kaiwen-wang/zotero-open-items-plugin": {
+  "grade": "B",
+  "slug": "zotero-open-items-plugin",
+  "why": "updates are set to come from an address someone else could control, and 2 more findings"
+ },
  "mqjinwon/zotero-paper-ai": {
   "grade": "B",
   "slug": "zotero-paper-ai",
@@ -7079,10 +7119,10 @@
   "slug": "zot-anlp",
   "why": "every code check came out low"
  },
- "Seraphina523/zotero-ai-assistant": {
-  "grade": "B",
-  "slug": "zotero-ai-assistant--seraphina523",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
+ "nikstuckenbrock/zotero-auto-translate": {
+  "grade": "A",
+  "slug": "zotero-auto-translate",
+  "why": "every code check came out low"
  },
  "LiuAoran/zotero-capsules-status-tag": {
   "grade": "A",
@@ -7104,20 +7144,10 @@
   "slug": "zotero-image-uploader",
   "why": "it hands your data to PicList automatically; we can't check where it goes from there"
  },
- "yellow-queer/zotero-LLM_summerize": {
-  "grade": "A+",
-  "slug": "zotero-llm-summerize",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
  "Zhoas/zotero-md-annotations": {
   "grade": "A+",
   "slug": "zotero-md-annotations",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
- },
- "dingzy53/zotero-S2": {
-  "grade": "A",
-  "slug": "zotero-s2",
-  "why": "every code check came out low"
  },
  "wuc9521/zotero-search": {
   "grade": "A",
@@ -7128,6 +7158,11 @@
   "grade": "C",
   "slug": "zoteromultiplelibraries",
   "why": "it writes to Zotero's database directly"
+ },
+ "112345brian/zotero-zotflow-autosync": {
+  "grade": "A+",
+  "slug": "zotero-zotflow-autosync",
+  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "kiastien/zotodo": {
   "grade": "A",
@@ -7204,10 +7239,10 @@
   "slug": "zotero-to-obsidian",
   "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
- "kaiwen-wang/zotero-open-items-plugin": {
-  "grade": "B",
-  "slug": "zotero-open-items-plugin",
-  "why": "updates are set to come from an address someone else could control, and 2 more findings"
+ "guochengran464-byte/zotero-orange-translate": {
+  "grade": "C",
+  "slug": "zotero-orange-translate",
+  "why": "it installs and runs npm or PyPI packages without a fixed version"
  },
  "WeekendP/zotero-paper-chat": {
   "grade": "B",
@@ -7223,11 +7258,6 @@
   "grade": "B",
   "slug": "zotero-refsense",
   "why": "updates are set to come from an address someone else could control"
- },
- "suppakoko/research_helper": {
-  "grade": "A+",
-  "slug": "research-helper",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
  },
  "let778750-cpu/transfer-plus": {
   "grade": "B",
@@ -7284,6 +7314,11 @@
   "slug": "zotero-import-preprocessor",
   "why": "every code check came out low"
  },
+ "lianghx123/zoteroknowledgemcp": {
+  "grade": "A",
+  "slug": "zoteroknowledgemcp",
+  "why": "every code check came out low"
+ },
  "liongkj/zotero-library-bridge-skills": {
   "grade": "C",
   "slug": "zotero-library-bridge-skills",
@@ -7329,10 +7364,10 @@
   "slug": "zotero-localchat",
   "why": "it launches programs on your computer"
  },
- "112345brian/zotero-zotflow-autosync": {
-  "grade": "A+",
-  "slug": "zotero-zotflow-autosync",
-  "why": "every code check came out low, and our live test in Zotero found nothing unexpected"
+ "N1116839/scu-apa7": {
+  "grade": "A",
+  "slug": "scu-apa7",
+  "why": "every code check came out low"
  },
  "jackdhch/zotero-research-companion": {
   "grade": "A",
@@ -7348,6 +7383,11 @@
   "grade": "B",
   "slug": "zotero-page-organizer",
   "why": "it launches programs on your computer"
+ },
+ "booknary/ai-related-papers": {
+  "grade": "B",
+  "slug": "ai-related-papers",
+  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "WentianGodlike/Zotero-AskPage": {
   "grade": "B",
@@ -7454,6 +7494,11 @@
   "slug": "stratum-zotero",
   "why": "we're still checking where its network code sends data"
  },
+ "hynchl/zotero-tag-column": {
+  "grade": "A",
+  "slug": "zotero-tag-column",
+  "why": "every code check came out low"
+ },
  "peash182/Zotero-for-WordCraft": {
   "grade": "B",
   "slug": "zotero-for-wordcraft",
@@ -7499,11 +7544,6 @@
   "slug": "zotero-infinity",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "lianghx123/zoteroknowledgemcp": {
-  "grade": "A",
-  "slug": "zoteroknowledgemcp",
-  "why": "every code check came out low"
- },
  "PracticeEarnestly/zotero-ai-literature-workflow": {
   "grade": "A",
   "slug": "zotero-ai-literature-workflow",
@@ -7529,11 +7569,6 @@
   "slug": "zotero-academic-translator",
   "why": "it launches programs on your computer"
  },
- "wwtwwwt/zotero-drawio-integration": {
-  "grade": "B",
-  "slug": "zotero-drawio-integration",
-  "why": "it contacts servers we couldn't identify: log.diagrams.net, log.draw.io and www.draw.io"
- },
  "zqh666666666/paper-lens-zotero": {
   "grade": "A",
   "slug": "paper-lens-zotero",
@@ -7544,20 +7579,10 @@
   "slug": "zotero-reading-progress",
   "why": "every code check came out low"
  },
- "N1116839/scu-apa7": {
-  "grade": "A",
-  "slug": "scu-apa7",
-  "why": "every code check came out low"
- },
  "JinPengLGM/zotero-reading-setup": {
   "grade": "A",
   "slug": "zotero-reading-setup",
   "why": "every code check came out low"
- },
- "booknary/ai-related-papers": {
-  "grade": "B",
-  "slug": "ai-related-papers",
-  "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
  "Cruysyue/ai-paper-plugin-for-zotero": {
   "grade": "A",
@@ -7619,6 +7644,11 @@
   "slug": "zotero-hide-scrollbar",
   "why": "every code check came out low"
  },
+ "dragonlau0924/zotero-hover-bars": {
+  "grade": "A",
+  "slug": "zotero-hover-bars",
+  "why": "every code check came out low"
+ },
  "anfang886/zotero-info-compact": {
   "grade": "A+",
   "slug": "zotero-info-compact",
@@ -7644,10 +7674,10 @@
   "slug": "zotero-magic-digest-papers",
   "why": "updates are set to come from an address someone else could control, and 2 more findings"
  },
- "guochengran464-byte/zotero-orange-translate": {
-  "grade": "C",
-  "slug": "zotero-orange-translate",
-  "why": "it installs and runs npm or PyPI packages without a fixed version"
+ "FilippoAiraldi/zotero-open-with": {
+  "grade": "B",
+  "slug": "zotero-open-with--filippoairaldi",
+  "why": "it launches programs on your computer"
  },
  "noaul/PaperPulse": {
   "grade": "A",
@@ -7682,11 +7712,6 @@
  "linfeng-du/semantic-scholar-citations": {
   "grade": "A",
   "slug": "semantic-scholar-citations",
-  "why": "every code check came out low"
- },
- "hynchl/zotero-tag-column": {
-  "grade": "A",
-  "slug": "zotero-tag-column",
   "why": "every code check came out low"
  },
  "JYKiki/Zotero-topic-focus-sync": {
@@ -7754,6 +7779,21 @@
   "slug": "zotpdf2md",
   "why": "every code check came out low"
  },
+ "justaLoli/zotero-collection-cleaner": {
+  "grade": "A",
+  "slug": "zotero-collection-cleaner",
+  "why": "every code check came out low"
+ },
+ "fulinrenjian/zotero-reliable-translate": {
+  "grade": "B",
+  "slug": "zotero-reliable-translate",
+  "why": "it sends your text or keys unencrypted (http://) to api.fanyi.baidu.com, api.interpreter.caiyunai.com and 2 more"
+ },
+ "LeKD6/Annotex-Zotero": {
+  "grade": "A",
+  "slug": "annotex-zotero",
+  "why": "every code check came out low"
+ },
  "zenon-lzz/ZoteroBaidupanSync": {
   "grade": "B",
   "slug": "zoterobaidupansync",
@@ -7814,6 +7854,11 @@
   "slug": "margin-markdown",
   "why": "every code check came out low"
  },
+ "ZHENHUIFU/zotero-markdown-paste": {
+  "grade": "A",
+  "slug": "zotero-markdown-paste",
+  "why": "every code check came out low"
+ },
  "juniorxxue/zotero-copypath": {
   "grade": "A",
   "slug": "zotero-copypath",
@@ -7829,19 +7874,9 @@
   "slug": "notebook-zotero-backlink",
   "why": "a zotero:// link (a web page can open one) can make it install add-ons without asking you (from zotero-plugin-toolkit), and 1 more finding"
  },
- "FilippoAiraldi/zotero-open-with": {
-  "grade": "B",
-  "slug": "zotero-open-with--filippoairaldi",
-  "why": "it launches programs on your computer"
- },
  "FedeFRC/Zotero-Paper-Viewer": {
   "grade": "A",
   "slug": "zotero-paper-viewer",
-  "why": "every code check came out low"
- },
- "jacob-rosenthal/zotero-pin": {
-  "grade": "A",
-  "slug": "zotero-pin",
   "why": "every code check came out low"
  },
  "mizumoto-cn/zotero-rainbow": {
@@ -7907,6 +7942,11 @@
  "petrbouchal/zotero-biblio-html": {
   "grade": "A",
   "slug": "zotero-biblio-html",
+  "why": "every code check came out low"
+ },
+ "OK-Feng-hash/zotero-card-view": {
+  "grade": "A",
+  "slug": "zotero-card-view",
   "why": "every code check came out low"
  },
  "sorinhostiuc/zotero-instant-cite": {
@@ -7984,11 +8024,6 @@
   "slug": "zsearch",
   "why": "updates are set to come from an address someone else could control, and 2 more findings"
  },
- "fulinrenjian/zotero-reliable-translate": {
-  "grade": "B",
-  "slug": "zotero-reliable-translate",
-  "why": "it sends your text or keys unencrypted (http://) to api.fanyi.baidu.com, api.interpreter.caiyunai.com and 2 more"
- },
  "Odyssues-Alax/zotero-bilingual-pdf": {
   "grade": "C",
   "slug": "zotero-bilingual-pdf--odyssues-alax",
@@ -8014,10 +8049,10 @@
   "slug": "zotero-paper-note-deepseek",
   "why": "every code check came out low"
  },
- "LeKD6/Annotex-Zotero": {
-  "grade": "A",
-  "slug": "annotex-zotero",
-  "why": "every code check came out low"
+ "lislond/zotero-attachment-manager": {
+  "grade": "B",
+  "slug": "zotero-attachment-manager",
+  "why": "it loads native code, and 1 more finding"
  },
  "24kMengXin/atr-zotero-workbench": {
   "grade": "A+",
@@ -8054,11 +8089,6 @@
   "slug": "hide-annotations",
   "why": "every code check came out low"
  },
- "dragonlau0924/zotero-hover-bars": {
-  "grade": "A",
-  "slug": "zotero-hover-bars",
-  "why": "every code check came out low"
- },
  "CYandYue/BabelDOC_Zotero_Translate": {
   "grade": "B",
   "slug": "babeldoc-zotero-translate",
@@ -8073,11 +8103,6 @@
   "grade": "C",
   "slug": "zotero-ai-reading-bridge",
   "why": "it downloads and runs a program we haven't reviewed yet, and 2 more findings"
- },
- "ZHENHUIFU/zotero-markdown-paste": {
-  "grade": "A",
-  "slug": "zotero-markdown-paste",
-  "why": "every code check came out low"
  },
  "Aquascend/zotero-metafolio": {
   "grade": "A",
@@ -8189,19 +8214,9 @@
   "slug": "zotero-archive-plugin",
   "why": "every code check came out low"
  },
- "nikstuckenbrock/zotero-auto-translate": {
-  "grade": "A",
-  "slug": "zotero-auto-translate",
-  "why": "every code check came out low"
- },
  "tianlanvera/zotero-autonote": {
   "grade": "A",
   "slug": "zotero-autonote",
-  "why": "every code check came out low"
- },
- "OK-Feng-hash/zotero-card-view": {
-  "grade": "A",
-  "slug": "zotero-card-view",
   "why": "every code check came out low"
  },
  "ahzs645/zotero-cite-gen": {
@@ -8248,6 +8263,11 @@
   "grade": "A",
   "slug": "zotero-column-optimization",
   "why": "every code check came out low"
+ },
+ "LoyWeiWin/Plugin_Zotero_Zotfile": {
+  "grade": "C",
+  "slug": "plugin-zotero-zotfile",
+  "why": "it downloads a program over unencrypted http and runs it unchecked"
  },
  "LoyWeiWin/Plugin_Zotero_ZotTagClear": {
   "grade": "A",
@@ -8419,25 +8439,10 @@
   "slug": "plugin-zotero-zotfield",
   "why": "every code check came out low"
  },
- "LoyWeiWin/Plugin_Zotero_Zotfile": {
-  "grade": "C",
-  "slug": "plugin-zotero-zotfile",
-  "why": "it downloads a program over unencrypted http and runs it unchecked"
- },
  "walking-wisely/dstu-8302-zotero": {
   "grade": "A",
   "slug": "dstu-8302-zotero",
   "why": "every code check came out low"
- },
- "justaLoli/zotero-collection-cleaner": {
-  "grade": "A",
-  "slug": "zotero-collection-cleaner",
-  "why": "every code check came out low"
- },
- "lislond/zotero-copy-attachment-file": {
-  "grade": "B",
-  "slug": "zotero-copy-attachment-file",
-  "why": "it loads native code"
  },
  "i6tears/Zotero-remarks": {
   "grade": "A",
@@ -8563,10 +8568,5 @@
   "grade": "C",
   "slug": "zotero-agent-mcp",
   "why": "it installs and runs npm or PyPI packages without a fixed version"
- },
- "artkuo/ZotGlance": {
-  "grade": "A",
-  "slug": "zotglance",
-  "why": "every code check came out low"
  }
 }
