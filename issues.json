@@ -119,7 +119,7 @@
   "closed": 0
  },
  "54yyyu/zotero-mcp": {
-  "open": 35,
+  "open": 37,
   "closed": 329
  },
  "577glq/scholarlens": {
@@ -155,12 +155,12 @@
   "closed": 0
  },
  "ANGJustinl/zotero-plugin-hjfy": {
-  "open": 1,
+  "open": 2,
   "closed": 2
  },
  "AaronGIG/pdf2zh-desktop": {
-  "open": 1,
-  "closed": 37
+  "open": 0,
+  "closed": 38
  },
  "Aaronkhodami/ZotGit": {
   "open": 0,
@@ -726,7 +726,7 @@
  },
  "FluentRead/FluentRead": {
   "open": 42,
-  "closed": 313
+  "closed": 314
  },
  "ForsakenDelusion/zotero-canvas-chat": {
   "open": 0,
@@ -753,7 +753,7 @@
   "closed": 0
  },
  "GOKORURI007/zotero-api-plus": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "GW19ddd/PaperFlow": {
@@ -845,7 +845,7 @@
   "closed": 1
  },
  "HRS0986/ZoteroPDF": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "HUANGWennan/zotero-ai-reading-bridge": {
@@ -1030,8 +1030,8 @@
   "closed": 0
  },
  "Jajaho/zotero-citation-graph": {
-  "open": 8,
-  "closed": 16
+  "open": 13,
+  "closed": 18
  },
  "JanR383/zotero-qualified-references": {
   "open": 0,
@@ -1066,7 +1066,7 @@
   "closed": 0
  },
  "JimCSuen/Zotero-reference-graph": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "JimmyJuan/zotero-vim-half-scroll": {
@@ -1236,7 +1236,7 @@
   "closed": 0
  },
  "Lendle-King/zotero-bibtex-copy": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "Leonezz/tasks-timeline-zotero": {
@@ -2196,8 +2196,8 @@
   "closed": 0
  },
  "Visterainer/zoteroAI": {
-  "open": 1,
-  "closed": 43
+  "open": 0,
+  "closed": 44
  },
  "Vithrive/llm-for-zotero-sync": {
   "open": 0,
@@ -2655,7 +2655,7 @@
   "closed": 0
  },
  "alansirius/Zotero-Exitem": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "alanzeng423/zotero-paperlens": {
@@ -2687,7 +2687,7 @@
   "closed": 0
  },
  "alfredhw/zotero-to-voyant": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "alh63/zotero-bibfix": {
@@ -3274,7 +3274,7 @@
   "closed": 0
  },
  "dinosv/ZotTablet": {
-  "open": 1,
+  "open": 2,
   "closed": 0
  },
  "distinguish-dot/zotero-doi-order": {
@@ -3349,8 +3349,8 @@
   "closed": 0
  },
  "dzackgarza/zotero-local-write-api": {
-  "open": 15,
-  "closed": 28
+  "open": 13,
+  "closed": 30
  },
  "earnest-zhang/zotero-component-datasheets": {
   "open": 0,
@@ -3753,7 +3753,7 @@
   "closed": 0
  },
  "guokelei1/zotero-export-pdf": {
-  "open": 2,
+  "open": 3,
   "closed": 0
  },
  "guoxinlu17-cmyk/dsh-bridge": {
@@ -4274,9 +4274,6 @@
  "joshgao22/ZoteroCitationCountsManager": {
   "disabled": true
  },
- "joydddd/Colorful-Bionic": {
-  "disabled": true
- },
  "jr-xing/2026-10-24-zotero-rich-comment-panel": {
   "open": 0,
   "closed": 0
@@ -4426,7 +4423,7 @@
   "closed": 1
  },
  "kevin65536/zotero-openreview-plugin": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "khakiakhaki/KeepZot": {
@@ -4561,7 +4558,7 @@
   "closed": 365
  },
  "l0o0/scholar-sketch": {
-  "open": 2,
+  "open": 3,
   "closed": 10
  },
  "l0o0/tara": {
@@ -4720,7 +4717,7 @@
   "closed": 0
  },
  "liuaustin/zotero-pdf-mem-cleanup": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "liuguanlin80-cell/zotero-sync-translate": {
@@ -4933,7 +4930,7 @@
   "disabled": true
  },
  "menyoung/zoTLDR": {
-  "open": 4,
+  "open": 5,
   "closed": 0
  },
  "merc-hecl/zota": {
@@ -4965,8 +4962,8 @@
   "closed": 0
  },
  "mjthoraval/Weavero": {
-  "open": 3,
-  "closed": 47
+  "open": 2,
+  "closed": 48
  },
  "mkant18/zotero_law": {
   "open": 0,
@@ -5422,7 +5419,7 @@
   "closed": 1
  },
  "quillamio/bilingual-reader": {
-  "open": 2,
+  "open": 3,
   "closed": 0
  },
  "quinn-zilly/zotero-wiki-citations": {
@@ -5501,8 +5498,8 @@
   "closed": 3
  },
  "retorquere/zotero-better-bibtex": {
-  "open": 46,
-  "closed": 2558
+  "open": 44,
+  "closed": 2560
  },
  "retorquere/zotero-date-from-last-modified": {
   "open": 1,
@@ -5549,7 +5546,7 @@
   "closed": 0
  },
  "roderickvella/Zotero-Item-Key-Column": {
-  "open": 3,
+  "open": 4,
   "closed": 0
  },
  "roey-angel/zotero-semantic-tagger": {
@@ -5756,7 +5753,7 @@
   "closed": 0
  },
  "sheny-bio/marginalia": {
-  "open": 1,
+  "open": 2,
   "closed": 4
  },
  "shi-keke/vocab-for-zotero": {
@@ -5918,7 +5915,7 @@
   "closed": 2
  },
  "steven-jianhao-li/zotero-AI-Butler": {
-  "open": 3,
+  "open": 4,
   "closed": 187
  },
  "steven-jianhao-li/zotero-AI-Butler-Fang": {
@@ -6026,7 +6023,7 @@
   "closed": 66
  },
  "tenglvjun/mktero": {
-  "open": 3,
+  "open": 4,
   "closed": 15
  },
  "text70/zotero_ai": {
@@ -6133,7 +6130,7 @@
   "closed": 0
  },
  "urtzienriquez/zotero.nvim": {
-  "open": 1,
+  "open": 2,
   "closed": 3
  },
  "ustc-iontrap/Zotero-Author-Search": {
@@ -6173,7 +6170,7 @@
   "closed": 0
  },
  "veale/metadata-filler-for-zotero": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "vecear/zotero-epub": {
@@ -6262,7 +6259,7 @@
   "closed": 0
  },
  "wazeruan/zotero-translate-plugin": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "wbthomason/zotodo": {
@@ -6358,7 +6355,7 @@
   "closed": 88
  },
  "windingwind/zotero-pdf-translate": {
-  "open": 7,
+  "open": 8,
   "closed": 1083
  },
  "windingwind/zotero-plugin-template": {
@@ -6409,7 +6406,7 @@
   "closed": 0
  },
  "wuok0618/zotero-sidemark": {
-  "open": 2,
+  "open": 3,
   "closed": 0
  },
  "wuxinxin27/zotero-reading-room": {
@@ -6532,7 +6529,7 @@
   "closed": 0
  },
  "xuhan-rgb/zotero-ai-sidebar": {
-  "open": 2,
+  "open": 3,
   "closed": 17
  },
  "xujialiu/Zotero-OpenReader": {
@@ -6620,7 +6617,7 @@
   "closed": 0
  },
  "yilewang/llm-for-zotero": {
-  "open": 179,
+  "open": 182,
   "closed": 217
  },
  "yimmy23/zotero-refs": {
@@ -6664,7 +6661,7 @@
   "closed": 0
  },
  "yueneiqi/zotero2eagle": {
-  "open": 3,
+  "open": 4,
   "closed": 4
  },
  "yulong-ge/zotero-citation-preview": {
@@ -6720,7 +6717,7 @@
   "closed": 0
  },
  "zcyisiee/zotero-tts-reader": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "zebin426-wq/zotero-semantic-scholar-assistant": {
@@ -6802,7 +6799,7 @@
  },
  "zhongyangchuwu/Zotero-Bases": {
   "open": 0,
-  "closed": 0
+  "closed": 1
  },
  "zhongyangchuwu/Zotero-Neo": {
   "open": 7,
@@ -6905,7 +6902,7 @@
   "closed": 0
  },
  "zzangho/zotero-gemini": {
-  "open": 0,
+  "open": 1,
   "closed": 0
  },
  "zzlb0224/zotero-annotation-manage": {
