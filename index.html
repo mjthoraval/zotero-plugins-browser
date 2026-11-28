@@ -112,8 +112,8 @@
   .rating-tip .hint { margin-top: 0.15rem; color: var(--fg-muted); }
   td.date, td.version, td.updated { white-space: nowrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.8rem; color: var(--fg-muted); }
   td.issues { white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.82rem; }
-  /* A plugin whose newest release declares a Zotero major that Zotero asks
-     plugins not to declare yet (see ALLOWED_ZOTERO_MAJOR). */
+  /* A plugin whose newest release declares a maximum higher than Zotero
+     allows yet (see ALLOWED_MAX_VERSION). */
   tbody tr.overdeclared { box-shadow: inset 4px 0 0 var(--bad); }
   tbody tr.overdeclared td.name a { color: var(--bad); }
   td.version .max { display: block; color: var(--bad); font-size: 0.72rem; }
@@ -260,9 +260,14 @@ async function fetchFirst(urls) {
 // plugins not to declare the next one until it announces, on the zotero-dev
 // list, that it is feature-frozen. Zotero 11's freeze was announced on
 // 2026-11-27 ("Zotero 11 feature freeze -- update your plugins",
-// https://groups.google.com/g/zotero-dev/c/sKXoY_k2V3k): 11 is allowed now,
-// 12 and above are not. Raise this again at Zotero 12's announcement.
+// https://groups.google.com/g/zotero-dev/c/sKXoY_k2V3k): "you shouldn't set
+// strict_max_version to a version higher than 11.0.*". So the limit is a
+// VERSION, not a major: 11.*, 11.*.* and 11.1 are higher than 11.0.* (checked
+// with Zotero's own Services.vc.compare, 2026-11-28). ALLOWED_ZOTERO_MAJOR
+// drives the version selector; ALLOWED_MAX_VERSION the red mark. Raise both at
+// Zotero 12's announcement (to 12 and "12.0.*").
 const ALLOWED_ZOTERO_MAJOR = 11;
+const ALLOWED_MAX_VERSION = "11.0.*";
 const COMPAT_RULE_URL = "https://www.zotero.org/support/dev/zotero_11_for_developers#updating_plugin_compatibility";
 
 const SORT_DEFAULT = "stars-desc";
@@ -527,17 +532,39 @@ function pickRelease(plugin, zTarget) {
   return rels.find(r => Number(r.targetZoteroVersion) <= ALLOWED_ZOTERO_MAJOR) || rels[0] || {};
 }
 
-// Major version of a declared maximum: "11.*" -> 11, "10.99.99" -> 10,
-// "*" -> Infinity (open-ended); null when there is no number to read.
-function maxMajor(v) {
-  if (!v) return null;
-  if (String(v).trim() === "*") return Infinity;
-  const m = /^\s*(\d+)/.exec(v);
-  return m ? Number(m[1]) : null;
+// Mozilla's toolkit version comparison (nsVersionComparator), as Zotero applies
+// it to strict_max_version: dot-separated parts, each a number, a string, a
+// number and a tail; "*" is greater than any number; a missing part is 0; a
+// missing string is greater than any string (1.0 > 1.0pre); "1+" is "2pre".
+// Matches Services.vc.compare on every maximum in the data (2026-11-28).
+function vcPart(p) {
+  if (p === undefined || p === "") return [0, "", 0, ""];
+  if (p === "*") return [Infinity, "", 0, ""];
+  const m = /^(-?\d*)([^-\d]*)(-?\d*)(.*)$/.exec(p);
+  const a = m[1] === "" ? 0 : parseInt(m[1], 10);
+  const c = m[3] === "" ? 0 : parseInt(m[3], 10);
+  return m[2] === "+" ? [a + 1, "pre", c, m[4]] : [a, m[2], c, m[4]];
+}
+function vcStr(x, y) {
+  if (x === y) return 0;
+  if (x === "") return 1;
+  if (y === "") return -1;
+  return x < y ? -1 : 1;
+}
+function compareVersions(v1, v2) {
+  const a = String(v1).trim().split("."), b = String(v2).trim().split(".");
+  for (let i = 0; i < Math.max(a.length, b.length); i++) {
+    const p = vcPart(a[i]), q = vcPart(b[i]);
+    if (p[0] !== q[0]) return p[0] < q[0] ? -1 : 1;
+    let r = vcStr(p[1], q[1]); if (r) return r;
+    if (p[2] !== q[2]) return p[2] < q[2] ? -1 : 1;
+    r = vcStr(p[3], q[3]); if (r) return r;
+  }
+  return 0;
 }
 
-// The maximum declared by the plugin's NEWEST listed release, when it goes past
-// ALLOWED_ZOTERO_MAJOR; else null. Judged on the newest release only: an
+// The maximum declared by the plugin's NEWEST listed release, when it is higher
+// than ALLOWED_MAX_VERSION; else null. Judged on the newest release only: an
 // older one may still be listed for an old Zotero target after the author has
 // corrected the maximum (Better BibTeX's v9.0.27 declared "19.*", v9.0.71 "10.*").
 function overdeclaredMax(plugin) {
@@ -545,8 +572,8 @@ function overdeclaredMax(plugin) {
   for (const r of plugin.releases || []) {
     if (!newest || (r.releaseDate || "") > (newest.releaseDate || "")) newest = r;
   }
-  const major = newest && maxMajor(newest.maxZoteroVersion);
-  return major != null && major > ALLOWED_ZOTERO_MAJOR ? newest.maxZoteroVersion : null;
+  const max = newest && newest.maxZoteroVersion;
+  return max && compareVersions(max, ALLOWED_MAX_VERSION) > 0 ? max : null;
 }
 
 // Latest release date across ALL releases, independent of the selected Zotero
@@ -789,7 +816,7 @@ function render() {
       : (state.latestDownloads[p.repo]?.downloads === null ? "The latest release has no XPI file" : "Not counted yet");
     const overMax = overdeclaredMax(p);
     const overTip = overMax
-      ? `Declares compatibility up to Zotero ${overMax}. Zotero asks plugins not to declare compatibility with Zotero ${ALLOWED_ZOTERO_MAJOR + 1} until it announces the feature freeze.`
+      ? `Declares compatibility up to Zotero ${overMax}. Zotero asks plugins not to declare a maximum higher than ${ALLOWED_MAX_VERSION} (versions not tested yet).`
       : "";
 
     return `
@@ -896,8 +923,8 @@ function renderOverdeclaredNote() {
   const el = document.getElementById("overdeclared");
   if (!n) { el.innerHTML = ""; return; }
   el.innerHTML = `· <a href="${COMPAT_RULE_URL}" target="_blank" rel="noopener"`
-    + ` title="Zotero asks plugins not to declare compatibility with Zotero ${ALLOWED_ZOTERO_MAJOR + 1} yet">`
-    + `${n} in red declare Zotero ${ALLOWED_ZOTERO_MAJOR + 1}+</a>`;
+    + ` title="Zotero asks plugins not to declare a maximum higher than ${ALLOWED_MAX_VERSION}">`
+    + `${n} in red declare more than ${ALLOWED_MAX_VERSION}</a>`;
 }
 
 function renderTagChips() {
