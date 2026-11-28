@@ -36,6 +36,7 @@ It's a single self-contained HTML file with no build step. Either:
 - Plugin metadata: [`syt2/zotero-addons-scraper`](https://github.com/syt2/zotero-addons-scraper) (CC0, scraped from each plugin's GitHub).
 - Ratings and their reasons, and the plugins only the Atlas lists: Zotero Plugins Atlas, [zoteroplugins.org](https://zoteroplugins.org) (Ilias Beshimov), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). `atlas.json` keeps the grade, the reason and the page slug from its catalogue, unchanged; `atlas_only.json` keeps each Atlas-only plugin's name, summary, stars, jobs (as tags), version, release date and XPI link from it.
 - In-Zotero counterpart: [`syt2/zotero-addons`](https://github.com/syt2/zotero-addons) (AGPL-3.0). The tag colours reuse its palette and hash (`src/utils/tagColor.ts`), so each tag has the same colour here as in the plugin.
+- Site icon: `favicon.svg` (with `favicon.ico` and `apple-touch-icon.png` made from it) is drawn for this site: a puzzle piece on the page's accent colour.
 - List icons: `icons/zotero-addons.svg` is the Zotero Addons plugin's icon ([`addon/content/icons/favicon.svg`](https://github.com/syt2/zotero-addons/blob/main/addon/content/icons/favicon.svg), AGPL-3.0); `icons/atlas.svg` is the Zotero Plugins Atlas icon ([zoteroplugins.org/favicon.svg](https://zoteroplugins.org/favicon.svg)).
 
 This is an unofficial prototype, not maintained by syt2. If you'd like a similar feature integrated into the official project, see the discussion in the upstream issue tracker.
