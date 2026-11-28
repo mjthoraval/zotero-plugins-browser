@@ -258,10 +258,11 @@ async function fetchFirst(urls) {
 
 // The newest Zotero major plugins may declare compatibility with. Zotero asks
 // plugins not to declare the next one until it announces, on the zotero-dev
-// list, that it is feature-frozen: "Do not update your plugin to declare
-// compatibility with Zotero 11 at this time" (Zotero 11 for Developers).
-// Raise this when that announcement comes.
-const ALLOWED_ZOTERO_MAJOR = 10;
+// list, that it is feature-frozen. Zotero 11's freeze was announced on
+// 2026-11-27 ("Zotero 11 feature freeze -- update your plugins",
+// https://groups.google.com/g/zotero-dev/c/sKXoY_k2V3k): 11 is allowed now,
+// 12 and above are not. Raise this again at Zotero 12's announcement.
+const ALLOWED_ZOTERO_MAJOR = 11;
 const COMPAT_RULE_URL = "https://www.zotero.org/support/dev/zotero_11_for_developers#updating_plugin_compatibility";
 
 const SORT_DEFAULT = "stars-desc";
@@ -484,7 +485,7 @@ function updateURLState() {
 // Build the Zotero-version dropdown from the versions present in the data,
 // newest first (the hardcoded 6/7 list predated Zotero 8/9/10 entries). Majors
 // above ALLOWED_ZOTERO_MAJOR are left out: the scraper derives them from
-// maximums Zotero asks plugins not to declare yet ("11.*", "*", "99.*").
+// maximums Zotero asks plugins not to declare yet ("12.*", "*", "99.*").
 function populateZTargets() {
   const vers = new Set();
   for (const p of state.all) {
